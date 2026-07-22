@@ -2465,7 +2465,159 @@ body.nav-menu-open {
 
 .profile-location-groups {
   display: grid;
-  gap: 0.85rem;
+  gap: 1rem;
+}
+
+.profile-locations-card {
+  display: grid;
+  gap: 1rem;
+}
+
+.profile-location-hq {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--profit) 6%, var(--white));
+  border: 1px solid color-mix(in srgb, var(--profit) 18%, var(--cream-2));
+}
+
+.profile-location-hq-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--profit) 14%, var(--white));
+  color: var(--profit);
+  flex-shrink: 0;
+}
+
+.profile-location-hq-label {
+  margin: 0 0 0.15rem;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+}
+
+.profile-location-hq strong {
+  display: block;
+  font-size: 14px;
+  color: var(--navy);
+  line-height: 1.35;
+}
+
+.profile-chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.profile-location-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  background: var(--white);
+  border: 1px solid var(--cream-2);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.profile-location-chip.muted {
+  background: color-mix(in srgb, var(--cream) 55%, var(--white));
+  color: var(--ink-soft);
+}
+
+.profile-location-chip svg {
+  color: var(--profit);
+  flex-shrink: 0;
+}
+
+.profile-taxonomy {
+  display: grid;
+  gap: 1rem;
+}
+
+.profile-taxonomy-group {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.profile-taxonomy-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+}
+
+.profile-domain-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--profit) 12%, var(--white));
+  border: 1px solid color-mix(in srgb, var(--profit) 22%, var(--cream-2));
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.profile-tag-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  background: var(--white);
+  border: 1px dashed color-mix(in srgb, var(--ink-faint) 35%, var(--cream-2));
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink-soft);
+}
+
+.profile-product-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.55rem;
+}
+
+.profile-product-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 0.85rem;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--cream) 40%, var(--white));
+  border: 1px solid var(--cream-2);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.profile-product-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 8px;
+  background: var(--white);
+  color: var(--profit);
+  flex-shrink: 0;
 }
 
 .profile-location-group {
@@ -2609,6 +2761,16 @@ body.nav-menu-open {
   border-bottom: 1px solid var(--cream-2);
 }
 
+.profile-leader-founder {
+  padding-top: 0;
+}
+
+.profile-leader-founder .profile-leader-avatar {
+  background: color-mix(in srgb, var(--profit) 22%, var(--white));
+  color: var(--navy);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--profit) 18%, transparent);
+}
+
 .profile-leaders-list li:last-child {
   border-bottom: none;
   padding-bottom: 0;
@@ -2644,36 +2806,6 @@ body.nav-menu-open {
   font-size: 12px;
   color: var(--ink-faint);
   line-height: 1.35;
-}
-
-.profile-section-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 0.25rem;
-}
-
-.profile-section-nav a {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.45rem 0.5rem;
-  border-radius: 8px;
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--ink-soft);
-  text-decoration: none;
-}
-
-.profile-section-nav a:hover {
-  background: color-mix(in srgb, var(--profit) 8%, var(--white));
-  color: var(--profit);
-}
-
-.profile-section-nav-icon {
-  display: inline-flex;
-  color: var(--ink-faint);
 }
 
 .profile-source-links {
@@ -2755,10 +2887,6 @@ body.nav-menu-open {
 
   .profile-leaders-panel {
     order: 0;
-  }
-
-  .profile-section-nav {
-    display: none;
   }
 }
 

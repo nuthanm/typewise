@@ -7,7 +7,9 @@ import {
   getHqMapUrl,
   getOfficeCityPreview,
   getOfficialPresenceLink,
+  isMainFounder,
   shouldShowLocationsSection,
+  sortLeadership,
   type CompanyProfile,
 } from "@/lib/companies";
 import { AdSlot } from "@/components/AdSense";
@@ -16,8 +18,6 @@ import {
   IconCareers,
   IconEdit,
   IconGlobe,
-  IconInfo,
-  IconLayers,
   IconLink,
   IconLinkedIn,
   IconMapPin,
@@ -102,29 +102,7 @@ export function CompanyDetail({ company }: { company: CompanyProfile }) {
   const presenceLink = getOfficialPresenceLink(company);
   const { preview: officeCities, remaining: moreCities } = getOfficeCityPreview(company);
   const officeCountries = company.officeCountries ?? [];
-
-  const sections = [
-    { id: "about", label: "About", icon: <IconInfo size={16} />, show: true },
-    {
-      id: "locations",
-      label: "Locations",
-      icon: <IconMapPin size={16} />,
-      show: showLocations,
-    },
-    { id: "domains", label: "Domains & tags", icon: <IconTag size={16} />, show: true },
-    {
-      id: "products",
-      label: "Products",
-      icon: <IconPackage size={16} />,
-      show: Boolean(company.products?.length),
-    },
-    {
-      id: "services",
-      label: "Services",
-      icon: <IconLayers size={16} />,
-      show: Boolean(company.services?.length),
-    },
-  ].filter((section) => section.show);
+  const leadership = company.leadership ? sortLeadership(company.leadership) : [];
 
   return (
     <article className="company-profile">
@@ -234,15 +212,18 @@ export function CompanyDetail({ company }: { company: CompanyProfile }) {
             </div>
           </div>
 
-          {company.leadership && company.leadership.length > 0 && (
+          {leadership.length > 0 && (
             <div className="profile-left-panel profile-leaders-panel">
               <h2 className="profile-left-title">
                 <IconUsers size={16} />
                 Leadership
               </h2>
               <ul className="profile-leaders-list">
-                {company.leadership.map((leader) => (
-                  <li key={leader.name}>
+                {leadership.map((leader) => (
+                  <li
+                    key={leader.name}
+                    className={isMainFounder(leader.role) ? "profile-leader-founder" : undefined}
+                  >
                     <span className="profile-leader-avatar" aria-hidden="true">
                       {leaderInitials(leader.name)}
                     </span>
@@ -255,20 +236,6 @@ export function CompanyDetail({ company }: { company: CompanyProfile }) {
               </ul>
             </div>
           )}
-
-          <nav className="profile-left-panel profile-section-nav" aria-label="On this page">
-            <h2 className="profile-left-title">On this page</h2>
-            <ul>
-              {sections.map((section) => (
-                <li key={section.id}>
-                  <a href={`#${section.id}`}>
-                    <span className="profile-section-nav-icon">{section.icon}</span>
-                    {section.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </nav>
         </aside>
 
         <div className="profile-main">
@@ -284,75 +251,108 @@ export function CompanyDetail({ company }: { company: CompanyProfile }) {
 
           {showLocations && (
             <ProfileCard id="locations" title="Locations">
-              <div className="profile-location-groups">
-                {officeCountries.length > 0 && (
-                  <div className="profile-location-group">
-                    <p className="profile-location-label">Countries</p>
-                    <div className="tag-row">
-                      {officeCountries.map((country) => (
-                        <span key={country} className="mini-tag muted">
-                          {country}
-                        </span>
-                      ))}
-                    </div>
+              <div className="profile-locations-card">
+                <div className="profile-location-hq">
+                  <span className="profile-location-hq-icon" aria-hidden="true">
+                    <IconMapPin size={18} />
+                  </span>
+                  <div>
+                    <p className="profile-location-hq-label">Headquarters</p>
+                    <strong>{company.hq}</strong>
                   </div>
-                )}
+                </div>
 
-                {officeCities.length > 0 && (
-                  <div className="profile-location-group">
-                    <p className="profile-location-label">
-                      {officeCities.length > 1 ? "Hiring cities" : "Office"}
-                    </p>
-                    <div className="tag-row">
-                      {officeCities.map((officeCity) => (
-                        <span key={officeCity} className="mini-tag">
-                          {officeCity}
-                        </span>
-                      ))}
+                <div className="profile-location-groups">
+                  {officeCountries.length > 0 && (
+                    <div className="profile-location-group">
+                      <p className="profile-location-label">Countries</p>
+                      <div className="profile-chip-grid">
+                        {officeCountries.map((country) => (
+                          <span key={country} className="profile-location-chip muted">
+                            {country}
+                          </span>
+                        ))}
+                      </div>
                     </div>
-                    {moreCities > 0 && !company.totalOfficeLocations && (
-                      <p className="profile-location-remainder">
-                        +{moreCities} more on the official site
+                  )}
+
+                  {officeCities.length > 0 && (
+                    <div className="profile-location-group">
+                      <p className="profile-location-label">
+                        {officeCities.length > 1 ? "Hiring cities" : "Office"}
                       </p>
-                    )}
-                  </div>
+                      <div className="profile-chip-grid">
+                        {officeCities.map((officeCity) => (
+                          <span key={officeCity} className="profile-location-chip">
+                            <IconMapPin size={13} />
+                            {officeCity}
+                          </span>
+                        ))}
+                      </div>
+                      {moreCities > 0 && !company.totalOfficeLocations && (
+                        <p className="profile-location-remainder">
+                          +{moreCities} more on the official site
+                        </p>
+                      )}
+                    </div>
+                  )}
+                </div>
+
+                {presenceLink && (
+                  <a
+                    href={presenceLink.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="profile-outbound-link"
+                  >
+                    <IconLink size={15} />
+                    {presenceLink.label}
+                  </a>
                 )}
               </div>
-
-              {presenceLink && (
-                <a
-                  href={presenceLink.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="profile-outbound-link"
-                >
-                  <IconLink size={15} />
-                  {presenceLink.label}
-                </a>
-              )}
             </ProfileCard>
           )}
 
           <ProfileCard id="domains" title="Domains & tags">
-            <div className="tag-row">
-              {company.domains.map((d) => (
-                <span key={d} className="mini-tag">
-                  {d}
-                </span>
-              ))}
-              {company.tags.map((t) => (
-                <span key={t} className="mini-tag muted">
-                  {t}
-                </span>
-              ))}
+            <div className="profile-taxonomy">
+              <div className="profile-taxonomy-group">
+                <p className="profile-taxonomy-label">
+                  <IconTag size={14} />
+                  Domains
+                </p>
+                <div className="profile-chip-grid">
+                  {company.domains.map((domain) => (
+                    <span key={domain} className="profile-domain-chip">
+                      {domain}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              {company.tags.length > 0 && (
+                <div className="profile-taxonomy-group">
+                  <p className="profile-taxonomy-label">Tags</p>
+                  <div className="profile-chip-grid">
+                    {company.tags.map((tag) => (
+                      <span key={tag} className="profile-tag-chip">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           </ProfileCard>
 
           {company.products && company.products.length > 0 && (
             <ProfileCard id="products" title="Products">
-              <ul className="profile-list">
-                {company.products.map((p) => (
-                  <li key={p}>{p}</li>
+              <ul className="profile-product-grid">
+                {company.products.map((product) => (
+                  <li key={product} className="profile-product-item">
+                    <span className="profile-product-icon" aria-hidden="true">
+                      <IconPackage size={16} />
+                    </span>
+                    <span>{product}</span>
+                  </li>
                 ))}
               </ul>
             </ProfileCard>

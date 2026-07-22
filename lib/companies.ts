@@ -58,6 +58,28 @@ export type CompanyProfile = {
   sources: DataSource[];
 };
 
+export type LeadershipEntry = NonNullable<CompanyProfile["leadership"]>[number];
+
+/** Sort leadership: main founder first, then co-founders, CEO, COO, CTO, others. */
+export function sortLeadership(leadership: LeadershipEntry[]) {
+  const priority = (role: string) => {
+    const lower = role.toLowerCase();
+    if (lower.includes("founder") && !lower.includes("co-founder")) return 0;
+    if (lower.includes("co-founder")) return 1;
+    if (lower.includes("ceo")) return 2;
+    if (lower.includes("coo")) return 3;
+    if (lower.includes("cto")) return 4;
+    return 5;
+  };
+
+  return [...leadership].sort((a, b) => priority(a.role) - priority(b.role));
+}
+
+export function isMainFounder(role: string) {
+  const lower = role.toLowerCase();
+  return lower.includes("founder") && !lower.includes("co-founder");
+}
+
 /** Cities shown before pointing visitors to the official list. */
 export const OFFICE_CITY_PREVIEW_LIMIT = 6;
 

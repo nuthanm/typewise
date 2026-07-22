@@ -79,7 +79,11 @@
       "onsitePolicy": "Primarily Chennai campus culture; verify for your role",
       "careersUrl": "https://www.zoho.com/careers/",
       "linkedin": "https://www.linkedin.com/company/zoho",
-      "leadership": [{ "name": "Sridhar Vembu", "role": "CEO" }],
+      "leadership": [
+        { "name": "Sridhar Vembu", "role": "Founder & Chief Scientist" },
+        { "name": "Shailesh Kumar Davey", "role": "Group CEO & Co-founder" },
+        { "name": "Tony Thomas", "role": "Co-founder & CEO, Zoho US" }
+      ],
       "vision": "Software that helps businesses run smarter without complexity.",
       "lastVerified": "2026-07-22",
       "verificationStatus": "verified",
