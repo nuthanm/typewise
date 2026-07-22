@@ -2,7 +2,12 @@ import Link from "next/link";
 import {
   CATEGORY_LABELS,
   DATA_YEAR,
+  getCitationSources,
   getCompanyBySlug,
+  getHqMapUrl,
+  getOfficeCityPreview,
+  getOfficialPresenceLink,
+  shouldShowLocationsSection,
   type CompanyProfile,
 } from "@/lib/companies";
 import { AdSlot } from "@/components/AdSense";
@@ -91,9 +96,21 @@ function ProfileIconLink({
 
 export function CompanyDetail({ company }: { company: CompanyProfile }) {
   const city = company.hq.split(",")[0]?.trim() ?? company.hq;
+  const citationSources = getCitationSources(company);
+  const hqMapUrl = getHqMapUrl(company);
+  const showLocations = shouldShowLocationsSection(company);
+  const presenceLink = getOfficialPresenceLink(company);
+  const { preview: officeCities, remaining: moreCities } = getOfficeCityPreview(company);
+  const officeCountries = company.officeCountries ?? [];
 
   const sections = [
     { id: "about", label: "About", icon: <IconInfo size={16} />, show: true },
+    {
+      id: "locations",
+      label: "Locations",
+      icon: <IconMapPin size={16} />,
+      show: showLocations,
+    },
     { id: "domains", label: "Domains & tags", icon: <IconTag size={16} />, show: true },
     {
       id: "products",
@@ -148,6 +165,14 @@ export function CompanyDetail({ company }: { company: CompanyProfile }) {
         <div className="profile-stat">
           <span className="profile-stat-label">Headquarters</span>
           <strong>{company.hq}</strong>
+          <a
+            href={hqMapUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="profile-stat-link"
+          >
+            Open in Maps
+          </a>
         </div>
         {(company.headcountIndia || company.headcountGlobal) && (
           <div className="profile-stat">
@@ -257,6 +282,57 @@ export function CompanyDetail({ company }: { company: CompanyProfile }) {
             )}
           </ProfileCard>
 
+          {showLocations && (
+            <ProfileCard id="locations" title="Locations">
+              <div className="profile-location-groups">
+                {officeCountries.length > 0 && (
+                  <div className="profile-location-group">
+                    <p className="profile-location-label">Countries</p>
+                    <div className="tag-row">
+                      {officeCountries.map((country) => (
+                        <span key={country} className="mini-tag muted">
+                          {country}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {officeCities.length > 0 && (
+                  <div className="profile-location-group">
+                    <p className="profile-location-label">
+                      {officeCities.length > 1 ? "Hiring cities" : "Office"}
+                    </p>
+                    <div className="tag-row">
+                      {officeCities.map((officeCity) => (
+                        <span key={officeCity} className="mini-tag">
+                          {officeCity}
+                        </span>
+                      ))}
+                    </div>
+                    {moreCities > 0 && !company.totalOfficeLocations && (
+                      <p className="profile-location-remainder">
+                        +{moreCities} more on the official site
+                      </p>
+                    )}
+                  </div>
+                )}
+              </div>
+
+              {presenceLink && (
+                <a
+                  href={presenceLink.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="profile-outbound-link"
+                >
+                  <IconLink size={15} />
+                  {presenceLink.label}
+                </a>
+              )}
+            </ProfileCard>
+          )}
+
           <ProfileCard id="domains" title="Domains & tags">
             <div className="tag-row">
               {company.domains.map((d) => (
@@ -300,10 +376,10 @@ export function CompanyDetail({ company }: { company: CompanyProfile }) {
             </ProfileCard>
           )}
 
-          {company.sources.length > 0 && (
+          {citationSources.length > 0 && (
             <ProfileCard title="Sources">
               <ul className="profile-source-links">
-                {company.sources.map((s) => (
+                {citationSources.map((s) => (
                   <li key={s.url}>
                     <a href={s.url} target="_blank" rel="noreferrer">
                       <IconLink size={16} />

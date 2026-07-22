@@ -13,7 +13,7 @@ import {
   SAMPLE_COMPANIES,
 } from "@/lib/mockData";
 
-const SLIDE_COUNT = 14;
+const SLIDE_COUNT = 15;
 
 function Stars({ count }: { count: number }) {
   return (
@@ -93,12 +93,13 @@ export function PresentationDeck() {
             {slide === 5 && <SlideCompare />}
             {slide === 6 && <SlideDifferentiation />}
             {slide === 7 && <SlideFeatures />}
-            {slide === 8 && <SlideVerification />}
-            {slide === 9 && <SlideDataCosts />}
-            {slide === 10 && <SlideRoadmap />}
-            {slide === 11 && <SlideProductVision />}
-            {slide === 12 && <SlideFeasibility />}
-            {slide === 13 && <SlideAsk />}
+            {slide === 8 && <SlideJobSeekerValue />}
+            {slide === 9 && <SlideVerification />}
+            {slide === 10 && <SlideDataCosts />}
+            {slide === 11 && <SlideRoadmap />}
+            {slide === 12 && <SlideProductVision />}
+            {slide === 13 && <SlideFeasibility />}
+            {slide === 14 && <SlideAsk />}
           </div>
         </main>
       </div>
@@ -406,6 +407,82 @@ function SlideFeatures() {
             ))}
           </tbody>
         </table>
+      </div>
+    </div>
+  );
+}
+
+function SlideJobSeekerValue() {
+  const today = [
+    ["Product or service company?", "Company type tag — the core filter no job board offers"],
+    ["Will I build products or serve clients?", "Products, services, and domain tags on one page"],
+    ["Is it big enough / stable enough?", "Founded year, India & global headcount with caveats"],
+    ["Can I work from my city?", "HQ, hiring cities, and official locations link"],
+    ["Remote, hybrid, or office-first?", "Work model policy — sourced from official pages"],
+    ["What does this company actually do?", "About, vision, and one-line tagline"],
+    ["Who runs it?", "Leadership — founder, CEO, key executives"],
+    ["Can I trust this?", "Verified stamp, source links, and last-updated date"],
+  ];
+
+  const later = [
+    "Interview rounds & difficulty",
+    "Salary bands & compensation",
+    "Culture & work-life balance",
+    "Benefits & perks",
+  ];
+
+  return (
+    <div className="pres-stagger">
+      <p className="pres-kicker">What you get</p>
+      <h2 className="pres-title mt-4">Every answer job seekers need — before they apply</h2>
+      <p className="pres-subtitle">
+        Typewise is not Glassdoor or a job board. It is the step before those — a verified snapshot
+        that answers: <strong className="text-[var(--ink)]">&ldquo;Is this the kind of company I actually want to work at?&rdquo;</strong>
+      </p>
+      <div className="pres-proof-chain mt-6">
+        {["Search company", "See type & work model", "Read verified profile", "Jump to careers"].map((step, i) => (
+          <div key={step} className="pres-proof-chain-step">
+            <span className="pres-proof-chain-num">{i + 1}</span>
+            <span>{step}</span>
+            {i < 3 && <span className="pres-proof-chain-arrow">→</span>}
+          </div>
+        ))}
+      </div>
+      <div className="pres-table-wrap mt-6">
+        <table className="pres-table">
+          <thead>
+            <tr>
+              <th>Job seeker asks…</th>
+              <th>Typewise answers with…</th>
+            </tr>
+          </thead>
+          <tbody>
+            {today.map(([question, answer]) => (
+              <tr key={question}>
+                <td className="font-bold">{question}</td>
+                <td>{answer}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div className="pres-grid-2 mt-6">
+        <div className="pres-card border-l-[3px] border-l-[var(--profit)]">
+          <div className="text-sm font-extrabold text-[var(--profit)]">Live today — first filter</div>
+          <p className="mt-1.5 text-[13px] leading-relaxed text-[var(--ink-soft)]">
+            Product vs service, where they hire, how they work, what they build — enough to narrow
+            50 companies down to 5 worth applying to.
+          </p>
+        </div>
+        <div className="pres-card border-l-[3px] border-l-[var(--gold)]">
+          <div className="text-sm font-extrabold text-[var(--gold)]">Phase 2 — second-stage decisions</div>
+          <ul className="mt-2 space-y-1 text-[13px] text-[var(--ink-soft)]">
+            {later.map((item) => (
+              <li key={item}>· {item}</li>
+            ))}
+          </ul>
+          <p className="mt-2 text-[12px] text-[var(--ink-faint)]">Community-moderated · after MVP launch</p>
+        </div>
       </div>
     </div>
   );

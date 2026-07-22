@@ -10,7 +10,15 @@ import { spawnSync } from "node:child_process";
 const root = process.cwd();
 const apiDir = join(root, "app", "api");
 const apiBackup = join(root, ".api-backup-pages-build");
+const nextDir = join(root, ".next");
 const outDir = join(root, "out");
+
+function cleanNextCache() {
+  // Dev mode generates route validators under .next/dev/types that reference app/api.
+  // Clear the cache before static export so TypeScript does not type-check stale routes
+  // after app/api is temporarily moved aside.
+  rmSync(nextDir, { recursive: true, force: true });
+}
 
 function backupApi() {
   if (!existsSync(apiDir)) return false;
@@ -31,6 +39,7 @@ function run() {
   let backedUp = false;
   try {
     backedUp = backupApi();
+    cleanNextCache();
 
     const result = spawnSync(
       process.platform === "win32" ? "npm.cmd" : "npm",

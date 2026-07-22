@@ -28,10 +28,7 @@
       "vision": "Enable every business in India to accept, process, and disburse payments.",
       "lastVerified": "2026-07-22",
       "verificationStatus": "verified",
-      "sources": [
-        { "label": "Official website", "url": "https://razorpay.com/about/" },
-        { "label": "Careers", "url": "https://razorpay.com/jobs/" }
-      ]
+      "sources": [{ "label": "About page", "url": "https://razorpay.com/about/" }]
     },
     {
       "slug": "tcs",
@@ -42,6 +39,9 @@
       "website": "https://www.tcs.com",
       "founded": "1968",
       "hq": "Mumbai, India",
+      "officeCities": ["Mumbai", "Bengaluru", "Chennai", "Hyderabad", "Pune", "Kolkata", "Noida", "Gurgaon"],
+      "totalOfficeLocations": "55 countries",
+      "locationsUrl": "https://www.tcs.com/who-we-are/worldwide",
       "headcountGlobal": "600,000+",
       "headcountNote": "Per TCS investor relations / annual report; India majority of workforce",
       "domains": ["IT Services", "Consulting", "Digital transformation"],
@@ -55,8 +55,9 @@
       "lastVerified": "2026-07-22",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "Official website", "url": "https://www.tcs.com/who-we-are" },
-        { "label": "Careers", "url": "https://www.tcs.com/careers" }
+        { "label": "About page", "url": "https://www.tcs.com/who-we-are" },
+        { "label": "Worldwide presence", "url": "https://www.tcs.com/who-we-are/worldwide" },
+        { "label": "Investor relations", "url": "https://www.tcs.com/investor-relations" }
       ]
     },
     {
@@ -68,6 +69,8 @@
       "website": "https://www.zoho.com",
       "founded": "1996",
       "hq": "Chennai, India",
+      "officeCities": ["Chennai", "Bengaluru", "Delhi NCR", "Tenkasi"],
+      "contactUrl": "https://www.zoho.com/contactus.html",
       "headcountGlobal": "15,000+",
       "headcountNote": "Approximate; Zoho is privately held — verify on official channels",
       "domains": ["SaaS", "CRM", "Productivity"],
@@ -80,10 +83,7 @@
       "vision": "Software that helps businesses run smarter without complexity.",
       "lastVerified": "2026-07-22",
       "verificationStatus": "verified",
-      "sources": [
-        { "label": "Official website", "url": "https://www.zoho.com/aboutus.html" },
-        { "label": "Careers", "url": "https://www.zoho.com/careers/" }
-      ]
+      "sources": [{ "label": "About page", "url": "https://www.zoho.com/aboutus.html" }]
     },
     {
       "slug": "freshworks",
@@ -94,6 +94,8 @@
       "website": "https://www.freshworks.com",
       "founded": "2010",
       "hq": "Chennai, India / San Mateo, US",
+      "officeCities": ["Chennai", "Bengaluru", "Hyderabad", "San Mateo"],
+      "locationsUrl": "https://www.freshworks.com/company/locations/",
       "headcountGlobal": "5,000+",
       "headcountNote": "Public company — see latest investor filings for exact figures",
       "domains": ["SaaS", "Customer experience", "ITSM"],
@@ -107,8 +109,9 @@
       "lastVerified": "2026-07-22",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "Official website", "url": "https://www.freshworks.com/company/" },
-        { "label": "Careers", "url": "https://www.freshworks.com/company/careers/" }
+        { "label": "About page", "url": "https://www.freshworks.com/company/" },
+        { "label": "Office locations", "url": "https://www.freshworks.com/company/locations/" },
+        { "label": "Investor relations", "url": "https://ir.freshworks.com/" }
       ]
     },
     {
@@ -120,6 +123,8 @@
       "website": "https://www.infosys.com",
       "founded": "1981",
       "hq": "Bengaluru, India",
+      "officeCities": ["Bengaluru", "Pune", "Hyderabad", "Chennai", "Mysuru", "Bhubaneswar", "Mangalore"],
+      "locationsUrl": "https://www.infosys.com/contact/country-india.html",
       "headcountGlobal": "320,000+",
       "headcountNote": "Per Infosys investor relations / annual report",
       "domains": ["IT Services", "Consulting", "Digital transformation"],
@@ -133,8 +138,9 @@
       "lastVerified": "2026-07-22",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "Official website", "url": "https://www.infosys.com/about.html" },
-        { "label": "Careers", "url": "https://www.infosys.com/careers" }
+        { "label": "About page", "url": "https://www.infosys.com/about.html" },
+        { "label": "India offices", "url": "https://www.infosys.com/contact/country-india.html" },
+        { "label": "Investor relations", "url": "https://www.infosys.com/investors.html" }
       ]
     },
     {
@@ -146,6 +152,8 @@
       "website": "https://www.flipkart.com",
       "founded": "2007",
       "hq": "Bengaluru, India",
+      "officeCities": ["Bengaluru", "Hyderabad", "Chennai", "Mumbai", "Delhi NCR"],
+      "contactUrl": "https://www.flipkart.com/pages/contact-us",
       "headcountIndia": "30,000+",
       "headcountNote": "Approximate; verify on official careers and news releases",
       "domains": ["E-commerce", "Logistics", "Retail tech"],
@@ -159,9 +167,50 @@
       "vision": "Transform commerce in India through technology and customer obsession.",
       "lastVerified": "2026-07-22",
       "verificationStatus": "verified",
+      "sources": [{ "label": "Corporate info", "url": "https://www.flipkart.com/pages/about-us" }]
+    },
+    {
+      "slug": "kanini",
+      "name": "Kanini",
+      "category": "service",
+      "tagline": "AI-first digital transformation and software services",
+      "description": "Kanini delivers digital transformation, product engineering, data & AI, ServiceNow, and cloud services for enterprises across healthcare, BFSI, manufacturing, and other industries.",
+      "website": "https://kanini.com",
+      "founded": "2003",
+      "hq": "Nashville, USA",
+      "officeCities": ["Chennai", "Coimbatore", "Bengaluru", "Pune"],
+      "officeCountries": ["USA", "India", "Singapore", "UAE", "Australia", "UK", "Ukraine"],
+      "locationsUrl": "https://kanini.com/contact-us/",
+      "headcountGlobal": "750+",
+      "headcountNote": "Per KANINI company blog (Aug 2025); India is the largest delivery center",
+      "domains": ["IT Services", "Digital transformation", "AI & Data Analytics"],
+      "tags": ["ServiceNow Partner", "Global delivery"],
+      "services": [
+        "Product engineering",
+        "Data analytics & AI",
+        "ServiceNow implementation",
+        "Cloud enablement"
+      ],
+      "onsitePolicy": "People-first culture; hybrid likely — verify on careers page",
+      "careersUrl": "https://kanini.com/careers/",
+      "linkedin": "https://www.linkedin.com/company/kanini",
+      "twitter": "https://twitter.com/kanini_com",
+      "leadership": [
+        { "name": "Babu Krishnasamy", "role": "CEO & Founder" },
+        { "name": "Srinivasan Karunakaran", "role": "COO" }
+      ],
+      "vision": "Add value to everyone we work with through intellect, energy, and integrity.",
+      "lastVerified": "2026-07-22",
+      "verificationStatus": "in_progress",
       "sources": [
-        { "label": "Careers", "url": "https://www.flipkartcareers.com/" },
-        { "label": "Corporate", "url": "https://www.flipkart.com/pages/about-us" }
+        { "label": "About page", "url": "https://kanini.com/about-us/" },
+        { "label": "Office locations", "url": "https://kanini.com/contact-us/" },
+        { "label": "Leadership", "url": "https://kanini.com/team/" },
+        { "label": "Careers", "url": "https://kanini.com/careers/" },
+        {
+          "label": "Company journey (founded, headcount)",
+          "url": "https://kanini.com/blog/the-kanini-journey-adding-value-with-intellect-energy-and-integrity/"
+        }
       ]
     }
   ]

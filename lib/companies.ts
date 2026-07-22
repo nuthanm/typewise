@@ -25,6 +25,18 @@ export type CompanyProfile = {
   website: string;
   founded?: string;
   hq: string;
+  /** Major hiring cities — curated preview, not exhaustive */
+  officeCities?: string[];
+  /** Countries with significant presence — when verified from official sources */
+  officeCountries?: string[];
+  /** Official total only when cited (e.g. "55 countries", "100+ India offices") */
+  totalOfficeLocations?: string;
+  /** Official page listing offices / worldwide presence */
+  locationsUrl?: string;
+  /** Contact page when no dedicated locations list or verified total */
+  contactUrl?: string;
+  /** Override auto-generated Google Maps search link for HQ */
+  hqMapUrl?: string;
   headcountIndia?: string;
   headcountGlobal?: string;
   headcountNote?: string;
@@ -45,6 +57,118 @@ export type CompanyProfile = {
   verificationStatus: VerificationStatus;
   sources: DataSource[];
 };
+
+/** Cities shown before pointing visitors to the official list. */
+export const OFFICE_CITY_PREVIEW_LIMIT = 6;
+
+/** Normalize URLs for duplicate detection (hostname + path, no trailing slash). */
+export function normalizeProfileUrl(url: string) {
+  try {
+    const { hostname, pathname } = new URL(url);
+    return `${hostname}${pathname}`.replace(/\/$/, "").toLowerCase();
+  } catch {
+    return url.trim().toLowerCase().replace(/\/$/, "");
+  }
+}
+
+/** Quick-link destinations — excluded from the Sources sidebar to avoid duplicates. */
+export function getProfileQuickLinkUrls(company: CompanyProfile) {
+  const urls = [company.website, company.careersUrl, company.linkedin, company.twitter].filter(
+    Boolean,
+  ) as string[];
+
+  return new Set(urls.map(normalizeProfileUrl));
+}
+
+/** Google Maps search link for HQ — link-out only, no embed. */
+export function getHqMapUrl(company: CompanyProfile) {
+  if (company.hqMapUrl) return company.hqMapUrl;
+
+  const primaryHq = company.hq.split("/")[0]?.trim() ?? company.hq;
+  const query = `${company.name} headquarters ${primaryHq}`;
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+
+export function getOfficeCityPreview(company: CompanyProfile) {
+  const cities = company.officeCities ?? [];
+  const preview = cities.slice(0, OFFICE_CITY_PREVIEW_LIMIT);
+  const remaining = Math.max(0, cities.length - preview.length);
+  return { preview, remaining };
+}
+
+export type OfficialPresenceLink = {
+  url: string;
+  label: string;
+};
+
+/** Official locations or contact page — skips URLs already in Quick links. */
+export function getOfficialPresenceLink(company: CompanyProfile): OfficialPresenceLink | undefined {
+  const blocked = getProfileQuickLinkUrls(company);
+
+  if (company.locationsUrl) {
+    const url = company.locationsUrl;
+    if (!blocked.has(normalizeProfileUrl(url))) {
+      return {
+        url,
+        label: company.totalOfficeLocations
+          ? `All offices (${company.totalOfficeLocations})`
+          : "Office locations",
+      };
+    }
+  }
+
+  if (company.contactUrl) {
+    const url = company.contactUrl;
+    if (!blocked.has(normalizeProfileUrl(url))) {
+      return { url, label: "Contact & locations" };
+    }
+  }
+
+  return undefined;
+}
+
+/** Hide the Locations block when it would repeat HQ or add little value. */
+export function shouldShowLocationsSection(company: CompanyProfile) {
+  const { preview } = getOfficeCityPreview(company);
+  const presenceLink = getOfficialPresenceLink(company);
+
+  if ((company.officeCountries?.length ?? 0) > 0) return true;
+  if (company.totalOfficeLocations && presenceLink) return true;
+  if (preview.length > 1) return true;
+  if (preview.length > 0 && presenceLink) return true;
+
+  return false;
+}
+
+/** @deprecated use getOfficialPresenceLink */
+export function getLocationsLink(company: CompanyProfile) {
+  return getOfficialPresenceLink(company)?.url;
+}
+
+/** Provenance links only — omits URLs already shown under Quick links or Locations. */
+export function getCitationSources(company: CompanyProfile) {
+  const excluded = getProfileQuickLinkUrls(company);
+
+  for (const url of [company.locationsUrl, company.contactUrl]) {
+    if (url) excluded.add(normalizeProfileUrl(url));
+  }
+
+  return company.sources.filter((source) => !excluded.has(normalizeProfileUrl(source.url)));
+}
+
+export function companyMatchesLocation(
+  company: Pick<CompanyProfile, "hq" | "officeCities" | "officeCountries">,
+  location: string,
+) {
+  const loc = location.trim().toLowerCase();
+  if (!loc || loc === "all") return true;
+
+  if (company.hq.toLowerCase().includes(loc)) return true;
+
+  if ((company.officeCities ?? []).some((city) => city.toLowerCase().includes(loc))) return true;
+
+  return (company.officeCountries ?? []).some((country) => country.toLowerCase().includes(loc));
+}
 
 export type PipelineItem = {
   name: string;

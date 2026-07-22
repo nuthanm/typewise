@@ -1,4 +1,10 @@
-import type { CompanyCategory, CompanyProfile, PipelineItem, VerificationStatus } from "./companies";
+import {
+  companyMatchesLocation,
+  type CompanyCategory,
+  type CompanyProfile,
+  type PipelineItem,
+  type VerificationStatus,
+} from "./companies";
 
 export type CompanySearchFilters = {
   query?: string;
@@ -56,6 +62,14 @@ export function getCompanyLocations(companies: CompanyProfile[]) {
     if (hq) set.add(hq);
     const city = hq.split(",")[0]?.trim();
     if (city) set.add(city);
+    for (const officeCity of c.officeCities ?? []) {
+      const trimmed = officeCity.trim();
+      if (trimmed) set.add(trimmed);
+    }
+    for (const country of c.officeCountries ?? []) {
+      const trimmed = country.trim();
+      if (trimmed) set.add(trimmed);
+    }
   }
   return Array.from(set).sort((a, b) => a.localeCompare(b));
 }
@@ -68,10 +82,7 @@ export function filterCompanies(companies: CompanyProfile[], filters: CompanySea
   return companies.filter((c) => {
     if (category !== "all" && c.category !== category) return false;
 
-    if (loc && loc !== "all") {
-      const hq = c.hq.toLowerCase();
-      if (!hq.includes(loc)) return false;
-    }
+    if (loc && loc !== "all" && !companyMatchesLocation(c, loc)) return false;
 
     if (!q) return true;
 
@@ -84,6 +95,8 @@ export function filterCompanies(companies: CompanyProfile[], filters: CompanySea
       ...c.tags,
       ...(c.products ?? []),
       ...(c.services ?? []),
+      ...(c.officeCities ?? []),
+      ...(c.officeCountries ?? []),
     ]
       .join(" ")
       .toLowerCase();
@@ -116,8 +129,14 @@ export function filterCompanyEntries(entries: CompanySearchEntry[], filters: Com
     if (category !== "all" && entry.category !== category) return false;
 
     if (loc && loc !== "all") {
-      const hq = (entry.hq ?? "").toLowerCase();
-      if (!hq.includes(loc)) return false;
+      const matchesHq = (entry.hq ?? "").toLowerCase().includes(loc);
+      const matchesOffices = (entry.profile?.officeCities ?? []).some((city) =>
+        city.toLowerCase().includes(loc),
+      );
+      const matchesCountries = (entry.profile?.officeCountries ?? []).some((country) =>
+        country.toLowerCase().includes(loc),
+      );
+      if (!matchesHq && !matchesOffices && !matchesCountries) return false;
     }
 
     if (!q) return true;
