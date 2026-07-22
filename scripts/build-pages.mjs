@@ -3,7 +3,7 @@
  * Builds static output for GitHub Pages (no API routes).
  * Temporarily moves app/api aside because static export does not support Route Handlers.
  */
-import { cpSync, existsSync, mkdirSync, rmSync } from "node:fs";
+import { cpSync, existsSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { spawnSync } from "node:child_process";
 
@@ -50,6 +50,9 @@ function run() {
       console.error("Expected out/ after static export.");
       process.exit(1);
     }
+
+    // Required on GitHub Pages so `_next/` and other underscored paths are served.
+    writeFileSync(join(outDir, ".nojekyll"), "");
 
     console.log("Static export ready in out/");
   } finally {

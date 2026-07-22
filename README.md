@@ -130,6 +130,15 @@ npm run build:pages
 # output in out/ — uploaded by Actions
 ```
 
+**One-time GitHub setup (required):**
+
+1. Repo **Settings → Pages → Build and deployment → Source** → choose **GitHub Actions** (not “Deploy from a branch”).
+2. If you previously used “Deploy from branch / main / root”, GitHub serves `README.md` as the site — that is **not** the app.
+3. After pushing to `main`, open **Actions → Deploy to GitHub Pages** and confirm the workflow is green.
+4. Live URL: `https://nuthanm.github.io/typewise/` (project site — `NEXT_PUBLIC_BASE_PATH=/typewise` is set in CI).
+
+**If you still see the README instead of the app:** the deploy workflow failed or Pages source is wrong. Check the red **GitHub Pages** / **CI** badges in this README on GitHub Actions.
+
 Set repository variable **`SUBMIT_API_URL`** (e.g. your Vercel app URL) so the static form posts to a live API.
 
 **Submit API (server)** — deploy the full Next app (with `app/api/submissions`) to **Vercel** with env vars from [`.env.example`](.env.example):
