@@ -196,8 +196,31 @@ export const CATALOG_DISCLAIMER = catalog.disclaimer;
 
 export const COMPANIES: CompanyProfile[] = catalog.companies as CompanyProfile[];
 
-export const PIPELINE_IN_PROGRESS = pipeline.inProgress as PipelineItem[];
-export const PIPELINE_UNVERIFIED = pipeline.unverified as PipelineItem[];
+function companyToPipelineItem(company: CompanyProfile): PipelineItem {
+  return {
+    name: company.name,
+    slug: company.slug,
+    category: company.category,
+    note: company.tagline || "Draft profile built — awaiting verification approval",
+  };
+}
+
+/** Merge queue file entries with draft profiles already in the catalog (deduped by slug). */
+function mergePipelineItems(jsonItems: PipelineItem[], fromCatalog: CompanyProfile[]): PipelineItem[] {
+  const slugs = new Set(jsonItems.map((item) => item.slug));
+  const extras = fromCatalog.filter((c) => !slugs.has(c.slug)).map(companyToPipelineItem);
+  return [...jsonItems, ...extras];
+}
+
+export const PIPELINE_IN_PROGRESS = mergePipelineItems(
+  pipeline.inProgress as PipelineItem[],
+  COMPANIES.filter((c) => c.verificationStatus === "in_progress"),
+);
+
+export const PIPELINE_UNVERIFIED = mergePipelineItems(
+  pipeline.unverified as PipelineItem[],
+  COMPANIES.filter((c) => c.verificationStatus === "unverified"),
+);
 
 function countByCategory(list: CompanyProfile[]) {
   const counts = { product: 0, service: 0, hybrid: 0, unknown: 0, total: 0 };
@@ -210,10 +233,16 @@ function countByCategory(list: CompanyProfile[]) {
 
 export const VERIFIED_COMPANIES = COMPANIES.filter((c) => c.verificationStatus === "verified");
 
+const catalogSlugs = new Set(COMPANIES.map((c) => c.slug));
+
 export const ALL_SEARCH_ENTRIES: CompanySearchEntry[] = [
   ...COMPANIES.map(companyProfileToEntry),
-  ...PIPELINE_IN_PROGRESS.map((item) => pipelineToEntry(item, "in_progress")),
-  ...PIPELINE_UNVERIFIED.map((item) => pipelineToEntry(item, "unverified")),
+  ...PIPELINE_IN_PROGRESS.filter((item) => !catalogSlugs.has(item.slug)).map((item) =>
+    pipelineToEntry(item, "in_progress"),
+  ),
+  ...PIPELINE_UNVERIFIED.filter((item) => !catalogSlugs.has(item.slug)).map((item) =>
+    pipelineToEntry(item, "unverified"),
+  ),
 ];
 
 export const ALL_COMPANY_SLUGS = ALL_SEARCH_ENTRIES.map((e) => e.slug);
