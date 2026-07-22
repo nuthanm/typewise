@@ -26,6 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Typewise — Company type directory",
     description: "Browse product vs service companies. Submit adds or edits without sign-in.",
+    siteName: "Typewise",
   },
 };
 
