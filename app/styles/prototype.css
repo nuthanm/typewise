@@ -1,0 +1,288 @@
+/* Typewise interactive prototype — matches YieldProof proto styles */
+
+.proto-landing {
+  min-height: 100dvh;
+  background: linear-gradient(180deg, var(--white) 0%, var(--cream) 40%, var(--cream) 100%);
+}
+
+.proto-landing-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--cream-2);
+  background: color-mix(in srgb, var(--white) 90%, transparent);
+  backdrop-filter: blur(8px);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.proto-brand {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--navy);
+  text-decoration: none;
+}
+
+.proto-brand span { color: var(--profit); }
+
+.proto-text-link {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+
+.proto-btn-primary,
+.proto-btn-outline {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.proto-btn-primary {
+  background: var(--profit);
+  color: var(--white);
+}
+
+.proto-btn-outline {
+  background: var(--white);
+  color: var(--navy);
+  border-color: var(--cream-2);
+}
+
+.proto-btn-primary.lg,
+.proto-btn-outline.lg {
+  padding: 0.75rem 1.35rem;
+  font-size: 14px;
+}
+
+.proto-hero {
+  display: grid;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+@media (min-width: 900px) {
+  .proto-hero { grid-template-columns: 1fr 1fr; align-items: center; }
+}
+
+.proto-hero-badge {
+  display: inline-flex;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: var(--profit-soft);
+  color: var(--profit);
+  font-size: 11px;
+  font-weight: 800;
+  border: 1px solid color-mix(in srgb, var(--profit) 30%, transparent);
+}
+
+.proto-hero h1 {
+  margin-top: 1rem;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+.proto-hero h1 span { display: block; color: var(--profit); }
+
+.proto-hero p {
+  margin-top: 1rem;
+  max-width: 32rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+
+.proto-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.proto-hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--cream-2);
+}
+
+.proto-hero-stats strong {
+  display: block;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 1.35rem;
+  color: var(--profit);
+}
+
+.proto-hero-stats span { font-size: 11px; color: var(--ink-faint); }
+
+.proto-search-card {
+  padding: 1.25rem;
+  border-radius: 1rem;
+  border: 1px solid var(--cream-2);
+  background: var(--white);
+  box-shadow: 0 16px 48px color-mix(in srgb, var(--navy) 8%, transparent);
+}
+
+.proto-search-label {
+  display: block;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.proto-search-input {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.65rem 0.85rem;
+  border-radius: 0.65rem;
+  border: 1px solid var(--cream-2);
+  font-size: 14px;
+}
+
+.proto-category-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.proto-category-chip {
+  padding: 0.65rem;
+  border-radius: 0.65rem;
+  background: var(--cream);
+  border: 1px solid var(--cream-2);
+}
+
+.proto-category-chip strong {
+  display: block;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 1.1rem;
+  color: var(--profit);
+}
+
+.proto-category-chip span { font-size: 10px; color: var(--ink-faint); }
+
+.proto-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.proto-section h2 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+}
+
+.proto-section-desc {
+  margin-top: 0.5rem;
+  color: var(--ink-soft);
+  max-width: 40rem;
+}
+
+.proto-company-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .proto-company-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.proto-company-card {
+  padding: 1.25rem;
+  border-radius: 1rem;
+  border: 1px solid var(--cream-2);
+  background: var(--white);
+}
+
+.proto-company-card h3 { font-size: 14px; font-weight: 800; }
+
+.proto-company-card p {
+  margin-top: 0.35rem;
+  font-size: 12px;
+  color: var(--ink-soft);
+}
+
+.proto-type-badge {
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.proto-type-badge.product {
+  background: var(--gold-soft);
+  color: var(--gold);
+}
+
+.proto-type-badge.service {
+  background: var(--profit-soft);
+  color: var(--profit);
+}
+
+.proto-card-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--ink-faint);
+}
+
+.proto-cta-band {
+  max-width: 1100px;
+  margin: 0 auto 2rem;
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  background: var(--navy);
+  color: var(--white);
+  text-align: center;
+}
+
+.proto-cta-band h2 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 1.5rem;
+}
+
+.proto-cta-band p {
+  margin-top: 0.5rem;
+  color: color-mix(in srgb, var(--white) 75%, transparent);
+}
+
+.proto-cta-band .proto-btn-primary { margin-top: 1.25rem; }
+
+.proto-landing-foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 1.25rem 1.5rem;
+  border-top: 1px solid var(--cream-2);
+  font-size: 12px;
+  color: var(--ink-faint);
+}
+
+.proto-landing-foot a {
+  font-weight: 700;
+  color: var(--profit);
+  text-decoration: none;
+}

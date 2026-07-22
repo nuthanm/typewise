@@ -1,0 +1,34 @@
+{
+  "inProgress": [
+    {
+      "name": "PhonePe",
+      "slug": "phonepe",
+      "category": "product",
+      "note": "Checking official About page, careers URL, and product vs service classification"
+    },
+    {
+      "name": "Swiggy",
+      "slug": "swiggy",
+      "category": "hybrid",
+      "note": "Reviewing corporate site and leadership pages before publish"
+    },
+    {
+      "name": "Wipro",
+      "slug": "wipro",
+      "category": "service",
+      "note": "Cross-checking annual report headcount with careers page"
+    }
+  ],
+  "unverified": [
+    {
+      "name": "Meesho",
+      "slug": "meesho",
+      "note": "Community add request — waiting for manual review against official sources"
+    },
+    {
+      "name": "Cred",
+      "slug": "cred",
+      "note": "Draft profile exists — sources not yet confirmed on company website"
+    }
+  ]
+}

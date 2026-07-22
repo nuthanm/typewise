@@ -1,0 +1,341 @@
+import Link from "next/link";
+import {
+  CATEGORY_LABELS,
+  DATA_YEAR,
+  getCompanyBySlug,
+  type CompanyProfile,
+} from "@/lib/companies";
+import { AdSlot } from "@/components/AdSense";
+import { VerifiedStamp } from "@/components/VerifiedStamp";
+import {
+  IconCareers,
+  IconEdit,
+  IconGlobe,
+  IconInfo,
+  IconLayers,
+  IconLink,
+  IconLinkedIn,
+  IconMapPin,
+  IconPackage,
+  IconTag,
+  IconTwitter,
+  IconUsers,
+  IconArrowLeft,
+} from "@/components/PortalIcons";
+
+function categoryClass(category: CompanyProfile["category"]) {
+  if (category === "product") return "tag product";
+  if (category === "service") return "tag service";
+  if (category === "hybrid") return "tag hybrid";
+  return "tag";
+}
+
+function leaderInitials(name: string) {
+  return name
+    .split(/\s+/)
+    .slice(0, 2)
+    .map((part) => part[0]?.toUpperCase() ?? "")
+    .join("");
+}
+
+function ProfileCard({
+  id,
+  title,
+  children,
+  className,
+}: {
+  id?: string;
+  title: string;
+  children: React.ReactNode;
+  className?: string;
+}) {
+  return (
+    <section id={id} className={`profile-card ${className ?? ""}`.trim()}>
+      <h2 className="profile-card-title">{title}</h2>
+      <div className="profile-card-body">{children}</div>
+    </section>
+  );
+}
+
+function ProfileIconLink({
+  href,
+  label,
+  icon,
+  external,
+  primary,
+}: {
+  href: string;
+  label: string;
+  icon: React.ReactNode;
+  external?: boolean;
+  primary?: boolean;
+}) {
+  const className = `profile-icon-link ${primary ? "primary" : ""}`.trim();
+
+  if (external) {
+    return (
+      <a href={href} target="_blank" rel="noreferrer" className={className}>
+        <span className="profile-icon-link-icon">{icon}</span>
+        <span>{label}</span>
+      </a>
+    );
+  }
+
+  return (
+    <Link href={href} className={className}>
+      <span className="profile-icon-link-icon">{icon}</span>
+      <span>{label}</span>
+    </Link>
+  );
+}
+
+export function CompanyDetail({ company }: { company: CompanyProfile }) {
+  const city = company.hq.split(",")[0]?.trim() ?? company.hq;
+
+  const sections = [
+    { id: "about", label: "About", icon: <IconInfo size={16} />, show: true },
+    { id: "domains", label: "Domains & tags", icon: <IconTag size={16} />, show: true },
+    {
+      id: "products",
+      label: "Products",
+      icon: <IconPackage size={16} />,
+      show: Boolean(company.products?.length),
+    },
+    {
+      id: "services",
+      label: "Services",
+      icon: <IconLayers size={16} />,
+      show: Boolean(company.services?.length),
+    },
+  ].filter((section) => section.show);
+
+  return (
+    <article className="company-profile">
+      <div className="profile-hero">
+        <div className="profile-hero-main">
+          <div className="profile-hero-badges">
+            <VerifiedStamp size="md" />
+            <span className={categoryClass(company.category)}>{CATEGORY_LABELS[company.category]}</span>
+          </div>
+          <h1>{company.name}</h1>
+          <p className="profile-tagline">{company.tagline}</p>
+          <p className="profile-meta">
+            <span className="profile-meta-item">
+              <IconMapPin size={14} />
+              {city}
+            </span>
+            <span aria-hidden="true">·</span>
+            <span>
+              Data {DATA_YEAR}
+              {company.lastVerified && (
+                <>
+                  {" "}
+                  · Verified <time dateTime={company.lastVerified}>{company.lastVerified}</time>
+                </>
+              )}
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div className="profile-stats">
+        {company.founded && (
+          <div className="profile-stat">
+            <span className="profile-stat-label">Founded</span>
+            <strong>{company.founded}</strong>
+          </div>
+        )}
+        <div className="profile-stat">
+          <span className="profile-stat-label">Headquarters</span>
+          <strong>{company.hq}</strong>
+        </div>
+        {(company.headcountIndia || company.headcountGlobal) && (
+          <div className="profile-stat">
+            <span className="profile-stat-label">Headcount</span>
+            <strong>{company.headcountIndia ?? company.headcountGlobal}</strong>
+          </div>
+        )}
+        {company.onsitePolicy && (
+          <div className="profile-stat">
+            <span className="profile-stat-label">Work model</span>
+            <strong>{company.onsitePolicy}</strong>
+          </div>
+        )}
+      </div>
+
+      <AdSlot />
+
+      <div className="profile-layout profile-layout-three">
+        <aside className="profile-left-nav">
+          <div className="profile-left-panel">
+            <h2 className="profile-left-title">Quick links</h2>
+            <div className="profile-icon-links">
+              <ProfileIconLink
+                href={company.website}
+                label="Website"
+                icon={<IconGlobe size={17} />}
+                external
+                primary
+              />
+              {company.careersUrl && (
+                <ProfileIconLink
+                  href={company.careersUrl}
+                  label="Careers"
+                  icon={<IconCareers size={17} />}
+                  external
+                />
+              )}
+              {company.linkedin && (
+                <ProfileIconLink
+                  href={company.linkedin}
+                  label="LinkedIn"
+                  icon={<IconLinkedIn size={17} />}
+                  external
+                />
+              )}
+              {company.twitter && (
+                <ProfileIconLink
+                  href={company.twitter}
+                  label="X / Twitter"
+                  icon={<IconTwitter size={17} />}
+                  external
+                />
+              )}
+              <ProfileIconLink
+                href={`/submit?slug=${company.slug}`}
+                label="Suggest edit"
+                icon={<IconEdit size={17} />}
+              />
+            </div>
+          </div>
+
+          {company.leadership && company.leadership.length > 0 && (
+            <div className="profile-left-panel profile-leaders-panel">
+              <h2 className="profile-left-title">
+                <IconUsers size={16} />
+                Leadership
+              </h2>
+              <ul className="profile-leaders-list">
+                {company.leadership.map((leader) => (
+                  <li key={leader.name}>
+                    <span className="profile-leader-avatar" aria-hidden="true">
+                      {leaderInitials(leader.name)}
+                    </span>
+                    <div className="profile-leader-copy">
+                      <strong>{leader.name}</strong>
+                      <span>{leader.role}</span>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          <nav className="profile-left-panel profile-section-nav" aria-label="On this page">
+            <h2 className="profile-left-title">On this page</h2>
+            <ul>
+              {sections.map((section) => (
+                <li key={section.id}>
+                  <a href={`#${section.id}`}>
+                    <span className="profile-section-nav-icon">{section.icon}</span>
+                    {section.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        </aside>
+
+        <div className="profile-main">
+          <ProfileCard id="about" title="About">
+            <p className="profile-text">{company.description}</p>
+            {company.vision && (
+              <div className="profile-subblock">
+                <h3>Vision</h3>
+                <p className="profile-text">{company.vision}</p>
+              </div>
+            )}
+          </ProfileCard>
+
+          <ProfileCard id="domains" title="Domains & tags">
+            <div className="tag-row">
+              {company.domains.map((d) => (
+                <span key={d} className="mini-tag">
+                  {d}
+                </span>
+              ))}
+              {company.tags.map((t) => (
+                <span key={t} className="mini-tag muted">
+                  {t}
+                </span>
+              ))}
+            </div>
+          </ProfileCard>
+
+          {company.products && company.products.length > 0 && (
+            <ProfileCard id="products" title="Products">
+              <ul className="profile-list">
+                {company.products.map((p) => (
+                  <li key={p}>{p}</li>
+                ))}
+              </ul>
+            </ProfileCard>
+          )}
+
+          {company.services && company.services.length > 0 && (
+            <ProfileCard id="services" title="Services">
+              <ul className="profile-list">
+                {company.services.map((s) => (
+                  <li key={s}>{s}</li>
+                ))}
+              </ul>
+            </ProfileCard>
+          )}
+        </div>
+
+        <aside className="profile-sidebar">
+          {company.headcountNote && (
+            <ProfileCard title="Note" className="profile-note-card">
+              <p className="profile-text small">{company.headcountNote}</p>
+            </ProfileCard>
+          )}
+
+          {company.sources.length > 0 && (
+            <ProfileCard title="Sources">
+              <ul className="profile-source-links">
+                {company.sources.map((s) => (
+                  <li key={s.url}>
+                    <a href={s.url} target="_blank" rel="noreferrer">
+                      <IconLink size={16} />
+                      <span>{s.label}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </ProfileCard>
+          )}
+
+          <div className="profile-cta-card">
+            <h2>Something outdated?</h2>
+            <p>Help keep this {DATA_YEAR} profile accurate for everyone.</p>
+            <Link href={`/submit?slug=${company.slug}`} className="form-submit-btn">
+              <IconEdit size={16} />
+              Submit edit request
+            </Link>
+          </div>
+        </aside>
+      </div>
+
+      <p className="profile-back">
+        <Link href="/companies">
+          <IconArrowLeft size={16} />
+          Back to all companies
+        </Link>
+      </p>
+    </article>
+  );
+}
+
+export function getCompanyDetail(slug: string) {
+  return getCompanyBySlug(slug);
+}

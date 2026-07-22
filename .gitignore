@@ -315,6 +315,19 @@ FakesAssemblies/
 .ntvs_analysis.dat
 node_modules/
 
+# Next.js
+.next/
+out/
+
+# Reference clone (local only)
+_yieldproof-ref/
+
+# Wikidata enrichment drafts (review before merge)
+data/drafts/
+
+# Pages build backup
+.api-backup-pages-build/
+
 # Visual Studio 6 build log
 *.plg
 

@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@import "./styles/app.css";
+@import "./styles/presentation.css";
+
+/* Job-site sentiment palette — LinkedIn trust blue + Indeed product green */
+:root {
+  --navy: #0c1929;
+  --navy-mid: #1e3a5f;
+  --cream: #f7f5f0;
+  --cream-2: #e8e4dc;
+  --white: #ffffff;
+  --ink: #141414;
+  --ink-soft: #4a4a4a;
+  --ink-faint: #737373;
+  --profit: #0a66c2;
+  --profit-bright: #378fe9;
+  --profit-soft: #e8f4fd;
+  --gold: #057642;
+  --gold-bright: #1a8f5c;
+  --gold-soft: #d4efdf;
+  --loss: #b91c1c;
+  --loss-soft: #fee2e2;
+  --accent: #0a66c2;
+  --accent-soft: #e8f4fd;
+  --service: #4f46e5;
+  --service-soft: #e0e7ff;
+  --background: var(--cream);
+  --foreground: var(--ink);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-dm-sans);
+  --font-serif: var(--font-fraunces);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+}
+
+.chart-root { width: 100%; }
+.chart-body { display: flex; align-items: stretch; width: 100%; }
+.chart-y-axis {
+  display: flex; flex-direction: column; justify-content: space-between;
+  width: 48px; flex-shrink: 0; padding: 4px 6px 4px 0;
+}
+.chart-y-label { font-size: 9px; font-weight: 700; color: var(--ink-faint); line-height: 1; white-space: nowrap; }
+.chart-svg { flex: 1; width: 100%; min-width: 0; overflow: visible; }
+.chart-grid-line { stroke: var(--cream-2); stroke-width: 0.5; vector-effect: non-scaling-stroke; }
+.chart-x-axis { position: relative; height: 18px; margin-top: 2px; padding-right: 8px; }
+.chart-x-label {
+  position: absolute; transform: translateX(-50%);
+  font-size: 9px; font-weight: 700; color: var(--ink-faint); white-space: nowrap;
+}
+.chart-live-dot { animation: chart-dot-pulse 2s ease infinite; }
+@keyframes chart-dot-pulse {
+  0%, 100% { opacity: 1; r: 3.5; }
+  50% { opacity: 0.7; r: 4.5; }
+}
+.chart-line-draw { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: chart-draw 1.6s ease forwards; }
+@keyframes chart-draw { to { stroke-dashoffset: 0; } }
