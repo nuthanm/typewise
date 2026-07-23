@@ -199,11 +199,12 @@ body.nav-menu-open {
   }
 
   .app-nav-icons {
-    display: inline-flex;
+    display: flex;
   }
 
   .app-nav-trailing {
-    display: block;
+    display: flex;
+    align-items: center;
   }
 
   .app-nav-menu-btn {
