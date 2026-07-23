@@ -192,14 +192,81 @@ When user says "verify", "publish", "looks good", or similar:
 
 ## Reference profiles
 
+### Gold standard — global MNC product company
+
+Use **[AstraZeneca](https://nuthanm.github.io/typewise/companies/astrazeneca/)** (`slug: astrazeneca`) as the template for any new **global, public, product-based MNC** with India hiring presence. Match its field coverage, tone, and UI density before submitting for review.
+
+**Live reference:** https://nuthanm.github.io/typewise/companies/astrazeneca/
+
+**What a complete profile like AstraZeneca includes:**
+
+| Section | Fields to fill |
+|---------|----------------|
+| Hero | `tagline`, `hq`, `founded`, `headcountIndia`, `headcountGlobal`, `headcountNote`, `onsitePolicy` |
+| About | `description` (1–2 factual sentences), optional `vision` (official mission/vision quote) |
+| Locations | `officeCountries`, `officeCities` (India hiring hubs), `totalOfficeLocations`, `locationsUrl`, `contactUrl` |
+| Domains & tags | ≥2 `domains` (industry/capability) + 1–3 `tags` (traits like MNC, Public company) |
+| Products | Official product/therapy/platform names — **not** marketing blurbs |
+| Sidebar | `leadership` (group CEO; add CTO/COO only when officially listed), quick links |
+| Sources | One `{ label, url }` per fact block (About, Leadership, India presence, Careers, Annual report, Contact) |
+
+**Example JSON skeleton** (copy field set from `astrazeneca` in `data/companies.json`):
+
+```json
+{
+  "slug": "example-mnc",
+  "name": "Example Corp",
+  "category": "product",
+  "tagline": "One-line official positioning (≤120 chars)",
+  "description": "1–2 sentences from official About / 10-K copy.",
+  "website": "https://www.example.com",
+  "founded": "1999",
+  "hq": "City, Country",
+  "officeCities": ["Bengaluru", "Chennai", "Mumbai", "Pune", "Hyderabad"],
+  "officeCountries": ["United Kingdom", "United States", "India"],
+  "totalOfficeLocations": "100+ countries",
+  "locationsUrl": "https://www.example.com/our-presence",
+  "contactUrl": "https://www.example.com/contact",
+  "headcountIndia": "4,500+",
+  "headcountGlobal": "96,100",
+  "headcountNote": "India per careers page; global per Annual Report — explain if entities differ",
+  "domains": ["Industry A", "Industry B", "Healthcare"],
+  "tags": ["MNC", "Public company", "R&D-intensive"],
+  "products": ["Product line A", "Product line B"],
+  "onsitePolicy": "Hybrid — role and site dependent; verify on careers page",
+  "careersUrl": "https://careers.example.com/india",
+  "linkedin": "https://www.linkedin.com/company/example",
+  "twitter": "https://twitter.com/example",
+  "leadership": [{ "name": "Full Name", "role": "CEO" }],
+  "vision": "Official vision or mission quote from the company site.",
+  "lastVerified": "2026-07-23",
+  "verificationStatus": "in_progress",
+  "sources": [
+    { "label": "Our company", "url": "https://..." },
+    { "label": "Leadership", "url": "https://..." },
+    { "label": "India presence", "url": "https://..." },
+    { "label": "Careers India", "url": "https://..." },
+    { "label": "Annual Report", "url": "https://..." },
+    { "label": "Contact", "url": "https://..." }
+  ]
+}
+```
+
+**Headcount rule:** Always cite the source in `headcountNote` when India and global figures come from different documents (e.g. careers page vs 10-K).
+
+**India cities rule:** List major hiring hubs only (5–7 cities max); do not duplicate `hq` in `officeCities` unless HQ is also a hiring hub in India.
+
+### Other reference profiles
+
 Copy structure and tone from existing entries in `data/companies.json`:
-- Product: `razorpay`, `zoho`, `freshworks`
-- Service: `tcs`, `infosys`, `kanini` (leadership + multi-country locations)
-- Hybrid: `flipkart`
+- **Global MNC product:** `astrazeneca` (gold standard — see above)
+- **Indian product:** `razorpay`, `zoho`, `freshworks`
+- **Service:** `tcs`, `infosys`, `kanini` (leadership + multi-country locations)
+- **Hybrid:** `flipkart`
 
-**Leadership reference:** `zoho` (founder-first, multiple executives), `razorpay` (co-founder CEO/CTO), `kanini` (founder + COO).
+**Leadership reference:** `zoho` (founder-first, multiple executives), `razorpay` (co-founder CEO/CTO), `kanini` (founder + COO), `astrazeneca` (group CEO only).
 
-**Locations reference:** `tcs` (`locationsUrl` + many cities), `zoho` (`officeCities` + `contactUrl`), `kanini` (`officeCountries` + `officeCities`).
+**Locations reference:** `astrazeneca` (`officeCountries` + India `officeCities` + `totalOfficeLocations`), `tcs` (`locationsUrl` + many cities), `zoho` (`officeCities` + `contactUrl`).
 
 ## Quality checklist
 

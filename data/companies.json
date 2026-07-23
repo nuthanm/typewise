@@ -4859,6 +4859,91 @@
       "linkedin": "https://www.linkedin.com/company/firstsource-solutions-limited"
     },
     {
+      "slug": "fiserv",
+      "name": "Fiserv",
+      "category": "product",
+      "tagline": "Global payments and financial services technology",
+      "description": "Fiserv is a leading global provider of payments and financial services technology solutions, serving merchants, banks, credit unions, and other financial institutions worldwide.",
+      "website": "https://www.fiserv.com",
+      "founded": "1984",
+      "hq": "Milwaukee, United States",
+      "officeCities": [
+        "Bengaluru",
+        "Chennai",
+        "Gurugram",
+        "Noida",
+        "Pune"
+      ],
+      "officeCountries": [
+        "United States",
+        "India"
+      ],
+      "totalOfficeLocations": "5 India delivery centers",
+      "locationsUrl": "https://www.fiserv.com/en/lp/fiserv-global-services.html",
+      "contactUrl": "https://www.fiserv.com/en/about-fiserv/contact-us.html",
+      "headcountIndia": "7,000+",
+      "headcountGlobal": "38,000+",
+      "headcountNote": "India per Global Services page (nearly 7,000 associates); global per Form 10-K (Dec 31, 2024)",
+      "domains": [
+        "Fintech",
+        "Payments",
+        "Financial technology"
+      ],
+      "tags": [
+        "MNC",
+        "Public company",
+        "Global delivery"
+      ],
+      "products": [
+        "Merchant Solutions",
+        "Financial Solutions",
+        "Clover (POS & business management)"
+      ],
+      "onsitePolicy": "Hybrid — role and site dependent; verify on careers page",
+      "careersUrl": "https://careers.fiserv.com/",
+      "linkedin": "https://www.linkedin.com/company/fiserv",
+      "twitter": "https://twitter.com/Fiserv",
+      "leadership": [
+        {
+          "name": "Takis Georgakopoulos",
+          "role": "CEO"
+        },
+        {
+          "name": "Pete Cavicchia",
+          "role": "CTO"
+        }
+      ],
+      "vision": "We move lives, businesses and communities forward.",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "in_progress",
+      "sources": [
+        {
+          "label": "About Fiserv",
+          "url": "https://www.fiserv.com/en/about-fiserv.html"
+        },
+        {
+          "label": "Executive leadership",
+          "url": "https://www.fiserv.com/en/about-fiserv/executive-leadership.html"
+        },
+        {
+          "label": "Global Services India",
+          "url": "https://www.fiserv.com/en/lp/fiserv-global-services.html"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.fiserv.com/"
+        },
+        {
+          "label": "Form 10-K (2024)",
+          "url": "https://investors.fiserv.com/static-files/33b394b7-c9e0-4d29-8580-8db37c2b8125"
+        },
+        {
+          "label": "Leadership transition",
+          "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-announces-leadership-transition"
+        }
+      ]
+    },
+    {
       "slug": "wns",
       "name": "WNS",
       "category": "service",
