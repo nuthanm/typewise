@@ -896,16 +896,31 @@
       "careersUrl": "https://www.phonepe.com/careers/",
       "linkedin": "https://www.linkedin.com/company/phonepe",
       "leadership": [
-        { "name": "Sameer Nigam", "role": "Founder & CEO" },
-        { "name": "Rahul Chari", "role": "Founder & CTO" },
-        { "name": "Burzin Engineer", "role": "Founder & Chief Reliability Officer" }
+        {
+          "name": "Sameer Nigam",
+          "role": "Founder & CEO"
+        },
+        {
+          "name": "Rahul Chari",
+          "role": "Founder & CTO"
+        },
+        {
+          "name": "Burzin Engineer",
+          "role": "Founder & Chief Reliability Officer"
+        }
       ],
       "vision": "Offer every Indian an equal opportunity to accelerate their progress by unlocking the flow of money and democratizing access to services.",
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://www.phonepe.com/about-us/" },
-        { "label": "Careers", "url": "https://www.phonepe.com/careers/" }
+        {
+          "label": "About page",
+          "url": "https://www.phonepe.com/about-us/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.phonepe.com/careers/"
+        }
       ]
     },
     {
@@ -917,7 +932,14 @@
       "website": "https://www.swiggy.com/corporate/",
       "founded": "2014",
       "hq": "Bengaluru, India",
-      "officeCities": ["Bengaluru", "Hyderabad", "Mumbai", "Delhi NCR", "Chennai", "Pune"],
+      "officeCities": [
+        "Bengaluru",
+        "Hyderabad",
+        "Mumbai",
+        "Delhi NCR",
+        "Chennai",
+        "Pune"
+      ],
       "domains": [
         "Food delivery",
         "Quick commerce",
@@ -927,23 +949,49 @@
         "Public company",
         "Marketplace"
       ],
-      "products": ["Food Delivery", "Swiggy Instamart", "Swiggy One", "Swiggy Dineout"],
-      "services": ["Restaurant partner services", "Delivery partner network"],
+      "products": [
+        "Food Delivery",
+        "Swiggy Instamart",
+        "Swiggy One",
+        "Swiggy Dineout"
+      ],
+      "services": [
+        "Restaurant partner services",
+        "Delivery partner network"
+      ],
       "onsitePolicy": "Hybrid — verify on careers page",
       "careersUrl": "https://careers.swiggy.com/",
       "linkedin": "https://www.linkedin.com/company/swiggy",
       "leadership": [
-        { "name": "Sriharsha Majety", "role": "Managing Director & Group CEO" },
-        { "name": "Madhusudhan Rao", "role": "CTO" },
-        { "name": "Rahul Bothra", "role": "CFO" },
-        { "name": "Amitesh Jha", "role": "CEO, Instamart" }
+        {
+          "name": "Sriharsha Majety",
+          "role": "Managing Director & Group CEO"
+        },
+        {
+          "name": "Madhusudhan Rao",
+          "role": "CTO"
+        },
+        {
+          "name": "Rahul Bothra",
+          "role": "CFO"
+        },
+        {
+          "name": "Amitesh Jha",
+          "role": "CEO, Instamart"
+        }
       ],
       "vision": "Elevate the quality of life of the urban consumer by offering unparalleled convenience.",
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "Corporate — About", "url": "https://www.swiggy.com/corporate/" },
-        { "label": "Careers", "url": "https://careers.swiggy.com/" }
+        {
+          "label": "Corporate — About",
+          "url": "https://www.swiggy.com/corporate/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.swiggy.com/"
+        }
       ]
     },
     {
@@ -990,20 +1038,47 @@
       "careersUrl": "https://careers.wipro.com/",
       "linkedin": "https://www.linkedin.com/company/wipro",
       "leadership": [
-        { "name": "Azim H. Premji", "role": "Founder Chairman" },
-        { "name": "Srini Pallia", "role": "CEO & MD" },
-        { "name": "Rishad Premji", "role": "Executive Chairman" },
-        { "name": "Aparna Iyer", "role": "CFO" }
+        {
+          "name": "Azim H. Premji",
+          "role": "Founder Chairman"
+        },
+        {
+          "name": "Srini Pallia",
+          "role": "CEO & MD"
+        },
+        {
+          "name": "Rishad Premji",
+          "role": "Executive Chairman"
+        },
+        {
+          "name": "Aparna Iyer",
+          "role": "CFO"
+        }
       ],
       "vision": "Build innovative solutions that address clients' most complex digital transformation needs.",
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://www.wipro.com/about-us/" },
-        { "label": "Leadership", "url": "https://www.wipro.com/leadership/" },
-        { "label": "Office locations", "url": "https://www.wipro.com/locations/" },
-        { "label": "Careers", "url": "https://careers.wipro.com/" },
-        { "label": "FY26 integrated annual report", "url": "https://www.wipro.com/investors/annual-reports/2025-26/" }
+        {
+          "label": "About page",
+          "url": "https://www.wipro.com/about-us/"
+        },
+        {
+          "label": "Leadership",
+          "url": "https://www.wipro.com/leadership/"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.wipro.com/locations/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.wipro.com/"
+        },
+        {
+          "label": "FY26 integrated annual report",
+          "url": "https://www.wipro.com/investors/annual-reports/2025-26/"
+        }
       ]
     },
     {
@@ -1015,7 +1090,13 @@
       "website": "https://www.zomato.com",
       "founded": "2008",
       "hq": "Gurugram, India",
-      "officeCities": ["Gurugram", "Bengaluru", "Mumbai", "Hyderabad", "Pune"],
+      "officeCities": [
+        "Gurugram",
+        "Bengaluru",
+        "Mumbai",
+        "Hyderabad",
+        "Pune"
+      ],
       "domains": [
         "Food delivery",
         "Restaurant tech",
@@ -1026,23 +1107,48 @@
         "Eternal Group",
         "Marketplace"
       ],
-      "products": ["Food Delivery", "Hyperpure (B2B supply)", "District"],
-      "services": ["Restaurant partner services", "Delivery logistics"],
+      "products": [
+        "Food Delivery",
+        "Hyperpure (B2B supply)",
+        "District"
+      ],
+      "services": [
+        "Restaurant partner services",
+        "Delivery logistics"
+      ],
       "onsitePolicy": "Hybrid — verify on careers page",
       "careersUrl": "https://www.zomato.com/careers",
       "linkedin": "https://www.linkedin.com/company/zomato",
       "leadership": [
-        { "name": "Deepinder Goyal", "role": "Founder & Vice Chairman" },
-        { "name": "Albinder Dhindsa", "role": "Group CEO, Eternal" },
-        { "name": "Aditya Mangla", "role": "CEO, Zomato Food Delivery" }
+        {
+          "name": "Deepinder Goyal",
+          "role": "Founder & Vice Chairman"
+        },
+        {
+          "name": "Albinder Dhindsa",
+          "role": "Group CEO, Eternal"
+        },
+        {
+          "name": "Aditya Mangla",
+          "role": "CEO, Zomato Food Delivery"
+        }
       ],
       "vision": "To endure, evolve, and empower — building institutions that redefine the future through constant reinvention.",
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "Eternal (parent company)", "url": "https://www.eternal.com/" },
-        { "label": "Shareholders' letter (leadership)", "url": "https://b.zmtcdn.com/investor-relations/4551e4f37e63c9819aafcb1b4a3ebabb_1769002182.pdf" },
-        { "label": "Careers", "url": "https://www.zomato.com/careers" }
+        {
+          "label": "Eternal (parent company)",
+          "url": "https://www.eternal.com/"
+        },
+        {
+          "label": "Shareholders' letter (leadership)",
+          "url": "https://b.zmtcdn.com/investor-relations/4551e4f37e63c9819aafcb1b4a3ebabb_1769002182.pdf"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.zomato.com/careers"
+        }
       ]
     },
     {
@@ -1071,20 +1177,36 @@
         "Paytm Soundbox",
         "Paytm UPI Lite"
       ],
-      "services": ["Merchant payments", "Bill payments", "Recharges"],
+      "services": [
+        "Merchant payments",
+        "Bill payments",
+        "Recharges"
+      ],
       "onsitePolicy": "Hybrid — verify on careers page",
       "careersUrl": "https://paytm.com/careers",
       "linkedin": "https://www.linkedin.com/company/paytm",
       "leadership": [
-        { "name": "Vijay Shekhar Sharma", "role": "Founder & CEO" }
+        {
+          "name": "Vijay Shekhar Sharma",
+          "role": "Founder & CEO"
+        }
       ],
       "vision": "Bring half-a-billion Indians to the mainstream economy.",
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://paytm.com/about-us" },
-        { "label": "Board of directors", "url": "https://ir.paytm.com/directors-and-committees" },
-        { "label": "Careers", "url": "https://paytm.com/careers" }
+        {
+          "label": "About page",
+          "url": "https://paytm.com/about-us"
+        },
+        {
+          "label": "Board of directors",
+          "url": "https://ir.paytm.com/directors-and-committees"
+        },
+        {
+          "label": "Careers",
+          "url": "https://paytm.com/careers"
+        }
       ]
     },
     {
@@ -1096,32 +1218,81 @@
       "website": "https://www.hcltech.com",
       "founded": "1976",
       "hq": "Noida, India",
-      "officeCities": ["Noida", "Bengaluru", "Chennai", "Hyderabad", "Pune", "Mumbai", "Lucknow", "Vijayawada"],
+      "officeCities": [
+        "Noida",
+        "Bengaluru",
+        "Chennai",
+        "Hyderabad",
+        "Pune",
+        "Mumbai",
+        "Lucknow",
+        "Vijayawada"
+      ],
       "totalOfficeLocations": "60 countries",
       "locationsUrl": "https://www.hcltech.com/contact-us/locations",
       "headcountGlobal": "223,000+",
       "headcountNote": "223,420 employees at Mar 31, 2025 per Q4 FY25 investor release; 60 countries",
-      "domains": ["IT Services", "Engineering", "Cloud & AI"],
-      "tags": ["MNC", "Public company", "Global delivery"],
-      "services": ["Digital engineering", "Cloud native", "Application modernization", "AI & software products"],
+      "domains": [
+        "IT Services",
+        "Engineering",
+        "Cloud & AI"
+      ],
+      "tags": [
+        "MNC",
+        "Public company",
+        "Global delivery"
+      ],
+      "services": [
+        "Digital engineering",
+        "Cloud native",
+        "Application modernization",
+        "AI & software products"
+      ],
       "onsitePolicy": "Client and project dependent; verify on careers page",
       "careersUrl": "https://www.hcltech.com/careers",
       "linkedin": "https://www.linkedin.com/company/hcltech",
       "leadership": [
-        { "name": "Shiv Nadar", "role": "Founder" },
-        { "name": "C Vijayakumar", "role": "CEO & MD" },
-        { "name": "Rahul Singh", "role": "COO, Corporate Functions" }
+        {
+          "name": "Shiv Nadar",
+          "role": "Founder"
+        },
+        {
+          "name": "C Vijayakumar",
+          "role": "CEO & MD"
+        },
+        {
+          "name": "Rahul Singh",
+          "role": "COO, Corporate Functions"
+        }
       ],
       "vision": "Supercharge progress for clients through digital, engineering, cloud and AI.",
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://www.hcltech.com/about-us" },
-        { "label": "Leadership", "url": "https://www.hcltech.com/leadership" },
-        { "label": "Founder & board", "url": "https://www.hcltech.com/hcl-annual-report-2025/founder-and-board-of-directors" },
-        { "label": "Office locations", "url": "https://www.hcltech.com/contact-us/locations" },
-        { "label": "Q4 FY25 investor release (headcount)", "url": "https://www.hcltech.com/sites/default/files/document/open/quarter-results/2025-04/HCLTech-Q4-FY25-Investor-Release.pdf" },
-        { "label": "Careers", "url": "https://www.hcltech.com/careers" }
+        {
+          "label": "About page",
+          "url": "https://www.hcltech.com/about-us"
+        },
+        {
+          "label": "Leadership",
+          "url": "https://www.hcltech.com/leadership"
+        },
+        {
+          "label": "Founder & board",
+          "url": "https://www.hcltech.com/hcl-annual-report-2025/founder-and-board-of-directors"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.hcltech.com/contact-us/locations"
+        },
+        {
+          "label": "Q4 FY25 investor release (headcount)",
+          "url": "https://www.hcltech.com/sites/default/files/document/open/quarter-results/2025-04/HCLTech-Q4-FY25-Investor-Release.pdf"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.hcltech.com/careers"
+        }
       ]
     },
     {
@@ -1133,28 +1304,70 @@
       "website": "https://www.techmahindra.com",
       "founded": "1986",
       "hq": "Pune, India",
-      "officeCities": ["Pune", "Hyderabad", "Bengaluru", "Chennai", "Mumbai", "Noida", "Gurugram"],
+      "officeCities": [
+        "Pune",
+        "Hyderabad",
+        "Bengaluru",
+        "Chennai",
+        "Mumbai",
+        "Noida",
+        "Gurugram"
+      ],
       "locationsUrl": "https://www.techmahindra.com/en-in/contact-us/",
       "headcountGlobal": "148,731",
       "headcountNote": "Total headcount at Mar 31, 2025 per Q4 FY25 fact sheet; 90+ countries",
-      "domains": ["IT Services", "Consulting", "Telecom"],
-      "tags": ["MNC", "Public company", "Mahindra Group"],
-      "services": ["Digital transformation", "Cloud", "Enterprise applications", "AI adoption"],
+      "domains": [
+        "IT Services",
+        "Consulting",
+        "Telecom"
+      ],
+      "tags": [
+        "MNC",
+        "Public company",
+        "Mahindra Group"
+      ],
+      "services": [
+        "Digital transformation",
+        "Cloud",
+        "Enterprise applications",
+        "AI adoption"
+      ],
       "onsitePolicy": "Client and project dependent; verify on careers page",
       "careersUrl": "https://careers.techmahindra.com/",
       "linkedin": "https://www.linkedin.com/company/tech-mahindra",
       "leadership": [
-        { "name": "Mohit Joshi", "role": "CEO & MD" }
+        {
+          "name": "Mohit Joshi",
+          "role": "CEO & MD"
+        }
       ],
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://www.techmahindra.com/en-in/about-us/" },
-        { "label": "Leadership", "url": "https://www.techmahindra.com/about-us/leadership/" },
-        { "label": "CEO profile", "url": "https://www.techmahindra.com/about-us/leadership/mohit-joshi/" },
-        { "label": "Office locations", "url": "https://www.techmahindra.com/en-in/contact-us/" },
-        { "label": "Q4 FY25 fact sheet (headcount)", "url": "https://insights.techmahindra.com/investors/tml-q4-fy-25-fact-sheet.pdf" },
-        { "label": "Careers", "url": "https://careers.techmahindra.com/" }
+        {
+          "label": "About page",
+          "url": "https://www.techmahindra.com/en-in/about-us/"
+        },
+        {
+          "label": "Leadership",
+          "url": "https://www.techmahindra.com/about-us/leadership/"
+        },
+        {
+          "label": "CEO profile",
+          "url": "https://www.techmahindra.com/about-us/leadership/mohit-joshi/"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.techmahindra.com/en-in/contact-us/"
+        },
+        {
+          "label": "Q4 FY25 fact sheet (headcount)",
+          "url": "https://insights.techmahindra.com/investors/tml-q4-fy-25-fact-sheet.pdf"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.techmahindra.com/"
+        }
       ]
     },
     {
@@ -1166,24 +1379,53 @@
       "website": "https://www.meesho.com",
       "founded": "2015",
       "hq": "Bengaluru, India",
-      "domains": ["E-commerce", "Social commerce", "Marketplace"],
-      "tags": ["Unicorn", "Public company"],
-      "products": ["Meesho Marketplace", "Meesho Mall", "Valmo logistics"],
+      "domains": [
+        "E-commerce",
+        "Social commerce",
+        "Marketplace"
+      ],
+      "tags": [
+        "Unicorn",
+        "Public company"
+      ],
+      "products": [
+        "Meesho Marketplace",
+        "Meesho Mall",
+        "Valmo logistics"
+      ],
       "onsitePolicy": "Hybrid — verify on careers page",
       "careersUrl": "https://careers.meesho.com/",
       "linkedin": "https://www.linkedin.com/company/meesho",
       "leadership": [
-        { "name": "Vidit Aatrey", "role": "Founder & CEO" },
-        { "name": "Sanjeev Kumar", "role": "Co-founder & CTO" }
+        {
+          "name": "Vidit Aatrey",
+          "role": "Founder & CEO"
+        },
+        {
+          "name": "Sanjeev Kumar",
+          "role": "Co-founder & CTO"
+        }
       ],
       "vision": "Democratize internet commerce for everyone, empowering millions of Indian businesses and consumers.",
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://www.meesho.com/about" },
-        { "label": "Investor governance", "url": "https://investor.meesho.com/governance" },
-        { "label": "Annual report 2023-24", "url": "https://investor.meesho.com/investor-web/_next/docs/annual_report_2023_2024.pdf" },
-        { "label": "Careers", "url": "https://careers.meesho.com/" }
+        {
+          "label": "About page",
+          "url": "https://www.meesho.com/about"
+        },
+        {
+          "label": "Investor governance",
+          "url": "https://investor.meesho.com/governance"
+        },
+        {
+          "label": "Annual report 2023-24",
+          "url": "https://investor.meesho.com/investor-web/_next/docs/annual_report_2023_2024.pdf"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.meesho.com/"
+        }
       ]
     },
     {
@@ -1195,18 +1437,38 @@
       "website": "https://cred.club",
       "founded": "2018",
       "hq": "Bengaluru, India",
-      "domains": ["Fintech", "Consumer apps", "Lending"],
-      "tags": ["Unicorn"],
-      "products": ["CRED Pay", "CRED Protect", "CRED Mint", "CRED Cash"],
+      "domains": [
+        "Fintech",
+        "Consumer apps",
+        "Lending"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "products": [
+        "CRED Pay",
+        "CRED Protect",
+        "CRED Mint",
+        "CRED Cash"
+      ],
       "onsitePolicy": "Hybrid — verify on careers page",
       "careersUrl": "https://careers.cred.club/",
       "linkedin": "https://www.linkedin.com/company/credapp",
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://cred.club/about" },
-        { "label": "Homepage", "url": "https://cred.club/" },
-        { "label": "Careers", "url": "https://careers.cred.club/" }
+        {
+          "label": "About page",
+          "url": "https://cred.club/about"
+        },
+        {
+          "label": "Homepage",
+          "url": "https://cred.club/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.cred.club/"
+        }
       ]
     },
     {
@@ -1218,24 +1480,56 @@
       "website": "https://www.olacabs.com",
       "founded": "2010",
       "hq": "Bengaluru, India",
-      "officeCities": ["Bengaluru", "Hyderabad", "Mumbai", "Delhi NCR", "Chennai", "Pune"],
-      "domains": ["Mobility", "Ride-hailing", "Electric vehicles"],
-      "tags": ["Unicorn"],
-      "products": ["Ola Cabs", "Ola Electric scooters", "Ola S1"],
+      "officeCities": [
+        "Bengaluru",
+        "Hyderabad",
+        "Mumbai",
+        "Delhi NCR",
+        "Chennai",
+        "Pune"
+      ],
+      "domains": [
+        "Mobility",
+        "Ride-hailing",
+        "Electric vehicles"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "products": [
+        "Ola Cabs",
+        "Ola Electric scooters",
+        "Ola S1"
+      ],
       "onsitePolicy": "Hybrid — verify on careers page",
       "careersUrl": "https://careers.olacabs.com/",
       "linkedin": "https://www.linkedin.com/company/olacabs-com",
       "leadership": [
-        { "name": "Bhavish Aggarwal", "role": "Founder & CEO" },
-        { "name": "Ankit Bhati", "role": "Co-founder & CTO" }
+        {
+          "name": "Bhavish Aggarwal",
+          "role": "Founder & CEO"
+        },
+        {
+          "name": "Ankit Bhati",
+          "role": "Co-founder & CTO"
+        }
       ],
       "vision": "Build mobility for a billion people.",
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://www.olacabs.com/about" },
-        { "label": "Ola Electric directors", "url": "https://www.olaelectric.com/investor-relations/directors-profile" },
-        { "label": "Careers", "url": "https://careers.olacabs.com/" }
+        {
+          "label": "About page",
+          "url": "https://www.olacabs.com/about"
+        },
+        {
+          "label": "Ola Electric directors",
+          "url": "https://www.olaelectric.com/investor-relations/directors-profile"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.olacabs.com/"
+        }
       ]
     },
     {
@@ -1247,23 +1541,52 @@
       "website": "https://zerodha.com",
       "founded": "2010",
       "hq": "Bengaluru, India",
-      "officeCities": ["Bengaluru"],
-      "domains": ["Fintech", "Stock broking", "Capital markets"],
-      "tags": ["Bootstrapped", "Market leader"],
-      "products": ["Kite", "Coin", "Varsity", "Console"],
+      "officeCities": [
+        "Bengaluru"
+      ],
+      "domains": [
+        "Fintech",
+        "Stock broking",
+        "Capital markets"
+      ],
+      "tags": [
+        "Bootstrapped",
+        "Market leader"
+      ],
+      "products": [
+        "Kite",
+        "Coin",
+        "Varsity",
+        "Console"
+      ],
       "onsitePolicy": "Primarily Bengaluru — verify on careers page",
       "careersUrl": "https://zerodha.com/careers/",
       "linkedin": "https://www.linkedin.com/company/zerodha",
       "leadership": [
-        { "name": "Nithin Kamath", "role": "Founder & CEO" },
-        { "name": "Nikhil Kamath", "role": "Co-founder & CFO" }
+        {
+          "name": "Nithin Kamath",
+          "role": "Founder & CEO"
+        },
+        {
+          "name": "Nikhil Kamath",
+          "role": "Co-founder & CFO"
+        }
       ],
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://zerodha.com/about/" },
-        { "label": "Contact & leadership", "url": "https://zerodha.com/contact/" },
-        { "label": "Careers", "url": "https://zerodha.com/careers/" }
+        {
+          "label": "About page",
+          "url": "https://zerodha.com/about/"
+        },
+        {
+          "label": "Contact & leadership",
+          "url": "https://zerodha.com/contact/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://zerodha.com/careers/"
+        }
       ]
     },
     {
@@ -1275,24 +1598,55 @@
       "website": "https://groww.in",
       "founded": "2016",
       "hq": "Bengaluru, India",
-      "officeCities": ["Bengaluru"],
-      "domains": ["Fintech", "Investments", "Wealth tech"],
-      "tags": ["Unicorn", "Public company"],
-      "products": ["Groww Stocks", "Groww Mutual Funds", "Groww IPO"],
+      "officeCities": [
+        "Bengaluru"
+      ],
+      "domains": [
+        "Fintech",
+        "Investments",
+        "Wealth tech"
+      ],
+      "tags": [
+        "Unicorn",
+        "Public company"
+      ],
+      "products": [
+        "Groww Stocks",
+        "Groww Mutual Funds",
+        "Groww IPO"
+      ],
       "onsitePolicy": "Hybrid — verify on careers page",
       "careersUrl": "https://groww.in/careers",
       "linkedin": "https://www.linkedin.com/company/groww.in",
       "leadership": [
-        { "name": "Lalit Keshre", "role": "Co-founder & CEO" },
-        { "name": "Neeraj Singh", "role": "Co-founder & CTO" },
-        { "name": "Harsh Jain", "role": "Co-founder & COO" }
+        {
+          "name": "Lalit Keshre",
+          "role": "Co-founder & CEO"
+        },
+        {
+          "name": "Neeraj Singh",
+          "role": "Co-founder & CTO"
+        },
+        {
+          "name": "Harsh Jain",
+          "role": "Co-founder & COO"
+        }
       ],
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "Our story", "url": "https://groww.in/investor-relations/our-story" },
-        { "label": "Board of directors", "url": "https://groww.in/investor-relations/governance/board-of-directors" },
-        { "label": "Careers", "url": "https://groww.in/careers" }
+        {
+          "label": "Our story",
+          "url": "https://groww.in/investor-relations/our-story"
+        },
+        {
+          "label": "Board of directors",
+          "url": "https://groww.in/investor-relations/governance/board-of-directors"
+        },
+        {
+          "label": "Careers",
+          "url": "https://groww.in/careers"
+        }
       ]
     },
     {
@@ -1304,24 +1658,57 @@
       "website": "https://www.nykaa.com",
       "founded": "2012",
       "hq": "Mumbai, India",
-      "officeCities": ["Mumbai", "Bengaluru", "Delhi NCR", "Hyderabad", "Pune"],
-      "domains": ["E-commerce", "Beauty", "Retail"],
-      "tags": ["Public company", "D2C", "Omnichannel"],
-      "products": ["Nykaa Beauty", "Nykaa Fashion", "House of Nykaa brands"],
+      "officeCities": [
+        "Mumbai",
+        "Bengaluru",
+        "Delhi NCR",
+        "Hyderabad",
+        "Pune"
+      ],
+      "domains": [
+        "E-commerce",
+        "Beauty",
+        "Retail"
+      ],
+      "tags": [
+        "Public company",
+        "D2C",
+        "Omnichannel"
+      ],
+      "products": [
+        "Nykaa Beauty",
+        "Nykaa Fashion",
+        "House of Nykaa brands"
+      ],
       "onsitePolicy": "Hybrid — verify on careers page",
       "careersUrl": "https://www.nykaa.com/careers",
       "linkedin": "https://www.linkedin.com/company/nykaa",
       "leadership": [
-        { "name": "Falguni Nayar", "role": "Founder & CEO" }
+        {
+          "name": "Falguni Nayar",
+          "role": "Founder & CEO"
+        }
       ],
       "vision": "Bring inspiration and joy to people everywhere, every day.",
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "Who we are", "url": "https://www.nykaa.com/who_are_we/lp" },
-        { "label": "Board profile", "url": "https://www.nykaa.com/board-of-director-falguni-nayar/lp" },
-        { "label": "Investor relations", "url": "https://www.nykaa.com/investor-relations" },
-        { "label": "Careers", "url": "https://www.nykaa.com/careers" }
+        {
+          "label": "Who we are",
+          "url": "https://www.nykaa.com/who_are_we/lp"
+        },
+        {
+          "label": "Board profile",
+          "url": "https://www.nykaa.com/board-of-director-falguni-nayar/lp"
+        },
+        {
+          "label": "Investor relations",
+          "url": "https://www.nykaa.com/investor-relations"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.nykaa.com/careers"
+        }
       ]
     },
     {
@@ -1333,30 +1720,76 @@
       "website": "https://www.delhivery.com",
       "founded": "2011",
       "hq": "Gurugram, India",
-      "officeCities": ["Gurugram", "Bengaluru", "Mumbai", "Hyderabad", "Chennai", "Kolkata"],
+      "officeCities": [
+        "Gurugram",
+        "Bengaluru",
+        "Mumbai",
+        "Hyderabad",
+        "Chennai",
+        "Kolkata"
+      ],
       "contactUrl": "https://www.delhivery.com/contact-us/",
       "headcountGlobal": "73,477",
       "headcountNote": "Team size at Mar 31, 2026 per Q4 FY26 earnings presentation",
-      "domains": ["Logistics", "Supply chain", "E-commerce enablement"],
-      "tags": ["Public company", "Unicorn"],
-      "products": ["Express parcel", "Part-truckload freight", "Cross-border logistics"],
-      "services": ["Fulfillment", "Warehousing", "Supply chain management"],
+      "domains": [
+        "Logistics",
+        "Supply chain",
+        "E-commerce enablement"
+      ],
+      "tags": [
+        "Public company",
+        "Unicorn"
+      ],
+      "products": [
+        "Express parcel",
+        "Part-truckload freight",
+        "Cross-border logistics"
+      ],
+      "services": [
+        "Fulfillment",
+        "Warehousing",
+        "Supply chain management"
+      ],
       "onsitePolicy": "Hybrid — verify on careers page",
       "careersUrl": "https://www.delhivery.com/careers/",
       "linkedin": "https://www.linkedin.com/company/delhivery",
       "leadership": [
-        { "name": "Sahil Barua", "role": "Founder & CEO" },
-        { "name": "Kapil Bharati", "role": "Co-founder & CTO" },
-        { "name": "Ajith Pai", "role": "COO" }
+        {
+          "name": "Sahil Barua",
+          "role": "Founder & CEO"
+        },
+        {
+          "name": "Kapil Bharati",
+          "role": "Co-founder & CTO"
+        },
+        {
+          "name": "Ajith Pai",
+          "role": "COO"
+        }
       ],
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://www.delhivery.com/about-us/" },
-        { "label": "Annual report FY25", "url": "https://www.delhivery.com/uploads/2025/08/Annual_Report_FY25.pdf" },
-        { "label": "Q4 FY26 earnings presentation", "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c20cfa6-ee7f-4050-82b8-e4a867db7625.pdf" },
-        { "label": "Investor relations", "url": "https://www.delhivery.com/investor-relations/" },
-        { "label": "Careers", "url": "https://www.delhivery.com/careers/" }
+        {
+          "label": "About page",
+          "url": "https://www.delhivery.com/about-us/"
+        },
+        {
+          "label": "Annual report FY25",
+          "url": "https://www.delhivery.com/uploads/2025/08/Annual_Report_FY25.pdf"
+        },
+        {
+          "label": "Q4 FY26 earnings presentation",
+          "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c20cfa6-ee7f-4050-82b8-e4a867db7625.pdf"
+        },
+        {
+          "label": "Investor relations",
+          "url": "https://www.delhivery.com/investor-relations/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.delhivery.com/careers/"
+        }
       ]
     },
     {
@@ -1368,28 +1801,70 @@
       "website": "https://www.ltimindtree.com",
       "founded": "2022",
       "hq": "Mumbai, India",
-      "officeCities": ["Mumbai", "Bengaluru", "Hyderabad", "Pune", "Chennai", "Noida", "Gurugram"],
+      "officeCities": [
+        "Mumbai",
+        "Bengaluru",
+        "Hyderabad",
+        "Pune",
+        "Chennai",
+        "Noida",
+        "Gurugram"
+      ],
       "locationsUrl": "https://www.ltimindtree.com/contact-us/",
       "headcountGlobal": "81,000+",
       "headcountNote": "81,000+ professionals per FY24 integrated annual report CEO message; verify latest on investor relations",
-      "domains": ["IT Services", "Consulting", "Digital engineering"],
-      "tags": ["MNC", "Public company", "L&T Group"],
-      "services": ["Digital transformation", "Cloud", "Data & analytics", "Enterprise applications"],
+      "domains": [
+        "IT Services",
+        "Consulting",
+        "Digital engineering"
+      ],
+      "tags": [
+        "MNC",
+        "Public company",
+        "L&T Group"
+      ],
+      "services": [
+        "Digital transformation",
+        "Cloud",
+        "Data & analytics",
+        "Enterprise applications"
+      ],
       "onsitePolicy": "Client and project dependent; verify on careers page",
       "careersUrl": "https://www.ltimindtree.com/careers/",
       "linkedin": "https://www.linkedin.com/company/ltimindtree",
       "leadership": [
-        { "name": "Debashis Chatterjee", "role": "CEO & MD" },
-        { "name": "Nachiket Deshpande", "role": "COO" }
+        {
+          "name": "Debashis Chatterjee",
+          "role": "CEO & MD"
+        },
+        {
+          "name": "Nachiket Deshpande",
+          "role": "COO"
+        }
       ],
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://www.ltimindtree.com/about-us/" },
-        { "label": "Governance & leadership", "url": "https://www.ltimindtree.com/annual-report-html/governance.html" },
-        { "label": "CEO message (headcount)", "url": "https://www.ltimindtree.com/annual-report-html/ceo-and-manging-director.html" },
-        { "label": "Office locations", "url": "https://www.ltimindtree.com/contact-us/" },
-        { "label": "Careers", "url": "https://www.ltimindtree.com/careers/" }
+        {
+          "label": "About page",
+          "url": "https://www.ltimindtree.com/about-us/"
+        },
+        {
+          "label": "Governance & leadership",
+          "url": "https://www.ltimindtree.com/annual-report-html/governance.html"
+        },
+        {
+          "label": "CEO message (headcount)",
+          "url": "https://www.ltimindtree.com/annual-report-html/ceo-and-manging-director.html"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.ltimindtree.com/contact-us/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.ltimindtree.com/careers/"
+        }
       ]
     },
     {
@@ -1440,7 +1915,8 @@
         "Application development",
         "Cloud",
         "Data & AI"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/cognizant"
     },
     {
       "slug": "amazon-india",
@@ -1480,7 +1956,8 @@
         "Gurugram",
         "Pune"
       ],
-      "careersUrl": "https://www.amazon.jobs/en/locations/india"
+      "careersUrl": "https://www.amazon.jobs/en/locations/india",
+      "linkedin": "https://www.linkedin.com/company/amazon"
     },
     {
       "slug": "google-india",
@@ -1519,7 +1996,8 @@
         "Gurugram",
         "Pune"
       ],
-      "careersUrl": "https://careers.google.com/locations/india/"
+      "careersUrl": "https://careers.google.com/locations/india/",
+      "linkedin": "https://www.linkedin.com/company/google"
     },
     {
       "slug": "microsoft-india",
@@ -1558,7 +2036,8 @@
         "Mumbai",
         "Pune"
       ],
-      "careersUrl": "https://careers.microsoft.com/locations/india/"
+      "careersUrl": "https://careers.microsoft.com/locations/india/",
+      "linkedin": "https://www.linkedin.com/company/microsoft"
     },
     {
       "slug": "postman",
@@ -1599,7 +2078,8 @@
         "Postman API Platform",
         "Postman Flows",
         "Postman Collections"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/postman-platform"
     },
     {
       "slug": "policybazaar",
@@ -1631,7 +2111,8 @@
           "url": "https://www.policybazaar.com/careers/"
         }
       ],
-      "careersUrl": "https://www.policybazaar.com/careers/"
+      "careersUrl": "https://www.policybazaar.com/careers/",
+      "linkedin": "https://www.linkedin.com/company/policybazaar-com"
     },
     {
       "slug": "dream11",
@@ -1662,7 +2143,8 @@
           "url": "https://careers.dreamsports.group/"
         }
       ],
-      "careersUrl": "https://careers.dreamsports.group/"
+      "careersUrl": "https://careers.dreamsports.group/",
+      "linkedin": "https://www.linkedin.com/company/dream11"
     },
     {
       "slug": "bigbasket",
@@ -1693,7 +2175,8 @@
           "url": "https://careers.bigbasket.com/"
         }
       ],
-      "careersUrl": "https://careers.bigbasket.com/"
+      "careersUrl": "https://careers.bigbasket.com/",
+      "linkedin": "https://www.linkedin.com/company/bigbasket-com"
     },
     {
       "slug": "lenskart",
@@ -1725,7 +2208,8 @@
           "url": "https://www.lenskart.com/careers"
         }
       ],
-      "careersUrl": "https://www.lenskart.com/careers"
+      "careersUrl": "https://www.lenskart.com/careers",
+      "linkedin": "https://www.linkedin.com/company/lenskart-com"
     },
     {
       "slug": "unacademy",
@@ -1756,7 +2240,8 @@
           "url": "https://unacademy.com/careers"
         }
       ],
-      "careersUrl": "https://unacademy.com/careers"
+      "careersUrl": "https://unacademy.com/careers",
+      "linkedin": "https://www.linkedin.com/company/unacademy"
     },
     {
       "slug": "byjus",
@@ -1787,7 +2272,8 @@
           "url": "https://byjus.com/careers/"
         }
       ],
-      "careersUrl": "https://byjus.com/careers/"
+      "careersUrl": "https://byjus.com/careers/",
+      "linkedin": "https://www.linkedin.com/company/byjus"
     },
     {
       "slug": "oyo",
@@ -1818,7 +2304,8 @@
           "url": "https://www.oyorooms.com/careers"
         }
       ],
-      "careersUrl": "https://www.oyorooms.com/careers"
+      "careersUrl": "https://www.oyorooms.com/careers",
+      "linkedin": "https://www.linkedin.com/company/oyo-rooms"
     },
     {
       "slug": "myntra",
@@ -1850,7 +2337,8 @@
           "url": "https://www.myntra.com/careers"
         }
       ],
-      "careersUrl": "https://www.myntra.com/careers"
+      "careersUrl": "https://www.myntra.com/careers",
+      "linkedin": "https://www.linkedin.com/company/myntra"
     },
     {
       "slug": "snapdeal",
@@ -1881,7 +2369,8 @@
           "url": "https://careers.snapdeal.com/"
         }
       ],
-      "careersUrl": "https://careers.snapdeal.com/"
+      "careersUrl": "https://careers.snapdeal.com/",
+      "linkedin": "https://www.linkedin.com/company/snapdeal"
     },
     {
       "slug": "chargebee",
@@ -1922,7 +2411,8 @@
       "products": [
         "Chargebee Billing",
         "Chargebee Receivables"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/chargebee"
     },
     {
       "slug": "browserstack",
@@ -1965,7 +2455,8 @@
         "Automate",
         "App Live",
         "Percy"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/browserstack"
     },
     {
       "slug": "clevertap",
@@ -2003,7 +2494,8 @@
       "careersUrl": "https://clevertap.com/careers/",
       "products": [
         "CleverTap Engagement Platform"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/clevertap"
     },
     {
       "slug": "hasura",
@@ -2041,7 +2533,8 @@
       "products": [
         "Hasura GraphQL Engine",
         "Hasura DDN"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/hasura"
     },
     {
       "slug": "moengage",
@@ -2079,7 +2572,8 @@
       "careersUrl": "https://www.moengage.com/careers/",
       "products": [
         "MoEngage Customer Engagement Platform"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/moengage"
     },
     {
       "slug": "darwinbox",
@@ -2118,7 +2612,8 @@
       "careersUrl": "https://darwinbox.com/careers",
       "products": [
         "Darwinbox HRMS"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/darwinbox"
     },
     {
       "slug": "innovaccer",
@@ -2156,7 +2651,8 @@
       "careersUrl": "https://innovaccer.com/careers/",
       "products": [
         "Innovaccer Health Cloud"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/innovaccer"
     },
     {
       "slug": "leadsquared",
@@ -2191,7 +2687,8 @@
       "products": [
         "LeadSquared CRM",
         "LeadSquared Marketing Automation"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/leadsquared"
     },
     {
       "slug": "mphasis",
@@ -2240,7 +2737,8 @@
         "Application development",
         "Cloud",
         "Data & analytics"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/mphasis"
     },
     {
       "slug": "persistent-systems",
@@ -2288,7 +2786,8 @@
         "Product engineering",
         "Cloud",
         "Data & AI"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/persistent-systems"
     },
     {
       "slug": "hexaware",
@@ -2336,7 +2835,8 @@
         "Application services",
         "Cloud transformation",
         "Enterprise platforms"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/hexaware-technologies"
     },
     {
       "slug": "cyient",
@@ -2383,7 +2883,8 @@
         "Engineering design",
         "Network & operations",
         "Digital solutions"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/cyient"
     },
     {
       "slug": "l-t-technology-services",
@@ -2432,7 +2933,8 @@
         "Product engineering",
         "Plant engineering",
         "Digital engineering"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/l&t-technology-services-limited"
     },
     {
       "slug": "accenture-india",
@@ -2482,7 +2984,8 @@
         "Strategy & consulting",
         "Technology",
         "Operations"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/accenture"
     },
     {
       "slug": "ibm-india",
@@ -2527,7 +3030,8 @@
         "Consulting",
         "Hybrid cloud",
         "AI & automation"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/ibm"
     },
     {
       "slug": "oracle-india",
@@ -2570,7 +3074,8 @@
         "Oracle Database",
         "Oracle Cloud Infrastructure",
         "Fusion Applications"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/oracle"
     },
     {
       "slug": "sap-labs-india",
@@ -2612,7 +3117,8 @@
       "products": [
         "SAP S/4HANA",
         "SAP Business Technology Platform"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/sap"
     },
     {
       "slug": "adobe-india",
@@ -2653,7 +3159,8 @@
         "Creative Cloud",
         "Document Cloud",
         "Experience Cloud"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/adobe"
     },
     {
       "slug": "salesforce-india",
@@ -2697,7 +3204,8 @@
         "Service Cloud",
         "Marketing Cloud",
         "Platform"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/salesforce"
     },
     {
       "slug": "uber-india",
@@ -2734,7 +3242,8 @@
         "Hyderabad",
         "Gurugram"
       ],
-      "careersUrl": "https://www.uber.com/in/en/careers/"
+      "careersUrl": "https://www.uber.com/in/en/careers/",
+      "linkedin": "https://www.linkedin.com/company/uber-com"
     },
     {
       "slug": "sharechat",
@@ -2765,7 +3274,8 @@
           "url": "https://sharechat.com/careers"
         }
       ],
-      "careersUrl": "https://sharechat.com/careers"
+      "careersUrl": "https://sharechat.com/careers",
+      "linkedin": "https://www.linkedin.com/company/sharechat"
     },
     {
       "slug": "jupiter",
@@ -2796,7 +3306,8 @@
           "url": "https://jupiter.money/careers/"
         }
       ],
-      "careersUrl": "https://jupiter.money/careers/"
+      "careersUrl": "https://jupiter.money/careers/",
+      "linkedin": "https://www.linkedin.com/company/jupiter-money"
     },
     {
       "slug": "slice",
@@ -2827,7 +3338,8 @@
           "url": "https://slice.it/careers"
         }
       ],
-      "careersUrl": "https://slice.it/careers"
+      "careersUrl": "https://slice.it/careers",
+      "linkedin": "https://www.linkedin.com/company/sliceit"
     },
     {
       "slug": "boat",
@@ -2864,7 +3376,8 @@
         "Audio wearables",
         "Smartwatches",
         "TWS earbuds"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/boat-lifestyle"
     },
     {
       "slug": "mamaearth",
@@ -2896,7 +3409,8 @@
           "url": "https://www.mamaearth.in/pages/careers"
         }
       ],
-      "careersUrl": "https://www.mamaearth.in/pages/careers"
+      "careersUrl": "https://www.mamaearth.in/pages/careers",
+      "linkedin": "https://www.linkedin.com/company/mamaearth"
     },
     {
       "slug": "pharmeasy",
@@ -2927,7 +3441,8 @@
           "url": "https://pharmeasy.in/careers"
         }
       ],
-      "careersUrl": "https://pharmeasy.in/careers"
+      "careersUrl": "https://pharmeasy.in/careers",
+      "linkedin": "https://www.linkedin.com/company/pharmeasy"
     },
     {
       "slug": "urban-company",
@@ -2958,7 +3473,8 @@
           "url": "https://careers.urbancompany.com/"
         }
       ],
-      "careersUrl": "https://careers.urbancompany.com/"
+      "careersUrl": "https://careers.urbancompany.com/",
+      "linkedin": "https://www.linkedin.com/company/urban-company"
     },
     {
       "slug": "rapido",
@@ -2989,7 +3505,8 @@
           "url": "https://www.rapido.bike/careers"
         }
       ],
-      "careersUrl": "https://www.rapido.bike/careers"
+      "careersUrl": "https://www.rapido.bike/careers",
+      "linkedin": "https://www.linkedin.com/company/rapido-bike-taxi"
     },
     {
       "slug": "blackbuck",
@@ -3021,7 +3538,8 @@
           "url": "https://www.blackbuck.com/careers"
         }
       ],
-      "careersUrl": "https://www.blackbuck.com/careers"
+      "careersUrl": "https://www.blackbuck.com/careers",
+      "linkedin": "https://www.linkedin.com/company/blackbuck"
     },
     {
       "slug": "udaan",
@@ -3052,7 +3570,8 @@
           "url": "https://www.udaan.com/careers"
         }
       ],
-      "careersUrl": "https://www.udaan.com/careers"
+      "careersUrl": "https://www.udaan.com/careers",
+      "linkedin": "https://www.linkedin.com/company/udaan-com"
     },
     {
       "slug": "inmobi",
@@ -3092,7 +3611,8 @@
       "products": [
         "InMobi Advertising",
         "Glance"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/inmobi"
     },
     {
       "slug": "genpact",
@@ -3141,7 +3661,8 @@
         "Finance & accounting",
         "Analytics",
         "Digital operations"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/genpact"
     },
     {
       "slug": "exl-service",
@@ -3189,7 +3710,8 @@
         "Analytics & AI",
         "Finance & accounting",
         "Insurance operations"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/exl-service"
     },
     {
       "slug": "coforge",
@@ -3237,7 +3759,8 @@
         "Application development",
         "Cloud",
         "Data & analytics"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/coforge-tech"
     },
     {
       "slug": "happiest-minds",
@@ -3284,7 +3807,8 @@
         "Product engineering",
         "Infrastructure management",
         "Security"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/happiest-minds-technologies"
     },
     {
       "slug": "birlasoft",
@@ -3333,7 +3857,8 @@
         "Cloud",
         "SAP",
         "Digital engineering"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/birlasoft"
     },
     {
       "slug": "zensar",
@@ -3381,7 +3906,8 @@
         "Digital commerce",
         "Cloud",
         "Enterprise applications"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/zensar"
     },
     {
       "slug": "thoughtworks-india",
@@ -3430,7 +3956,8 @@
         "Product development",
         "Data & AI",
         "Platform modernization"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/thoughtworks"
     },
     {
       "slug": "epam-india",
@@ -3479,7 +4006,8 @@
         "Software engineering",
         "Cloud",
         "Data & analytics"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/epam-systems"
     },
     {
       "slug": "nagarro",
@@ -3528,7 +4056,8 @@
         "Product engineering",
         "Cloud",
         "AI & data"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/nagarro"
     },
     {
       "slug": "druva",
@@ -3567,7 +4096,8 @@
       "careersUrl": "https://www.druva.com/company/careers/",
       "products": [
         "Druva Data Resiliency Cloud"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/druva"
     },
     {
       "slug": "icertis",
@@ -3605,7 +4135,8 @@
       "careersUrl": "https://www.icertis.com/company/careers/",
       "products": [
         "Icertis Contract Intelligence Platform"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/icertis"
     },
     {
       "slug": "practo",
@@ -3640,7 +4171,8 @@
       "products": [
         "Practo App",
         "Practo Ray"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/practo"
     },
     {
       "slug": "info-edge",
@@ -3677,7 +4209,8 @@
         "99acres",
         "Jeevansathi",
         "Shiksha.com"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/info-edge-india-ltd"
     },
     {
       "slug": "makemytrip",
@@ -3708,7 +4241,8 @@
           "url": "https://careers.makemytrip.com/"
         }
       ],
-      "careersUrl": "https://careers.makemytrip.com/"
+      "careersUrl": "https://careers.makemytrip.com/",
+      "linkedin": "https://www.linkedin.com/company/makemytrip"
     },
     {
       "slug": "zepto",
@@ -3739,7 +4273,8 @@
           "url": "https://www.zeptonow.com/careers"
         }
       ],
-      "careersUrl": "https://www.zeptonow.com/careers"
+      "careersUrl": "https://www.zeptonow.com/careers",
+      "linkedin": "https://www.linkedin.com/company/zepto-app"
     },
     {
       "slug": "blinkit",
@@ -3770,7 +4305,8 @@
           "url": "https://blinkit.com/careers"
         }
       ],
-      "careersUrl": "https://blinkit.com/careers"
+      "careersUrl": "https://blinkit.com/careers",
+      "linkedin": "https://www.linkedin.com/company/blinkit"
     },
     {
       "slug": "coinswitch",
@@ -3801,7 +4337,8 @@
           "url": "https://coinswitch.co/careers"
         }
       ],
-      "careersUrl": "https://coinswitch.co/careers"
+      "careersUrl": "https://coinswitch.co/careers",
+      "linkedin": "https://www.linkedin.com/company/coinswitch"
     },
     {
       "slug": "coindcx",
@@ -3832,7 +4369,8 @@
           "url": "https://coindcx.com/careers"
         }
       ],
-      "careersUrl": "https://coindcx.com/careers"
+      "careersUrl": "https://coindcx.com/careers",
+      "linkedin": "https://www.linkedin.com/company/coindcx"
     },
     {
       "slug": "bharatpe",
@@ -3863,7 +4401,8 @@
           "url": "https://bharatpe.com/careers"
         }
       ],
-      "careersUrl": "https://bharatpe.com/careers"
+      "careersUrl": "https://bharatpe.com/careers",
+      "linkedin": "https://www.linkedin.com/company/bharatpe"
     },
     {
       "slug": "pine-labs",
@@ -3899,7 +4438,8 @@
         "POS terminals",
         "Pluxee",
         "Merchant platform"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/pine-labs"
     },
     {
       "slug": "khatabook",
@@ -3930,7 +4470,8 @@
           "url": "https://khatabook.com/careers"
         }
       ],
-      "careersUrl": "https://khatabook.com/careers"
+      "careersUrl": "https://khatabook.com/careers",
+      "linkedin": "https://www.linkedin.com/company/khatabook"
     },
     {
       "slug": "apna",
@@ -3961,7 +4502,8 @@
           "url": "https://apna.co/careers"
         }
       ],
-      "careersUrl": "https://apna.co/careers"
+      "careersUrl": "https://apna.co/careers",
+      "linkedin": "https://www.linkedin.com/company/apna-co"
     },
     {
       "slug": "ninjacart",
@@ -3992,7 +4534,8 @@
           "url": "https://www.ninjacart.in/careers"
         }
       ],
-      "careersUrl": "https://www.ninjacart.in/careers"
+      "careersUrl": "https://www.ninjacart.in/careers",
+      "linkedin": "https://www.linkedin.com/company/ninjacart"
     },
     {
       "slug": "mu-sigma",
@@ -4032,7 +4575,8 @@
         "Decision sciences",
         "Analytics",
         "Data engineering"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/mu-sigma-business-analytics"
     },
     {
       "slug": "publicis-sapient",
@@ -4082,7 +4626,8 @@
         "Digital strategy",
         "Product engineering",
         "Experience design"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/publicis-sapient"
     },
     {
       "slug": "globant-india",
@@ -4131,7 +4676,8 @@
         "Software engineering",
         "AI & data",
         "Digital experience"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/globant"
     },
     {
       "slug": "ramco-systems",
@@ -4172,7 +4718,8 @@
         "Ramco Aviation",
         "Ramco HR",
         "Ramco Logistics"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/ramco-systems"
     },
     {
       "slug": "sonata-software",
@@ -4219,7 +4766,8 @@
         "Digital transformation",
         "Cloud",
         "Managed services"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/sonata-software"
     },
     {
       "slug": "mastek",
@@ -4267,7 +4815,8 @@
         "Digital engineering",
         "Cloud",
         "Data & analytics"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/mastek"
     },
     {
       "slug": "firstsource",
@@ -4316,7 +4865,8 @@
         "Customer care",
         "Healthcare services",
         "Collections"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/firstsource-solutions"
     },
     {
       "slug": "wns",
@@ -4366,7 +4916,8 @@
         "Finance & accounting",
         "Research & analytics",
         "Customer experience"
-      ]
+      ],
+      "linkedin": "https://www.linkedin.com/company/wns-global-services"
     },
     {
       "slug": "cardekho",
@@ -4398,7 +4949,8 @@
           "url": "https://careers.cardekho.com/"
         }
       ],
-      "careersUrl": "https://careers.cardekho.com/"
+      "careersUrl": "https://careers.cardekho.com/",
+      "linkedin": "https://www.linkedin.com/company/cardekho-com"
     },
     {
       "slug": "redbus",
@@ -4429,7 +4981,8 @@
           "url": "https://careers.redbus.in/"
         }
       ],
-      "careersUrl": "https://careers.redbus.in/"
+      "careersUrl": "https://careers.redbus.in/",
+      "linkedin": "https://www.linkedin.com/company/redbus-in"
     },
     {
       "slug": "porter",
@@ -4460,7 +5013,8 @@
           "url": "https://porter.in/careers"
         }
       ],
-      "careersUrl": "https://porter.in/careers"
+      "careersUrl": "https://porter.in/careers",
+      "linkedin": "https://www.linkedin.com/company/porter-in"
     },
     {
       "slug": "skyroot-aerospace",
@@ -4491,7 +5045,8 @@
           "url": "https://www.skyroot.in/careers"
         }
       ],
-      "careersUrl": "https://www.skyroot.in/careers"
+      "careersUrl": "https://www.skyroot.in/careers",
+      "linkedin": "https://www.linkedin.com/company/skyroot-aerospace"
     },
     {
       "slug": "agnikul-cosmos",
@@ -4522,7 +5077,8 @@
           "url": "https://www.agnikul.co/careers"
         }
       ],
-      "careersUrl": "https://www.agnikul.co/careers"
+      "careersUrl": "https://www.agnikul.co/careers",
+      "linkedin": "https://www.linkedin.com/company/agnikul-cosmos"
     }
   ]
 }
