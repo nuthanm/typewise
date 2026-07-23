@@ -319,6 +319,12 @@ node_modules/
 # Next.js
 .next/
 out/
+tsconfig.tsbuildinfo
+
+# Ad-hoc URL audit outputs (local only)
+audit-results.json
+audit-progress.txt
+linkedin-diff.txt
 
 # Reference clone (local only)
 _yieldproof-ref/
