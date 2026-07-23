@@ -300,6 +300,50 @@
         { "label": "2025 integrated annual report", "url": "https://reports.capgemini.com/2025/en/" },
         { "label": "Governance & founder (URD 2025)", "url": "https://www.capgemini.com/wp-content/uploads/2026/06/URD-2025_Chapter-2-Governance_UK.pdf" }
       ]
+    },
+    {
+      "slug": "ces",
+      "name": "CES",
+      "category": "service",
+      "tagline": "Technology and business process modernization for global enterprises",
+      "description": "CES Limited is a global provider of technology and business process modernization (BPM) services, delivering IT and ITES solutions including digital transformation, enterprise applications, managed IT, cloud SaaS, and cybersecurity.",
+      "website": "https://cesltd.com",
+      "founded": "1996",
+      "hq": "Hyderabad, India",
+      "officeCities": ["Hyderabad", "Chennai", "Visakhapatnam", "Chicago"],
+      "officeCountries": ["India", "USA", "Canada", "Ireland", "UAE", "Saudi Arabia", "Mexico"],
+      "contactUrl": "https://cesltd.com/contact/",
+      "headcountGlobal": "1,500+",
+      "headcountNote": "Per CES newsroom (Mar 2025) and leadership page; India delivery centers are the largest hiring base",
+      "domains": ["IT Services", "Business Process Management", "Digital transformation"],
+      "tags": ["Public company", "BSE listed", "Global delivery"],
+      "services": [
+        "Digital transformation",
+        "Enterprise application services (SAP, Oracle, Salesforce, Workday)",
+        "Managed IT",
+        "Cloud SaaS",
+        "Cybersecurity",
+        "Finance & accounting BPO"
+      ],
+      "onsitePolicy": "Mix of WFO and location-specific roles — verify on careers page",
+      "careersUrl": "https://cesltd.com/jobs/",
+      "linkedin": "https://www.linkedin.com/company/ces",
+      "leadership": [
+        { "name": "Venkat Davarapalli", "role": "Chairman" },
+        { "name": "Mohan Kancharla", "role": "Promoter & Whole-Time Director" }
+      ],
+      "vision": "Support, modernize, automate, reinforce, and transform enterprise operations through the SMART@CES framework.",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "Company overview", "url": "https://cesltd.com/company/" },
+        { "label": "About CES (newsroom)", "url": "https://cesltd.com/newsroom/ces-limited-unveils-its-new-digital-experience-smart-sleek-and-built-for-whats-next/" },
+        { "label": "Leadership", "url": "https://cesltd.com/leadership/" },
+        { "label": "Office locations", "url": "https://cesltd.com/contact/" },
+        { "label": "Careers", "url": "https://cesltd.com/jobs/" },
+        { "label": "Investor relations", "url": "https://cesltd.com/investors/" },
+        { "label": "Gartner F&A BPO recognition", "url": "https://cesltd.com/newsroom/ces-recognized-as-a-niche-player-in-2024-gartner-magic-quadrant-for-finance-accounting-business-process-outsourcing/" }
+      ]
     }
   ]
 }
