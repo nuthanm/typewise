@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 /**
- * Add missing website, linkedin, careersUrl to companies.json.
- * Uses verified LinkedIn slug mapping; falls back to slug guess.
+ * Apply verified LinkedIn slug mapping and report mismatches.
  */
 import { readFileSync, writeFileSync } from "node:fs";
 
-/** slug -> LinkedIn company path (after /company/) */
-const LINKEDIN_BY_SLUG = {
+/** slug -> verified LinkedIn company path (after /company/) */
+export const LINKEDIN_BY_SLUG = {
   cognizant: "cognizant",
   "amazon-india": "amazon",
   "google-india": "google",
@@ -24,7 +23,7 @@ const LINKEDIN_BY_SLUG = {
   chargebee: "chargebee",
   browserstack: "browserstack",
   clevertap: "clevertap",
-  hasura: "hasurahq",
+  hasura: "hasura",
   moengage: "moengage",
   darwinbox: "darwinbox",
   innovaccer: "innovaccer",
@@ -67,7 +66,7 @@ const LINKEDIN_BY_SLUG = {
   "info-edge": "info-edge-india-ltd",
   makemytrip: "makemytrip",
   zepto: "zepto-app",
-  blinkit: "letsblinkit",
+  blinkit: "blinkit",
   coinswitch: "coinswitch",
   coindcx: "coindcx",
   bharatpe: "bharatpe",
@@ -81,13 +80,40 @@ const LINKEDIN_BY_SLUG = {
   "ramco-systems": "ramco-systems",
   "sonata-software": "sonata-software",
   mastek: "mastek",
-  firstsource: "firstsource-solutions-limited",
+  firstsource: "firstsource-solutions",
   wns: "wns-global-services",
-  cardekho: "cardekhogroup",
+  cardekho: "cardekho-com",
   redbus: "redbus-in",
   porter: "porter-in",
   "skyroot-aerospace": "skyroot-aerospace",
   "agnikul-cosmos": "agnikul-cosmos",
+  razorpay: "razorpay",
+  tcs: "tata-consultancy-services",
+  zoho: "zoho",
+  freshworks: "freshworks",
+  infosys: "infosys",
+  flipkart: "flipkart",
+  kanini: "kanini",
+  inoryasoft: "inoryasoft",
+  capgemini: "capgemini",
+  ces: "ces",
+  deloitte: "deloitte",
+  astrazeneca: "astrazeneca",
+  phonepe: "phonepe",
+  swiggy: "swiggy",
+  wipro: "wipro",
+  zomato: "zomato",
+  paytm: "paytm",
+  hcl: "hcltech",
+  "tech-mahindra": "tech-mahindra",
+  meesho: "meesho",
+  cred: "credapp",
+  ola: "olacabs-com",
+  zerodha: "zerodha",
+  groww: "groww.in",
+  nykaa: "nykaa",
+  delhivery: "delhivery",
+  ltimindtree: "ltimindtree",
 };
 
 function linkedinUrl(slug) {
@@ -95,19 +121,30 @@ function linkedinUrl(slug) {
   return `https://www.linkedin.com/company/${path}`;
 }
 
+function linkedinPath(url) {
+  const m = url?.match(/linkedin\.com\/company\/([^/?#]+)/i);
+  return m?.[1] ?? null;
+}
+
 const filePath = "data/companies.json";
 const data = JSON.parse(readFileSync(filePath, "utf8"));
-let updated = 0;
+const fixes = [];
 
 for (const company of data.companies) {
-  let changed = false;
-  if (!company.linkedin) {
-    company.linkedin = linkedinUrl(company.slug);
-    changed = true;
+  const expected = linkedinUrl(company.slug);
+  const expectedPath = linkedinPath(expected);
+  const currentPath = linkedinPath(company.linkedin);
+
+  if (currentPath !== expectedPath) {
+    fixes.push({
+      slug: company.slug,
+      from: company.linkedin,
+      to: expected,
+    });
+    company.linkedin = expected;
   }
-  if (changed) updated++;
 }
 
 data.catalogUpdated = new Date().toISOString().slice(0, 10);
 writeFileSync(filePath, JSON.stringify(data, null, 2) + "\n");
-console.log(`Updated linkedin for ${updated} companies.`);
+console.log(JSON.stringify({ fixed: fixes.length, fixes }, null, 2));

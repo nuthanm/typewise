@@ -157,7 +157,7 @@ const META = {
   delhivery: {
     website: "https://www.delhivery.com",
     aboutUrl: "https://www.delhivery.com/about-us/",
-    careersUrl: "https://www.delhivery.com/careers/",
+    careersUrl: "https://www.delhivery.com/careers",
     tagline: "Logistics and supply chain platform",
     description: "Delhivery provides parcel delivery, freight, and supply chain services powered by technology across India.",
     hq: "Gurugram, India",
@@ -364,7 +364,7 @@ const META = {
   hasura: {
     website: "https://hasura.io",
     aboutUrl: "https://hasura.io/about/",
-    careersUrl: "https://hasura.io/careers/",
+    careersUrl: "https://promptql.io/careers",
     tagline: "Data access and API platform",
     description: "Hasura builds an open-source engine and cloud platform for instant GraphQL and REST APIs on data sources.",
     hq: "San Francisco, USA / Bengaluru, India",
@@ -602,7 +602,6 @@ const META = {
   boat: {
     website: "https://www.boat-lifestyle.com",
     aboutUrl: "https://www.boat-lifestyle.com/pages/about-us",
-    careersUrl: "https://www.boat-lifestyle.com/pages/careers",
     tagline: "Consumer electronics and audio brand",
     description: "boAt designs and sells audio wearables, smartwatches, and consumer electronics primarily in India.",
     hq: "Gurugram, India",
@@ -652,8 +651,7 @@ const META = {
   },
   blackbuck: {
     website: "https://www.blackbuck.com",
-    aboutUrl: "https://www.blackbuck.com/about-us",
-    careersUrl: "https://www.blackbuck.com/careers",
+    aboutUrl: "https://www.blackbuck.com/about-us.html",
     tagline: "Trucking and logistics platform",
     description: "BlackBuck operates a digital platform connecting shippers with truck operators across India.",
     hq: "Bengaluru, India",
@@ -724,7 +722,7 @@ const META = {
   "happiest-minds": {
     website: "https://www.happiestminds.com",
     aboutUrl: "https://www.happiestminds.com/about-us/",
-    careersUrl: "https://www.happiestminds.com/careers/",
+    careersUrl: "https://careers.happiestminds.com/",
     tagline: "Digital IT services and product engineering",
     description: "Happiest Minds delivers digital transformation, product engineering, and infrastructure management services.",
     hq: "Bengaluru, India",
@@ -776,7 +774,7 @@ const META = {
   "epam-india": {
     website: "https://www.epam.com/in",
     aboutUrl: "https://www.epam.com/about/who-we-are",
-    careersUrl: "https://www.epam.com/careers/india",
+    careersUrl: "https://www.epam.com/careers",
     tagline: "Product engineering and digital platform services",
     description: "EPAM India provides software engineering and digital platform services for global technology clients.",
     hq: "Hyderabad, India",
@@ -878,7 +876,7 @@ const META = {
   coinswitch: {
     website: "https://coinswitch.co",
     aboutUrl: "https://coinswitch.co/about",
-    careersUrl: "https://coinswitch.co/careers",
+    careersUrl: "https://recruiterflow.com/coinswitch/jobs",
     tagline: "Crypto investment platform",
     description: "CoinSwitch offers a platform for buying, selling, and managing cryptocurrency investments in India.",
     hq: "Bengaluru, India",
@@ -888,7 +886,7 @@ const META = {
   coindcx: {
     website: "https://coindcx.com",
     aboutUrl: "https://coindcx.com/about",
-    careersUrl: "https://coindcx.com/careers",
+    careersUrl: "https://careers.coindcx.com/",
     tagline: "Cryptocurrency exchange",
     description: "CoinDCX operates a cryptocurrency exchange and Web3 platform for Indian users.",
     hq: "Mumbai, India",
@@ -898,7 +896,7 @@ const META = {
   bharatpe: {
     website: "https://bharatpe.com",
     aboutUrl: "https://bharatpe.com/about-us",
-    careersUrl: "https://bharatpe.com/careers",
+    careersUrl: "https://bharatpe.com/career",
     tagline: "Merchant payments and lending platform",
     description: "BharatPe provides QR-based payments, POS, and lending products for merchants in India.",
     hq: "New Delhi, India",
@@ -972,14 +970,14 @@ const META = {
     services: ["Digital strategy", "Product engineering", "Experience design"],
   },
   "globant-india": {
-    website: "https://www.globant.com/en/india",
-    aboutUrl: "https://www.globant.com/en/about",
-    careersUrl: "https://www.globant.com/en/careers",
+    website: "https://www.globant.com",
+    aboutUrl: "https://www.globant.com/about",
+    careersUrl: "https://www.globant.com/careers",
     tagline: "Software engineering and digital services",
     description: "Globant India provides software development and digital experience services as part of the global Globant network.",
     hq: "Pune, India",
     officeCities: ["Pune", "Bengaluru", "Hyderabad", "Chennai", "Mumbai"],
-    locationsUrl: "https://www.globant.com/en/contact",
+    locationsUrl: "https://www.globant.com/contact",
     domains: ["Product engineering", "IT Services", "Digital experience"],
     tags: ["MNC", "Public company"],
     services: ["Software engineering", "AI & data", "Digital experience"],
@@ -1089,9 +1087,9 @@ const META = {
     tags: ["Space startup"],
   },
   "agnikul-cosmos": {
-    website: "https://www.agnikul.co",
-    aboutUrl: "https://www.agnikul.co/about",
-    careersUrl: "https://www.agnikul.co/careers",
+    website: "https://www.agnikul.in",
+    aboutUrl: "https://www.agnikul.in/",
+    careersUrl: "https://www.agnikul.in/careers",
     tagline: "Private orbital launch vehicles",
     description: "Agnikul Cosmos builds customizable orbital launch vehicles for small satellites from India.",
     hq: "Chennai, India",
