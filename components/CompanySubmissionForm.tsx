@@ -34,6 +34,7 @@ export function CompanySubmissionForm({ initialSlug }: { initialSlug?: string })
   });
 
   const requestType = useWatch({ control, name: "requestType" });
+  const companyName = useWatch({ control, name: "companyName" });
 
   useEffect(() => {
     setValue("formStartedAt", Date.now());
@@ -133,7 +134,7 @@ export function CompanySubmissionForm({ initialSlug }: { initialSlug?: string })
             ))}
           </select>
           <p className="form-hint">
-            Or type a slug: {slugifyCompanyName(watch("companyName") || "company-name")}
+            Or type a slug: {slugifyCompanyName(companyName || "company-name")}
           </p>
         </div>
       )}
