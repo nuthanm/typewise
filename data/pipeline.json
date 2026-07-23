@@ -4,31 +4,579 @@
       "name": "PhonePe",
       "slug": "phonepe",
       "category": "product",
-      "note": "Checking official About page, careers URL, and product vs service classification"
+      "note": "Digital payments — verify About page, careers URL, and product classification"
     },
     {
       "name": "Swiggy",
       "slug": "swiggy",
       "category": "hybrid",
-      "note": "Reviewing corporate site and leadership pages before publish"
+      "note": "Food delivery + Instamart — review corporate site and tech vs ops split"
     },
     {
       "name": "Wipro",
       "slug": "wipro",
       "category": "service",
-      "note": "Cross-checking annual report headcount with careers page"
-    }
-  ],
-  "unverified": [
+      "note": "Global IT services — cross-check annual report headcount with careers page"
+    },
+    {
+      "name": "Zomato",
+      "slug": "zomato",
+      "category": "hybrid",
+      "note": "Food delivery & Hyperpure — verify leadership and office locations"
+    },
+    {
+      "name": "Paytm",
+      "slug": "paytm",
+      "category": "hybrid",
+      "note": "Payments + financial services — classify product vs service arms"
+    },
+    {
+      "name": "HCLTech",
+      "slug": "hcltech",
+      "category": "service",
+      "note": "IT services & engineering — verify global headcount from investor relations"
+    },
+    {
+      "name": "Tech Mahindra",
+      "slug": "tech-mahindra",
+      "category": "service",
+      "note": "IT services & consulting — check official locations and leadership pages"
+    },
     {
       "name": "Meesho",
       "slug": "meesho",
-      "note": "Community add request — waiting for manual review against official sources"
+      "category": "hybrid",
+      "note": "Social commerce marketplace — verify product engineering vs seller ops"
     },
     {
       "name": "Cred",
       "slug": "cred",
-      "note": "Draft profile exists — sources not yet confirmed on company website"
+      "category": "product",
+      "note": "Fintech app — confirm official About and careers URLs"
+    },
+    {
+      "name": "Ola",
+      "slug": "ola",
+      "category": "hybrid",
+      "note": "Mobility + Ola Electric — separate ride-hailing vs EV product lines"
+    },
+    {
+      "name": "Zerodha",
+      "slug": "zerodha",
+      "category": "product",
+      "note": "Discount broking platform — bootstrapped fintech, verify headcount"
+    },
+    {
+      "name": "Groww",
+      "slug": "groww",
+      "category": "product",
+      "note": "Investment platform — verify official sources and work model"
+    },
+    {
+      "name": "Nykaa",
+      "slug": "nykaa",
+      "category": "hybrid",
+      "note": "Beauty e-commerce — classify tech product vs retail operations"
+    },
+    {
+      "name": "Delhivery",
+      "slug": "delhivery",
+      "category": "hybrid",
+      "note": "Logistics & supply chain — verify tech platform vs delivery network"
+    },
+    {
+      "name": "LTIMindtree",
+      "slug": "ltimindtree",
+      "category": "service",
+      "note": "Post-merger IT services — use official LTIMindtree site for all fields"
+    },
+    {
+      "name": "Cognizant",
+      "slug": "cognizant",
+      "category": "service",
+      "note": "Global IT services with large India delivery — verify Chennai HQ details"
+    },
+    {
+      "name": "Amazon India",
+      "slug": "amazon-india",
+      "category": "hybrid",
+      "note": "E-commerce + AWS India — clarify India-specific careers and offices"
+    },
+    {
+      "name": "Google India",
+      "slug": "google-india",
+      "category": "product",
+      "note": "Alphabet India offices — verify Bengaluru/Hyderabad/Mumbai presence"
+    },
+    {
+      "name": "Microsoft India",
+      "slug": "microsoft-india",
+      "category": "hybrid",
+      "note": "Product R&D + services — verify India development center details"
+    },
+    {
+      "name": "Postman",
+      "slug": "postman",
+      "category": "product",
+      "note": "API platform — India-founded SaaS, verify official leadership page"
+    }
+  ],
+  "unverified": [
+    {
+      "name": "PolicyBazaar",
+      "slug": "policybazaar",
+      "category": "product",
+      "note": "Insurance aggregator — queued for official source verification"
+    },
+    {
+      "name": "Dream11",
+      "slug": "dream11",
+      "category": "product",
+      "note": "Fantasy sports platform — queued for verification"
+    },
+    {
+      "name": "BigBasket",
+      "slug": "bigbasket",
+      "category": "hybrid",
+      "note": "Online grocery — Tata-owned, verify corporate site"
+    },
+    {
+      "name": "Lenskart",
+      "slug": "lenskart",
+      "category": "hybrid",
+      "note": "Eyewear e-commerce + retail — queued for verification"
+    },
+    {
+      "name": "Unacademy",
+      "slug": "unacademy",
+      "category": "product",
+      "note": "Edtech learning platform — queued for verification"
+    },
+    {
+      "name": "BYJU'S",
+      "slug": "byjus",
+      "category": "product",
+      "note": "Edtech — verify current leadership and official About page"
+    },
+    {
+      "name": "OYO",
+      "slug": "oyo",
+      "category": "hybrid",
+      "note": "Hospitality tech — verify India HQ and careers page"
+    },
+    {
+      "name": "Myntra",
+      "slug": "myntra",
+      "category": "hybrid",
+      "note": "Fashion e-commerce (Flipkart group) — verify official sources"
+    },
+    {
+      "name": "Snapdeal",
+      "slug": "snapdeal",
+      "category": "hybrid",
+      "note": "E-commerce marketplace — queued for verification"
+    },
+    {
+      "name": "Chargebee",
+      "slug": "chargebee",
+      "category": "product",
+      "note": "Subscription billing SaaS — Chennai-founded, verify leadership"
+    },
+    {
+      "name": "BrowserStack",
+      "slug": "browserstack",
+      "category": "product",
+      "note": "Testing infrastructure SaaS — verify official About page"
+    },
+    {
+      "name": "CleverTap",
+      "slug": "clevertap",
+      "category": "product",
+      "note": "Customer engagement SaaS — Mumbai-founded"
+    },
+    {
+      "name": "Hasura",
+      "slug": "hasura",
+      "category": "product",
+      "note": "Data API platform — Bengaluru-founded"
+    },
+    {
+      "name": "MoEngage",
+      "slug": "moengage",
+      "category": "product",
+      "note": "Marketing automation SaaS — Bengaluru-founded"
+    },
+    {
+      "name": "Darwinbox",
+      "slug": "darwinbox",
+      "category": "product",
+      "note": "HR tech SaaS — Hyderabad-founded"
+    },
+    {
+      "name": "Innovaccer",
+      "slug": "innovaccer",
+      "category": "product",
+      "note": "Healthcare data platform — verify official sources"
+    },
+    {
+      "name": "LeadSquared",
+      "slug": "leadsquared",
+      "category": "product",
+      "note": "Sales execution CRM — Bengaluru-founded SaaS"
+    },
+    {
+      "name": "Mphasis",
+      "slug": "mphasis",
+      "category": "service",
+      "note": "IT services — verify investor relations headcount"
+    },
+    {
+      "name": "Persistent Systems",
+      "slug": "persistent-systems",
+      "category": "service",
+      "note": "Software product engineering services — verify official site"
+    },
+    {
+      "name": "Hexaware",
+      "slug": "hexaware",
+      "category": "service",
+      "note": "IT services & consulting — verify careers and locations"
+    },
+    {
+      "name": "Cyient",
+      "slug": "cyient",
+      "category": "service",
+      "note": "Engineering services — verify official leadership page"
+    },
+    {
+      "name": "L&T Technology Services",
+      "slug": "l-t-technology-services",
+      "category": "service",
+      "note": "Engineering R&D services — verify investor relations data"
+    },
+    {
+      "name": "Accenture India",
+      "slug": "accenture-india",
+      "category": "service",
+      "note": "Global consulting with major India delivery centers"
+    },
+    {
+      "name": "IBM India",
+      "slug": "ibm-india",
+      "category": "hybrid",
+      "note": "Consulting + software — verify India office and careers pages"
+    },
+    {
+      "name": "Oracle India",
+      "slug": "oracle-india",
+      "category": "product",
+      "note": "Enterprise software — verify India development center details"
+    },
+    {
+      "name": "SAP Labs India",
+      "slug": "sap-labs-india",
+      "category": "product",
+      "note": "Enterprise software R&D — verify Bengaluru lab details"
+    },
+    {
+      "name": "Adobe India",
+      "slug": "adobe-india",
+      "category": "product",
+      "note": "Creative & marketing software — verify Noida/Bengaluru offices"
+    },
+    {
+      "name": "Salesforce India",
+      "slug": "salesforce-india",
+      "category": "product",
+      "note": "CRM platform — verify Hyderabad/Bengaluru presence"
+    },
+    {
+      "name": "Uber India",
+      "slug": "uber-india",
+      "category": "product",
+      "note": "Ride-hailing tech — verify India engineering and ops split"
+    },
+    {
+      "name": "ShareChat",
+      "slug": "sharechat",
+      "category": "product",
+      "note": "Social media platform — verify official About page"
+    },
+    {
+      "name": "Jupiter",
+      "slug": "jupiter",
+      "category": "product",
+      "note": "Neobank — verify official sources and leadership"
+    },
+    {
+      "name": "Slice",
+      "slug": "slice",
+      "category": "product",
+      "note": "Fintech card & payments — queued for verification"
+    },
+    {
+      "name": "boAt",
+      "slug": "boat",
+      "category": "hybrid",
+      "note": "Consumer electronics brand — verify product vs retail ops"
+    },
+    {
+      "name": "Mamaearth",
+      "slug": "mamaearth",
+      "category": "hybrid",
+      "note": "D2C personal care — Honasa Consumer, verify corporate site"
+    },
+    {
+      "name": "PharmEasy",
+      "slug": "pharmeasy",
+      "category": "hybrid",
+      "note": "Online pharmacy — verify official About and careers"
+    },
+    {
+      "name": "Urban Company",
+      "slug": "urban-company",
+      "category": "hybrid",
+      "note": "Home services marketplace — verify tech vs operations split"
+    },
+    {
+      "name": "Rapido",
+      "slug": "rapido",
+      "category": "product",
+      "note": "Bike taxi platform — Bengaluru-founded"
+    },
+    {
+      "name": "BlackBuck",
+      "slug": "blackbuck",
+      "category": "hybrid",
+      "note": "Logistics platform for trucking — verify official sources"
+    },
+    {
+      "name": "Udaan",
+      "slug": "udaan",
+      "category": "hybrid",
+      "note": "B2B trade platform — verify corporate site"
+    },
+    {
+      "name": "InMobi",
+      "slug": "inmobi",
+      "category": "product",
+      "note": "Mobile advertising platform — Bengaluru-founded"
+    },
+    {
+      "name": "Genpact",
+      "slug": "genpact",
+      "category": "service",
+      "note": "Business process & IT services — large India presence"
+    },
+    {
+      "name": "EXL Service",
+      "slug": "exl-service",
+      "category": "service",
+      "note": "Analytics & operations services — verify official headcount"
+    },
+    {
+      "name": "Coforge",
+      "slug": "coforge",
+      "category": "service",
+      "note": "IT services — verify official leadership and locations"
+    },
+    {
+      "name": "Happiest Minds",
+      "slug": "happiest-minds",
+      "category": "service",
+      "note": "Digital IT services — Ashok Soota-founded"
+    },
+    {
+      "name": "Birlasoft",
+      "slug": "birlasoft",
+      "category": "service",
+      "note": "IT services — verify official About page"
+    },
+    {
+      "name": "Zensar",
+      "slug": "zensar",
+      "category": "service",
+      "note": "Digital IT services — RPG Group, verify careers page"
+    },
+    {
+      "name": "Thoughtworks India",
+      "slug": "thoughtworks-india",
+      "category": "hybrid",
+      "note": "Software consultancy + product delivery — verify India offices"
+    },
+    {
+      "name": "EPAM India",
+      "slug": "epam-india",
+      "category": "service",
+      "note": "Product engineering services — verify India delivery centers"
+    },
+    {
+      "name": "Nagarro",
+      "slug": "nagarro",
+      "category": "service",
+      "note": "Digital product engineering — verify official leadership"
+    },
+    {
+      "name": "Druva",
+      "slug": "druva",
+      "category": "product",
+      "note": "Cloud data protection SaaS — Pune-founded"
+    },
+    {
+      "name": "Icertis",
+      "slug": "icertis",
+      "category": "product",
+      "note": "Contract lifecycle management SaaS — Pune-founded"
+    },
+    {
+      "name": "Practo",
+      "slug": "practo",
+      "category": "product",
+      "note": "Healthcare platform — verify official About page"
+    },
+    {
+      "name": "Info Edge",
+      "slug": "info-edge",
+      "category": "product",
+      "note": "Naukri.com, 99acres, Jeevansathi — verify product portfolio"
+    },
+    {
+      "name": "MakeMyTrip",
+      "slug": "makemytrip",
+      "category": "hybrid",
+      "note": "Online travel — verify official leadership and offices"
+    },
+    {
+      "name": "Zepto",
+      "slug": "zepto",
+      "category": "hybrid",
+      "note": "Quick commerce — verify corporate site and classification"
+    },
+    {
+      "name": "Blinkit",
+      "slug": "blinkit",
+      "category": "hybrid",
+      "note": "Quick commerce (Zomato-owned) — verify official sources"
+    },
+    {
+      "name": "CoinSwitch",
+      "slug": "coinswitch",
+      "category": "product",
+      "note": "Crypto investment platform — verify official About page"
+    },
+    {
+      "name": "CoinDCX",
+      "slug": "coindcx",
+      "category": "product",
+      "note": "Crypto exchange — verify official sources"
+    },
+    {
+      "name": "BharatPe",
+      "slug": "bharatpe",
+      "category": "product",
+      "note": "Merchant payments & lending — verify corporate site"
+    },
+    {
+      "name": "Pine Labs",
+      "slug": "pine-labs",
+      "category": "product",
+      "note": "Merchant commerce platform — verify official leadership"
+    },
+    {
+      "name": "Khatabook",
+      "slug": "khatabook",
+      "category": "product",
+      "note": "SMB bookkeeping app — Bengaluru-founded"
+    },
+    {
+      "name": "Apna",
+      "slug": "apna",
+      "category": "product",
+      "note": "Professional networking for blue/grey collar — verify official site"
+    },
+    {
+      "name": "Ninjacart",
+      "slug": "ninjacart",
+      "category": "hybrid",
+      "note": "Agri supply chain platform — verify official sources"
+    },
+    {
+      "name": "Mu Sigma",
+      "slug": "mu-sigma",
+      "category": "hybrid",
+      "note": "Decision sciences & analytics — verify official About page"
+    },
+    {
+      "name": "Publicis Sapient",
+      "slug": "publicis-sapient",
+      "category": "service",
+      "note": "Digital transformation consulting — verify India offices"
+    },
+    {
+      "name": "Globant India",
+      "slug": "globant-india",
+      "category": "service",
+      "note": "Software engineering services — verify India delivery centers"
+    },
+    {
+      "name": "Ramco Systems",
+      "slug": "ramco-systems",
+      "category": "product",
+      "note": "Enterprise software — aviation, HR, logistics ERP"
+    },
+    {
+      "name": "Sonata Software",
+      "slug": "sonata-software",
+      "category": "hybrid",
+      "note": "IT services + own IP products — verify official site"
+    },
+    {
+      "name": "Mastek",
+      "slug": "mastek",
+      "category": "service",
+      "note": "Digital engineering & cloud services — verify careers page"
+    },
+    {
+      "name": "Firstsource",
+      "slug": "firstsource",
+      "category": "service",
+      "note": "BPO & digital services — verify official headcount"
+    },
+    {
+      "name": "WNS",
+      "slug": "wns",
+      "category": "service",
+      "note": "Business process management — verify India operations"
+    },
+    {
+      "name": "CarDekho",
+      "slug": "cardekho",
+      "category": "hybrid",
+      "note": "Auto portal & services — GirnarSoft, verify corporate site"
+    },
+    {
+      "name": "RedBus",
+      "slug": "redbus",
+      "category": "product",
+      "note": "Bus ticketing platform — verify official About page"
+    },
+    {
+      "name": "Porter",
+      "slug": "porter",
+      "category": "hybrid",
+      "note": "Intra-city logistics — verify tech vs fleet operations"
+    },
+    {
+      "name": "Skyroot Aerospace",
+      "slug": "skyroot-aerospace",
+      "category": "product",
+      "note": "Private space launch — verify official leadership page"
+    },
+    {
+      "name": "Agnikul Cosmos",
+      "slug": "agnikul-cosmos",
+      "category": "product",
+      "note": "Private space tech — verify official About page"
     }
   ]
 }

@@ -3,14 +3,15 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import {
-  CATALOG_PROGRESS,
   CATEGORY_COUNTS,
   CATEGORY_LABELS,
+  CATALOG_PROGRESS,
   VERIFIED_COMPANIES,
   type CompanyCategory,
 } from "@/lib/companies";
 import { filterCompanies } from "@/lib/company-search";
 import { CompanyListRowFromEntry, CompanyTileFromEntry } from "@/components/CompanyCard";
+import { AlphabetIndex, groupCompaniesByLetter } from "@/components/AlphabetIndex";
 import { AdSlot } from "@/components/AdSense";
 
 type ViewMode = "tiles" | "list";
@@ -22,10 +23,13 @@ const CATEGORY_OPTIONS: Array<{ id: CompanyCategory | "all"; label: string }> = 
   { id: "hybrid", label: "Hybrid" },
 ];
 
+const hasPipeline =
+  CATALOG_PROGRESS.inProgress + CATALOG_PROGRESS.unverified > 0;
+
 export function CompanyDirectory() {
   const [location, setLocation] = useState("all");
   const [category, setCategory] = useState<CompanyCategory | "all">("all");
-  const [view, setView] = useState<ViewMode>("tiles");
+  const [view, setView] = useState<ViewMode>("list");
 
   const locations = useMemo(() => {
     const set = new Set<string>();
@@ -57,16 +61,31 @@ export function CompanyDirectory() {
     }));
   }, [location, category]);
 
+  const grouped = useMemo(() => groupCompaniesByLetter(results), [results]);
+
+  const availableLetters = useMemo(
+    () => new Set(grouped.map((g) => g.letter)),
+    [grouped],
+  );
+
   return (
     <div className="companies-page">
       <div className="companies-toolbar-sticky">
         <div className="companies-toolbar companies-toolbar-filters-only">
-          <p className="companies-toolbar-hint">
-            Filters below apply to the <strong>{CATEGORY_COUNTS.total} verified</strong> companies in this
-            directory. Header search can also find{" "}
-            <strong>{CATALOG_PROGRESS.inProgress + CATALOG_PROGRESS.unverified}</strong> names still in our
-            verification queue.
-          </p>
+          {!hasPipeline && (
+            <p className="companies-toolbar-hint">
+              Browse <strong>{CATEGORY_COUNTS.total} verified</strong> companies — sorted A–Z.
+              Use the letter rail on the right to jump to any section.
+            </p>
+          )}
+          {hasPipeline && (
+            <p className="companies-toolbar-hint">
+              Filters below apply to the <strong>{CATEGORY_COUNTS.total} verified</strong> companies in this
+              directory. Header search can also find{" "}
+              <strong>{CATALOG_PROGRESS.inProgress + CATALOG_PROGRESS.unverified}</strong> names still in our
+              verification queue.
+            </p>
+          )}
           <div className="companies-toolbar-filters">
             <label className="filter-select-wrap">
               <span className="filter-select-label">Location</span>
@@ -133,22 +152,41 @@ export function CompanyDirectory() {
             Request this company
           </Link>
         </div>
-      ) : view === "tiles" ? (
-        <ul className="company-tile-grid">
-          {results.map((entry) => (
-            <li key={entry.slug}>
-              <CompanyTileFromEntry entry={entry} />
-            </li>
-          ))}
-        </ul>
       ) : (
-        <ul className="company-list">
-          {results.map((entry) => (
-            <li key={entry.slug}>
-              <CompanyListRowFromEntry entry={entry} />
-            </li>
-          ))}
-        </ul>
+        <div className="companies-directory-layout">
+          <div className="companies-directory-main">
+            {grouped.map(({ letter, items }) => (
+              <section
+                key={letter}
+                id={`companies-${letter}`}
+                className="companies-alpha-section"
+                aria-labelledby={`companies-heading-${letter}`}
+              >
+                <h2 id={`companies-heading-${letter}`} className="companies-alpha-letter">
+                  {letter}
+                </h2>
+                {view === "tiles" ? (
+                  <ul className="company-tile-grid">
+                    {items.map((entry) => (
+                      <li key={entry.slug}>
+                        <CompanyTileFromEntry entry={entry} />
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <ul className="company-list">
+                    {items.map((entry) => (
+                      <li key={entry.slug}>
+                        <CompanyListRowFromEntry entry={entry} />
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </section>
+            ))}
+          </div>
+          <AlphabetIndex availableLetters={availableLetters} />
+        </div>
       )}
     </div>
   );

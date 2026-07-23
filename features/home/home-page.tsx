@@ -10,6 +10,7 @@ import {
   VERIFIED_COMPANIES,
 } from "@/lib/companies";
 import { CatalogProgress } from "@/components/CatalogProgress";
+import { CategoryGuide } from "@/components/CategoryGuide";
 import { DataNotice } from "@/components/DataNotice";
 import { VerificationStatusTag } from "@/components/VerificationStatusTag";
 import {
@@ -47,9 +48,11 @@ function categoryClass(category: (typeof VERIFIED_COMPANIES)[number]["category"]
 
 export function HomePage() {
   const featured = VERIFIED_COMPANIES.slice(0, 3);
-  const verifiedPercent = Math.round(
-    (CATALOG_PROGRESS.verified / CATALOG_PROGRESS.totalTracked) * 100,
-  );
+  const hasPipeline =
+    CATALOG_PROGRESS.inProgress + CATALOG_PROGRESS.unverified > 0;
+  const verifiedPercent = hasPipeline
+    ? Math.round((CATALOG_PROGRESS.verified / CATALOG_PROGRESS.totalTracked) * 100)
+    : 100;
 
   return (
     <div className="landing-page">
@@ -92,8 +95,14 @@ export function HomePage() {
             <div className="landing-progress-fill" style={{ width: `${verifiedPercent}%` }} />
           </div>
           <p className="landing-panel-meta">
-            {verifiedPercent}% of {CATALOG_PROGRESS.totalTracked} tracked names are fully published ·{" "}
-            {CATALOG_PROGRESS.inProgress} in progress · {CATALOG_PROGRESS.unverified} awaiting review
+            {hasPipeline ? (
+              <>
+                {verifiedPercent}% of {CATALOG_PROGRESS.totalTracked} tracked names are fully published ·{" "}
+                {CATALOG_PROGRESS.inProgress} in progress · {CATALOG_PROGRESS.unverified} awaiting review
+              </>
+            ) : (
+              <>All {CATALOG_PROGRESS.verified} profiles verified against official sources</>
+            )}
           </p>
           <div className="landing-panel-stats">
             <div>
@@ -115,6 +124,8 @@ export function HomePage() {
           </Link>
         </aside>
       </section>
+
+      <CategoryGuide />
 
       <section className="landing-trust-row" aria-label="How Typewise works">
         {TRUST_PILLARS.map(({ title, body, icon: Icon }) => (

@@ -152,12 +152,15 @@ export function CompanySearchInput({
               </ul>
             </>
           )}
-          <p className="company-search-hint">
-            Directory lists <strong>{CATALOG_PROGRESS.verified} verified</strong> companies.
-            Search also finds <strong>{CATALOG_PROGRESS.inProgress + CATALOG_PROGRESS.unverified}</strong> in
-            our verification queue ({CATALOG_PROGRESS.inProgress} in progress, {CATALOG_PROGRESS.unverified}{" "}
-            awaiting review) — not full profiles yet.
-          </p>
+          {CATALOG_PROGRESS.inProgress + CATALOG_PROGRESS.unverified > 0 && (
+            <p className="company-search-hint">
+              Directory lists <strong>{CATALOG_PROGRESS.verified} verified</strong> companies.
+              Search also finds{" "}
+              <strong>{CATALOG_PROGRESS.inProgress + CATALOG_PROGRESS.unverified}</strong> in our verification
+              queue ({CATALOG_PROGRESS.inProgress} in progress, {CATALOG_PROGRESS.unverified} awaiting review) —
+              not full profiles yet.
+            </p>
+          )}
         </div>
       )}
     </div>

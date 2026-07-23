@@ -803,6 +803,158 @@ body.nav-menu-open {
   color: var(--ink-soft);
 }
 
+.landing-category-guide {
+  display: grid;
+  gap: 1.25rem;
+  padding: 1.35rem 1.4rem;
+  border-radius: 18px;
+  border: 1px solid var(--cream-2);
+  background: var(--white);
+  box-shadow: 0 10px 36px color-mix(in srgb, var(--navy) 5%, transparent);
+}
+
+.landing-category-guide-head h2 {
+  margin: 0.45rem 0 0.35rem;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 1.45rem;
+  color: var(--navy);
+}
+
+.landing-category-guide-head p {
+  margin: 0;
+  max-width: 42rem;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+.landing-category-cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .landing-category-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.landing-category-card {
+  display: grid;
+  gap: 0.45rem;
+  align-content: start;
+  height: 100%;
+  padding: 1rem 1.05rem;
+  border-radius: 14px;
+  border: 1px solid var(--cream-2);
+  background: color-mix(in srgb, var(--cream) 18%, var(--white));
+}
+
+.landing-category-card h3 {
+  margin: 0;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 1.05rem;
+  color: var(--navy);
+}
+
+.landing-category-card > p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+
+.landing-category-example {
+  font-size: 12px !important;
+  color: var(--ink-faint) !important;
+  font-style: italic;
+}
+
+.landing-category-links {
+  margin-top: 0.15rem !important;
+  font-size: 12px !important;
+  font-weight: 700;
+  color: var(--ink-faint) !important;
+}
+
+.landing-category-links a {
+  color: var(--profit);
+  text-decoration: none;
+}
+
+.landing-category-links a:hover {
+  text-decoration: underline;
+}
+
+.landing-classification-panel {
+  padding: 1rem 1.1rem;
+  border-radius: 14px;
+  border: 1px dashed color-mix(in srgb, var(--profit) 28%, var(--cream-2));
+  background: color-mix(in srgb, var(--profit-soft) 22%, var(--white));
+}
+
+.landing-classification-panel h3 {
+  margin: 0 0 0.75rem;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--navy);
+}
+
+.landing-classification-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.65rem;
+}
+
+@media (min-width: 900px) {
+  .landing-classification-steps {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem 1.25rem;
+  }
+}
+
+.landing-classification-steps li {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.landing-classification-steps strong {
+  font-size: 13px;
+  color: var(--navy);
+}
+
+.landing-classification-steps span {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+
+.landing-classification-foot {
+  margin: 0.85rem 0 0;
+  padding-top: 0.75rem;
+  border-top: 1px solid color-mix(in srgb, var(--profit) 15%, var(--cream-2));
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--ink-faint);
+}
+
+.landing-classification-foot a {
+  color: var(--profit);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.landing-classification-foot a:hover {
+  text-decoration: underline;
+}
+
 .landing-section-head {
   display: flex;
   flex-wrap: wrap;
@@ -1120,6 +1272,11 @@ body.nav-menu-open {
   .catalog-stat-row {
     grid-template-columns: 1fr;
   }
+}
+
+.catalog-stat-row-compact {
+  grid-template-columns: 1fr;
+  max-width: 18rem;
 }
 
 .catalog-stat {
@@ -2339,6 +2496,122 @@ body.nav-menu-open {
   .company-list-loc {
     text-align: left;
     max-width: none;
+  }
+}
+
+/* ——— Alphabet directory index ——— */
+
+.companies-directory-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.5rem 1rem;
+  align-items: start;
+}
+
+.companies-directory-main {
+  min-width: 0;
+}
+
+.companies-alpha-section {
+  scroll-margin-top: calc(var(--app-nav-height, 4rem) + 7rem);
+}
+
+.companies-alpha-section + .companies-alpha-section {
+  margin-top: 1.5rem;
+}
+
+.companies-alpha-letter {
+  position: sticky;
+  top: calc(var(--app-nav-height, 4rem) + 6.5rem);
+  z-index: 10;
+  margin: 0 0 0.65rem;
+  padding: 0.35rem 0.5rem;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--profit);
+  background: color-mix(in srgb, var(--cream) 92%, var(--white));
+  border-bottom: 2px solid color-mix(in srgb, var(--profit) 25%, transparent);
+}
+
+.companies-alpha-index {
+  position: sticky;
+  top: calc(var(--app-nav-height, 4rem) + 6.5rem);
+  z-index: 20;
+  align-self: start;
+  padding: 0.35rem 0.2rem;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--white) 85%, var(--cream));
+  border: 1px solid var(--cream-2);
+  box-shadow: 0 4px 16px color-mix(in srgb, var(--navy) 5%, transparent);
+}
+
+.companies-alpha-index ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.companies-alpha-index-btn {
+  display: grid;
+  place-items: center;
+  width: 1.35rem;
+  height: 1.15rem;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  font-size: 9px;
+  font-weight: 800;
+  font-family: inherit;
+  letter-spacing: 0.02em;
+  color: var(--ink-faint);
+  cursor: default;
+  transition: background 0.15s, color 0.15s;
+}
+
+.companies-alpha-index-btn.available {
+  color: var(--profit);
+  cursor: pointer;
+}
+
+.companies-alpha-index-btn.available:hover {
+  background: color-mix(in srgb, var(--profit) 12%, transparent);
+}
+
+.companies-alpha-index-btn.available.active {
+  background: var(--profit);
+  color: var(--white);
+}
+
+.companies-alpha-index-btn.disabled {
+  opacity: 0.28;
+}
+
+@media (max-width: 768px) {
+  .companies-directory-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .companies-alpha-index {
+    position: fixed;
+    right: 0.35rem;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0.25rem 0.15rem;
+    border-radius: 10px;
+    background: color-mix(in srgb, var(--white) 92%, var(--cream));
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 12px color-mix(in srgb, var(--navy) 10%, transparent);
+  }
+
+  .companies-alpha-index-btn {
+    width: 1.25rem;
+    height: 1.05rem;
+    font-size: 8px;
   }
 }
 
