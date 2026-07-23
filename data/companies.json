@@ -1,6 +1,6 @@
 {
   "dataYear": 2026,
-  "catalogUpdated": "2026-07-22",
+  "catalogUpdated": "2026-07-23",
   "disclaimer": "Profiles reflect publicly available information for the stated year. Company details change — always verify on official sites before applying.",
   "companies": [
     {
@@ -215,6 +215,44 @@
           "label": "Company journey (founded, headcount)",
           "url": "https://kanini.com/blog/the-kanini-journey-adding-value-with-intellect-energy-and-integrity/"
         }
+      ]
+    },
+    {
+      "slug": "inoryasoft",
+      "name": "iNoryaSoft",
+      "category": "service",
+      "tagline": "Trusted IT services and custom software solutions for large clients",
+      "description": "iNoryaSoft is a software solutions company serving large clients, with a platform built for the EdTech industry. It delivers application development, cloud, AI/ML, digital marketing, and managed services as a subsidiary of EduMind.",
+      "website": "https://www.inoryasoft.com/",
+      "founded": "2005",
+      "hq": "Chennai, India",
+      "officeCities": ["Chennai"],
+      "contactUrl": "https://www.inoryasoft.com/contact.html",
+      "headcountGlobal": "~40",
+      "headcountNote": "Approximate per LinkedIn company page; verify on official channels",
+      "domains": ["IT Services", "EdTech", "Cloud & AI"],
+      "tags": ["EduMind subsidiary", "ISO certified"],
+      "services": [
+        "Application Development & Support",
+        "Independent Verification & Validation",
+        "Remote Infrastructure Management",
+        "Digital Marketing",
+        "Managed Cloud Services",
+        "AI & ML Services",
+        "Class Monitoring & Tech Support"
+      ],
+      "onsitePolicy": "Chennai office; people-first culture — verify on careers page",
+      "careersUrl": "https://www.inoryasoft.com/careers.html",
+      "linkedin": "https://www.linkedin.com/company/inoryasoft",
+      "vision": "Be flexible, think with a growth mindset; strive to be comfortable being uncomfortable. \"Student First\" mentality in all decisions.",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "in_progress",
+      "sources": [
+        { "label": "Homepage", "url": "https://www.inoryasoft.com/" },
+        { "label": "About page", "url": "https://www.inoryasoft.com/about.html" },
+        { "label": "Careers", "url": "https://www.inoryasoft.com/careers.html" },
+        { "label": "Contact", "url": "https://www.inoryasoft.com/contact.html" },
+        { "label": "LinkedIn (founded, headcount)", "url": "https://www.linkedin.com/company/inoryasoft" }
       ]
     }
   ]
