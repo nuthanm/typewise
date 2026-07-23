@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { AppShell } from "@/components/AppShell";
 import { FormPageHeader, FormPanel } from "@/components/FormLayout";
+import { PipelineQueue } from "@/components/PipelineQueue";
 import { CATALOG_PROGRESS } from "@/lib/companies";
 import { IconCompanies, IconSubmit } from "@/components/PortalIcons";
 
@@ -49,6 +50,8 @@ export default function ComingSoonPage() {
               </li>
             ))}
           </ul>
+
+          <PipelineQueue />
 
           <div className="coming-soon-snapshot" aria-label="Current catalog snapshot">
             <div>
