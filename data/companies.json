@@ -254,6 +254,52 @@
         { "label": "Contact", "url": "https://www.inoryasoft.com/contact.html" },
         { "label": "LinkedIn (founded, headcount)", "url": "https://www.linkedin.com/company/inoryasoft" }
       ]
+    },
+    {
+      "slug": "capgemini",
+      "name": "Capgemini",
+      "category": "service",
+      "tagline": "AI-powered business and technology transformation partner",
+      "description": "Capgemini helps businesses imagine their future and make it real with AI, technology and people. The Group delivers end-to-end consulting, technology, design, engineering, and business operations services to enterprises worldwide.",
+      "website": "https://www.capgemini.com",
+      "founded": "1967",
+      "hq": "Paris, France",
+      "officeCities": ["Bengaluru", "Chennai", "Hyderabad", "Kolkata", "Mumbai", "Noida", "Pune"],
+      "totalOfficeLocations": "50+ countries",
+      "locationsUrl": "https://www.capgemini.com/location/",
+      "headcountIndia": "200,000+",
+      "headcountGlobal": "420,000+",
+      "headcountNote": "Per Capgemini 2025 integrated annual report; global headcount was 423,400 at Dec 31, 2025",
+      "domains": ["IT Services", "Consulting", "Digital transformation"],
+      "tags": ["MNC", "Public company", "Global delivery"],
+      "services": [
+        "Cloud",
+        "Cybersecurity",
+        "Data and artificial intelligence",
+        "Enterprise management",
+        "Intelligent industry",
+        "Sustainable business"
+      ],
+      "onsitePolicy": "Client and project dependent; verify on careers page",
+      "careersUrl": "https://www.capgemini.com/careers/",
+      "linkedin": "https://www.linkedin.com/company/capgemini",
+      "leadership": [
+        { "name": "Serge Kampf", "role": "Founder" },
+        { "name": "Aiman Ezzat", "role": "CEO" },
+        { "name": "Franck Greverie", "role": "Chief Technology & Portfolio Officer" }
+      ],
+      "vision": "Unleashing human energy through technology for an inclusive and sustainable future.",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "About page", "url": "https://www.capgemini.com/about-us/" },
+        { "label": "Who we are", "url": "https://www.capgemini.com/about-us/who-we-are/" },
+        { "label": "Executive committee", "url": "https://www.capgemini.com/about-us/management-and-governance/management-team/" },
+        { "label": "Office locations", "url": "https://www.capgemini.com/location/" },
+        { "label": "Head office (Paris)", "url": "https://www.capgemini.com/contact-us/" },
+        { "label": "2025 integrated annual report", "url": "https://reports.capgemini.com/2025/en/" },
+        { "label": "Governance & founder (URD 2025)", "url": "https://www.capgemini.com/wp-content/uploads/2026/06/URD-2025_Chapter-2-Governance_UK.pdf" }
+      ]
     }
   ]
 }
