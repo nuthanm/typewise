@@ -326,6 +326,9 @@ audit-results.json
 audit-progress.txt
 linkedin-diff.txt
 
+# Enrichment research batches & scratch (merged into data/companies.json)
+data/enrichments/
+
 # Reference clone (local only)
 _yieldproof-ref/
 
