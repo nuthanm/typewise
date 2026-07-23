@@ -10,6 +10,7 @@ export type CompanySearchFilters = {
   query?: string;
   location?: string;
   category?: CompanyCategory | "all";
+  status?: VerificationStatus | "all" | "pipeline";
 };
 
 /** Unified row for directory search — verified profiles and pipeline queue items */
@@ -124,8 +125,18 @@ export function filterCompanyEntries(entries: CompanySearchEntry[], filters: Com
   const q = filters.query?.trim().toLowerCase() ?? "";
   const loc = filters.location?.trim().toLowerCase() ?? "";
   const category = filters.category ?? "all";
+  const status = filters.status ?? "all";
 
   return entries.filter((entry) => {
+    if (status === "pipeline" && entry.verificationStatus === "verified") return false;
+    if (
+      status !== "all" &&
+      status !== "pipeline" &&
+      entry.verificationStatus !== status
+    ) {
+      return false;
+    }
+
     if (category !== "all" && entry.category !== category) return false;
 
     if (loc && loc !== "all") {

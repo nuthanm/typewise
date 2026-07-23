@@ -1663,6 +1663,299 @@ a.catalog-stat-tile.verified .catalog-stat-cta {
   border-top: 1px solid var(--cream-2);
 }
 
+/* Pipeline dashboard (review queue grid) */
+.pipeline-dashboard {
+  display: grid;
+  gap: 1.15rem;
+}
+
+.pipeline-dashboard-head h2 {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 1.15rem;
+  color: var(--navy);
+}
+
+.pipeline-dashboard-head p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+
+.pipeline-stat-row {
+  display: grid;
+  gap: 0.65rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 640px) {
+  .pipeline-stat-row {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.pipeline-stat {
+  display: grid;
+  gap: 0.3rem;
+  align-content: start;
+  min-height: 100%;
+  padding: 0.85rem 0.95rem;
+  border-radius: 14px;
+  border: 1px solid var(--cream-2);
+  background: color-mix(in srgb, var(--cream) 22%, var(--white));
+  text-align: left;
+  font: inherit;
+  color: inherit;
+}
+
+.pipeline-stat.verified {
+  border-color: color-mix(in srgb, var(--gold) 30%, var(--cream-2));
+  background: color-mix(in srgb, var(--gold-soft) 35%, var(--white));
+}
+
+.pipeline-stat.in-progress {
+  border-color: color-mix(in srgb, var(--profit) 22%, var(--cream-2));
+}
+
+.pipeline-stat.total {
+  border-color: color-mix(in srgb, var(--navy) 12%, var(--cream-2));
+  background: color-mix(in srgb, var(--navy) 3%, var(--white));
+}
+
+button.pipeline-stat {
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+button.pipeline-stat:hover {
+  border-color: color-mix(in srgb, var(--profit) 28%, var(--cream-2));
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--navy) 5%, transparent);
+  transform: translateY(-1px);
+}
+
+button.pipeline-stat.active {
+  border-color: var(--profit);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--profit) 18%, transparent);
+}
+
+a.pipeline-stat-link {
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+a.pipeline-stat-link:hover {
+  border-color: color-mix(in srgb, var(--gold) 45%, var(--cream-2));
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--navy) 5%, transparent);
+  transform: translateY(-1px);
+}
+
+.pipeline-stat strong {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 1.65rem;
+  line-height: 1;
+  color: var(--navy);
+}
+
+.pipeline-stat h3 {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--navy);
+}
+
+.pipeline-stat p {
+  margin: 0;
+  font-size: 10px;
+  line-height: 1.4;
+  color: var(--ink-faint);
+}
+
+.pipeline-toolbar {
+  display: grid;
+  gap: 0.75rem;
+  padding: 0.85rem 0.95rem;
+  border-radius: 14px;
+  border: 1px solid var(--cream-2);
+  background: color-mix(in srgb, var(--cream) 15%, var(--white));
+}
+
+@media (min-width: 760px) {
+  .pipeline-toolbar {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+  }
+}
+
+.pipeline-search {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.pipeline-search input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid #d6d0c8;
+  background: var(--white);
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.pipeline-search input:focus {
+  outline: none;
+  border-color: var(--profit);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--profit) 16%, transparent);
+}
+
+.pipeline-toolbar-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.pipeline-results-bar {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink-faint);
+}
+
+.pipeline-grid-wrap {
+  overflow-x: auto;
+  border-radius: 14px;
+  border: 1px solid var(--cream-2);
+  background: var(--white);
+  -webkit-overflow-scrolling: touch;
+}
+
+.pipeline-grid {
+  width: 100%;
+  min-width: 640px;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.pipeline-grid thead {
+  background: color-mix(in srgb, var(--cream) 35%, var(--white));
+  border-bottom: 1px solid var(--cream-2);
+}
+
+.pipeline-grid th {
+  padding: 0.65rem 0.85rem;
+  text-align: left;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+}
+
+.pipeline-grid td {
+  padding: 0.7rem 0.85rem;
+  vertical-align: top;
+  border-bottom: 1px solid var(--cream-2);
+}
+
+.pipeline-grid tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.pipeline-grid-row {
+  transition: background 0.12s ease;
+}
+
+.pipeline-grid-row:hover {
+  background: color-mix(in srgb, var(--profit) 4%, var(--white));
+}
+
+.pipeline-grid-row.status-in_progress {
+  background: color-mix(in srgb, var(--profit) 3%, var(--white));
+}
+
+.pipeline-grid-row.status-unverified {
+  background: color-mix(in srgb, var(--ink-faint) 2%, var(--white));
+}
+
+.pipeline-grid-name a {
+  font-weight: 800;
+  color: var(--navy);
+  text-decoration: none;
+}
+
+.pipeline-grid-name a:hover {
+  color: var(--profit);
+}
+
+.pipeline-grid-note {
+  max-width: 22rem;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--ink-soft);
+}
+
+.pipeline-grid-muted {
+  color: var(--ink-faint);
+}
+
+.pipeline-grid-action {
+  white-space: nowrap;
+  text-align: right;
+}
+
+.pipeline-grid-empty {
+  padding: 2rem 0.85rem !important;
+  text-align: center;
+  color: var(--ink-faint);
+  font-weight: 600;
+}
+
+.pipeline-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem 1rem;
+}
+
+.pipeline-page-btn {
+  padding: 0.45rem 0.85rem;
+  border-radius: 10px;
+  border: 1px solid var(--cream-2);
+  background: var(--white);
+  font-size: 13px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--navy);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.pipeline-page-btn:hover:not(:disabled) {
+  border-color: var(--profit);
+  background: color-mix(in srgb, var(--profit) 6%, var(--white));
+}
+
+.pipeline-page-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.pipeline-page-info {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-faint);
+}
+
+.pipeline-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid var(--cream-2);
+}
+
 
 .company-card h2 {
   font-family: var(--font-fraunces), Georgia, serif;
