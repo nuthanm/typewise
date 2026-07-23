@@ -175,6 +175,7 @@ Run DB migration: [`db/submissions.sql`](db/submissions.sql)
 | `/feedback` | Career research feedback |
 | `/privacy-policy`, `/terms-and-conditions` | Legal |
 | `/api/submissions` | POST handler (server deploy only) |
+| `/api/submissions/queue` | GET pending portal requests for review queue (server deploy only) |
 
 ---
 

@@ -1888,6 +1888,19 @@ a.pipeline-stat-link:hover {
   color: var(--profit);
 }
 
+.pipeline-community-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--navy);
+  background: #eef4ff;
+}
+
 .pipeline-grid-note {
   max-width: 22rem;
   font-size: 12px;

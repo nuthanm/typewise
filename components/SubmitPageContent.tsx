@@ -9,6 +9,7 @@ import { DATA_YEAR } from "@/lib/companies";
 export function SubmitPageContent() {
   const params = useSearchParams();
   const initialSlug = params.get("slug")?.trim() || undefined;
+  const initialCompanyName = params.get("company")?.trim() || undefined;
 
   return (
     <div className="page-narrow">
@@ -24,7 +25,7 @@ export function SubmitPageContent() {
         }
       />
       <FormPanel>
-        <CompanySubmissionForm initialSlug={initialSlug} />
+        <CompanySubmissionForm initialSlug={initialSlug} initialCompanyName={initialCompanyName} />
       </FormPanel>
     </div>
   );

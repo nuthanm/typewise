@@ -21,6 +21,11 @@ export function getSubmitApiUrl() {
   return base ? `${base}/api/submissions` : "/api/submissions";
 }
 
+export function getQueueApiUrl() {
+  const base = getApiBaseUrl();
+  return base ? `${base}/api/submissions/queue` : "/api/submissions/queue";
+}
+
 export function getFeedbackApiUrl() {
   const base = getApiBaseUrl();
   return base ? `${base}/api/feedback` : "/api/feedback";

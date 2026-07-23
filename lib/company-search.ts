@@ -26,6 +26,9 @@ export type CompanySearchEntry = {
   note?: string;
   /** Full profile when verified */
   profile?: CompanyProfile;
+  /** Portal submission not yet merged into pipeline.json */
+  communityRequest?: boolean;
+  submissionId?: string;
 };
 
 export function companyProfileToEntry(company: CompanyProfile): CompanySearchEntry {

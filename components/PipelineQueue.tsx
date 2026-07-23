@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
+  ALL_COMPANY_SLUGS,
   CATALOG_PROGRESS,
   CATALOG_UPDATED,
   CATEGORY_LABELS,
@@ -16,6 +17,8 @@ import {
   pipelineToEntry,
   type CompanySearchEntry,
 } from "@/lib/company-search";
+import { getQueueApiUrl } from "@/lib/site-meta";
+import type { QueueSubmissionItem } from "@/lib/submissions";
 import { VerificationStatusTag } from "@/components/VerificationStatusTag";
 import { IconCompanies, IconSubmit } from "@/components/PortalIcons";
 
@@ -55,6 +58,19 @@ function buildPipelineEntries(): CompanySearchEntry[] {
     ...PIPELINE_IN_PROGRESS.map((item) => pipelineToEntry(item, "in_progress")),
     ...PIPELINE_UNVERIFIED.map((item) => pipelineToEntry(item, "unverified")),
   ].sort((a, b) => a.name.localeCompare(b.name));
+}
+
+function communityToEntry(item: QueueSubmissionItem): CompanySearchEntry {
+  return {
+    slug: item.slug,
+    name: item.name,
+    verificationStatus: "unverified",
+    category: "unknown",
+    note: item.note,
+    tagline: item.note,
+    communityRequest: true,
+    submissionId: item.id,
+  };
 }
 
 type StatTileProps = {
@@ -99,8 +115,36 @@ function StatTile({ label, value, detail, status, active, onClick }: StatTilePro
 }
 
 export function PipelineQueue() {
-  const allEntries = useMemo(() => buildPipelineEntries(), []);
-  const totalInQueue = CATALOG_PROGRESS.inProgress + CATALOG_PROGRESS.unverified;
+  const staticEntries = useMemo(() => buildPipelineEntries(), []);
+  const [communityEntries, setCommunityEntries] = useState<CompanySearchEntry[]>([]);
+
+  useEffect(() => {
+    let active = true;
+
+    void fetch(getQueueApiUrl(), { method: "GET" })
+      .then(async (res) => {
+        if (!res.ok) return null;
+        return (await res.json()) as { ok?: boolean; items?: QueueSubmissionItem[] };
+      })
+      .then((json) => {
+        if (!active || !json?.ok || !json.items?.length) return;
+        setCommunityEntries(json.items.map(communityToEntry));
+      })
+      .catch(() => undefined);
+
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  const allEntries = useMemo(
+    () => [...staticEntries, ...communityEntries].sort((a, b) => a.name.localeCompare(b.name)),
+    [staticEntries, communityEntries],
+  );
+
+  const inProgressCount = allEntries.filter((entry) => entry.verificationStatus === "in_progress").length;
+  const unverifiedCount = allEntries.filter((entry) => entry.verificationStatus === "unverified").length;
+  const totalInQueue = inProgressCount + unverifiedCount;
 
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<CompanyCategory | "all">("all");
@@ -143,6 +187,13 @@ export function PipelineQueue() {
     setPage(1);
   }
 
+  function entryHref(entry: CompanySearchEntry) {
+    if (entry.communityRequest && !ALL_COMPANY_SLUGS.includes(entry.slug)) {
+      return `/submit?company=${encodeURIComponent(entry.name)}`;
+    }
+    return `/companies/${entry.slug}`;
+  }
+
   if (totalInQueue === 0) return null;
 
   return (
@@ -150,8 +201,15 @@ export function PipelineQueue() {
       <div className="pipeline-dashboard-head">
         <h2 id="pipeline-dashboard-title">Review queue</h2>
         <p>
-          {totalInQueue} companies we are tracking before they become verified profiles. Filter,
-          browse, or click a row to see status and suggest official sources.
+          {totalInQueue} companies we are tracking before they become verified profiles.
+          {communityEntries.length > 0 && (
+            <>
+              {" "}
+              Includes <strong>{communityEntries.length}</strong> recent portal{" "}
+              {communityEntries.length === 1 ? "request" : "requests"}.
+            </>
+          )}{" "}
+          Filter, browse, or click a row to see status and suggest official sources.
         </p>
       </div>
 
@@ -164,14 +222,14 @@ export function PipelineQueue() {
         </Link>
         <StatTile
           label="In progress"
-          value={CATALOG_PROGRESS.inProgress}
+          value={inProgressCount}
           status="in_progress"
           active={status === "in_progress"}
           onClick={() => updateStatus(status === "in_progress" ? "all" : "in_progress")}
         />
         <StatTile
           label="Awaiting review"
-          value={CATALOG_PROGRESS.unverified}
+          value={unverifiedCount}
           status="unverified"
           active={status === "unverified"}
           onClick={() => updateStatus(status === "unverified" ? "all" : "unverified")}
@@ -258,9 +316,15 @@ export function PipelineQueue() {
               </tr>
             ) : (
               pageItems.map((entry) => (
-                <tr key={entry.slug} className={`pipeline-grid-row status-${entry.verificationStatus}`}>
+                <tr
+                  key={entry.communityRequest ? `community-${entry.submissionId}` : entry.slug}
+                  className={`pipeline-grid-row status-${entry.verificationStatus}`}
+                >
                   <td className="pipeline-grid-name">
-                    <Link href={`/companies/${entry.slug}`}>{entry.name}</Link>
+                    <Link href={entryHref(entry)}>{entry.name}</Link>
+                    {entry.communityRequest && (
+                      <span className="pipeline-community-badge">Portal request</span>
+                    )}
                   </td>
                   <td>
                     {entry.category !== "unknown" ? (
@@ -276,8 +340,10 @@ export function PipelineQueue() {
                   </td>
                   <td className="pipeline-grid-note">{entry.note ?? entry.tagline ?? "—"}</td>
                   <td className="pipeline-grid-action">
-                    <Link href={`/companies/${entry.slug}`} className="catalog-pipeline-action">
-                      View
+                    <Link href={entryHref(entry)} className="catalog-pipeline-action">
+                      {entry.communityRequest && !ALL_COMPANY_SLUGS.includes(entry.slug)
+                        ? "Details"
+                        : "View"}
                     </Link>
                   </td>
                 </tr>

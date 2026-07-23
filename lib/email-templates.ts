@@ -70,6 +70,7 @@ export function buildAdminEmail(input: SubmissionInput & { id: string }) {
 }
 
 export function buildUserConfirmationEmail(input: SubmissionInput & { id: string }) {
+  const site = getSiteUrl();
   const subject = `We received your ${SITE_NAME} request (${DATA_YEAR} catalog)`;
   const updateLine = input.subscribeToUpdates
     ? "You opted in to email alerts when we add or verify companies — notifications are rolling out soon."
@@ -83,6 +84,9 @@ export function buildUserConfirmationEmail(input: SubmissionInput & { id: string
     `Reference: ${input.id}`,
     "",
     "Our team manually checks every field against official pages before a profile gets the Verified stamp.",
+    input.requestType === "add"
+      ? `Track progress on the review queue: ${getSiteUrl()}/coming-soon`
+      : "",
     updateLine,
     textFooter(),
   ].filter(Boolean).join("\n");
@@ -95,6 +99,7 @@ export function buildUserConfirmationEmail(input: SubmissionInput & { id: string
       <p>We received your request to <strong>${input.requestType === "add" ? "add" : "update"} ${escapeHtml(input.companyName)}</strong> on the ${DATA_YEAR} catalog.</p>
       <p>Reference: <code>${escapeHtml(input.id)}</code></p>
       <p>We manually validate content on official company pages before awarding the <strong>Verified</strong> stamp.</p>
+      ${input.requestType === "add" ? `<p>Track progress on the <a href="${site}/coming-soon" style="color:#0a66c2">review queue</a> while we research your request.</p>` : ""}
       ${input.subscribeToUpdates ? "<p>You opted in to catalog update emails — we will notify you when new verified companies are published.</p>" : ""}
     `,
   );

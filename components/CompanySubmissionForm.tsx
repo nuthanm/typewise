@@ -12,7 +12,13 @@ import { requiresTurnstile, TurnstileField } from "./TurnstileField";
 
 type FormValues = SubmissionInput;
 
-export function CompanySubmissionForm({ initialSlug }: { initialSlug?: string }) {
+export function CompanySubmissionForm({
+  initialSlug,
+  initialCompanyName,
+}: {
+  initialSlug?: string;
+  initialCompanyName?: string;
+}) {
   const [captchaToken, setCaptchaToken] = useState("");
   const [captchaResetKey, setCaptchaResetKey] = useState(0);
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
@@ -29,6 +35,7 @@ export function CompanySubmissionForm({ initialSlug }: { initialSlug?: string })
     defaultValues: {
       requestType: initialSlug ? "edit" : "add",
       companySlug: initialSlug ?? "",
+      companyName: initialCompanyName ?? "",
       acceptPolicy: undefined,
     },
   });
@@ -81,6 +88,12 @@ export function CompanySubmissionForm({ initialSlug }: { initialSlug?: string })
           Thanks — we received your {requestType === "add" ? "add" : "edit"} request. No sign-in is
           required. We will email you if we need more details.
         </p>
+        {requestType === "add" && (
+          <p>
+            Your company will appear on the{" "}
+            <Link href="/coming-soon">review queue</Link> while we verify official sources.
+          </p>
+        )}
         <Link href="/" className="app-btn primary">
           Back to browse
         </Link>
