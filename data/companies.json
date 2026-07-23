@@ -344,6 +344,53 @@
         { "label": "Investor relations", "url": "https://cesltd.com/investors/" },
         { "label": "Gartner F&A BPO recognition", "url": "https://cesltd.com/newsroom/ces-recognized-as-a-niche-player-in-2024-gartner-magic-quadrant-for-finance-accounting-business-process-outsourcing/" }
       ]
+    },
+    {
+      "slug": "deloitte",
+      "name": "Deloitte",
+      "category": "service",
+      "tagline": "Audit, consulting, and professional services",
+      "description": "Deloitte is a global professional services network delivering audit, consulting, financial advisory, risk management, and tax services. In India, Deloitte Touche Tohmatsu India LLP serves clients across the public and private sectors from offices nationwide.",
+      "website": "https://www.deloitte.com/in/en.html",
+      "founded": "1845",
+      "hq": "Mumbai, India",
+      "officeCities": ["Mumbai", "Bengaluru", "Hyderabad", "Gurugram", "Chennai", "Pune", "Kolkata", "Noida"],
+      "totalOfficeLocations": "14 cities",
+      "locationsUrl": "https://www.deloitte.com/in/en/offices.html",
+      "headcountGlobal": "473,000+",
+      "headcountNote": "473,050 professionals globally per FY2025 Global Impact Report; India member firm had 19 offices across 14 cities as of Mar 2025 — verify regional headcount on official channels",
+      "domains": ["Professional services", "Consulting", "Audit & assurance"],
+      "tags": ["MNC", "Big 4", "Global delivery"],
+      "services": [
+        "Audit & assurance",
+        "Consulting",
+        "Financial advisory",
+        "Risk management",
+        "Tax & legal",
+        "Digital transformation"
+      ],
+      "onsitePolicy": "Client and project dependent; verify on careers page",
+      "careersUrl": "https://www.deloitte.com/in/en/careers.html",
+      "linkedin": "https://www.linkedin.com/company/deloitte",
+      "leadership": [
+        { "name": "William Welch Deloitte", "role": "Founder" },
+        { "name": "Joseph B. Ucuzoglu", "role": "Global CEO" },
+        { "name": "Romal Shetty", "role": "CEO, Deloitte South Asia" }
+      ],
+      "vision": "Make an impact that matters for clients, people, and communities.",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "About page", "url": "https://www.deloitte.com/in/en/about.html" },
+        { "label": "India homepage", "url": "https://www.deloitte.com/in/en.html" },
+        { "label": "Office locations", "url": "https://www.deloitte.com/in/en/offices.html" },
+        { "label": "Mumbai HQ office", "url": "https://www.deloitte.com/in/en/offices/mumbai.html" },
+        { "label": "CEO profile (Romal Shetty)", "url": "https://www.deloitte.com/in/en/about/people/profiles.romal-shetty%2B7fd6cd8.html" },
+        { "label": "India office expansion (Mar 2025)", "url": "https://www.deloitte.com/in/en/about/press-room/deloitte-india-opens-new-office-in-lucknow.html" },
+        { "label": "Global headcount (FY2025)", "url": "https://www.deloitte.com/global/en/about/governance/global-impact-report/global-report-people.html" },
+        { "label": "Global CEO & revenue (FY2025)", "url": "https://www.deloitte.com/global/en/about/press-room/global-revenue-announcement.html" },
+        { "label": "Careers", "url": "https://www.deloitte.com/in/en/careers.html" }
+      ]
     }
   ]
 }
