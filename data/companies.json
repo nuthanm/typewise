@@ -391,6 +391,47 @@
         { "label": "Global CEO & revenue (FY2025)", "url": "https://www.deloitte.com/global/en/about/press-room/global-revenue-announcement.html" },
         { "label": "Careers", "url": "https://www.deloitte.com/in/en/careers.html" }
       ]
+    },
+    {
+      "slug": "astrazeneca",
+      "name": "AstraZeneca",
+      "category": "product",
+      "tagline": "Science-led biopharmaceutical company",
+      "description": "AstraZeneca is a global, science-led, patient-focused pharmaceutical business committed to the research, development, and commercialisation of prescription medicines across oncology, bioPharmaceuticals, and rare disease.",
+      "website": "https://www.astrazeneca.com",
+      "founded": "1999",
+      "hq": "Cambridge, United Kingdom",
+      "officeCities": ["Bengaluru", "Chennai", "Mumbai", "Delhi", "Pune", "Hyderabad", "Kolkata"],
+      "officeCountries": ["United Kingdom", "United States", "Sweden", "China", "India"],
+      "totalOfficeLocations": "100+ countries",
+      "locationsUrl": "https://www.astrazeneca.com/content/az-in/our-presence.html",
+      "contactUrl": "https://www.astrazeneca.com/contact-us.html",
+      "headcountIndia": "4,500+",
+      "headcountGlobal": "96,100",
+      "headcountNote": "India figure per careers India; global per Annual Report 2025 — AZPIL and AZIPL operate separately in India",
+      "domains": ["Biopharmaceuticals", "Life sciences", "Healthcare"],
+      "tags": ["MNC", "Public company", "R&D-intensive"],
+      "products": [
+        "Oncology",
+        "BioPharmaceuticals (CVRM & Respiratory)",
+        "Rare disease therapeutics (Alexion)"
+      ],
+      "onsitePolicy": "Hybrid — role and site dependent; verify on careers page",
+      "careersUrl": "https://careers.astrazeneca.com/india",
+      "linkedin": "https://www.linkedin.com/company/astrazeneca",
+      "twitter": "https://twitter.com/astrazeneca",
+      "leadership": [{ "name": "Pascal Soriot", "role": "CEO" }],
+      "vision": "We push the boundaries of science to deliver life-changing medicines.",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "Our company", "url": "https://www.astrazeneca.com/our-company.html" },
+        { "label": "Leadership", "url": "https://www.astrazeneca.com/our-company/leadership.html" },
+        { "label": "India presence", "url": "https://www.astrazeneca.com/content/az-in/our-presence.html" },
+        { "label": "Careers India", "url": "https://careers.astrazeneca.com/india" },
+        { "label": "Annual Report 2025", "url": "https://www.astrazeneca.com/investor-relations/annual-reports/annual-report-2025.html" },
+        { "label": "Contact", "url": "https://www.astrazeneca.com/contact-us.html" }
+      ]
     }
   ]
 }

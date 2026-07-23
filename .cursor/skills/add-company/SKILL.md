@@ -161,7 +161,7 @@ Add the **full profile** to `data/companies.json` → `companies[]` with:
 "verificationStatus": "in_progress"
 ```
 
-If the company was in `data/pipeline.json`, **keep it there** until verified (or remove from `unverified` once draft exists).
+**Remove from `data/pipeline.json`** as soon as the draft is written to `companies.json` — check both `inProgress` and `unverified` arrays and delete the entry matching the slug. The catalog entry replaces the pipeline stub; do not leave duplicates across both files.
 
 Update `catalogUpdated` to today's date.
 
@@ -186,8 +186,8 @@ When user says "verify", "publish", "looks good", or similar:
 
 1. Set `verificationStatus`: `"verified"`
 2. Set `lastVerified` to today
-3. Remove from `data/pipeline.json` (`inProgress` or `unverified`)
-4. Update `catalogUpdated` in `data/companies.json`
+3. Update `catalogUpdated` in `data/companies.json`
+4. Confirm the slug is **not** still in `data/pipeline.json` (should already be removed at draft time)
 5. Confirm: profile live at `/companies/{slug}` with Verified badge
 
 ## Reference profiles
@@ -209,6 +209,7 @@ Copy structure and tone from existing entries in `data/companies.json`:
 - [ ] `onsitePolicy` phrased cautiously ("Hybrid — verify on careers page")
 - [ ] No duplicate URLs across `sources` and quick links (app dedupes automatically)
 - [ ] Slug is unique across catalog + pipeline
+- [ ] Entry removed from `data/pipeline.json` (`inProgress` or `unverified`) once draft exists in `companies.json`
 - [ ] **Leadership:** main founder role uses `"Founder"` (not `"Co-founder"`); CEO/COO/CTO only when officially listed
 - [ ] **Leadership:** roles reflect current titles, not outdated press coverage
 - [ ] **Locations:** `officeCities` lists hiring hubs; HQ stays in `hq` only (not duplicated in cities unless it's also a major office)
