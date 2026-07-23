@@ -1,43 +1,9 @@
 import Link from "next/link";
-import {
-  CATALOG_PROGRESS,
-  CATALOG_UPDATED,
-  CATEGORY_LABELS,
-  PIPELINE_IN_PROGRESS,
-  PIPELINE_UNVERIFIED,
-  type PipelineItem,
-} from "@/lib/companies";
+import { CATALOG_PROGRESS, CATALOG_UPDATED } from "@/lib/companies";
 import { VerificationStatusTag } from "@/components/VerificationStatusTag";
-import { IconEdit } from "@/components/PortalIcons";
-
-function PipelineCard({
-  item,
-  status,
-}: {
-  item: PipelineItem;
-  status: "in_progress" | "unverified";
-}) {
-  return (
-    <li className="catalog-pipeline-card">
-      <div className="catalog-pipeline-card-head">
-        <Link href={`/companies/${item.slug}`}>{item.name}</Link>
-        <VerificationStatusTag status={status} size="sm" />
-      </div>
-      {item.category && (
-        <span className="mini-tag">{CATEGORY_LABELS[item.category]}</span>
-      )}
-      <p>{item.note}</p>
-      <Link href={`/submit?slug=${item.slug}`} className="catalog-pipeline-action">
-        <IconEdit size={14} />
-        Suggest info
-      </Link>
-    </li>
-  );
-}
 
 export function CatalogProgress() {
-  const hasPipeline =
-    PIPELINE_IN_PROGRESS.length + PIPELINE_UNVERIFIED.length > 0;
+  const hasPipeline = CATALOG_PROGRESS.inProgress + CATALOG_PROGRESS.unverified > 0;
   const verifiedPercent = hasPipeline
     ? Math.round((CATALOG_PROGRESS.verified / CATALOG_PROGRESS.totalTracked) * 100)
     : 100;
@@ -86,61 +52,32 @@ export function CatalogProgress() {
       </div>
 
       <div className={`catalog-stat-row${hasPipeline ? "" : " catalog-stat-row-compact"}`}>
-        <article className="catalog-stat verified">
+        <Link href="/companies" className="catalog-stat verified catalog-stat-tile">
           <VerificationStatusTag status="verified" size="sm" />
           <strong>{CATALOG_PROGRESS.verified}</strong>
           <h3>Verified</h3>
           <p>Live with official source links</p>
-        </article>
+          <span className="catalog-stat-cta">Browse directory →</span>
+        </Link>
         {hasPipeline && (
           <>
-            <article className="catalog-stat in-progress">
+            <Link href="/coming-soon" className="catalog-stat in-progress catalog-stat-tile">
               <VerificationStatusTag status="in_progress" size="sm" />
               <strong>{CATALOG_PROGRESS.inProgress}</strong>
               <h3>In progress</h3>
               <p>Being checked on official pages</p>
-            </article>
-            <article className="catalog-stat unverified">
+              <span className="catalog-stat-cta">View queue →</span>
+            </Link>
+            <Link href="/coming-soon" className="catalog-stat unverified catalog-stat-tile">
               <VerificationStatusTag status="unverified" size="sm" />
               <strong>{CATALOG_PROGRESS.unverified}</strong>
               <h3>Awaiting review</h3>
               <p>Not published until validated</p>
-            </article>
+              <span className="catalog-stat-cta">View queue →</span>
+            </Link>
           </>
         )}
       </div>
-
-      {hasPipeline && (
-        <div className="catalog-pipeline-layout">
-          {PIPELINE_IN_PROGRESS.length > 0 && (
-            <section className="catalog-pipeline-column">
-              <div className="catalog-pipeline-column-head">
-                <h3>In progress</h3>
-                <span>{PIPELINE_IN_PROGRESS.length}</span>
-              </div>
-              <ul>
-                {PIPELINE_IN_PROGRESS.map((item) => (
-                  <PipelineCard key={item.slug} item={item} status="in_progress" />
-                ))}
-              </ul>
-            </section>
-          )}
-
-          {PIPELINE_UNVERIFIED.length > 0 && (
-            <section className="catalog-pipeline-column">
-              <div className="catalog-pipeline-column-head">
-                <h3>Awaiting review</h3>
-                <span>{PIPELINE_UNVERIFIED.length}</span>
-              </div>
-              <ul>
-                {PIPELINE_UNVERIFIED.map((item) => (
-                  <PipelineCard key={item.slug} item={item} status="unverified" />
-                ))}
-              </ul>
-            </section>
-          )}
-        </div>
-      )}
 
       <div className="catalog-progress-foot">
         <p>

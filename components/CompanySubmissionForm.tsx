@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
-import { useForm } from "react-hook-form";
+import { useEffect, useState } from "react";
+import { useForm, useWatch } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { FormActions } from "@/components/FormLayout";
 import { COMPANIES, slugifyCompanyName } from "@/lib/companies";
@@ -13,7 +13,6 @@ import { requiresTurnstile, TurnstileField } from "./TurnstileField";
 type FormValues = SubmissionInput;
 
 export function CompanySubmissionForm({ initialSlug }: { initialSlug?: string }) {
-  const formStartedAt = useMemo(() => Date.now(), []);
   const [captchaToken, setCaptchaToken] = useState("");
   const [captchaResetKey, setCaptchaResetKey] = useState(0);
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
@@ -22,7 +21,8 @@ export function CompanySubmissionForm({ initialSlug }: { initialSlug?: string })
   const {
     register,
     handleSubmit,
-    watch,
+    control,
+    setValue,
     formState: { errors },
   } = useForm<FormValues>({
     resolver: zodResolver(submissionSchema),
@@ -33,7 +33,11 @@ export function CompanySubmissionForm({ initialSlug }: { initialSlug?: string })
     },
   });
 
-  const requestType = watch("requestType");
+  const requestType = useWatch({ control, name: "requestType" });
+
+  useEffect(() => {
+    setValue("formStartedAt", Date.now());
+  }, [setValue]);
 
   async function onSubmit(values: FormValues) {
     setStatus("loading");
@@ -53,7 +57,6 @@ export function CompanySubmissionForm({ initialSlug }: { initialSlug?: string })
           ...values,
           turnstileToken: captchaToken || undefined,
           websiteField: values.websiteField,
-          formStartedAt,
         }),
       });
       const json = (await res.json()) as { ok?: boolean; error?: string };
@@ -86,7 +89,7 @@ export function CompanySubmissionForm({ initialSlug }: { initialSlug?: string })
 
   return (
     <form className="app-form" onSubmit={handleSubmit(onSubmit)} noValidate>
-      <input type="hidden" {...register("formStartedAt", { value: formStartedAt })} />
+      <input type="hidden" {...register("formStartedAt")} />
       <div className="hp-field" aria-hidden="true">
         <label htmlFor="websiteField">Website</label>
         <input id="websiteField" tabIndex={-1} autoComplete="off" {...register("websiteField")} />

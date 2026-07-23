@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 
 const CONSENT_KEY = "typewise-cookie-consent";
 
@@ -31,12 +31,29 @@ export function getAdConsent(): ConsentValue | null {
   return readConsent();
 }
 
-export function CookieConsent() {
-  const [visible, setVisible] = useState(false);
+function subscribeToConsent(callback: () => void) {
+  window.addEventListener("typewise-consent-change", callback);
+  window.addEventListener("storage", callback);
+  return () => {
+    window.removeEventListener("typewise-consent-change", callback);
+    window.removeEventListener("storage", callback);
+  };
+}
 
-  useEffect(() => {
-    setVisible(readConsent() === null);
-  }, []);
+function getConsentVisibleSnapshot() {
+  return readConsent() === null;
+}
+
+function getConsentVisibleServerSnapshot() {
+  return false;
+}
+
+export function CookieConsent() {
+  const visible = useSyncExternalStore(
+    subscribeToConsent,
+    getConsentVisibleSnapshot,
+    getConsentVisibleServerSnapshot,
+  );
 
   if (!visible) return null;
 
@@ -49,10 +66,10 @@ export function CookieConsent() {
           <Link href="/privacy-policy">Privacy Policy</Link> for details.
         </p>
         <div className="cookie-consent-actions">
-          <button type="button" className="cookie-consent-btn secondary" onClick={() => { writeConsent("essential"); setVisible(false); }}>
+          <button type="button" className="cookie-consent-btn secondary" onClick={() => writeConsent("essential")}>
             Essential only
           </button>
-          <button type="button" className="cookie-consent-btn primary" onClick={() => { writeConsent("accepted"); setVisible(false); }}>
+          <button type="button" className="cookie-consent-btn primary" onClick={() => writeConsent("accepted")}>
             Accept all
           </button>
         </div>

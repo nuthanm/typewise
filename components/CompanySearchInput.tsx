@@ -135,7 +135,7 @@ export function CompanySearchInput({
                     <p className="company-search-group-label">{group.label}</p>
                     <ul>
                       {group.items.map((entry) => (
-                        <li key={entry.slug} role="option">
+                        <li key={entry.slug} role="option" aria-selected={false}>
                           <Link
                             href={`/companies/${entry.slug}`}
                             className="company-search-option"

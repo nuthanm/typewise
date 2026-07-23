@@ -3,7 +3,7 @@
  * Builds static output for GitHub Pages (no API routes).
  * Temporarily moves app/api aside because static export does not support Route Handlers.
  */
-import { cpSync, existsSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
+import { cpSync, existsSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { spawnSync } from "node:child_process";
 

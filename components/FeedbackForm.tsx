@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { FormActions } from "@/components/FormLayout";
@@ -16,7 +16,6 @@ const HELPED_OPTIONS: Array<{ value: FeedbackInput["helped"]; label: string }> =
 ];
 
 export function FeedbackForm() {
-  const formStartedAt = useMemo(() => Date.now(), []);
   const [captchaToken, setCaptchaToken] = useState("");
   const [captchaResetKey, setCaptchaResetKey] = useState(0);
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
@@ -25,11 +24,16 @@ export function FeedbackForm() {
   const {
     register,
     handleSubmit,
+    setValue,
     formState: { errors },
   } = useForm<FeedbackInput>({
     resolver: zodResolver(feedbackSchema),
     defaultValues: { acceptPolicy: undefined },
   });
+
+  useEffect(() => {
+    setValue("formStartedAt", Date.now());
+  }, [setValue]);
 
   async function onSubmit(values: FeedbackInput) {
     setStatus("loading");
@@ -48,7 +52,6 @@ export function FeedbackForm() {
         body: JSON.stringify({
           ...values,
           turnstileToken: captchaToken || undefined,
-          formStartedAt,
         }),
       });
       const json = (await res.json()) as { ok?: boolean; error?: string };
@@ -78,7 +81,7 @@ export function FeedbackForm() {
 
   return (
     <form className="app-form" onSubmit={handleSubmit(onSubmit)} noValidate>
-      <input type="hidden" {...register("formStartedAt", { value: formStartedAt })} />
+      <input type="hidden" {...register("formStartedAt")} />
       <div className="hp-field" aria-hidden="true">
         <label htmlFor="feedbackWebsiteField">Website</label>
         <input id="feedbackWebsiteField" tabIndex={-1} autoComplete="off" {...register("websiteField")} />
