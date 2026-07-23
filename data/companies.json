@@ -15,20 +15,42 @@
       "headcountIndia": "3,000+",
       "headcountGlobal": "3,000+",
       "headcountNote": "Approximate; verify on LinkedIn or company reports",
-      "domains": ["Fintech", "Payments", "SaaS"],
-      "tags": ["B2B", "Unicorn"],
-      "products": ["Payment Gateway", "RazorpayX", "Razorpay Capital"],
+      "domains": [
+        "Fintech",
+        "Payments",
+        "SaaS"
+      ],
+      "tags": [
+        "B2B",
+        "Unicorn"
+      ],
+      "products": [
+        "Payment Gateway",
+        "RazorpayX",
+        "Razorpay Capital"
+      ],
       "onsitePolicy": "Hybrid — team dependent; verify on careers page",
       "careersUrl": "https://razorpay.com/jobs/",
       "linkedin": "https://www.linkedin.com/company/razorpay",
       "leadership": [
-        { "name": "Harshil Mathur", "role": "CEO & Co-founder" },
-        { "name": "Shashank Kumar", "role": "CTO & Co-founder" }
+        {
+          "name": "Harshil Mathur",
+          "role": "CEO & Co-founder"
+        },
+        {
+          "name": "Shashank Kumar",
+          "role": "CTO & Co-founder"
+        }
       ],
       "vision": "Enable every business in India to accept, process, and disburse payments.",
       "lastVerified": "2026-07-22",
       "verificationStatus": "verified",
-      "sources": [{ "label": "About page", "url": "https://razorpay.com/about/" }]
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://razorpay.com/about/"
+        }
+      ]
     },
     {
       "slug": "tcs",
@@ -39,25 +61,59 @@
       "website": "https://www.tcs.com",
       "founded": "1968",
       "hq": "Mumbai, India",
-      "officeCities": ["Mumbai", "Bengaluru", "Chennai", "Hyderabad", "Pune", "Kolkata", "Noida", "Gurgaon"],
+      "officeCities": [
+        "Mumbai",
+        "Bengaluru",
+        "Chennai",
+        "Hyderabad",
+        "Pune",
+        "Kolkata",
+        "Noida",
+        "Gurgaon"
+      ],
       "totalOfficeLocations": "55 countries",
       "locationsUrl": "https://www.tcs.com/who-we-are/worldwide",
       "headcountGlobal": "600,000+",
       "headcountNote": "Per TCS investor relations / annual report; India majority of workforce",
-      "domains": ["IT Services", "Consulting", "Digital transformation"],
-      "tags": ["Enterprise", "Global delivery"],
-      "services": ["Application development", "Cloud migration", "Managed services"],
+      "domains": [
+        "IT Services",
+        "Consulting",
+        "Digital transformation"
+      ],
+      "tags": [
+        "Enterprise",
+        "Global delivery"
+      ],
+      "services": [
+        "Application development",
+        "Cloud migration",
+        "Managed services"
+      ],
       "onsitePolicy": "Client and project dependent",
       "careersUrl": "https://www.tcs.com/careers",
       "linkedin": "https://www.linkedin.com/company/tata-consultancy-services",
-      "leadership": [{ "name": "K Krithivasan", "role": "CEO & MD" }],
+      "leadership": [
+        {
+          "name": "K Krithivasan",
+          "role": "CEO & MD"
+        }
+      ],
       "vision": "Build greater futures through IT services, consulting, and business solutions.",
       "lastVerified": "2026-07-22",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://www.tcs.com/who-we-are" },
-        { "label": "Worldwide presence", "url": "https://www.tcs.com/who-we-are/worldwide" },
-        { "label": "Investor relations", "url": "https://www.tcs.com/investor-relations" }
+        {
+          "label": "About page",
+          "url": "https://www.tcs.com/who-we-are"
+        },
+        {
+          "label": "Worldwide presence",
+          "url": "https://www.tcs.com/who-we-are/worldwide"
+        },
+        {
+          "label": "Investor relations",
+          "url": "https://www.tcs.com/investor-relations"
+        }
       ]
     },
     {
@@ -69,25 +125,56 @@
       "website": "https://www.zoho.com",
       "founded": "1996",
       "hq": "Chennai, India",
-      "officeCities": ["Chennai", "Bengaluru", "Delhi NCR", "Tenkasi"],
+      "officeCities": [
+        "Chennai",
+        "Bengaluru",
+        "Delhi NCR",
+        "Tenkasi"
+      ],
       "contactUrl": "https://www.zoho.com/contactus.html",
       "headcountGlobal": "15,000+",
       "headcountNote": "Approximate; Zoho is privately held — verify on official channels",
-      "domains": ["SaaS", "CRM", "Productivity"],
-      "tags": ["Bootstrapped", "Product suite"],
-      "products": ["Zoho CRM", "Zoho Books", "Zoho People", "Zoho One"],
+      "domains": [
+        "SaaS",
+        "CRM",
+        "Productivity"
+      ],
+      "tags": [
+        "Bootstrapped",
+        "Product suite"
+      ],
+      "products": [
+        "Zoho CRM",
+        "Zoho Books",
+        "Zoho People",
+        "Zoho One"
+      ],
       "onsitePolicy": "Primarily Chennai campus culture; verify for your role",
       "careersUrl": "https://www.zoho.com/careers/",
       "linkedin": "https://www.linkedin.com/company/zoho",
       "leadership": [
-        { "name": "Sridhar Vembu", "role": "Founder & Chief Scientist" },
-        { "name": "Shailesh Kumar Davey", "role": "Group CEO & Co-founder" },
-        { "name": "Tony Thomas", "role": "Co-founder & CEO, Zoho US" }
+        {
+          "name": "Sridhar Vembu",
+          "role": "Founder & Chief Scientist"
+        },
+        {
+          "name": "Shailesh Kumar Davey",
+          "role": "Group CEO & Co-founder"
+        },
+        {
+          "name": "Tony Thomas",
+          "role": "Co-founder & CEO, Zoho US"
+        }
       ],
       "vision": "Software that helps businesses run smarter without complexity.",
       "lastVerified": "2026-07-22",
       "verificationStatus": "verified",
-      "sources": [{ "label": "About page", "url": "https://www.zoho.com/aboutus.html" }]
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.zoho.com/aboutus.html"
+        }
+      ]
     },
     {
       "slug": "freshworks",
@@ -98,24 +185,54 @@
       "website": "https://www.freshworks.com",
       "founded": "2010",
       "hq": "Chennai, India / San Mateo, US",
-      "officeCities": ["Chennai", "Bengaluru", "Hyderabad", "San Mateo"],
+      "officeCities": [
+        "Chennai",
+        "Bengaluru",
+        "Hyderabad",
+        "San Mateo"
+      ],
       "locationsUrl": "https://www.freshworks.com/company/locations/",
       "headcountGlobal": "5,000+",
       "headcountNote": "Public company — see latest investor filings for exact figures",
-      "domains": ["SaaS", "Customer experience", "ITSM"],
-      "tags": ["Public company", "SMB focus"],
-      "products": ["Freshdesk", "Freshservice", "Freshsales"],
+      "domains": [
+        "SaaS",
+        "Customer experience",
+        "ITSM"
+      ],
+      "tags": [
+        "Public company",
+        "SMB focus"
+      ],
+      "products": [
+        "Freshdesk",
+        "Freshservice",
+        "Freshsales"
+      ],
       "onsitePolicy": "Hybrid — verify on careers page",
       "careersUrl": "https://www.freshworks.com/company/careers/",
       "linkedin": "https://www.linkedin.com/company/freshworks",
-      "leadership": [{ "name": "Dennis Woodside", "role": "CEO" }],
+      "leadership": [
+        {
+          "name": "Dennis Woodside",
+          "role": "CEO"
+        }
+      ],
       "vision": "Delightful, easy-to-use software that teams actually adopt.",
       "lastVerified": "2026-07-22",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://www.freshworks.com/company/" },
-        { "label": "Office locations", "url": "https://www.freshworks.com/company/locations/" },
-        { "label": "Investor relations", "url": "https://ir.freshworks.com/" }
+        {
+          "label": "About page",
+          "url": "https://www.freshworks.com/company/"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.freshworks.com/company/locations/"
+        },
+        {
+          "label": "Investor relations",
+          "url": "https://ir.freshworks.com/"
+        }
       ]
     },
     {
@@ -127,24 +244,57 @@
       "website": "https://www.infosys.com",
       "founded": "1981",
       "hq": "Bengaluru, India",
-      "officeCities": ["Bengaluru", "Pune", "Hyderabad", "Chennai", "Mysuru", "Bhubaneswar", "Mangalore"],
+      "officeCities": [
+        "Bengaluru",
+        "Pune",
+        "Hyderabad",
+        "Chennai",
+        "Mysuru",
+        "Bhubaneswar",
+        "Mangalore"
+      ],
       "locationsUrl": "https://www.infosys.com/contact/country-india.html",
       "headcountGlobal": "320,000+",
       "headcountNote": "Per Infosys investor relations / annual report",
-      "domains": ["IT Services", "Consulting", "Digital transformation"],
-      "tags": ["MNC", "Global accounts"],
-      "services": ["Digital engineering", "Cloud", "Data & AI consulting"],
+      "domains": [
+        "IT Services",
+        "Consulting",
+        "Digital transformation"
+      ],
+      "tags": [
+        "MNC",
+        "Global accounts"
+      ],
+      "services": [
+        "Digital engineering",
+        "Cloud",
+        "Data & AI consulting"
+      ],
       "onsitePolicy": "Hybrid; project and client driven",
       "careersUrl": "https://www.infosys.com/careers",
       "linkedin": "https://www.linkedin.com/company/infosys",
-      "leadership": [{ "name": "Salil Parekh", "role": "CEO & MD" }],
+      "leadership": [
+        {
+          "name": "Salil Parekh",
+          "role": "CEO & MD"
+        }
+      ],
       "vision": "Navigate clients through their digital journey with scale and trust.",
       "lastVerified": "2026-07-22",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://www.infosys.com/about.html" },
-        { "label": "India offices", "url": "https://www.infosys.com/contact/country-india.html" },
-        { "label": "Investor relations", "url": "https://www.infosys.com/investors.html" }
+        {
+          "label": "About page",
+          "url": "https://www.infosys.com/about.html"
+        },
+        {
+          "label": "India offices",
+          "url": "https://www.infosys.com/contact/country-india.html"
+        },
+        {
+          "label": "Investor relations",
+          "url": "https://www.infosys.com/investors.html"
+        }
       ]
     },
     {
@@ -156,22 +306,51 @@
       "website": "https://www.flipkart.com",
       "founded": "2007",
       "hq": "Bengaluru, India",
-      "officeCities": ["Bengaluru", "Hyderabad", "Chennai", "Mumbai", "Delhi NCR"],
+      "officeCities": [
+        "Bengaluru",
+        "Hyderabad",
+        "Chennai",
+        "Mumbai",
+        "Delhi NCR"
+      ],
       "contactUrl": "https://www.flipkart.com/pages/contact-us",
       "headcountIndia": "30,000+",
       "headcountNote": "Approximate; verify on official careers and news releases",
-      "domains": ["E-commerce", "Logistics", "Retail tech"],
-      "tags": ["Walmart group", "Marketplace"],
-      "products": ["Marketplace platform", "Supply chain technology"],
-      "services": ["Seller services", "Logistics (Ekart)"],
+      "domains": [
+        "E-commerce",
+        "Logistics",
+        "Retail tech"
+      ],
+      "tags": [
+        "Walmart group",
+        "Marketplace"
+      ],
+      "products": [
+        "Marketplace platform",
+        "Supply chain technology"
+      ],
+      "services": [
+        "Seller services",
+        "Logistics (Ekart)"
+      ],
       "onsitePolicy": "Hybrid — team dependent",
       "careersUrl": "https://www.flipkartcareers.com/",
       "linkedin": "https://www.linkedin.com/company/flipkart",
-      "leadership": [{ "name": "Kalyan Krishnamurthy", "role": "CEO" }],
+      "leadership": [
+        {
+          "name": "Kalyan Krishnamurthy",
+          "role": "CEO"
+        }
+      ],
       "vision": "Transform commerce in India through technology and customer obsession.",
       "lastVerified": "2026-07-22",
       "verificationStatus": "verified",
-      "sources": [{ "label": "Corporate info", "url": "https://www.flipkart.com/pages/about-us" }]
+      "sources": [
+        {
+          "label": "Corporate info",
+          "url": "https://www.flipkart.com/pages/about-us"
+        }
+      ]
     },
     {
       "slug": "kanini",
@@ -182,13 +361,33 @@
       "website": "https://kanini.com",
       "founded": "2003",
       "hq": "Nashville, USA",
-      "officeCities": ["Chennai", "Coimbatore", "Bengaluru", "Pune"],
-      "officeCountries": ["USA", "India", "Singapore", "UAE", "Australia", "UK", "Ukraine"],
+      "officeCities": [
+        "Chennai",
+        "Coimbatore",
+        "Bengaluru",
+        "Pune"
+      ],
+      "officeCountries": [
+        "USA",
+        "India",
+        "Singapore",
+        "UAE",
+        "Australia",
+        "UK",
+        "Ukraine"
+      ],
       "locationsUrl": "https://kanini.com/contact-us/",
       "headcountGlobal": "750+",
       "headcountNote": "Per KANINI company blog (Aug 2025); India is the largest delivery center",
-      "domains": ["IT Services", "Digital transformation", "AI & Data Analytics"],
-      "tags": ["ServiceNow Partner", "Global delivery"],
+      "domains": [
+        "IT Services",
+        "Digital transformation",
+        "AI & Data Analytics"
+      ],
+      "tags": [
+        "ServiceNow Partner",
+        "Global delivery"
+      ],
       "services": [
         "Product engineering",
         "Data analytics & AI",
@@ -200,17 +399,35 @@
       "linkedin": "https://www.linkedin.com/company/kanini",
       "twitter": "https://twitter.com/kanini_com",
       "leadership": [
-        { "name": "Babu Krishnasamy", "role": "CEO & Founder" },
-        { "name": "Srinivasan Karunakaran", "role": "COO" }
+        {
+          "name": "Babu Krishnasamy",
+          "role": "CEO & Founder"
+        },
+        {
+          "name": "Srinivasan Karunakaran",
+          "role": "COO"
+        }
       ],
       "vision": "Add value to everyone we work with through intellect, energy, and integrity.",
       "lastVerified": "2026-07-22",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://kanini.com/about-us/" },
-        { "label": "Office locations", "url": "https://kanini.com/contact-us/" },
-        { "label": "Leadership", "url": "https://kanini.com/team/" },
-        { "label": "Careers", "url": "https://kanini.com/careers/" },
+        {
+          "label": "About page",
+          "url": "https://kanini.com/about-us/"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://kanini.com/contact-us/"
+        },
+        {
+          "label": "Leadership",
+          "url": "https://kanini.com/team/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://kanini.com/careers/"
+        },
         {
           "label": "Company journey (founded, headcount)",
           "url": "https://kanini.com/blog/the-kanini-journey-adding-value-with-intellect-energy-and-integrity/"
@@ -226,12 +443,21 @@
       "website": "https://www.inoryasoft.com/",
       "founded": "2005",
       "hq": "Chennai, India",
-      "officeCities": ["Chennai"],
+      "officeCities": [
+        "Chennai"
+      ],
       "contactUrl": "https://www.inoryasoft.com/contact.html",
       "headcountGlobal": "~40",
       "headcountNote": "Approximate per LinkedIn company page; verify on official channels",
-      "domains": ["IT Services", "EdTech", "Cloud & AI"],
-      "tags": ["EduMind subsidiary", "ISO certified"],
+      "domains": [
+        "IT Services",
+        "EdTech",
+        "Cloud & AI"
+      ],
+      "tags": [
+        "EduMind subsidiary",
+        "ISO certified"
+      ],
       "services": [
         "Application Development & Support",
         "Independent Verification & Validation",
@@ -248,11 +474,26 @@
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "Homepage", "url": "https://www.inoryasoft.com/" },
-        { "label": "About page", "url": "https://www.inoryasoft.com/about.html" },
-        { "label": "Careers", "url": "https://www.inoryasoft.com/careers.html" },
-        { "label": "Contact", "url": "https://www.inoryasoft.com/contact.html" },
-        { "label": "LinkedIn (founded, headcount)", "url": "https://www.linkedin.com/company/inoryasoft" }
+        {
+          "label": "Homepage",
+          "url": "https://www.inoryasoft.com/"
+        },
+        {
+          "label": "About page",
+          "url": "https://www.inoryasoft.com/about.html"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.inoryasoft.com/careers.html"
+        },
+        {
+          "label": "Contact",
+          "url": "https://www.inoryasoft.com/contact.html"
+        },
+        {
+          "label": "LinkedIn (founded, headcount)",
+          "url": "https://www.linkedin.com/company/inoryasoft"
+        }
       ]
     },
     {
@@ -264,14 +505,30 @@
       "website": "https://www.capgemini.com",
       "founded": "1967",
       "hq": "Paris, France",
-      "officeCities": ["Bengaluru", "Chennai", "Hyderabad", "Kolkata", "Mumbai", "Noida", "Pune"],
+      "officeCities": [
+        "Bengaluru",
+        "Chennai",
+        "Hyderabad",
+        "Kolkata",
+        "Mumbai",
+        "Noida",
+        "Pune"
+      ],
       "totalOfficeLocations": "50+ countries",
       "locationsUrl": "https://www.capgemini.com/location/",
       "headcountIndia": "200,000+",
       "headcountGlobal": "420,000+",
       "headcountNote": "Per Capgemini 2025 integrated annual report; global headcount was 423,400 at Dec 31, 2025",
-      "domains": ["IT Services", "Consulting", "Digital transformation"],
-      "tags": ["MNC", "Public company", "Global delivery"],
+      "domains": [
+        "IT Services",
+        "Consulting",
+        "Digital transformation"
+      ],
+      "tags": [
+        "MNC",
+        "Public company",
+        "Global delivery"
+      ],
       "services": [
         "Cloud",
         "Cybersecurity",
@@ -284,21 +541,51 @@
       "careersUrl": "https://www.capgemini.com/careers/",
       "linkedin": "https://www.linkedin.com/company/capgemini",
       "leadership": [
-        { "name": "Serge Kampf", "role": "Founder" },
-        { "name": "Aiman Ezzat", "role": "CEO" },
-        { "name": "Franck Greverie", "role": "Chief Technology & Portfolio Officer" }
+        {
+          "name": "Serge Kampf",
+          "role": "Founder"
+        },
+        {
+          "name": "Aiman Ezzat",
+          "role": "CEO"
+        },
+        {
+          "name": "Franck Greverie",
+          "role": "Chief Technology & Portfolio Officer"
+        }
       ],
       "vision": "Unleashing human energy through technology for an inclusive and sustainable future.",
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://www.capgemini.com/about-us/" },
-        { "label": "Who we are", "url": "https://www.capgemini.com/about-us/who-we-are/" },
-        { "label": "Executive committee", "url": "https://www.capgemini.com/about-us/management-and-governance/management-team/" },
-        { "label": "Office locations", "url": "https://www.capgemini.com/location/" },
-        { "label": "Head office (Paris)", "url": "https://www.capgemini.com/contact-us/" },
-        { "label": "2025 integrated annual report", "url": "https://reports.capgemini.com/2025/en/" },
-        { "label": "Governance & founder (URD 2025)", "url": "https://www.capgemini.com/wp-content/uploads/2026/06/URD-2025_Chapter-2-Governance_UK.pdf" }
+        {
+          "label": "About page",
+          "url": "https://www.capgemini.com/about-us/"
+        },
+        {
+          "label": "Who we are",
+          "url": "https://www.capgemini.com/about-us/who-we-are/"
+        },
+        {
+          "label": "Executive committee",
+          "url": "https://www.capgemini.com/about-us/management-and-governance/management-team/"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.capgemini.com/location/"
+        },
+        {
+          "label": "Head office (Paris)",
+          "url": "https://www.capgemini.com/contact-us/"
+        },
+        {
+          "label": "2025 integrated annual report",
+          "url": "https://reports.capgemini.com/2025/en/"
+        },
+        {
+          "label": "Governance & founder (URD 2025)",
+          "url": "https://www.capgemini.com/wp-content/uploads/2026/06/URD-2025_Chapter-2-Governance_UK.pdf"
+        }
       ]
     },
     {
@@ -310,13 +597,34 @@
       "website": "https://cesltd.com",
       "founded": "1996",
       "hq": "Hyderabad, India",
-      "officeCities": ["Hyderabad", "Chennai", "Visakhapatnam", "Chicago"],
-      "officeCountries": ["India", "USA", "Canada", "Ireland", "UAE", "Saudi Arabia", "Mexico"],
+      "officeCities": [
+        "Hyderabad",
+        "Chennai",
+        "Visakhapatnam",
+        "Chicago"
+      ],
+      "officeCountries": [
+        "India",
+        "USA",
+        "Canada",
+        "Ireland",
+        "UAE",
+        "Saudi Arabia",
+        "Mexico"
+      ],
       "contactUrl": "https://cesltd.com/contact/",
       "headcountGlobal": "1,500+",
       "headcountNote": "Per CES newsroom (Mar 2025) and leadership page; India delivery centers are the largest hiring base",
-      "domains": ["IT Services", "Business Process Management", "Digital transformation"],
-      "tags": ["Public company", "BSE listed", "Global delivery"],
+      "domains": [
+        "IT Services",
+        "Business Process Management",
+        "Digital transformation"
+      ],
+      "tags": [
+        "Public company",
+        "BSE listed",
+        "Global delivery"
+      ],
       "services": [
         "Digital transformation",
         "Enterprise application services (SAP, Oracle, Salesforce, Workday)",
@@ -329,20 +637,47 @@
       "careersUrl": "https://cesltd.com/jobs/",
       "linkedin": "https://www.linkedin.com/company/ces",
       "leadership": [
-        { "name": "Venkat Davarapalli", "role": "Chairman" },
-        { "name": "Mohan Kancharla", "role": "Promoter & Whole-Time Director" }
+        {
+          "name": "Venkat Davarapalli",
+          "role": "Chairman"
+        },
+        {
+          "name": "Mohan Kancharla",
+          "role": "Promoter & Whole-Time Director"
+        }
       ],
       "vision": "Support, modernize, automate, reinforce, and transform enterprise operations through the SMART@CES framework.",
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "Company overview", "url": "https://cesltd.com/company/" },
-        { "label": "About CES (newsroom)", "url": "https://cesltd.com/newsroom/ces-limited-unveils-its-new-digital-experience-smart-sleek-and-built-for-whats-next/" },
-        { "label": "Leadership", "url": "https://cesltd.com/leadership/" },
-        { "label": "Office locations", "url": "https://cesltd.com/contact/" },
-        { "label": "Careers", "url": "https://cesltd.com/jobs/" },
-        { "label": "Investor relations", "url": "https://cesltd.com/investors/" },
-        { "label": "Gartner F&A BPO recognition", "url": "https://cesltd.com/newsroom/ces-recognized-as-a-niche-player-in-2024-gartner-magic-quadrant-for-finance-accounting-business-process-outsourcing/" }
+        {
+          "label": "Company overview",
+          "url": "https://cesltd.com/company/"
+        },
+        {
+          "label": "About CES (newsroom)",
+          "url": "https://cesltd.com/newsroom/ces-limited-unveils-its-new-digital-experience-smart-sleek-and-built-for-whats-next/"
+        },
+        {
+          "label": "Leadership",
+          "url": "https://cesltd.com/leadership/"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://cesltd.com/contact/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://cesltd.com/jobs/"
+        },
+        {
+          "label": "Investor relations",
+          "url": "https://cesltd.com/investors/"
+        },
+        {
+          "label": "Gartner F&A BPO recognition",
+          "url": "https://cesltd.com/newsroom/ces-recognized-as-a-niche-player-in-2024-gartner-magic-quadrant-for-finance-accounting-business-process-outsourcing/"
+        }
       ]
     },
     {
@@ -354,13 +689,30 @@
       "website": "https://www.deloitte.com/in/en.html",
       "founded": "1845",
       "hq": "Mumbai, India",
-      "officeCities": ["Mumbai", "Bengaluru", "Hyderabad", "Gurugram", "Chennai", "Pune", "Kolkata", "Noida"],
+      "officeCities": [
+        "Mumbai",
+        "Bengaluru",
+        "Hyderabad",
+        "Gurugram",
+        "Chennai",
+        "Pune",
+        "Kolkata",
+        "Noida"
+      ],
       "totalOfficeLocations": "14 cities",
       "locationsUrl": "https://www.deloitte.com/in/en/offices.html",
       "headcountGlobal": "473,000+",
       "headcountNote": "473,050 professionals globally per FY2025 Global Impact Report; India member firm had 19 offices across 14 cities as of Mar 2025 — verify regional headcount on official channels",
-      "domains": ["Professional services", "Consulting", "Audit & assurance"],
-      "tags": ["MNC", "Big 4", "Global delivery"],
+      "domains": [
+        "Professional services",
+        "Consulting",
+        "Audit & assurance"
+      ],
+      "tags": [
+        "MNC",
+        "Big 4",
+        "Global delivery"
+      ],
       "services": [
         "Audit & assurance",
         "Consulting",
@@ -373,23 +725,59 @@
       "careersUrl": "https://www.deloitte.com/in/en/careers.html",
       "linkedin": "https://www.linkedin.com/company/deloitte",
       "leadership": [
-        { "name": "William Welch Deloitte", "role": "Founder" },
-        { "name": "Joseph B. Ucuzoglu", "role": "Global CEO" },
-        { "name": "Romal Shetty", "role": "CEO, Deloitte South Asia" }
+        {
+          "name": "William Welch Deloitte",
+          "role": "Founder"
+        },
+        {
+          "name": "Joseph B. Ucuzoglu",
+          "role": "Global CEO"
+        },
+        {
+          "name": "Romal Shetty",
+          "role": "CEO, Deloitte South Asia"
+        }
       ],
       "vision": "Make an impact that matters for clients, people, and communities.",
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "About page", "url": "https://www.deloitte.com/in/en/about.html" },
-        { "label": "India homepage", "url": "https://www.deloitte.com/in/en.html" },
-        { "label": "Office locations", "url": "https://www.deloitte.com/in/en/offices.html" },
-        { "label": "Mumbai HQ office", "url": "https://www.deloitte.com/in/en/offices/mumbai.html" },
-        { "label": "CEO profile (Romal Shetty)", "url": "https://www.deloitte.com/in/en/about/people/profiles.romal-shetty%2B7fd6cd8.html" },
-        { "label": "India office expansion (Mar 2025)", "url": "https://www.deloitte.com/in/en/about/press-room/deloitte-india-opens-new-office-in-lucknow.html" },
-        { "label": "Global headcount (FY2025)", "url": "https://www.deloitte.com/global/en/about/governance/global-impact-report/global-report-people.html" },
-        { "label": "Global CEO & revenue (FY2025)", "url": "https://www.deloitte.com/global/en/about/press-room/global-revenue-announcement.html" },
-        { "label": "Careers", "url": "https://www.deloitte.com/in/en/careers.html" }
+        {
+          "label": "About page",
+          "url": "https://www.deloitte.com/in/en/about.html"
+        },
+        {
+          "label": "India homepage",
+          "url": "https://www.deloitte.com/in/en.html"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.deloitte.com/in/en/offices.html"
+        },
+        {
+          "label": "Mumbai HQ office",
+          "url": "https://www.deloitte.com/in/en/offices/mumbai.html"
+        },
+        {
+          "label": "CEO profile (Romal Shetty)",
+          "url": "https://www.deloitte.com/in/en/about/people/profiles.romal-shetty%2B7fd6cd8.html"
+        },
+        {
+          "label": "India office expansion (Mar 2025)",
+          "url": "https://www.deloitte.com/in/en/about/press-room/deloitte-india-opens-new-office-in-lucknow.html"
+        },
+        {
+          "label": "Global headcount (FY2025)",
+          "url": "https://www.deloitte.com/global/en/about/governance/global-impact-report/global-report-people.html"
+        },
+        {
+          "label": "Global CEO & revenue (FY2025)",
+          "url": "https://www.deloitte.com/global/en/about/press-room/global-revenue-announcement.html"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.deloitte.com/in/en/careers.html"
+        }
       ]
     },
     {
@@ -401,16 +789,38 @@
       "website": "https://www.astrazeneca.com",
       "founded": "1999",
       "hq": "Cambridge, United Kingdom",
-      "officeCities": ["Bengaluru", "Chennai", "Mumbai", "Delhi", "Pune", "Hyderabad", "Kolkata"],
-      "officeCountries": ["United Kingdom", "United States", "Sweden", "China", "India"],
+      "officeCities": [
+        "Bengaluru",
+        "Chennai",
+        "Mumbai",
+        "Delhi",
+        "Pune",
+        "Hyderabad",
+        "Kolkata"
+      ],
+      "officeCountries": [
+        "United Kingdom",
+        "United States",
+        "Sweden",
+        "China",
+        "India"
+      ],
       "totalOfficeLocations": "100+ countries",
       "locationsUrl": "https://www.astrazeneca.com/content/az-in/our-presence.html",
       "contactUrl": "https://www.astrazeneca.com/contact-us.html",
       "headcountIndia": "4,500+",
       "headcountGlobal": "96,100",
       "headcountNote": "India figure per careers India; global per Annual Report 2025 — AZPIL and AZIPL operate separately in India",
-      "domains": ["Biopharmaceuticals", "Life sciences", "Healthcare"],
-      "tags": ["MNC", "Public company", "R&D-intensive"],
+      "domains": [
+        "Biopharmaceuticals",
+        "Life sciences",
+        "Healthcare"
+      ],
+      "tags": [
+        "MNC",
+        "Public company",
+        "R&D-intensive"
+      ],
       "products": [
         "Oncology",
         "BioPharmaceuticals (CVRM & Respiratory)",
@@ -420,18 +830,3699 @@
       "careersUrl": "https://careers.astrazeneca.com/india",
       "linkedin": "https://www.linkedin.com/company/astrazeneca",
       "twitter": "https://twitter.com/astrazeneca",
-      "leadership": [{ "name": "Pascal Soriot", "role": "CEO" }],
+      "leadership": [
+        {
+          "name": "Pascal Soriot",
+          "role": "CEO"
+        }
+      ],
       "vision": "We push the boundaries of science to deliver life-changing medicines.",
       "lastVerified": "2026-07-23",
       "verificationStatus": "verified",
       "sources": [
-        { "label": "Our company", "url": "https://www.astrazeneca.com/our-company.html" },
-        { "label": "Leadership", "url": "https://www.astrazeneca.com/our-company/leadership.html" },
-        { "label": "India presence", "url": "https://www.astrazeneca.com/content/az-in/our-presence.html" },
-        { "label": "Careers India", "url": "https://careers.astrazeneca.com/india" },
-        { "label": "Annual Report 2025", "url": "https://www.astrazeneca.com/investor-relations/annual-reports/annual-report-2025.html" },
-        { "label": "Contact", "url": "https://www.astrazeneca.com/contact-us.html" }
+        {
+          "label": "Our company",
+          "url": "https://www.astrazeneca.com/our-company.html"
+        },
+        {
+          "label": "Leadership",
+          "url": "https://www.astrazeneca.com/our-company/leadership.html"
+        },
+        {
+          "label": "India presence",
+          "url": "https://www.astrazeneca.com/content/az-in/our-presence.html"
+        },
+        {
+          "label": "Careers India",
+          "url": "https://careers.astrazeneca.com/india"
+        },
+        {
+          "label": "Annual Report 2025",
+          "url": "https://www.astrazeneca.com/investor-relations/annual-reports/annual-report-2025.html"
+        },
+        {
+          "label": "Contact",
+          "url": "https://www.astrazeneca.com/contact-us.html"
+        }
       ]
+    },
+    {
+      "slug": "phonepe",
+      "name": "PhonePe",
+      "category": "product",
+      "tagline": "India's largest digital payments platform",
+      "description": "PhonePe is India's largest digital payments platform, offering UPI payments, merchant solutions, and financial services including insurance, lending, and wealth products through Share.Market.",
+      "website": "https://www.phonepe.com",
+      "founded": "2016",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Fintech",
+        "Payments",
+        "Digital wallets"
+      ],
+      "tags": [
+        "Unicorn",
+        "UPI"
+      ],
+      "products": [
+        "UPI payments",
+        "Payment Gateway",
+        "Insurance",
+        "Lending",
+        "Wealth (Share.Market)",
+        "Indus Appstore"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "careersUrl": "https://www.phonepe.com/careers/",
+      "linkedin": "https://www.linkedin.com/company/phonepe",
+      "leadership": [
+        { "name": "Sameer Nigam", "role": "Founder & CEO" },
+        { "name": "Rahul Chari", "role": "Founder & CTO" },
+        { "name": "Burzin Engineer", "role": "Founder & Chief Reliability Officer" }
+      ],
+      "vision": "Offer every Indian an equal opportunity to accelerate their progress by unlocking the flow of money and democratizing access to services.",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "About page", "url": "https://www.phonepe.com/about-us/" },
+        { "label": "Careers", "url": "https://www.phonepe.com/careers/" }
+      ]
+    },
+    {
+      "slug": "swiggy",
+      "name": "Swiggy",
+      "category": "hybrid",
+      "tagline": "Hyperlocal commerce — food delivery and quick commerce",
+      "description": "Swiggy is a consumer-first hyperlocal commerce platform offering food delivery, Instamart quick commerce, and membership services across India. Listed on stock exchanges in November 2024.",
+      "website": "https://www.swiggy.com/corporate/",
+      "founded": "2014",
+      "hq": "Bengaluru, India",
+      "officeCities": ["Bengaluru", "Hyderabad", "Mumbai", "Delhi NCR", "Chennai", "Pune"],
+      "domains": [
+        "Food delivery",
+        "Quick commerce",
+        "Logistics"
+      ],
+      "tags": [
+        "Public company",
+        "Marketplace"
+      ],
+      "products": ["Food Delivery", "Swiggy Instamart", "Swiggy One", "Swiggy Dineout"],
+      "services": ["Restaurant partner services", "Delivery partner network"],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "careersUrl": "https://careers.swiggy.com/",
+      "linkedin": "https://www.linkedin.com/company/swiggy",
+      "leadership": [
+        { "name": "Sriharsha Majety", "role": "Managing Director & Group CEO" },
+        { "name": "Madhusudhan Rao", "role": "CTO" },
+        { "name": "Rahul Bothra", "role": "CFO" },
+        { "name": "Amitesh Jha", "role": "CEO, Instamart" }
+      ],
+      "vision": "Elevate the quality of life of the urban consumer by offering unparalleled convenience.",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "Corporate — About", "url": "https://www.swiggy.com/corporate/" },
+        { "label": "Careers", "url": "https://careers.swiggy.com/" }
+      ]
+    },
+    {
+      "slug": "wipro",
+      "name": "Wipro",
+      "category": "service",
+      "tagline": "AI-powered technology services and consulting",
+      "description": "Wipro is a leading AI-powered technology services and consulting company focused on building innovative solutions that address clients' most complex digital transformation needs.",
+      "website": "https://www.wipro.com",
+      "founded": "1945",
+      "hq": "Bengaluru, India",
+      "officeCities": [
+        "Bengaluru",
+        "Hyderabad",
+        "Pune",
+        "Chennai",
+        "Mumbai",
+        "Kolkata",
+        "Noida",
+        "Gurugram"
+      ],
+      "totalOfficeLocations": "65 countries",
+      "locationsUrl": "https://www.wipro.com/locations/",
+      "headcountGlobal": "240,000+",
+      "headcountNote": "Per Wipro about page and FY26 integrated annual report; 146+ nationalities represented",
+      "domains": [
+        "IT Services",
+        "Consulting",
+        "Digital transformation"
+      ],
+      "tags": [
+        "MNC",
+        "Public company",
+        "Global delivery"
+      ],
+      "services": [
+        "Application services",
+        "Cloud",
+        "Cybersecurity",
+        "Engineering",
+        "AI-powered consulting"
+      ],
+      "onsitePolicy": "Client and project dependent; verify on careers page",
+      "careersUrl": "https://careers.wipro.com/",
+      "linkedin": "https://www.linkedin.com/company/wipro",
+      "leadership": [
+        { "name": "Azim H. Premji", "role": "Founder Chairman" },
+        { "name": "Srini Pallia", "role": "CEO & MD" },
+        { "name": "Rishad Premji", "role": "Executive Chairman" },
+        { "name": "Aparna Iyer", "role": "CFO" }
+      ],
+      "vision": "Build innovative solutions that address clients' most complex digital transformation needs.",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "About page", "url": "https://www.wipro.com/about-us/" },
+        { "label": "Leadership", "url": "https://www.wipro.com/leadership/" },
+        { "label": "Office locations", "url": "https://www.wipro.com/locations/" },
+        { "label": "Careers", "url": "https://careers.wipro.com/" },
+        { "label": "FY26 integrated annual report", "url": "https://www.wipro.com/investors/annual-reports/2025-26/" }
+      ]
+    },
+    {
+      "slug": "zomato",
+      "name": "Zomato",
+      "category": "hybrid",
+      "tagline": "Restaurant discovery and food delivery",
+      "description": "Zomato connects millions of users to restaurants for food ordering and delivery. It operates under Eternal Limited (formerly Zomato Limited) alongside Blinkit, Hyperpure, and District.",
+      "website": "https://www.zomato.com",
+      "founded": "2008",
+      "hq": "Gurugram, India",
+      "officeCities": ["Gurugram", "Bengaluru", "Mumbai", "Hyderabad", "Pune"],
+      "domains": [
+        "Food delivery",
+        "Restaurant tech",
+        "B2B supply"
+      ],
+      "tags": [
+        "Public company",
+        "Eternal Group",
+        "Marketplace"
+      ],
+      "products": ["Food Delivery", "Hyperpure (B2B supply)", "District"],
+      "services": ["Restaurant partner services", "Delivery logistics"],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "careersUrl": "https://www.zomato.com/careers",
+      "linkedin": "https://www.linkedin.com/company/zomato",
+      "leadership": [
+        { "name": "Deepinder Goyal", "role": "Founder & Vice Chairman" },
+        { "name": "Albinder Dhindsa", "role": "Group CEO, Eternal" },
+        { "name": "Aditya Mangla", "role": "CEO, Zomato Food Delivery" }
+      ],
+      "vision": "To endure, evolve, and empower — building institutions that redefine the future through constant reinvention.",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "Eternal (parent company)", "url": "https://www.eternal.com/" },
+        { "label": "Shareholders' letter (leadership)", "url": "https://b.zmtcdn.com/investor-relations/4551e4f37e63c9819aafcb1b4a3ebabb_1769002182.pdf" },
+        { "label": "Careers", "url": "https://www.zomato.com/careers" }
+      ]
+    },
+    {
+      "slug": "paytm",
+      "name": "Paytm",
+      "category": "hybrid",
+      "tagline": "Digital payments and financial services for India",
+      "description": "Paytm started India's digital payments revolution and serves over 300 million users and 44 million merchants with payments, recharges, financial services, and business software through One97 Communications.",
+      "website": "https://paytm.com",
+      "founded": "2010",
+      "hq": "Noida, India",
+      "domains": [
+        "Fintech",
+        "Payments",
+        "Financial services"
+      ],
+      "tags": [
+        "Public company",
+        "UPI"
+      ],
+      "products": [
+        "Paytm Wallet",
+        "Payment Gateway",
+        "Paytm Payment Bank",
+        "Paytm Money",
+        "Paytm Soundbox",
+        "Paytm UPI Lite"
+      ],
+      "services": ["Merchant payments", "Bill payments", "Recharges"],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "careersUrl": "https://paytm.com/careers",
+      "linkedin": "https://www.linkedin.com/company/paytm",
+      "leadership": [
+        { "name": "Vijay Shekhar Sharma", "role": "Founder & CEO" }
+      ],
+      "vision": "Bring half-a-billion Indians to the mainstream economy.",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "About page", "url": "https://paytm.com/about-us" },
+        { "label": "Board of directors", "url": "https://ir.paytm.com/directors-and-committees" },
+        { "label": "Careers", "url": "https://paytm.com/careers" }
+      ]
+    },
+    {
+      "slug": "hcltech",
+      "name": "HCLTech",
+      "category": "service",
+      "tagline": "Global technology company for digital, engineering, cloud and AI",
+      "description": "HCLTech is a global technology company delivering digital, engineering, cloud and AI capabilities through a broad portfolio of technology services and products for enterprises across major industry verticals.",
+      "website": "https://www.hcltech.com",
+      "founded": "1976",
+      "hq": "Noida, India",
+      "officeCities": ["Noida", "Bengaluru", "Chennai", "Hyderabad", "Pune", "Mumbai", "Lucknow", "Vijayawada"],
+      "totalOfficeLocations": "60 countries",
+      "locationsUrl": "https://www.hcltech.com/contact-us/locations",
+      "headcountGlobal": "223,000+",
+      "headcountNote": "223,420 employees at Mar 31, 2025 per Q4 FY25 investor release; 60 countries",
+      "domains": ["IT Services", "Engineering", "Cloud & AI"],
+      "tags": ["MNC", "Public company", "Global delivery"],
+      "services": ["Digital engineering", "Cloud native", "Application modernization", "AI & software products"],
+      "onsitePolicy": "Client and project dependent; verify on careers page",
+      "careersUrl": "https://www.hcltech.com/careers",
+      "linkedin": "https://www.linkedin.com/company/hcltech",
+      "leadership": [
+        { "name": "Shiv Nadar", "role": "Founder" },
+        { "name": "C Vijayakumar", "role": "CEO & MD" },
+        { "name": "Rahul Singh", "role": "COO, Corporate Functions" }
+      ],
+      "vision": "Supercharge progress for clients through digital, engineering, cloud and AI.",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "About page", "url": "https://www.hcltech.com/about-us" },
+        { "label": "Leadership", "url": "https://www.hcltech.com/leadership" },
+        { "label": "Founder & board", "url": "https://www.hcltech.com/hcl-annual-report-2025/founder-and-board-of-directors" },
+        { "label": "Office locations", "url": "https://www.hcltech.com/contact-us/locations" },
+        { "label": "Q4 FY25 investor release (headcount)", "url": "https://www.hcltech.com/sites/default/files/document/open/quarter-results/2025-04/HCLTech-Q4-FY25-Investor-Release.pdf" },
+        { "label": "Careers", "url": "https://www.hcltech.com/careers" }
+      ]
+    },
+    {
+      "slug": "tech-mahindra",
+      "name": "Tech Mahindra",
+      "category": "service",
+      "tagline": "Digital transformation and IT services consulting",
+      "description": "Tech Mahindra is a leading IT services and consulting company driving transformation through emerging technologies, backed by 75 years of Mahindra Group heritage.",
+      "website": "https://www.techmahindra.com",
+      "founded": "1986",
+      "hq": "Pune, India",
+      "officeCities": ["Pune", "Hyderabad", "Bengaluru", "Chennai", "Mumbai", "Noida", "Gurugram"],
+      "locationsUrl": "https://www.techmahindra.com/en-in/contact-us/",
+      "headcountGlobal": "148,731",
+      "headcountNote": "Total headcount at Mar 31, 2025 per Q4 FY25 fact sheet; 90+ countries",
+      "domains": ["IT Services", "Consulting", "Telecom"],
+      "tags": ["MNC", "Public company", "Mahindra Group"],
+      "services": ["Digital transformation", "Cloud", "Enterprise applications", "AI adoption"],
+      "onsitePolicy": "Client and project dependent; verify on careers page",
+      "careersUrl": "https://careers.techmahindra.com/",
+      "linkedin": "https://www.linkedin.com/company/tech-mahindra",
+      "leadership": [
+        { "name": "Mohit Joshi", "role": "CEO & MD" }
+      ],
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "About page", "url": "https://www.techmahindra.com/en-in/about-us/" },
+        { "label": "Leadership", "url": "https://www.techmahindra.com/about-us/leadership/" },
+        { "label": "CEO profile", "url": "https://www.techmahindra.com/about-us/leadership/mohit-joshi/" },
+        { "label": "Office locations", "url": "https://www.techmahindra.com/en-in/contact-us/" },
+        { "label": "Q4 FY25 fact sheet (headcount)", "url": "https://insights.techmahindra.com/investors/tml-q4-fy-25-fact-sheet.pdf" },
+        { "label": "Careers", "url": "https://careers.techmahindra.com/" }
+      ]
+    },
+    {
+      "slug": "meesho",
+      "name": "Meesho",
+      "category": "hybrid",
+      "tagline": "Social commerce marketplace for Indian SMBs",
+      "description": "Meesho democratizes internet commerce by enabling small and medium businesses and resellers to sell online to value-conscious consumers across India.",
+      "website": "https://www.meesho.com",
+      "founded": "2015",
+      "hq": "Bengaluru, India",
+      "domains": ["E-commerce", "Social commerce", "Marketplace"],
+      "tags": ["Unicorn", "Public company"],
+      "products": ["Meesho Marketplace", "Meesho Mall", "Valmo logistics"],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "careersUrl": "https://careers.meesho.com/",
+      "linkedin": "https://www.linkedin.com/company/meesho",
+      "leadership": [
+        { "name": "Vidit Aatrey", "role": "Founder & CEO" },
+        { "name": "Sanjeev Kumar", "role": "Co-founder & CTO" }
+      ],
+      "vision": "Democratize internet commerce for everyone, empowering millions of Indian businesses and consumers.",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "About page", "url": "https://www.meesho.com/about" },
+        { "label": "Investor governance", "url": "https://investor.meesho.com/governance" },
+        { "label": "Annual report 2023-24", "url": "https://investor.meesho.com/investor-web/_next/docs/annual_report_2023_2024.pdf" },
+        { "label": "Careers", "url": "https://careers.meesho.com/" }
+      ]
+    },
+    {
+      "slug": "cred",
+      "name": "Cred",
+      "category": "product",
+      "tagline": "Members-only club for creditworthy individuals",
+      "description": "CRED is a members-only club that rewards trustworthy individuals for timely credit card bill payments with exclusive offers, spend insights, and financial products. Trusted by over 25 million creditworthy members.",
+      "website": "https://cred.club",
+      "founded": "2018",
+      "hq": "Bengaluru, India",
+      "domains": ["Fintech", "Consumer apps", "Lending"],
+      "tags": ["Unicorn"],
+      "products": ["CRED Pay", "CRED Protect", "CRED Mint", "CRED Cash"],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "careersUrl": "https://careers.cred.club/",
+      "linkedin": "https://www.linkedin.com/company/credapp",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "About page", "url": "https://cred.club/about" },
+        { "label": "Homepage", "url": "https://cred.club/" },
+        { "label": "Careers", "url": "https://careers.cred.club/" }
+      ]
+    },
+    {
+      "slug": "ola",
+      "name": "Ola",
+      "category": "hybrid",
+      "tagline": "Mobility for a billion people",
+      "description": "Ola was founded to build mobility for a billion people through ride-hailing and has expanded into electric vehicles via Ola Electric, one of the world's largest ride-sharing platforms in India.",
+      "website": "https://www.olacabs.com",
+      "founded": "2010",
+      "hq": "Bengaluru, India",
+      "officeCities": ["Bengaluru", "Hyderabad", "Mumbai", "Delhi NCR", "Chennai", "Pune"],
+      "domains": ["Mobility", "Ride-hailing", "Electric vehicles"],
+      "tags": ["Unicorn"],
+      "products": ["Ola Cabs", "Ola Electric scooters", "Ola S1"],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "careersUrl": "https://careers.olacabs.com/",
+      "linkedin": "https://www.linkedin.com/company/olacabs-com",
+      "leadership": [
+        { "name": "Bhavish Aggarwal", "role": "Founder & CEO" },
+        { "name": "Ankit Bhati", "role": "Co-founder & CTO" }
+      ],
+      "vision": "Build mobility for a billion people.",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "About page", "url": "https://www.olacabs.com/about" },
+        { "label": "Ola Electric directors", "url": "https://www.olaelectric.com/investor-relations/directors-profile" },
+        { "label": "Careers", "url": "https://careers.olacabs.com/" }
+      ]
+    },
+    {
+      "slug": "zerodha",
+      "name": "Zerodha",
+      "category": "product",
+      "tagline": "India's largest retail stock broking platform",
+      "description": "Zerodha is a bootstrapped online discount broking company that changed the landscape of Indian capital markets with low-cost trading, built completely online since 2010.",
+      "website": "https://zerodha.com",
+      "founded": "2010",
+      "hq": "Bengaluru, India",
+      "officeCities": ["Bengaluru"],
+      "domains": ["Fintech", "Stock broking", "Capital markets"],
+      "tags": ["Bootstrapped", "Market leader"],
+      "products": ["Kite", "Coin", "Varsity", "Console"],
+      "onsitePolicy": "Primarily Bengaluru — verify on careers page",
+      "careersUrl": "https://zerodha.com/careers/",
+      "linkedin": "https://www.linkedin.com/company/zerodha",
+      "leadership": [
+        { "name": "Nithin Kamath", "role": "Founder & CEO" },
+        { "name": "Nikhil Kamath", "role": "Co-founder & CFO" }
+      ],
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "About page", "url": "https://zerodha.com/about/" },
+        { "label": "Contact & leadership", "url": "https://zerodha.com/contact/" },
+        { "label": "Careers", "url": "https://zerodha.com/careers/" }
+      ]
+    },
+    {
+      "slug": "groww",
+      "name": "Groww",
+      "category": "product",
+      "tagline": "Investment platform for stocks and mutual funds",
+      "description": "Groww makes investing easy for millions of Indians through a mobile-first platform for stocks, mutual funds, and other investment products, founded by ex-Flipkart employees in 2016.",
+      "website": "https://groww.in",
+      "founded": "2016",
+      "hq": "Bengaluru, India",
+      "officeCities": ["Bengaluru"],
+      "domains": ["Fintech", "Investments", "Wealth tech"],
+      "tags": ["Unicorn", "Public company"],
+      "products": ["Groww Stocks", "Groww Mutual Funds", "Groww IPO"],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "careersUrl": "https://groww.in/careers",
+      "linkedin": "https://www.linkedin.com/company/groww.in",
+      "leadership": [
+        { "name": "Lalit Keshre", "role": "Co-founder & CEO" },
+        { "name": "Neeraj Singh", "role": "Co-founder & CTO" },
+        { "name": "Harsh Jain", "role": "Co-founder & COO" }
+      ],
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "Our story", "url": "https://groww.in/investor-relations/our-story" },
+        { "label": "Board of directors", "url": "https://groww.in/investor-relations/governance/board-of-directors" },
+        { "label": "Careers", "url": "https://groww.in/careers" }
+      ]
+    },
+    {
+      "slug": "nykaa",
+      "name": "Nykaa",
+      "category": "hybrid",
+      "tagline": "Beauty and lifestyle e-commerce platform",
+      "description": "Nykaa is a digital-first consumer-tech platform for beauty, personal care, and fashion, founded in 2012 to make beauty a mainstream choice in India with online and offline retail.",
+      "website": "https://www.nykaa.com",
+      "founded": "2012",
+      "hq": "Mumbai, India",
+      "officeCities": ["Mumbai", "Bengaluru", "Delhi NCR", "Hyderabad", "Pune"],
+      "domains": ["E-commerce", "Beauty", "Retail"],
+      "tags": ["Public company", "D2C", "Omnichannel"],
+      "products": ["Nykaa Beauty", "Nykaa Fashion", "House of Nykaa brands"],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "careersUrl": "https://www.nykaa.com/careers",
+      "linkedin": "https://www.linkedin.com/company/nykaa",
+      "leadership": [
+        { "name": "Falguni Nayar", "role": "Founder & CEO" }
+      ],
+      "vision": "Bring inspiration and joy to people everywhere, every day.",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "Who we are", "url": "https://www.nykaa.com/who_are_we/lp" },
+        { "label": "Board profile", "url": "https://www.nykaa.com/board-of-director-falguni-nayar/lp" },
+        { "label": "Investor relations", "url": "https://www.nykaa.com/investor-relations" },
+        { "label": "Careers", "url": "https://www.nykaa.com/careers" }
+      ]
+    },
+    {
+      "slug": "delhivery",
+      "name": "Delhivery",
+      "category": "hybrid",
+      "tagline": "Logistics and supply chain platform for India",
+      "description": "Delhivery provides express parcel, freight, and supply chain services powered by technology across India, serving e-commerce and enterprise clients through a nationwide logistics network.",
+      "website": "https://www.delhivery.com",
+      "founded": "2011",
+      "hq": "Gurugram, India",
+      "officeCities": ["Gurugram", "Bengaluru", "Mumbai", "Hyderabad", "Chennai", "Kolkata"],
+      "contactUrl": "https://www.delhivery.com/contact-us/",
+      "headcountGlobal": "73,477",
+      "headcountNote": "Team size at Mar 31, 2026 per Q4 FY26 earnings presentation",
+      "domains": ["Logistics", "Supply chain", "E-commerce enablement"],
+      "tags": ["Public company", "Unicorn"],
+      "products": ["Express parcel", "Part-truckload freight", "Cross-border logistics"],
+      "services": ["Fulfillment", "Warehousing", "Supply chain management"],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "careersUrl": "https://www.delhivery.com/careers/",
+      "linkedin": "https://www.linkedin.com/company/delhivery",
+      "leadership": [
+        { "name": "Sahil Barua", "role": "Founder & CEO" },
+        { "name": "Kapil Bharati", "role": "Co-founder & CTO" },
+        { "name": "Ajith Pai", "role": "COO" }
+      ],
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "About page", "url": "https://www.delhivery.com/about-us/" },
+        { "label": "Annual report FY25", "url": "https://www.delhivery.com/uploads/2025/08/Annual_Report_FY25.pdf" },
+        { "label": "Q4 FY26 earnings presentation", "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c20cfa6-ee7f-4050-82b8-e4a867db7625.pdf" },
+        { "label": "Investor relations", "url": "https://www.delhivery.com/investor-relations/" },
+        { "label": "Careers", "url": "https://www.delhivery.com/careers/" }
+      ]
+    },
+    {
+      "slug": "ltimindtree",
+      "name": "LTIMindtree",
+      "category": "service",
+      "tagline": "Global technology consulting and digital solutions",
+      "description": "LTIMindtree is a global technology consulting and digital solutions company formed from the merger of Larsen & Toubro Infotech and Mindtree, serving enterprises worldwide.",
+      "website": "https://www.ltimindtree.com",
+      "founded": "2022",
+      "hq": "Mumbai, India",
+      "officeCities": ["Mumbai", "Bengaluru", "Hyderabad", "Pune", "Chennai", "Noida", "Gurugram"],
+      "locationsUrl": "https://www.ltimindtree.com/contact-us/",
+      "headcountGlobal": "81,000+",
+      "headcountNote": "81,000+ professionals per FY24 integrated annual report CEO message; verify latest on investor relations",
+      "domains": ["IT Services", "Consulting", "Digital engineering"],
+      "tags": ["MNC", "Public company", "L&T Group"],
+      "services": ["Digital transformation", "Cloud", "Data & analytics", "Enterprise applications"],
+      "onsitePolicy": "Client and project dependent; verify on careers page",
+      "careersUrl": "https://www.ltimindtree.com/careers/",
+      "linkedin": "https://www.linkedin.com/company/ltimindtree",
+      "leadership": [
+        { "name": "Debashis Chatterjee", "role": "CEO & MD" },
+        { "name": "Nachiket Deshpande", "role": "COO" }
+      ],
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        { "label": "About page", "url": "https://www.ltimindtree.com/about-us/" },
+        { "label": "Governance & leadership", "url": "https://www.ltimindtree.com/annual-report-html/governance.html" },
+        { "label": "CEO message (headcount)", "url": "https://www.ltimindtree.com/annual-report-html/ceo-and-manging-director.html" },
+        { "label": "Office locations", "url": "https://www.ltimindtree.com/contact-us/" },
+        { "label": "Careers", "url": "https://www.ltimindtree.com/careers/" }
+      ]
+    },
+    {
+      "slug": "cognizant",
+      "name": "Cognizant",
+      "category": "service",
+      "tagline": "Global IT services and consulting",
+      "description": "Cognizant provides IT services, consulting, and digital business solutions with major delivery centers in India.",
+      "website": "https://www.cognizant.com",
+      "hq": "Chennai, India",
+      "domains": [
+        "IT Services",
+        "Consulting",
+        "Digital transformation"
+      ],
+      "tags": [
+        "MNC",
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.cognizant.com/us/en/about-cognizant"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.cognizant.com/global/en"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.cognizant.com/us/en/about-cognizant/locations"
+        }
+      ],
+      "officeCities": [
+        "Chennai",
+        "Hyderabad",
+        "Bengaluru",
+        "Pune",
+        "Kolkata",
+        "Mumbai"
+      ],
+      "locationsUrl": "https://www.cognizant.com/us/en/about-cognizant/locations",
+      "careersUrl": "https://careers.cognizant.com/global/en",
+      "services": [
+        "Application development",
+        "Cloud",
+        "Data & AI"
+      ]
+    },
+    {
+      "slug": "amazon-india",
+      "name": "Amazon India",
+      "category": "hybrid",
+      "tagline": "E-commerce and cloud services in India",
+      "description": "Amazon India operates e-commerce marketplace, logistics, and AWS cloud services for the Indian market.",
+      "website": "https://www.aboutamazon.in",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "E-commerce",
+        "Cloud (AWS)",
+        "Logistics"
+      ],
+      "tags": [
+        "MNC",
+        "Global delivery"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.aboutamazon.in/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.amazon.jobs/en/locations/india"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru",
+        "Hyderabad",
+        "Chennai",
+        "Mumbai",
+        "Gurugram",
+        "Pune"
+      ],
+      "careersUrl": "https://www.amazon.jobs/en/locations/india"
+    },
+    {
+      "slug": "google-india",
+      "name": "Google India",
+      "category": "product",
+      "tagline": "Search, cloud, and consumer technology",
+      "description": "Google India develops and operates search, advertising, cloud, and consumer products with offices in major Indian cities.",
+      "website": "https://about.google/intl/en_in/",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Internet",
+        "Cloud",
+        "Consumer technology"
+      ],
+      "tags": [
+        "MNC",
+        "Product R&D"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://about.google/intl/en_in/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.google.com/locations/india/"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru",
+        "Hyderabad",
+        "Mumbai",
+        "Gurugram",
+        "Pune"
+      ],
+      "careersUrl": "https://careers.google.com/locations/india/"
+    },
+    {
+      "slug": "microsoft-india",
+      "name": "Microsoft India",
+      "category": "hybrid",
+      "tagline": "Software, cloud, and enterprise technology",
+      "description": "Microsoft India operates product development centers and delivers cloud, productivity, and enterprise software services.",
+      "website": "https://www.microsoft.com/en-in",
+      "hq": "Hyderabad, India",
+      "domains": [
+        "Enterprise software",
+        "Cloud (Azure)",
+        "Productivity"
+      ],
+      "tags": [
+        "MNC",
+        "Product R&D"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.microsoft.com/en-in/about/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.microsoft.com/locations/india/"
+        }
+      ],
+      "officeCities": [
+        "Hyderabad",
+        "Bengaluru",
+        "Noida",
+        "Mumbai",
+        "Pune"
+      ],
+      "careersUrl": "https://careers.microsoft.com/locations/india/"
+    },
+    {
+      "slug": "postman",
+      "name": "Postman",
+      "category": "product",
+      "tagline": "API platform for developers",
+      "description": "Postman builds an API platform used by developers and teams to design, test, and collaborate on APIs.",
+      "website": "https://www.postman.com",
+      "hq": "San Francisco, USA / Bengaluru, India",
+      "domains": [
+        "Developer tools",
+        "API platform",
+        "SaaS"
+      ],
+      "tags": [
+        "Unicorn",
+        "Global product"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.postman.com/company/about-postman/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.postman.com/company/careers/"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru",
+        "San Francisco"
+      ],
+      "careersUrl": "https://www.postman.com/company/careers/",
+      "products": [
+        "Postman API Platform",
+        "Postman Flows",
+        "Postman Collections"
+      ]
+    },
+    {
+      "slug": "policybazaar",
+      "name": "PolicyBazaar",
+      "category": "product",
+      "tagline": "Online insurance comparison platform",
+      "description": "Policybazaar enables consumers to compare and buy insurance products from multiple insurers in India.",
+      "website": "https://www.policybazaar.com",
+      "hq": "Gurugram, India",
+      "domains": [
+        "Insurtech",
+        "Fintech",
+        "Marketplace"
+      ],
+      "tags": [
+        "Public company",
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.policybazaar.com/about-us/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.policybazaar.com/careers/"
+        }
+      ],
+      "careersUrl": "https://www.policybazaar.com/careers/"
+    },
+    {
+      "slug": "dream11",
+      "name": "Dream11",
+      "category": "product",
+      "tagline": "Fantasy sports platform",
+      "description": "Dream11 operates India's largest fantasy sports platform for cricket and other sports.",
+      "website": "https://www.dream11.com",
+      "hq": "Mumbai, India",
+      "domains": [
+        "Fantasy sports",
+        "Gaming",
+        "Consumer apps"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.dream11.com/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.dreamsports.group/"
+        }
+      ],
+      "careersUrl": "https://careers.dreamsports.group/"
+    },
+    {
+      "slug": "bigbasket",
+      "name": "BigBasket",
+      "category": "hybrid",
+      "tagline": "Online grocery delivery",
+      "description": "BigBasket operates an online grocery and daily essentials delivery platform in India, part of the Tata Group.",
+      "website": "https://www.bigbasket.com",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Grocery",
+        "E-commerce",
+        "Quick commerce"
+      ],
+      "tags": [
+        "Tata Group"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.bigbasket.com/about-us/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.bigbasket.com/"
+        }
+      ],
+      "careersUrl": "https://careers.bigbasket.com/"
+    },
+    {
+      "slug": "lenskart",
+      "name": "Lenskart",
+      "category": "hybrid",
+      "tagline": "Eyewear e-commerce and retail",
+      "description": "Lenskart sells prescription eyewear, sunglasses, and contact lenses online and through retail stores in India.",
+      "website": "https://www.lenskart.com",
+      "hq": "Gurugram, India",
+      "domains": [
+        "E-commerce",
+        "Retail",
+        "Eyewear"
+      ],
+      "tags": [
+        "Unicorn",
+        "Omnichannel"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.lenskart.com/corporate/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.lenskart.com/careers"
+        }
+      ],
+      "careersUrl": "https://www.lenskart.com/careers"
+    },
+    {
+      "slug": "unacademy",
+      "name": "Unacademy",
+      "category": "product",
+      "tagline": "Online learning platform",
+      "description": "Unacademy offers live and recorded courses for competitive exams and skill development in India.",
+      "website": "https://unacademy.com",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Edtech",
+        "Online learning",
+        "Consumer apps"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://unacademy.com/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://unacademy.com/careers"
+        }
+      ],
+      "careersUrl": "https://unacademy.com/careers"
+    },
+    {
+      "slug": "byjus",
+      "name": "BYJU'S",
+      "category": "product",
+      "tagline": "Edtech learning platform",
+      "description": "BYJU'S provides digital learning programs for K-12 students and competitive exam preparation in India.",
+      "website": "https://byjus.com",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Edtech",
+        "Online learning",
+        "Consumer apps"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://byjus.com/our-story/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://byjus.com/careers/"
+        }
+      ],
+      "careersUrl": "https://byjus.com/careers/"
+    },
+    {
+      "slug": "oyo",
+      "name": "OYO",
+      "category": "hybrid",
+      "tagline": "Hospitality and hotel technology",
+      "description": "OYO operates a technology platform connecting travelers with budget hotels and homes in India and globally.",
+      "website": "https://www.oyorooms.com",
+      "hq": "Gurugram, India",
+      "domains": [
+        "Hospitality",
+        "Travel tech",
+        "Marketplace"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.oyorooms.com/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.oyorooms.com/careers"
+        }
+      ],
+      "careersUrl": "https://www.oyorooms.com/careers"
+    },
+    {
+      "slug": "myntra",
+      "name": "Myntra",
+      "category": "hybrid",
+      "tagline": "Fashion e-commerce platform",
+      "description": "Myntra operates an online fashion and lifestyle marketplace in India, part of the Flipkart Group.",
+      "website": "https://www.myntra.com",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "E-commerce",
+        "Fashion",
+        "Marketplace"
+      ],
+      "tags": [
+        "Flipkart Group",
+        "Marketplace"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.myntra.com/aboutus"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.myntra.com/careers"
+        }
+      ],
+      "careersUrl": "https://www.myntra.com/careers"
+    },
+    {
+      "slug": "snapdeal",
+      "name": "Snapdeal",
+      "category": "hybrid",
+      "tagline": "Value e-commerce marketplace",
+      "description": "Snapdeal operates an online marketplace focused on value-conscious shoppers across India.",
+      "website": "https://www.snapdeal.com",
+      "hq": "Gurugram, India",
+      "domains": [
+        "E-commerce",
+        "Marketplace",
+        "Retail tech"
+      ],
+      "tags": [
+        "Marketplace"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.snapdeal.com/info/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.snapdeal.com/"
+        }
+      ],
+      "careersUrl": "https://careers.snapdeal.com/"
+    },
+    {
+      "slug": "chargebee",
+      "name": "Chargebee",
+      "category": "product",
+      "tagline": "Subscription billing and revenue platform",
+      "description": "Chargebee builds subscription billing and revenue management software for SaaS and recurring-revenue businesses.",
+      "website": "https://www.chargebee.com",
+      "hq": "San Francisco, USA / Chennai, India",
+      "domains": [
+        "SaaS",
+        "Billing",
+        "Fintech"
+      ],
+      "tags": [
+        "Unicorn",
+        "Global product"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.chargebee.com/company/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.chargebee.com/careers/"
+        }
+      ],
+      "officeCities": [
+        "Chennai",
+        "Bengaluru",
+        "San Francisco"
+      ],
+      "careersUrl": "https://www.chargebee.com/careers/",
+      "products": [
+        "Chargebee Billing",
+        "Chargebee Receivables"
+      ]
+    },
+    {
+      "slug": "browserstack",
+      "name": "BrowserStack",
+      "category": "product",
+      "tagline": "Cloud testing infrastructure for developers",
+      "description": "BrowserStack provides cloud-based testing infrastructure for web and mobile applications.",
+      "website": "https://www.browserstack.com",
+      "hq": "Dublin, Ireland / Mumbai, India",
+      "domains": [
+        "Developer tools",
+        "Testing",
+        "SaaS"
+      ],
+      "tags": [
+        "Unicorn",
+        "Global product"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.browserstack.com/company"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.browserstack.com/careers"
+        }
+      ],
+      "officeCities": [
+        "Mumbai",
+        "Bengaluru",
+        "Dublin"
+      ],
+      "careersUrl": "https://www.browserstack.com/careers",
+      "products": [
+        "Live",
+        "Automate",
+        "App Live",
+        "Percy"
+      ]
+    },
+    {
+      "slug": "clevertap",
+      "name": "CleverTap",
+      "category": "product",
+      "tagline": "Customer engagement and retention platform",
+      "description": "CleverTap provides a SaaS platform for mobile and web customer engagement, analytics, and retention.",
+      "website": "https://clevertap.com",
+      "hq": "San Francisco, USA / Mumbai, India",
+      "domains": [
+        "MarTech",
+        "SaaS",
+        "Analytics"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://clevertap.com/about/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://clevertap.com/careers/"
+        }
+      ],
+      "officeCities": [
+        "Mumbai",
+        "Bengaluru"
+      ],
+      "careersUrl": "https://clevertap.com/careers/",
+      "products": [
+        "CleverTap Engagement Platform"
+      ]
+    },
+    {
+      "slug": "hasura",
+      "name": "Hasura",
+      "category": "product",
+      "tagline": "Data access and API platform",
+      "description": "Hasura builds an open-source engine and cloud platform for instant GraphQL and REST APIs on data sources.",
+      "website": "https://hasura.io",
+      "hq": "San Francisco, USA / Bengaluru, India",
+      "domains": [
+        "Developer tools",
+        "Data APIs",
+        "Open source"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://hasura.io/about/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://hasura.io/careers/"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru"
+      ],
+      "careersUrl": "https://hasura.io/careers/",
+      "products": [
+        "Hasura GraphQL Engine",
+        "Hasura DDN"
+      ]
+    },
+    {
+      "slug": "moengage",
+      "name": "MoEngage",
+      "category": "product",
+      "tagline": "Customer engagement platform",
+      "description": "MoEngage provides AI-powered customer engagement software for mobile and web applications.",
+      "website": "https://www.moengage.com",
+      "hq": "San Francisco, USA / Bengaluru, India",
+      "domains": [
+        "MarTech",
+        "SaaS",
+        "Customer engagement"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.moengage.com/company/about-us/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.moengage.com/careers/"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru",
+        "Mumbai"
+      ],
+      "careersUrl": "https://www.moengage.com/careers/",
+      "products": [
+        "MoEngage Customer Engagement Platform"
+      ]
+    },
+    {
+      "slug": "darwinbox",
+      "name": "Darwinbox",
+      "category": "product",
+      "tagline": "Cloud HR technology platform",
+      "description": "Darwinbox offers a cloud-based HRMS platform for enterprises covering hire-to-retire workflows.",
+      "website": "https://darwinbox.com",
+      "hq": "Hyderabad, India",
+      "domains": [
+        "HR tech",
+        "SaaS",
+        "Enterprise software"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://darwinbox.com/company/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://darwinbox.com/careers"
+        }
+      ],
+      "officeCities": [
+        "Hyderabad",
+        "Bengaluru",
+        "Mumbai"
+      ],
+      "careersUrl": "https://darwinbox.com/careers",
+      "products": [
+        "Darwinbox HRMS"
+      ]
+    },
+    {
+      "slug": "innovaccer",
+      "name": "Innovaccer",
+      "category": "product",
+      "tagline": "Healthcare data activation platform",
+      "description": "Innovaccer builds a healthcare data platform that unifies patient records for providers and payers.",
+      "website": "https://innovaccer.com",
+      "hq": "San Francisco, USA / Noida, India",
+      "domains": [
+        "Healthtech",
+        "Data platform",
+        "SaaS"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://innovaccer.com/about/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://innovaccer.com/careers/"
+        }
+      ],
+      "officeCities": [
+        "Noida",
+        "Bengaluru"
+      ],
+      "careersUrl": "https://innovaccer.com/careers/",
+      "products": [
+        "Innovaccer Health Cloud"
+      ]
+    },
+    {
+      "slug": "leadsquared",
+      "name": "LeadSquared",
+      "category": "product",
+      "tagline": "Sales execution and CRM platform",
+      "description": "LeadSquared provides a CRM and sales execution platform for high-velocity sales teams.",
+      "website": "https://www.leadsquared.com",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "CRM",
+        "SaaS",
+        "Sales tech"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.leadsquared.com/about-us/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.leadsquared.com/careers/"
+        }
+      ],
+      "careersUrl": "https://www.leadsquared.com/careers/",
+      "products": [
+        "LeadSquared CRM",
+        "LeadSquared Marketing Automation"
+      ]
+    },
+    {
+      "slug": "mphasis",
+      "name": "Mphasis",
+      "category": "service",
+      "tagline": "IT services and digital solutions",
+      "description": "Mphasis delivers application services, infrastructure, and digital solutions for global enterprises.",
+      "website": "https://www.mphasis.com",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "IT Services",
+        "Digital transformation",
+        "BFSI"
+      ],
+      "tags": [
+        "Public company",
+        "Global delivery"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.mphasis.com/home/about-us.html"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.mphasis.com/"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.mphasis.com/home/contact-us.html"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru",
+        "Pune",
+        "Hyderabad",
+        "Chennai",
+        "Mumbai"
+      ],
+      "locationsUrl": "https://www.mphasis.com/home/contact-us.html",
+      "careersUrl": "https://careers.mphasis.com/",
+      "services": [
+        "Application development",
+        "Cloud",
+        "Data & analytics"
+      ]
+    },
+    {
+      "slug": "persistent-systems",
+      "name": "Persistent Systems",
+      "category": "service",
+      "tagline": "Software product engineering services",
+      "description": "Persistent Systems provides software product development and digital engineering services for technology companies.",
+      "website": "https://www.persistent.com",
+      "hq": "Pune, India",
+      "domains": [
+        "IT Services",
+        "Product engineering",
+        "Digital transformation"
+      ],
+      "tags": [
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.persistent.com/about-us/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.persistent.com/careers/"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.persistent.com/contact-us/"
+        }
+      ],
+      "officeCities": [
+        "Pune",
+        "Bengaluru",
+        "Hyderabad",
+        "Noida",
+        "Mumbai"
+      ],
+      "locationsUrl": "https://www.persistent.com/contact-us/",
+      "careersUrl": "https://www.persistent.com/careers/",
+      "services": [
+        "Product engineering",
+        "Cloud",
+        "Data & AI"
+      ]
+    },
+    {
+      "slug": "hexaware",
+      "name": "Hexaware",
+      "category": "service",
+      "tagline": "IT services and digital solutions",
+      "description": "Hexaware provides IT services, consulting, and automation-led digital solutions for global clients.",
+      "website": "https://hexaware.com",
+      "hq": "Navi Mumbai, India",
+      "domains": [
+        "IT Services",
+        "Automation",
+        "Cloud"
+      ],
+      "tags": [
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://hexaware.com/about/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://hexaware.com/careers/"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://hexaware.com/contact-us/"
+        }
+      ],
+      "officeCities": [
+        "Mumbai",
+        "Pune",
+        "Chennai",
+        "Bengaluru",
+        "Hyderabad"
+      ],
+      "locationsUrl": "https://hexaware.com/contact-us/",
+      "careersUrl": "https://hexaware.com/careers/",
+      "services": [
+        "Application services",
+        "Cloud transformation",
+        "Enterprise platforms"
+      ]
+    },
+    {
+      "slug": "cyient",
+      "name": "Cyient",
+      "category": "service",
+      "tagline": "Engineering and digital solutions",
+      "description": "Cyient provides engineering, manufacturing, and digital technology services across aerospace, utilities, and other industries.",
+      "website": "https://www.cyient.com",
+      "hq": "Hyderabad, India",
+      "domains": [
+        "Engineering services",
+        "Digital transformation",
+        "Aerospace"
+      ],
+      "tags": [
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.cyient.com/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.cyient.com/careers"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.cyient.com/contact-us"
+        }
+      ],
+      "officeCities": [
+        "Hyderabad",
+        "Bengaluru",
+        "Pune",
+        "Chennai"
+      ],
+      "locationsUrl": "https://www.cyient.com/contact-us",
+      "careersUrl": "https://www.cyient.com/careers",
+      "services": [
+        "Engineering design",
+        "Network & operations",
+        "Digital solutions"
+      ]
+    },
+    {
+      "slug": "l-t-technology-services",
+      "name": "L&T Technology Services",
+      "category": "service",
+      "tagline": "Engineering research and development services",
+      "description": "L&T Technology Services provides engineering R&D and digital engineering services for industrial and technology clients.",
+      "website": "https://www.ltts.com",
+      "hq": "Mumbai, India",
+      "domains": [
+        "Engineering R&D",
+        "IT Services",
+        "Industrial tech"
+      ],
+      "tags": [
+        "Public company",
+        "L&T Group"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.ltts.com/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.ltts.com/careers"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.ltts.com/contact-us"
+        }
+      ],
+      "officeCities": [
+        "Mumbai",
+        "Bengaluru",
+        "Chennai",
+        "Hyderabad",
+        "Pune"
+      ],
+      "locationsUrl": "https://www.ltts.com/contact-us",
+      "careersUrl": "https://www.ltts.com/careers",
+      "services": [
+        "Product engineering",
+        "Plant engineering",
+        "Digital engineering"
+      ]
+    },
+    {
+      "slug": "accenture-india",
+      "name": "Accenture India",
+      "category": "service",
+      "tagline": "Global consulting and technology services",
+      "description": "Accenture India delivers consulting, technology, and operations services as part of the global Accenture network.",
+      "website": "https://www.accenture.com/in-en",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Consulting",
+        "IT Services",
+        "Digital transformation"
+      ],
+      "tags": [
+        "MNC",
+        "Global delivery"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.accenture.com/in-en/about/company-index"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.accenture.com/in-en/careers"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.accenture.com/in-en/about/location"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru",
+        "Hyderabad",
+        "Pune",
+        "Chennai",
+        "Mumbai",
+        "Gurugram"
+      ],
+      "locationsUrl": "https://www.accenture.com/in-en/about/location",
+      "careersUrl": "https://www.accenture.com/in-en/careers",
+      "services": [
+        "Strategy & consulting",
+        "Technology",
+        "Operations"
+      ]
+    },
+    {
+      "slug": "ibm-india",
+      "name": "IBM India",
+      "category": "hybrid",
+      "tagline": "Enterprise technology and consulting",
+      "description": "IBM India provides consulting, hybrid cloud, AI, and enterprise software solutions for clients in India and globally.",
+      "website": "https://www.ibm.com/in-en",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Enterprise software",
+        "Consulting",
+        "Cloud & AI"
+      ],
+      "tags": [
+        "MNC",
+        "Global delivery"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.ibm.com/in-en/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.ibm.com/in-en/careers"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru",
+        "Hyderabad",
+        "Pune",
+        "Chennai",
+        "Mumbai",
+        "Gurugram"
+      ],
+      "careersUrl": "https://www.ibm.com/in-en/careers",
+      "services": [
+        "Consulting",
+        "Hybrid cloud",
+        "AI & automation"
+      ]
+    },
+    {
+      "slug": "oracle-india",
+      "name": "Oracle India",
+      "category": "product",
+      "tagline": "Enterprise database and cloud software",
+      "description": "Oracle India develops and delivers database, cloud infrastructure, and enterprise application software.",
+      "website": "https://www.oracle.com/in/",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Enterprise software",
+        "Database",
+        "Cloud"
+      ],
+      "tags": [
+        "MNC",
+        "Product R&D"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.oracle.com/in/corporate/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.oracle.com/in/careers/"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru",
+        "Hyderabad",
+        "Noida",
+        "Mumbai"
+      ],
+      "careersUrl": "https://www.oracle.com/in/careers/",
+      "products": [
+        "Oracle Database",
+        "Oracle Cloud Infrastructure",
+        "Fusion Applications"
+      ]
+    },
+    {
+      "slug": "sap-labs-india",
+      "name": "SAP Labs India",
+      "category": "product",
+      "tagline": "Enterprise application software R&D",
+      "description": "SAP Labs India develops enterprise application software including ERP, analytics, and cloud products.",
+      "website": "https://www.sap.com/india/index.html",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Enterprise software",
+        "ERP",
+        "Cloud"
+      ],
+      "tags": [
+        "MNC",
+        "Product R&D"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.sap.com/india/about.html"
+        },
+        {
+          "label": "Careers",
+          "url": "https://jobs.sap.com/"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru",
+        "Gurugram",
+        "Pune",
+        "Mumbai"
+      ],
+      "careersUrl": "https://jobs.sap.com/",
+      "products": [
+        "SAP S/4HANA",
+        "SAP Business Technology Platform"
+      ]
+    },
+    {
+      "slug": "adobe-india",
+      "name": "Adobe India",
+      "category": "product",
+      "tagline": "Creative and digital experience software",
+      "description": "Adobe India develops creative, document, and marketing experience software including Photoshop, Acrobat, and Experience Cloud.",
+      "website": "https://www.adobe.com/in/",
+      "hq": "Noida, India",
+      "domains": [
+        "Creative software",
+        "MarTech",
+        "SaaS"
+      ],
+      "tags": [
+        "MNC",
+        "Product R&D"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.adobe.com/in/about-adobe.html"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.adobe.com/us/en/search-results?keywords=India"
+        }
+      ],
+      "officeCities": [
+        "Noida",
+        "Bengaluru"
+      ],
+      "careersUrl": "https://careers.adobe.com/us/en/search-results?keywords=India",
+      "products": [
+        "Creative Cloud",
+        "Document Cloud",
+        "Experience Cloud"
+      ]
+    },
+    {
+      "slug": "salesforce-india",
+      "name": "Salesforce India",
+      "category": "product",
+      "tagline": "CRM and customer platform",
+      "description": "Salesforce India develops and delivers CRM, marketing, and platform cloud products for global customers.",
+      "website": "https://www.salesforce.com/in/",
+      "hq": "Hyderabad, India",
+      "domains": [
+        "CRM",
+        "SaaS",
+        "Cloud platform"
+      ],
+      "tags": [
+        "MNC",
+        "Product R&D"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.salesforce.com/in/company/our-story/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.salesforce.com/en/jobs/?search=India"
+        }
+      ],
+      "officeCities": [
+        "Hyderabad",
+        "Bengaluru",
+        "Mumbai",
+        "Pune"
+      ],
+      "careersUrl": "https://careers.salesforce.com/en/jobs/?search=India",
+      "products": [
+        "Sales Cloud",
+        "Service Cloud",
+        "Marketing Cloud",
+        "Platform"
+      ]
+    },
+    {
+      "slug": "uber-india",
+      "name": "Uber India",
+      "category": "product",
+      "tagline": "Ride-hailing and mobility platform",
+      "description": "Uber India operates ride-hailing and delivery services with technology and operations teams in major cities.",
+      "website": "https://www.uber.com/in/en/",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Mobility",
+        "Ride-hailing",
+        "Logistics"
+      ],
+      "tags": [
+        "MNC",
+        "Marketplace"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.uber.com/in/en/about/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.uber.com/in/en/careers/"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru",
+        "Hyderabad",
+        "Gurugram"
+      ],
+      "careersUrl": "https://www.uber.com/in/en/careers/"
+    },
+    {
+      "slug": "sharechat",
+      "name": "ShareChat",
+      "category": "product",
+      "tagline": "Regional language social media platform",
+      "description": "ShareChat operates social media and short-video platforms for Indian language users.",
+      "website": "https://sharechat.com",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Social media",
+        "Consumer apps",
+        "Content"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://sharechat.com/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://sharechat.com/careers"
+        }
+      ],
+      "careersUrl": "https://sharechat.com/careers"
+    },
+    {
+      "slug": "jupiter",
+      "name": "Jupiter",
+      "category": "product",
+      "tagline": "Digital banking app for consumers",
+      "description": "Jupiter offers a digital banking app with savings accounts, payments, and personal finance features in India.",
+      "website": "https://jupiter.money",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Fintech",
+        "Neobank",
+        "Consumer apps"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://jupiter.money/about/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://jupiter.money/careers/"
+        }
+      ],
+      "careersUrl": "https://jupiter.money/careers/"
+    },
+    {
+      "slug": "slice",
+      "name": "Slice",
+      "category": "product",
+      "tagline": "Card and payments fintech",
+      "description": "Slice provides a payment card and credit products aimed at young professionals in India.",
+      "website": "https://slice.it",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Fintech",
+        "Payments",
+        "Lending"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://slice.it/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://slice.it/careers"
+        }
+      ],
+      "careersUrl": "https://slice.it/careers"
+    },
+    {
+      "slug": "boat",
+      "name": "boAt",
+      "category": "hybrid",
+      "tagline": "Consumer electronics and audio brand",
+      "description": "boAt designs and sells audio wearables, smartwatches, and consumer electronics primarily in India.",
+      "website": "https://www.boat-lifestyle.com",
+      "hq": "Gurugram, India",
+      "domains": [
+        "Consumer electronics",
+        "D2C",
+        "Wearables"
+      ],
+      "tags": [
+        "D2C",
+        "Market leader"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.boat-lifestyle.com/pages/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.boat-lifestyle.com/pages/careers"
+        }
+      ],
+      "careersUrl": "https://www.boat-lifestyle.com/pages/careers",
+      "products": [
+        "Audio wearables",
+        "Smartwatches",
+        "TWS earbuds"
+      ]
+    },
+    {
+      "slug": "mamaearth",
+      "name": "Mamaearth",
+      "category": "hybrid",
+      "tagline": "Toxin-free personal care brand",
+      "description": "Mamaearth sells personal care and baby products through D2C and retail channels, part of Honasa Consumer.",
+      "website": "https://www.mamaearth.in",
+      "hq": "Gurugram, India",
+      "domains": [
+        "D2C",
+        "Personal care",
+        "Consumer goods"
+      ],
+      "tags": [
+        "Public company",
+        "Honasa Consumer"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.mamaearth.in/pages/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.mamaearth.in/pages/careers"
+        }
+      ],
+      "careersUrl": "https://www.mamaearth.in/pages/careers"
+    },
+    {
+      "slug": "pharmeasy",
+      "name": "PharmEasy",
+      "category": "hybrid",
+      "tagline": "Online pharmacy and healthcare platform",
+      "description": "PharmEasy operates an online pharmacy and healthcare services platform in India.",
+      "website": "https://pharmeasy.in",
+      "hq": "Mumbai, India",
+      "domains": [
+        "Healthtech",
+        "E-commerce",
+        "Pharmacy"
+      ],
+      "tags": [
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://pharmeasy.in/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://pharmeasy.in/careers"
+        }
+      ],
+      "careersUrl": "https://pharmeasy.in/careers"
+    },
+    {
+      "slug": "urban-company",
+      "name": "Urban Company",
+      "category": "hybrid",
+      "tagline": "Home services marketplace",
+      "description": "Urban Company connects customers with verified home service professionals for beauty, repairs, and cleaning.",
+      "website": "https://www.urbancompany.com",
+      "hq": "Gurugram, India",
+      "domains": [
+        "Home services",
+        "Marketplace",
+        "On-demand"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.urbancompany.com/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.urbancompany.com/"
+        }
+      ],
+      "careersUrl": "https://careers.urbancompany.com/"
+    },
+    {
+      "slug": "rapido",
+      "name": "Rapido",
+      "category": "product",
+      "tagline": "Bike taxi platform",
+      "description": "Rapido operates a bike taxi and auto ride-hailing platform in Indian cities.",
+      "website": "https://www.rapido.bike",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Mobility",
+        "Ride-hailing",
+        "Last-mile"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.rapido.bike/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.rapido.bike/careers"
+        }
+      ],
+      "careersUrl": "https://www.rapido.bike/careers"
+    },
+    {
+      "slug": "blackbuck",
+      "name": "BlackBuck",
+      "category": "hybrid",
+      "tagline": "Trucking and logistics platform",
+      "description": "BlackBuck operates a digital platform connecting shippers with truck operators across India.",
+      "website": "https://www.blackbuck.com",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Logistics",
+        "Trucking",
+        "B2B marketplace"
+      ],
+      "tags": [
+        "Unicorn",
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.blackbuck.com/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.blackbuck.com/careers"
+        }
+      ],
+      "careersUrl": "https://www.blackbuck.com/careers"
+    },
+    {
+      "slug": "udaan",
+      "name": "Udaan",
+      "category": "hybrid",
+      "tagline": "B2B trade and wholesale platform",
+      "description": "Udaan operates a B2B marketplace connecting retailers and wholesalers across India.",
+      "website": "https://www.udaan.com",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "B2B commerce",
+        "Marketplace",
+        "Wholesale"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.udaan.com/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.udaan.com/careers"
+        }
+      ],
+      "careersUrl": "https://www.udaan.com/careers"
+    },
+    {
+      "slug": "inmobi",
+      "name": "InMobi",
+      "category": "product",
+      "tagline": "Mobile advertising and marketing platform",
+      "description": "InMobi provides mobile advertising, marketing, and monetization technology for brands and publishers.",
+      "website": "https://www.inmobi.com",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Adtech",
+        "Mobile marketing",
+        "SaaS"
+      ],
+      "tags": [
+        "Unicorn",
+        "Global product"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.inmobi.com/company/about/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.inmobi.com/company/careers/"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru",
+        "San Francisco"
+      ],
+      "careersUrl": "https://www.inmobi.com/company/careers/",
+      "products": [
+        "InMobi Advertising",
+        "Glance"
+      ]
+    },
+    {
+      "slug": "genpact",
+      "name": "Genpact",
+      "category": "service",
+      "tagline": "Business process and digital services",
+      "description": "Genpact delivers business process management, analytics, and digital transformation services globally.",
+      "website": "https://www.genpact.com",
+      "hq": "New York, USA / Gurugram, India",
+      "domains": [
+        "BPO",
+        "IT Services",
+        "Digital transformation"
+      ],
+      "tags": [
+        "MNC",
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.genpact.com/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.genpact.com/careers"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.genpact.com/contact-us"
+        }
+      ],
+      "officeCities": [
+        "Gurugram",
+        "Hyderabad",
+        "Bengaluru",
+        "Jaipur",
+        "Kolkata"
+      ],
+      "locationsUrl": "https://www.genpact.com/contact-us",
+      "careersUrl": "https://www.genpact.com/careers",
+      "services": [
+        "Finance & accounting",
+        "Analytics",
+        "Digital operations"
+      ]
+    },
+    {
+      "slug": "exl-service",
+      "name": "EXL Service",
+      "category": "service",
+      "tagline": "Analytics and operations management services",
+      "description": "EXL Service provides data analytics, digital operations, and industry-specific business process services.",
+      "website": "https://www.exlservice.com",
+      "hq": "New York, USA / Noida, India",
+      "domains": [
+        "Analytics",
+        "BPO",
+        "Digital operations"
+      ],
+      "tags": [
+        "MNC",
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.exlservice.com/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.exlservice.com/careers"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.exlservice.com/contact-us"
+        }
+      ],
+      "officeCities": [
+        "Noida",
+        "Gurugram",
+        "Bengaluru",
+        "Pune"
+      ],
+      "locationsUrl": "https://www.exlservice.com/contact-us",
+      "careersUrl": "https://www.exlservice.com/careers",
+      "services": [
+        "Analytics & AI",
+        "Finance & accounting",
+        "Insurance operations"
+      ]
+    },
+    {
+      "slug": "coforge",
+      "name": "Coforge",
+      "category": "service",
+      "tagline": "IT services and digital solutions",
+      "description": "Coforge provides IT services, product engineering, and digital solutions for global clients.",
+      "website": "https://www.coforge.com",
+      "hq": "Noida, India",
+      "domains": [
+        "IT Services",
+        "Digital transformation",
+        "BFSI"
+      ],
+      "tags": [
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.coforge.com/who-we-are/about-coforge"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.coforge.com/careers"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.coforge.com/contact-us"
+        }
+      ],
+      "officeCities": [
+        "Noida",
+        "Gurugram",
+        "Bengaluru",
+        "Hyderabad",
+        "Pune"
+      ],
+      "locationsUrl": "https://www.coforge.com/contact-us",
+      "careersUrl": "https://www.coforge.com/careers",
+      "services": [
+        "Application development",
+        "Cloud",
+        "Data & analytics"
+      ]
+    },
+    {
+      "slug": "happiest-minds",
+      "name": "Happiest Minds",
+      "category": "service",
+      "tagline": "Digital IT services and product engineering",
+      "description": "Happiest Minds delivers digital transformation, product engineering, and infrastructure management services.",
+      "website": "https://www.happiestminds.com",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "IT Services",
+        "Product engineering",
+        "Digital transformation"
+      ],
+      "tags": [
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.happiestminds.com/about-us/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.happiestminds.com/careers/"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.happiestminds.com/contact-us/"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru",
+        "Bhubaneswar",
+        "Hyderabad",
+        "Pune"
+      ],
+      "locationsUrl": "https://www.happiestminds.com/contact-us/",
+      "careersUrl": "https://www.happiestminds.com/careers/",
+      "services": [
+        "Product engineering",
+        "Infrastructure management",
+        "Security"
+      ]
+    },
+    {
+      "slug": "birlasoft",
+      "name": "Birlasoft",
+      "category": "service",
+      "tagline": "IT services and digital solutions",
+      "description": "Birlasoft provides IT services, digital transformation, and enterprise application services globally.",
+      "website": "https://www.birlasoft.com",
+      "hq": "Noida, India",
+      "domains": [
+        "IT Services",
+        "Digital transformation",
+        "Enterprise apps"
+      ],
+      "tags": [
+        "Public company",
+        "CK Birla Group"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.birlasoft.com/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.birlasoft.com/careers"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.birlasoft.com/contact-us"
+        }
+      ],
+      "officeCities": [
+        "Noida",
+        "Pune",
+        "Bengaluru",
+        "Hyderabad",
+        "Chennai"
+      ],
+      "locationsUrl": "https://www.birlasoft.com/contact-us",
+      "careersUrl": "https://www.birlasoft.com/careers",
+      "services": [
+        "Cloud",
+        "SAP",
+        "Digital engineering"
+      ]
+    },
+    {
+      "slug": "zensar",
+      "name": "Zensar",
+      "category": "service",
+      "tagline": "Digital solutions and IT services",
+      "description": "Zensar provides digital transformation, cloud, and application services as part of the RPG Group.",
+      "website": "https://www.zensar.com",
+      "hq": "Pune, India",
+      "domains": [
+        "IT Services",
+        "Digital transformation",
+        "Cloud"
+      ],
+      "tags": [
+        "Public company",
+        "RPG Group"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.zensar.com/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.zensar.com/careers"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.zensar.com/contact-us"
+        }
+      ],
+      "officeCities": [
+        "Pune",
+        "Hyderabad",
+        "Bengaluru",
+        "Chennai"
+      ],
+      "locationsUrl": "https://www.zensar.com/contact-us",
+      "careersUrl": "https://www.zensar.com/careers",
+      "services": [
+        "Digital commerce",
+        "Cloud",
+        "Enterprise applications"
+      ]
+    },
+    {
+      "slug": "thoughtworks-india",
+      "name": "Thoughtworks India",
+      "category": "hybrid",
+      "tagline": "Software consultancy and digital delivery",
+      "description": "Thoughtworks India delivers software design, development, and digital transformation consulting.",
+      "website": "https://www.thoughtworks.com/en-in",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Software consulting",
+        "Digital transformation",
+        "Product delivery"
+      ],
+      "tags": [
+        "MNC",
+        "Global delivery"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.thoughtworks.com/en-in/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.thoughtworks.com/careers"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.thoughtworks.com/en-in/contact-us"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru",
+        "Chennai",
+        "Gurugram",
+        "Hyderabad",
+        "Pune"
+      ],
+      "locationsUrl": "https://www.thoughtworks.com/en-in/contact-us",
+      "careersUrl": "https://www.thoughtworks.com/careers",
+      "services": [
+        "Product development",
+        "Data & AI",
+        "Platform modernization"
+      ]
+    },
+    {
+      "slug": "epam-india",
+      "name": "EPAM India",
+      "category": "service",
+      "tagline": "Product engineering and digital platform services",
+      "description": "EPAM India provides software engineering and digital platform services for global technology clients.",
+      "website": "https://www.epam.com/in",
+      "hq": "Hyderabad, India",
+      "domains": [
+        "Product engineering",
+        "IT Services",
+        "Digital platforms"
+      ],
+      "tags": [
+        "MNC",
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.epam.com/about/who-we-are"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.epam.com/careers/india"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.epam.com/about/who-we-are/locations"
+        }
+      ],
+      "officeCities": [
+        "Hyderabad",
+        "Pune",
+        "Chennai",
+        "Gurugram",
+        "Bengaluru"
+      ],
+      "locationsUrl": "https://www.epam.com/about/who-we-are/locations",
+      "careersUrl": "https://www.epam.com/careers/india",
+      "services": [
+        "Software engineering",
+        "Cloud",
+        "Data & analytics"
+      ]
+    },
+    {
+      "slug": "nagarro",
+      "name": "Nagarro",
+      "category": "service",
+      "tagline": "Digital product engineering",
+      "description": "Nagarro provides digital product engineering and technology consulting for enterprises worldwide.",
+      "website": "https://www.nagarro.com",
+      "hq": "Munich, Germany / Gurugram, India",
+      "domains": [
+        "Product engineering",
+        "IT Services",
+        "Digital transformation"
+      ],
+      "tags": [
+        "MNC",
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.nagarro.com/en/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.nagarro.com/en/careers"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.nagarro.com/en/contact-us"
+        }
+      ],
+      "officeCities": [
+        "Gurugram",
+        "Pune",
+        "Bengaluru",
+        "Hyderabad",
+        "Chandigarh"
+      ],
+      "locationsUrl": "https://www.nagarro.com/en/contact-us",
+      "careersUrl": "https://www.nagarro.com/en/careers",
+      "services": [
+        "Product engineering",
+        "Cloud",
+        "AI & data"
+      ]
+    },
+    {
+      "slug": "druva",
+      "name": "Druva",
+      "category": "product",
+      "tagline": "Cloud data protection platform",
+      "description": "Druva provides cloud-native data protection and management for endpoints, SaaS, and cloud workloads.",
+      "website": "https://www.druva.com",
+      "hq": "Pune, India / Sunnyvale, USA",
+      "domains": [
+        "Cloud security",
+        "Data protection",
+        "SaaS"
+      ],
+      "tags": [
+        "Unicorn",
+        "Global product"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.druva.com/company/about/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.druva.com/company/careers/"
+        }
+      ],
+      "officeCities": [
+        "Pune",
+        "Bengaluru"
+      ],
+      "careersUrl": "https://www.druva.com/company/careers/",
+      "products": [
+        "Druva Data Resiliency Cloud"
+      ]
+    },
+    {
+      "slug": "icertis",
+      "name": "Icertis",
+      "category": "product",
+      "tagline": "Contract lifecycle management platform",
+      "description": "Icertis provides AI-powered contract lifecycle management software for enterprises.",
+      "website": "https://www.icertis.com",
+      "hq": "Pune, India / Bellevue, USA",
+      "domains": [
+        "Legal tech",
+        "Enterprise SaaS",
+        "AI"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.icertis.com/company/about-us/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.icertis.com/company/careers/"
+        }
+      ],
+      "officeCities": [
+        "Pune",
+        "Bengaluru"
+      ],
+      "careersUrl": "https://www.icertis.com/company/careers/",
+      "products": [
+        "Icertis Contract Intelligence Platform"
+      ]
+    },
+    {
+      "slug": "practo",
+      "name": "Practo",
+      "category": "product",
+      "tagline": "Healthcare platform for patients and providers",
+      "description": "Practo connects patients with doctors and healthcare providers through booking and practice management tools.",
+      "website": "https://www.practo.com",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Healthtech",
+        "Marketplace",
+        "Consumer apps"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.practo.com/company/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.practo.com/careers"
+        }
+      ],
+      "careersUrl": "https://www.practo.com/careers",
+      "products": [
+        "Practo App",
+        "Practo Ray"
+      ]
+    },
+    {
+      "slug": "info-edge",
+      "name": "Info Edge",
+      "category": "product",
+      "tagline": "Internet classifieds and recruitment platforms",
+      "description": "Info Edge operates Naukri.com, 99acres, Jeevansathi, and other online classified platforms in India.",
+      "website": "https://www.infoedge.in",
+      "hq": "Noida, India",
+      "domains": [
+        "Internet",
+        "Recruitment",
+        "Classifieds"
+      ],
+      "tags": [
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.infoedge.in/about-us.html"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.infoedge.in/careers.html"
+        }
+      ],
+      "careersUrl": "https://www.infoedge.in/careers.html",
+      "products": [
+        "Naukri.com",
+        "99acres",
+        "Jeevansathi",
+        "Shiksha.com"
+      ]
+    },
+    {
+      "slug": "makemytrip",
+      "name": "MakeMyTrip",
+      "category": "hybrid",
+      "tagline": "Online travel booking platform",
+      "description": "MakeMyTrip operates online travel booking for flights, hotels, and holidays in India.",
+      "website": "https://www.makemytrip.com",
+      "hq": "Gurugram, India",
+      "domains": [
+        "Travel tech",
+        "E-commerce",
+        "Consumer apps"
+      ],
+      "tags": [
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.makemytrip.com/about-us.html"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.makemytrip.com/"
+        }
+      ],
+      "careersUrl": "https://careers.makemytrip.com/"
+    },
+    {
+      "slug": "zepto",
+      "name": "Zepto",
+      "category": "hybrid",
+      "tagline": "Quick commerce grocery delivery",
+      "description": "Zepto delivers groceries and essentials in minutes through a quick commerce model in Indian cities.",
+      "website": "https://www.zeptonow.com",
+      "hq": "Mumbai, India",
+      "domains": [
+        "Quick commerce",
+        "Grocery",
+        "Logistics"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.zeptonow.com/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.zeptonow.com/careers"
+        }
+      ],
+      "careersUrl": "https://www.zeptonow.com/careers"
+    },
+    {
+      "slug": "blinkit",
+      "name": "Blinkit",
+      "category": "hybrid",
+      "tagline": "Quick commerce delivery platform",
+      "description": "Blinkit operates quick commerce grocery and essentials delivery, part of the Zomato Group.",
+      "website": "https://blinkit.com",
+      "hq": "Gurugram, India",
+      "domains": [
+        "Quick commerce",
+        "Grocery",
+        "Logistics"
+      ],
+      "tags": [
+        "Zomato Group"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://blinkit.com/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://blinkit.com/careers"
+        }
+      ],
+      "careersUrl": "https://blinkit.com/careers"
+    },
+    {
+      "slug": "coinswitch",
+      "name": "CoinSwitch",
+      "category": "product",
+      "tagline": "Crypto investment platform",
+      "description": "CoinSwitch offers a platform for buying, selling, and managing cryptocurrency investments in India.",
+      "website": "https://coinswitch.co",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Crypto",
+        "Fintech",
+        "Consumer apps"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://coinswitch.co/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://coinswitch.co/careers"
+        }
+      ],
+      "careersUrl": "https://coinswitch.co/careers"
+    },
+    {
+      "slug": "coindcx",
+      "name": "CoinDCX",
+      "category": "product",
+      "tagline": "Cryptocurrency exchange",
+      "description": "CoinDCX operates a cryptocurrency exchange and Web3 platform for Indian users.",
+      "website": "https://coindcx.com",
+      "hq": "Mumbai, India",
+      "domains": [
+        "Crypto",
+        "Fintech",
+        "Exchange"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://coindcx.com/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://coindcx.com/careers"
+        }
+      ],
+      "careersUrl": "https://coindcx.com/careers"
+    },
+    {
+      "slug": "bharatpe",
+      "name": "BharatPe",
+      "category": "product",
+      "tagline": "Merchant payments and lending platform",
+      "description": "BharatPe provides QR-based payments, POS, and lending products for merchants in India.",
+      "website": "https://bharatpe.com",
+      "hq": "New Delhi, India",
+      "domains": [
+        "Fintech",
+        "Payments",
+        "Merchant services"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://bharatpe.com/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://bharatpe.com/careers"
+        }
+      ],
+      "careersUrl": "https://bharatpe.com/careers"
+    },
+    {
+      "slug": "pine-labs",
+      "name": "Pine Labs",
+      "category": "product",
+      "tagline": "Merchant commerce and payments platform",
+      "description": "Pine Labs provides payment terminals, loyalty, and merchant commerce solutions in India and Asia.",
+      "website": "https://www.pinelabs.com",
+      "hq": "Noida, India",
+      "domains": [
+        "Fintech",
+        "Payments",
+        "Merchant services"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.pinelabs.com/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.pinelabs.com/careers"
+        }
+      ],
+      "careersUrl": "https://www.pinelabs.com/careers",
+      "products": [
+        "POS terminals",
+        "Pluxee",
+        "Merchant platform"
+      ]
+    },
+    {
+      "slug": "khatabook",
+      "name": "Khatabook",
+      "category": "product",
+      "tagline": "Bookkeeping app for small businesses",
+      "description": "Khatabook provides a digital ledger and business management app for small merchants in India.",
+      "website": "https://khatabook.com",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Fintech",
+        "SMB tools",
+        "Consumer apps"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://khatabook.com/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://khatabook.com/careers"
+        }
+      ],
+      "careersUrl": "https://khatabook.com/careers"
+    },
+    {
+      "slug": "apna",
+      "name": "Apna",
+      "category": "product",
+      "tagline": "Professional networking for workers",
+      "description": "Apna connects job seekers in blue- and grey-collar roles with employers through a professional networking app.",
+      "website": "https://apna.co",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Recruitment",
+        "Consumer apps",
+        "Marketplace"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://apna.co/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://apna.co/careers"
+        }
+      ],
+      "careersUrl": "https://apna.co/careers"
+    },
+    {
+      "slug": "ninjacart",
+      "name": "Ninjacart",
+      "category": "hybrid",
+      "tagline": "Agri supply chain platform",
+      "description": "Ninjacart connects farmers with retailers through a technology-enabled fresh produce supply chain.",
+      "website": "https://www.ninjacart.in",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Agri tech",
+        "Supply chain",
+        "B2B marketplace"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.ninjacart.in/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.ninjacart.in/careers"
+        }
+      ],
+      "careersUrl": "https://www.ninjacart.in/careers"
+    },
+    {
+      "slug": "mu-sigma",
+      "name": "Mu Sigma",
+      "category": "hybrid",
+      "tagline": "Decision sciences and analytics",
+      "description": "Mu Sigma provides decision sciences, analytics, and data engineering services for global enterprises.",
+      "website": "https://www.mu-sigma.com",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Analytics",
+        "Decision sciences",
+        "Data engineering"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.mu-sigma.com/about-us/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.mu-sigma.com/careers/"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru",
+        "Chicago"
+      ],
+      "careersUrl": "https://www.mu-sigma.com/careers/",
+      "services": [
+        "Decision sciences",
+        "Analytics",
+        "Data engineering"
+      ]
+    },
+    {
+      "slug": "publicis-sapient",
+      "name": "Publicis Sapient",
+      "category": "service",
+      "tagline": "Digital business transformation consulting",
+      "description": "Publicis Sapient delivers digital transformation consulting and technology implementation for global clients.",
+      "website": "https://www.publicissapient.com",
+      "hq": "Boston, USA / Bengaluru, India",
+      "domains": [
+        "Consulting",
+        "Digital transformation",
+        "Technology"
+      ],
+      "tags": [
+        "MNC",
+        "Global delivery"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.publicissapient.com/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.publicissapient.com/"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.publicissapient.com/contact"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru",
+        "Chennai",
+        "Gurugram",
+        "Hyderabad",
+        "Mumbai",
+        "Pune"
+      ],
+      "locationsUrl": "https://www.publicissapient.com/contact",
+      "careersUrl": "https://careers.publicissapient.com/",
+      "services": [
+        "Digital strategy",
+        "Product engineering",
+        "Experience design"
+      ]
+    },
+    {
+      "slug": "globant-india",
+      "name": "Globant India",
+      "category": "service",
+      "tagline": "Software engineering and digital services",
+      "description": "Globant India provides software development and digital experience services as part of the global Globant network.",
+      "website": "https://www.globant.com/en/india",
+      "hq": "Pune, India",
+      "domains": [
+        "Product engineering",
+        "IT Services",
+        "Digital experience"
+      ],
+      "tags": [
+        "MNC",
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.globant.com/en/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.globant.com/en/careers"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.globant.com/en/contact"
+        }
+      ],
+      "officeCities": [
+        "Pune",
+        "Bengaluru",
+        "Hyderabad",
+        "Chennai",
+        "Mumbai"
+      ],
+      "locationsUrl": "https://www.globant.com/en/contact",
+      "careersUrl": "https://www.globant.com/en/careers",
+      "services": [
+        "Software engineering",
+        "AI & data",
+        "Digital experience"
+      ]
+    },
+    {
+      "slug": "ramco-systems",
+      "name": "Ramco Systems",
+      "category": "product",
+      "tagline": "Enterprise software for aviation, HR, and logistics",
+      "description": "Ramco Systems develops enterprise software for aviation MRO, HR, payroll, and logistics industries.",
+      "website": "https://www.ramco.com",
+      "hq": "Chennai, India",
+      "domains": [
+        "Enterprise software",
+        "Aviation",
+        "HR tech"
+      ],
+      "tags": [
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.ramco.com/about-us/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.ramco.com/careers/"
+        }
+      ],
+      "officeCities": [
+        "Chennai",
+        "Singapore",
+        "Dubai"
+      ],
+      "careersUrl": "https://www.ramco.com/careers/",
+      "products": [
+        "Ramco Aviation",
+        "Ramco HR",
+        "Ramco Logistics"
+      ]
+    },
+    {
+      "slug": "sonata-software",
+      "name": "Sonata Software",
+      "category": "hybrid",
+      "tagline": "IT services and platform solutions",
+      "description": "Sonata Software provides IT services and proprietary IP-based platform solutions for global clients.",
+      "website": "https://www.sonata-software.com",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "IT Services",
+        "Platform solutions",
+        "Digital transformation"
+      ],
+      "tags": [
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.sonata-software.com/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.sonata-software.com/careers"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.sonata-software.com/contact-us"
+        }
+      ],
+      "officeCities": [
+        "Bengaluru",
+        "Hyderabad",
+        "Pune",
+        "Chennai"
+      ],
+      "locationsUrl": "https://www.sonata-software.com/contact-us",
+      "careersUrl": "https://www.sonata-software.com/careers",
+      "services": [
+        "Digital transformation",
+        "Cloud",
+        "Managed services"
+      ]
+    },
+    {
+      "slug": "mastek",
+      "name": "Mastek",
+      "category": "service",
+      "tagline": "Digital engineering and cloud services",
+      "description": "Mastek provides digital engineering, cloud, and data services for government and enterprise clients.",
+      "website": "https://www.mastek.com",
+      "hq": "Mumbai, India",
+      "domains": [
+        "IT Services",
+        "Digital engineering",
+        "Cloud"
+      ],
+      "tags": [
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.mastek.com/about-us/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.mastek.com/careers/"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.mastek.com/contact-us/"
+        }
+      ],
+      "officeCities": [
+        "Mumbai",
+        "Pune",
+        "Bengaluru",
+        "Chennai",
+        "Gurugram"
+      ],
+      "locationsUrl": "https://www.mastek.com/contact-us/",
+      "careersUrl": "https://www.mastek.com/careers/",
+      "services": [
+        "Digital engineering",
+        "Cloud",
+        "Data & analytics"
+      ]
+    },
+    {
+      "slug": "firstsource",
+      "name": "Firstsource",
+      "category": "service",
+      "tagline": "Business process management services",
+      "description": "Firstsource provides customer management and business process services for healthcare, BFSI, and other sectors.",
+      "website": "https://www.firstsource.com",
+      "hq": "Mumbai, India",
+      "domains": [
+        "BPO",
+        "Customer management",
+        "Digital services"
+      ],
+      "tags": [
+        "Public company",
+        "RP-Sanjiv Goenka Group"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.firstsource.com/about-us/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.firstsource.com/careers/"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.firstsource.com/contact-us/"
+        }
+      ],
+      "officeCities": [
+        "Mumbai",
+        "Bengaluru",
+        "Hyderabad",
+        "Chennai",
+        "Pune"
+      ],
+      "locationsUrl": "https://www.firstsource.com/contact-us/",
+      "careersUrl": "https://www.firstsource.com/careers/",
+      "services": [
+        "Customer care",
+        "Healthcare services",
+        "Collections"
+      ]
+    },
+    {
+      "slug": "wns",
+      "name": "WNS",
+      "category": "service",
+      "tagline": "Business process management and analytics",
+      "description": "WNS provides business process management, analytics, and digital transformation services globally.",
+      "website": "https://www.wns.com",
+      "hq": "Mumbai, India",
+      "domains": [
+        "BPO",
+        "Analytics",
+        "Digital transformation"
+      ],
+      "tags": [
+        "MNC",
+        "Public company"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.wns.com/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.wns.com/careers"
+        },
+        {
+          "label": "Office locations",
+          "url": "https://www.wns.com/contact-us"
+        }
+      ],
+      "officeCities": [
+        "Mumbai",
+        "Pune",
+        "Hyderabad",
+        "Bengaluru",
+        "Chennai",
+        "Gurugram"
+      ],
+      "locationsUrl": "https://www.wns.com/contact-us",
+      "careersUrl": "https://www.wns.com/careers",
+      "services": [
+        "Finance & accounting",
+        "Research & analytics",
+        "Customer experience"
+      ]
+    },
+    {
+      "slug": "cardekho",
+      "name": "CarDekho",
+      "category": "hybrid",
+      "tagline": "Auto research and services portal",
+      "description": "CarDekho operates an auto research, comparison, and services platform in India, part of GirnarSoft.",
+      "website": "https://www.cardekho.com",
+      "hq": "Jaipur, India",
+      "domains": [
+        "Automotive",
+        "Marketplace",
+        "Consumer apps"
+      ],
+      "tags": [
+        "Unicorn",
+        "GirnarSoft"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.cardekho.com/info/about_us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.cardekho.com/"
+        }
+      ],
+      "careersUrl": "https://careers.cardekho.com/"
+    },
+    {
+      "slug": "redbus",
+      "name": "RedBus",
+      "category": "product",
+      "tagline": "Online bus ticketing platform",
+      "description": "redBus operates India's largest online bus ticket booking platform.",
+      "website": "https://www.redbus.in",
+      "hq": "Bengaluru, India",
+      "domains": [
+        "Travel tech",
+        "Ticketing",
+        "Consumer apps"
+      ],
+      "tags": [
+        "Market leader"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.redbus.in/info/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://careers.redbus.in/"
+        }
+      ],
+      "careersUrl": "https://careers.redbus.in/"
+    },
+    {
+      "slug": "porter",
+      "name": "Porter",
+      "category": "hybrid",
+      "tagline": "Intra-city logistics platform",
+      "description": "Porter provides on-demand mini-truck and two-wheeler logistics for businesses and individuals in Indian cities.",
+      "website": "https://porter.in",
+      "hq": "Mumbai, India",
+      "domains": [
+        "Logistics",
+        "On-demand",
+        "Last-mile"
+      ],
+      "tags": [
+        "Unicorn"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://porter.in/about-us"
+        },
+        {
+          "label": "Careers",
+          "url": "https://porter.in/careers"
+        }
+      ],
+      "careersUrl": "https://porter.in/careers"
+    },
+    {
+      "slug": "skyroot-aerospace",
+      "name": "Skyroot Aerospace",
+      "category": "product",
+      "tagline": "Private space launch company",
+      "description": "Skyroot Aerospace develops and launches small satellite launch vehicles for the commercial space market.",
+      "website": "https://www.skyroot.in",
+      "hq": "Hyderabad, India",
+      "domains": [
+        "Aerospace",
+        "Space tech",
+        "Deep tech"
+      ],
+      "tags": [
+        "Space startup"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.skyroot.in/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.skyroot.in/careers"
+        }
+      ],
+      "careersUrl": "https://www.skyroot.in/careers"
+    },
+    {
+      "slug": "agnikul-cosmos",
+      "name": "Agnikul Cosmos",
+      "category": "product",
+      "tagline": "Private orbital launch vehicles",
+      "description": "Agnikul Cosmos builds customizable orbital launch vehicles for small satellites from India.",
+      "website": "https://www.agnikul.co",
+      "hq": "Chennai, India",
+      "domains": [
+        "Aerospace",
+        "Space tech",
+        "Deep tech"
+      ],
+      "tags": [
+        "Space startup"
+      ],
+      "onsitePolicy": "Hybrid — verify on careers page",
+      "lastVerified": "2026-07-23",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://www.agnikul.co/about"
+        },
+        {
+          "label": "Careers",
+          "url": "https://www.agnikul.co/careers"
+        }
+      ],
+      "careersUrl": "https://www.agnikul.co/careers"
     }
   ]
 }

@@ -1,582 +1,2957 @@
 {
   "inProgress": [
     {
-      "name": "PhonePe",
-      "slug": "phonepe",
-      "category": "product",
-      "note": "Digital payments — verify About page, careers URL, and product classification"
-    },
-    {
-      "name": "Swiggy",
-      "slug": "swiggy",
+      "name": "Walmart",
+      "slug": "walmart",
       "category": "hybrid",
-      "note": "Food delivery + Instamart — review corporate site and tech vs ops split"
+      "note": "Fortune 500 #1 (2025) — research profile from official sources"
     },
     {
-      "name": "Wipro",
-      "slug": "wipro",
+      "name": "UnitedHealth Group",
+      "slug": "unitedhealth-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #3 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Apple",
+      "slug": "apple",
+      "category": "product",
+      "note": "Fortune 500 #4 (2025) — research profile from official sources"
+    },
+    {
+      "name": "CVS Health",
+      "slug": "cvs-health",
+      "category": "hybrid",
+      "note": "Fortune 500 #5 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Berkshire Hathaway",
+      "slug": "berkshire-hathaway",
+      "category": "unknown",
+      "note": "Fortune 500 #6 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Exxon Mobil",
+      "slug": "exxon-mobil",
+      "category": "hybrid",
+      "note": "Fortune 500 #8 (2025) — research profile from official sources"
+    },
+    {
+      "name": "McKesson",
+      "slug": "mckesson",
+      "category": "hybrid",
+      "note": "Fortune 500 #9 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Cencora",
+      "slug": "cencora",
+      "category": "hybrid",
+      "note": "Fortune 500 #10 (2025) — research profile from official sources"
+    },
+    {
+      "name": "JPMorgan Chase",
+      "slug": "jpmorgan-chase",
+      "category": "hybrid",
+      "note": "Fortune 500 #11 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Costco Wholesale",
+      "slug": "costco-wholesale",
+      "category": "hybrid",
+      "note": "Fortune 500 #12 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Cigna Group",
+      "slug": "cigna-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #13 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Cardinal Health",
+      "slug": "cardinal-health",
+      "category": "hybrid",
+      "note": "Fortune 500 #15 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Chevron",
+      "slug": "chevron",
+      "category": "hybrid",
+      "note": "Fortune 500 #16 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Bank of America",
+      "slug": "bank-of-america",
+      "category": "hybrid",
+      "note": "Fortune 500 #17 (2025) — research profile from official sources"
+    },
+    {
+      "name": "General Motors",
+      "slug": "general-motors",
+      "category": "unknown",
+      "note": "Fortune 500 #18 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Ford Motor",
+      "slug": "ford-motor",
+      "category": "unknown",
+      "note": "Fortune 500 #19 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Elevance Health",
+      "slug": "elevance-health",
+      "category": "hybrid",
+      "note": "Fortune 500 #20 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Citigroup",
+      "slug": "citigroup",
+      "category": "hybrid",
+      "note": "Fortune 500 #21 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Meta Platforms",
+      "slug": "meta-platforms",
+      "category": "product",
+      "note": "Fortune 500 #22 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Centene",
+      "slug": "centene",
+      "category": "hybrid",
+      "note": "Fortune 500 #23 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Home Depot",
+      "slug": "home-depot",
+      "category": "hybrid",
+      "note": "Fortune 500 #24 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Fannie Mae",
+      "slug": "fannie-mae",
+      "category": "hybrid",
+      "note": "Fortune 500 #25 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Walgreens Boots Alliance",
+      "slug": "walgreens-boots-alliance",
+      "category": "hybrid",
+      "note": "Fortune 500 #26 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Kroger",
+      "slug": "kroger",
+      "category": "hybrid",
+      "note": "Fortune 500 #27 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Phillips 66",
+      "slug": "phillips-66",
+      "category": "hybrid",
+      "note": "Fortune 500 #28 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Marathon Petroleum",
+      "slug": "marathon-petroleum",
+      "category": "hybrid",
+      "note": "Fortune 500 #29 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Verizon Communications",
+      "slug": "verizon-communications",
+      "category": "hybrid",
+      "note": "Fortune 500 #30 (2025) — research profile from official sources"
+    },
+    {
+      "name": "NVIDIA",
+      "slug": "nvidia",
+      "category": "product",
+      "note": "Fortune 500 #31 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Goldman Sachs",
+      "slug": "goldman-sachs",
+      "category": "hybrid",
+      "note": "Fortune 500 #32 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Wells Fargo",
+      "slug": "wells-fargo",
+      "category": "hybrid",
+      "note": "Fortune 500 #33 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Valero Energy",
+      "slug": "valero-energy",
+      "category": "hybrid",
+      "note": "Fortune 500 #34 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Comcast",
+      "slug": "comcast",
+      "category": "hybrid",
+      "note": "Fortune 500 #35 (2025) — research profile from official sources"
+    },
+    {
+      "name": "State Farm Insurance",
+      "slug": "state-farm-insurance",
+      "category": "hybrid",
+      "note": "Fortune 500 #36 (2025) — research profile from official sources"
+    },
+    {
+      "name": "AT&T",
+      "slug": "at-t",
+      "category": "hybrid",
+      "note": "Fortune 500 #37 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Freddie Mac",
+      "slug": "freddie-mac",
+      "category": "hybrid",
+      "note": "Fortune 500 #38 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Humana",
+      "slug": "humana",
+      "category": "hybrid",
+      "note": "Fortune 500 #39 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Morgan Stanley",
+      "slug": "morgan-stanley",
+      "category": "hybrid",
+      "note": "Fortune 500 #40 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Target",
+      "slug": "target",
+      "category": "hybrid",
+      "note": "Fortune 500 #41 (2025) — research profile from official sources"
+    },
+    {
+      "name": "StoneX Group",
+      "slug": "stonex-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #42 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Tesla",
+      "slug": "tesla",
+      "category": "hybrid",
+      "note": "Fortune 500 #43 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Dell Technologies",
+      "slug": "dell-technologies",
+      "category": "product",
+      "note": "Fortune 500 #44 (2025) — research profile from official sources"
+    },
+    {
+      "name": "PepsiCo",
+      "slug": "pepsico",
+      "category": "unknown",
+      "note": "Fortune 500 #45 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Walt Disney",
+      "slug": "walt-disney",
+      "category": "hybrid",
+      "note": "Fortune 500 #46 (2025) — research profile from official sources"
+    },
+    {
+      "name": "United Parcel Service",
+      "slug": "united-parcel-service",
+      "category": "unknown",
+      "note": "Fortune 500 #47 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Johnson & Johnson",
+      "slug": "johnson-johnson",
+      "category": "unknown",
+      "note": "Fortune 500 #48 (2025) — research profile from official sources"
+    },
+    {
+      "name": "FedEx",
+      "slug": "fedex",
+      "category": "unknown",
+      "note": "Fortune 500 #49 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Archer Daniels Midland",
+      "slug": "archer-daniels-midland",
+      "category": "unknown",
+      "note": "Fortune 500 #50 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Procter & Gamble",
+      "slug": "procter-gamble",
+      "category": "unknown",
+      "note": "Fortune 500 #51 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Lowe's",
+      "slug": "lowe-s",
+      "category": "hybrid",
+      "note": "Fortune 500 #52 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Energy Transfer",
+      "slug": "energy-transfer",
+      "category": "hybrid",
+      "note": "Fortune 500 #53 (2025) — research profile from official sources"
+    },
+    {
+      "name": "RTX Corporation",
+      "slug": "rtx-corporation",
+      "category": "unknown",
+      "note": "Fortune 500 #54 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Albertsons",
+      "slug": "albertsons",
+      "category": "hybrid",
+      "note": "Fortune 500 #55 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Sysco",
+      "slug": "sysco",
+      "category": "unknown",
+      "note": "Fortune 500 #56 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Progressive",
+      "slug": "progressive",
+      "category": "hybrid",
+      "note": "Fortune 500 #57 (2025) — research profile from official sources"
+    },
+    {
+      "name": "American Express",
+      "slug": "american-express",
+      "category": "hybrid",
+      "note": "Fortune 500 #58 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Lockheed Martin",
+      "slug": "lockheed-martin",
+      "category": "unknown",
+      "note": "Fortune 500 #59 (2025) — research profile from official sources"
+    },
+    {
+      "name": "MetLife",
+      "slug": "metlife",
+      "category": "hybrid",
+      "note": "Fortune 500 #60 (2025) — research profile from official sources"
+    },
+    {
+      "name": "HCA Healthcare",
+      "slug": "hca-healthcare",
+      "category": "hybrid",
+      "note": "Fortune 500 #61 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Prudential Financial",
+      "slug": "prudential-financial",
+      "category": "hybrid",
+      "note": "Fortune 500 #62 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Boeing",
+      "slug": "boeing",
+      "category": "unknown",
+      "note": "Fortune 500 #63 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Caterpillar",
+      "slug": "caterpillar",
+      "category": "unknown",
+      "note": "Fortune 500 #64 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Merck",
+      "slug": "merck",
+      "category": "unknown",
+      "note": "Fortune 500 #65 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Allstate",
+      "slug": "allstate",
+      "category": "hybrid",
+      "note": "Fortune 500 #66 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Pfizer",
+      "slug": "pfizer",
+      "category": "unknown",
+      "note": "Fortune 500 #67 (2025) — research profile from official sources"
+    },
+    {
+      "name": "New York Life Insurance",
+      "slug": "new-york-life-insurance",
+      "category": "hybrid",
+      "note": "Fortune 500 #69 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Delta Air Lines",
+      "slug": "delta-air-lines",
+      "category": "unknown",
+      "note": "Fortune 500 #70 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Publix Super Markets",
+      "slug": "publix-super-markets",
+      "category": "hybrid",
+      "note": "Fortune 500 #71 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Nationwide",
+      "slug": "nationwide",
+      "category": "hybrid",
+      "note": "Fortune 500 #72 (2025) — research profile from official sources"
+    },
+    {
+      "name": "TD Synnex",
+      "slug": "td-synnex",
+      "category": "product",
+      "note": "Fortune 500 #73 (2025) — research profile from official sources"
+    },
+    {
+      "name": "United Airlines Holdings",
+      "slug": "united-airlines-holdings",
+      "category": "unknown",
+      "note": "Fortune 500 #74 (2025) — research profile from official sources"
+    },
+    {
+      "name": "ConocoPhillips",
+      "slug": "conocophillips",
+      "category": "hybrid",
+      "note": "Fortune 500 #75 (2025) — research profile from official sources"
+    },
+    {
+      "name": "TJX Companies",
+      "slug": "tjx-companies",
+      "category": "hybrid",
+      "note": "Fortune 500 #76 (2025) — research profile from official sources"
+    },
+    {
+      "name": "AbbVie",
+      "slug": "abbvie",
+      "category": "unknown",
+      "note": "Fortune 500 #77 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Enterprise Products Partners",
+      "slug": "enterprise-products-partners",
+      "category": "hybrid",
+      "note": "Fortune 500 #78 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Charter Communications",
+      "slug": "charter-communications",
+      "category": "hybrid",
+      "note": "Fortune 500 #79 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Performance Food Group",
+      "slug": "performance-food-group",
+      "category": "unknown",
+      "note": "Fortune 500 #80 (2025) — research profile from official sources"
+    },
+    {
+      "name": "American Airlines Group",
+      "slug": "american-airlines-group",
+      "category": "unknown",
+      "note": "Fortune 500 #81 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Capital One Financial",
+      "slug": "capital-one-financial",
+      "category": "hybrid",
+      "note": "Fortune 500 #82 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Cisco Systems",
+      "slug": "cisco-systems",
+      "category": "product",
+      "note": "Fortune 500 #83 (2025) — research profile from official sources"
+    },
+    {
+      "name": "HP Inc",
+      "slug": "hp-inc",
+      "category": "product",
+      "note": "Fortune 500 #84 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Tyson Foods",
+      "slug": "tyson-foods",
+      "category": "unknown",
+      "note": "Fortune 500 #85 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Intel",
+      "slug": "intel",
+      "category": "product",
+      "note": "Fortune 500 #86 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Broadcom",
+      "slug": "broadcom",
+      "category": "product",
+      "note": "Fortune 500 #88 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Deere & Company",
+      "slug": "deere-company",
+      "category": "unknown",
+      "note": "Fortune 500 #89 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Nike",
+      "slug": "nike",
+      "category": "unknown",
+      "note": "Fortune 500 #90 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Liberty Mutual Insurance Group",
+      "slug": "liberty-mutual-insurance-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #91 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Plains GP Holdings",
+      "slug": "plains-gp-holdings",
+      "category": "hybrid",
+      "note": "Fortune 500 #92 (2025) — research profile from official sources"
+    },
+    {
+      "name": "USAA",
+      "slug": "usaa",
+      "category": "hybrid",
+      "note": "Fortune 500 #93 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Bristol-Myers Squibb",
+      "slug": "bristol-myers-squibb",
+      "category": "unknown",
+      "note": "Fortune 500 #94 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Ingram Micro",
+      "slug": "ingram-micro",
+      "category": "product",
+      "note": "Fortune 500 #95 (2025) — research profile from official sources"
+    },
+    {
+      "name": "General Dynamics",
+      "slug": "general-dynamics",
+      "category": "unknown",
+      "note": "Fortune 500 #96 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Coca-Cola",
+      "slug": "coca-cola",
+      "category": "unknown",
+      "note": "Fortune 500 #97 (2025) — research profile from official sources"
+    },
+    {
+      "name": "TIAA",
+      "slug": "tiaa",
+      "category": "hybrid",
+      "note": "Fortune 500 #98 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Travelers Companies",
+      "slug": "travelers-companies",
+      "category": "hybrid",
+      "note": "Fortune 500 #99 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Eli Lilly",
+      "slug": "eli-lilly",
+      "category": "unknown",
+      "note": "Fortune 500 #100 (2025) — research profile from official sources"
+    },
+    {
+      "name": "AIG",
+      "slug": "aig",
+      "category": "hybrid",
+      "note": "Fortune 500 #101 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Dow",
+      "slug": "dow",
+      "category": "unknown",
+      "note": "Fortune 500 #102 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Best Buy",
+      "slug": "best-buy",
+      "category": "hybrid",
+      "note": "Fortune 500 #103 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Thermo Fisher Scientific",
+      "slug": "thermo-fisher-scientific",
+      "category": "unknown",
+      "note": "Fortune 500 #104 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Northrop Grumman",
+      "slug": "northrop-grumman",
+      "category": "unknown",
+      "note": "Fortune 500 #105 (2025) — research profile from official sources"
+    },
+    {
+      "name": "CHS",
+      "slug": "chs",
+      "category": "unknown",
+      "note": "Fortune 500 #106 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Abbott Laboratories",
+      "slug": "abbott-laboratories",
+      "category": "hybrid",
+      "note": "Fortune 500 #107 (2025) — research profile from official sources"
+    },
+    {
+      "name": "LyondellBasell Industries",
+      "slug": "lyondellbasell-industries",
+      "category": "unknown",
+      "note": "Fortune 500 #108 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Qualcomm",
+      "slug": "qualcomm",
+      "category": "product",
+      "note": "Fortune 500 #109 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Dollar General",
+      "slug": "dollar-general",
+      "category": "hybrid",
+      "note": "Fortune 500 #110 (2025) — research profile from official sources"
+    },
+    {
+      "name": "GE Aerospace",
+      "slug": "ge-aerospace",
+      "category": "unknown",
+      "note": "Fortune 500 #111 (2025) — research profile from official sources"
+    },
+    {
+      "name": "T-Mobile US",
+      "slug": "t-mobile-us",
+      "category": "hybrid",
+      "note": "Fortune 500 #113 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Honeywell International",
+      "slug": "honeywell-international",
+      "category": "unknown",
+      "note": "Fortune 500 #114 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Molina Healthcare",
+      "slug": "molina-healthcare",
+      "category": "hybrid",
+      "note": "Fortune 500 #115 (2025) — research profile from official sources"
+    },
+    {
+      "name": "US Foods Holding",
+      "slug": "us-foods-holding",
+      "category": "unknown",
+      "note": "Fortune 500 #116 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Mondelez International",
+      "slug": "mondelez-international",
+      "category": "unknown",
+      "note": "Fortune 500 #117 (2025) — research profile from official sources"
+    },
+    {
+      "name": "PBF Energy",
+      "slug": "pbf-energy",
+      "category": "hybrid",
+      "note": "Fortune 500 #118 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Northwestern Mutual",
+      "slug": "northwestern-mutual",
+      "category": "hybrid",
+      "note": "Fortune 500 #119 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Philip Morris International",
+      "slug": "philip-morris-international",
+      "category": "unknown",
+      "note": "Fortune 500 #120 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Nucor",
+      "slug": "nucor",
+      "category": "unknown",
+      "note": "Fortune 500 #121 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Jabil",
+      "slug": "jabil",
+      "category": "product",
+      "note": "Fortune 500 #122 (2025) — research profile from official sources"
+    },
+    {
+      "name": "PACCAR",
+      "slug": "paccar",
+      "category": "unknown",
+      "note": "Fortune 500 #123 (2025) — research profile from official sources"
+    },
+    {
+      "name": "MassMutual",
+      "slug": "massmutual",
+      "category": "hybrid",
+      "note": "Fortune 500 #124 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Cummins",
+      "slug": "cummins",
+      "category": "unknown",
+      "note": "Fortune 500 #125 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Amgen",
+      "slug": "amgen",
+      "category": "unknown",
+      "note": "Fortune 500 #126 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Medtronic",
+      "slug": "medtronic",
+      "category": "hybrid",
+      "note": "Fortune 500 #127 (2025) — research profile from official sources"
+    },
+    {
+      "name": "3M",
+      "slug": "3m",
+      "category": "unknown",
+      "note": "Fortune 500 #128 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Dollar Tree",
+      "slug": "dollar-tree",
+      "category": "hybrid",
+      "note": "Fortune 500 #129 (2025) — research profile from official sources"
+    },
+    {
+      "name": "GE Vernova",
+      "slug": "ge-vernova",
+      "category": "product",
+      "note": "Fortune 500 #130 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Arrow Electronics",
+      "slug": "arrow-electronics",
+      "category": "product",
+      "note": "Fortune 500 #131 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Hewlett Packard Enterprise",
+      "slug": "hewlett-packard-enterprise",
+      "category": "product",
+      "note": "Fortune 500 #132 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Duke Energy",
+      "slug": "duke-energy",
+      "category": "hybrid",
+      "note": "Fortune 500 #133 (2025) — research profile from official sources"
+    },
+    {
+      "name": "HF Sinclair",
+      "slug": "hf-sinclair",
+      "category": "hybrid",
+      "note": "Fortune 500 #134 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Hartford Financial Services",
+      "slug": "hartford-financial-services",
+      "category": "hybrid",
+      "note": "Fortune 500 #135 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Baker Hughes",
+      "slug": "baker-hughes",
+      "category": "hybrid",
+      "note": "Fortune 500 #136 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Gilead Sciences",
+      "slug": "gilead-sciences",
+      "category": "unknown",
+      "note": "Fortune 500 #137 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Kraft Heinz",
+      "slug": "kraft-heinz",
+      "category": "unknown",
+      "note": "Fortune 500 #138 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Johnson Controls International",
+      "slug": "johnson-controls-international",
+      "category": "product",
+      "note": "Fortune 500 #139 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Applied Materials",
+      "slug": "applied-materials",
+      "category": "product",
+      "note": "Fortune 500 #140 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Altria Group",
+      "slug": "altria-group",
+      "category": "unknown",
+      "note": "Fortune 500 #141 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Occidental Petroleum",
+      "slug": "occidental-petroleum",
+      "category": "hybrid",
+      "note": "Fortune 500 #142 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Flex",
+      "slug": "flex",
+      "category": "product",
+      "note": "Fortune 500 #143 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Constellation Energy",
+      "slug": "constellation-energy",
+      "category": "hybrid",
+      "note": "Fortune 500 #144 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Micron Technology",
+      "slug": "micron-technology",
+      "category": "product",
+      "note": "Fortune 500 #145 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Ferguson Enterprises",
+      "slug": "ferguson-enterprises",
+      "category": "unknown",
+      "note": "Fortune 500 #146 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Southern Company",
+      "slug": "southern-company",
+      "category": "hybrid",
+      "note": "Fortune 500 #147 (2025) — research profile from official sources"
+    },
+    {
+      "name": "NextEra Energy",
+      "slug": "nextera-energy",
+      "category": "hybrid",
+      "note": "Fortune 500 #148 (2025) — research profile from official sources"
+    },
+    {
+      "name": "US Bancorp",
+      "slug": "us-bancorp",
+      "category": "hybrid",
+      "note": "Fortune 500 #149 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Danaher",
+      "slug": "danaher",
+      "category": "unknown",
+      "note": "Fortune 500 #150 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Eaton",
+      "slug": "eaton",
+      "category": "unknown",
+      "note": "Fortune 500 #151 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Macy's",
+      "slug": "macy-s",
+      "category": "hybrid",
+      "note": "Fortune 500 #152 (2025) — research profile from official sources"
+    },
+    {
+      "name": "World Kinect",
+      "slug": "world-kinect",
+      "category": "hybrid",
+      "note": "Fortune 500 #153 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Halliburton",
+      "slug": "halliburton",
+      "category": "hybrid",
+      "note": "Fortune 500 #154 (2025) — research profile from official sources"
+    },
+    {
+      "name": "AMD",
+      "slug": "amd",
+      "category": "product",
+      "note": "Fortune 500 #155 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Stryker",
+      "slug": "stryker",
+      "category": "hybrid",
+      "note": "Fortune 500 #156 (2025) — research profile from official sources"
+    },
+    {
+      "name": "ONEOK",
+      "slug": "oneok",
+      "category": "hybrid",
+      "note": "Fortune 500 #157 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Exelon",
+      "slug": "exelon",
+      "category": "hybrid",
+      "note": "Fortune 500 #158 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Carrier Global",
+      "slug": "carrier-global",
+      "category": "product",
+      "note": "Fortune 500 #159 (2025) — research profile from official sources"
+    },
+    {
+      "name": "L3Harris Technologies",
+      "slug": "l3harris-technologies",
+      "category": "unknown",
+      "note": "Fortune 500 #160 (2025) — research profile from official sources"
+    },
+    {
+      "name": "CDW",
+      "slug": "cdw",
+      "category": "product",
+      "note": "Fortune 500 #161 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Ross Stores",
+      "slug": "ross-stores",
+      "category": "hybrid",
+      "note": "Fortune 500 #162 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Tenet Healthcare",
+      "slug": "tenet-healthcare",
+      "category": "hybrid",
+      "note": "Fortune 500 #163 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Aflac",
+      "slug": "aflac",
+      "category": "hybrid",
+      "note": "Fortune 500 #164 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Parker Hannifin",
+      "slug": "parker-hannifin",
+      "category": "unknown",
+      "note": "Fortune 500 #165 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Truist Financial",
+      "slug": "truist-financial",
+      "category": "hybrid",
+      "note": "Fortune 500 #166 (2025) — research profile from official sources"
+    },
+    {
+      "name": "PNC Financial Services",
+      "slug": "pnc-financial-services",
+      "category": "hybrid",
+      "note": "Fortune 500 #167 (2025) — research profile from official sources"
+    },
+    {
+      "name": "General Mills",
+      "slug": "general-mills",
+      "category": "unknown",
+      "note": "Fortune 500 #168 (2025) — research profile from official sources"
+    },
+    {
+      "name": "BJ's Wholesale Club",
+      "slug": "bj-s-wholesale-club",
+      "category": "hybrid",
+      "note": "Fortune 500 #169 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Becton Dickinson",
+      "slug": "becton-dickinson",
+      "category": "hybrid",
+      "note": "Fortune 500 #170 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Colgate-Palmolive",
+      "slug": "colgate-palmolive",
+      "category": "unknown",
+      "note": "Fortune 500 #171 (2025) — research profile from official sources"
+    },
+    {
+      "name": "International Paper",
+      "slug": "international-paper",
+      "category": "unknown",
+      "note": "Fortune 500 #172 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Targa Resources",
+      "slug": "targa-resources",
+      "category": "hybrid",
+      "note": "Fortune 500 #173 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Freeport-McMoRan",
+      "slug": "freeport-mcmoran",
+      "category": "unknown",
+      "note": "Fortune 500 #174 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Waste Management",
+      "slug": "waste-management",
+      "category": "unknown",
+      "note": "Fortune 500 #175 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Charles Schwab",
+      "slug": "charles-schwab",
+      "category": "hybrid",
+      "note": "Fortune 500 #176 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Emerson Electric",
+      "slug": "emerson-electric",
+      "category": "product",
+      "note": "Fortune 500 #177 (2025) — research profile from official sources"
+    },
+    {
+      "name": "PPG Industries",
+      "slug": "ppg-industries",
+      "category": "unknown",
+      "note": "Fortune 500 #178 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Steel Dynamics",
+      "slug": "steel-dynamics",
+      "category": "unknown",
+      "note": "Fortune 500 #179 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Pilgrim's Pride",
+      "slug": "pilgrim-s-pride",
+      "category": "unknown",
+      "note": "Fortune 500 #180 (2025) — research profile from official sources"
+    },
+    {
+      "name": "AutoZone",
+      "slug": "autozone",
+      "category": "hybrid",
+      "note": "Fortune 500 #181 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Trane Technologies",
+      "slug": "trane-technologies",
+      "category": "unknown",
+      "note": "Fortune 500 #182 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Illinois Tool Works",
+      "slug": "illinois-tool-works",
+      "category": "unknown",
+      "note": "Fortune 500 #183 (2025) — research profile from official sources"
+    },
+    {
+      "name": "D.R. Horton",
+      "slug": "d-r-horton",
+      "category": "unknown",
+      "note": "Fortune 500 #184 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Lennar",
+      "slug": "lennar",
+      "category": "unknown",
+      "note": "Fortune 500 #185 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Southwest Airlines",
+      "slug": "southwest-airlines",
+      "category": "unknown",
+      "note": "Fortune 500 #186 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Raytheon Technologies",
+      "slug": "raytheon-technologies",
+      "category": "unknown",
+      "note": "Fortune 500 #187 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Cheniere Energy",
+      "slug": "cheniere-energy",
+      "category": "hybrid",
+      "note": "Fortune 500 #188 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Markel Group",
+      "slug": "markel-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #189 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Whirlpool",
+      "slug": "whirlpool",
+      "category": "unknown",
+      "note": "Fortune 500 #190 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Leidos",
+      "slug": "leidos",
+      "category": "product",
+      "note": "Fortune 500 #191 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Principal Financial Group",
+      "slug": "principal-financial-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #192 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Texas Instruments",
+      "slug": "texas-instruments",
+      "category": "product",
+      "note": "Fortune 500 #193 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Vistra",
+      "slug": "vistra",
+      "category": "hybrid",
+      "note": "Fortune 500 #194 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Sempra",
+      "slug": "sempra",
+      "category": "hybrid",
+      "note": "Fortune 500 #195 (2025) — research profile from official sources"
+    },
+    {
+      "name": "O'Reilly Automotive",
+      "slug": "o-reilly-automotive",
+      "category": "hybrid",
+      "note": "Fortune 500 #196 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Boston Scientific",
+      "slug": "boston-scientific",
+      "category": "hybrid",
+      "note": "Fortune 500 #197 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Dominion Energy",
+      "slug": "dominion-energy",
+      "category": "hybrid",
+      "note": "Fortune 500 #198 (2025) — research profile from official sources"
+    },
+    {
+      "name": "United Natural Foods",
+      "slug": "united-natural-foods",
+      "category": "unknown",
+      "note": "Fortune 500 #199 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Global Partners",
+      "slug": "global-partners",
+      "category": "hybrid",
+      "note": "Fortune 500 #200 (2025) — research profile from official sources"
+    },
+    {
+      "name": "American Electric Power",
+      "slug": "american-electric-power",
+      "category": "hybrid",
+      "note": "Fortune 500 #201 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Kimberly-Clark",
+      "slug": "kimberly-clark",
+      "category": "unknown",
+      "note": "Fortune 500 #202 (2025) — research profile from official sources"
+    },
+    {
+      "name": "WestRock",
+      "slug": "westrock",
+      "category": "unknown",
+      "note": "Fortune 500 #203 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Baxter International",
+      "slug": "baxter-international",
+      "category": "hybrid",
+      "note": "Fortune 500 #204 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Textron",
+      "slug": "textron",
+      "category": "unknown",
+      "note": "Fortune 500 #205 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Genuine Parts",
+      "slug": "genuine-parts",
+      "category": "unknown",
+      "note": "Fortune 500 #206 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Estee Lauder",
+      "slug": "estee-lauder",
+      "category": "unknown",
+      "note": "Fortune 500 #207 (2025) — research profile from official sources"
+    },
+    {
+      "name": "CBRE Group",
+      "slug": "cbre-group",
       "category": "service",
-      "note": "Global IT services — cross-check annual report headcount with careers page"
+      "note": "Fortune 500 #208 (2025) — research profile from official sources"
     },
     {
-      "name": "Zomato",
-      "slug": "zomato",
+      "name": "Republic Services",
+      "slug": "republic-services",
+      "category": "unknown",
+      "note": "Fortune 500 #209 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Corteva Agriscience",
+      "slug": "corteva-agriscience",
+      "category": "unknown",
+      "note": "Fortune 500 #210 (2025) — research profile from official sources"
+    },
+    {
+      "name": "NRG Energy",
+      "slug": "nrg-energy",
       "category": "hybrid",
-      "note": "Food delivery & Hyperpure — verify leadership and office locations"
+      "note": "Fortune 500 #211 (2025) — research profile from official sources"
     },
     {
-      "name": "Paytm",
-      "slug": "paytm",
+      "name": "Loews",
+      "slug": "loews",
+      "category": "unknown",
+      "note": "Fortune 500 #212 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Devon Energy",
+      "slug": "devon-energy",
       "category": "hybrid",
-      "note": "Payments + financial services — classify product vs service arms"
+      "note": "Fortune 500 #213 (2025) — research profile from official sources"
     },
     {
-      "name": "HCLTech",
-      "slug": "hcltech",
+      "name": "Marsh McLennan",
+      "slug": "marsh-mclennan",
       "category": "service",
-      "note": "IT services & engineering — verify global headcount from investor relations"
+      "note": "Fortune 500 #214 (2025) — research profile from official sources"
     },
     {
-      "name": "Tech Mahindra",
-      "slug": "tech-mahindra",
+      "name": "DTE Energy",
+      "slug": "dte-energy",
+      "category": "hybrid",
+      "note": "Fortune 500 #215 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Automatic Data Processing",
+      "slug": "automatic-data-processing",
+      "category": "product",
+      "note": "Fortune 500 #216 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Ecolab",
+      "slug": "ecolab",
+      "category": "unknown",
+      "note": "Fortune 500 #217 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Xcel Energy",
+      "slug": "xcel-energy",
+      "category": "hybrid",
+      "note": "Fortune 500 #218 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Conagra Brands",
+      "slug": "conagra-brands",
+      "category": "unknown",
+      "note": "Fortune 500 #219 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Henry Schein",
+      "slug": "henry-schein",
+      "category": "hybrid",
+      "note": "Fortune 500 #220 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Lincoln National",
+      "slug": "lincoln-national",
+      "category": "hybrid",
+      "note": "Fortune 500 #221 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Consolidated Edison",
+      "slug": "consolidated-edison",
+      "category": "hybrid",
+      "note": "Fortune 500 #222 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Reinsurance Group of America",
+      "slug": "reinsurance-group-of-america",
+      "category": "hybrid",
+      "note": "Fortune 500 #223 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Sherwin-Williams",
+      "slug": "sherwin-williams",
+      "category": "unknown",
+      "note": "Fortune 500 #224 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Penske Automotive Group",
+      "slug": "penske-automotive-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #225 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Celanese",
+      "slug": "celanese",
+      "category": "unknown",
+      "note": "Fortune 500 #226 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Northrop Grumman Innovation Systems",
+      "slug": "northrop-grumman-innovation-systems",
+      "category": "unknown",
+      "note": "Fortune 500 #227 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Quanta Services",
+      "slug": "quanta-services",
       "category": "service",
-      "note": "IT services & consulting — check official locations and leadership pages"
+      "note": "Fortune 500 #228 (2025) — research profile from official sources"
     },
     {
-      "name": "Meesho",
-      "slug": "meesho",
+      "name": "WR Berkley",
+      "slug": "wr-berkley",
       "category": "hybrid",
-      "note": "Social commerce marketplace — verify product engineering vs seller ops"
+      "note": "Fortune 500 #229 (2025) — research profile from official sources"
     },
     {
-      "name": "Cred",
-      "slug": "cred",
+      "name": "Starbucks",
+      "slug": "starbucks",
+      "category": "unknown",
+      "note": "Fortune 500 #230 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Gap",
+      "slug": "gap",
+      "category": "hybrid",
+      "note": "Fortune 500 #231 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Public Service Enterprise Group",
+      "slug": "public-service-enterprise-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #232 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Edison International",
+      "slug": "edison-international",
+      "category": "hybrid",
+      "note": "Fortune 500 #233 (2025) — research profile from official sources"
+    },
+    {
+      "name": "First Energy",
+      "slug": "first-energy",
+      "category": "hybrid",
+      "note": "Fortune 500 #234 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Entergy",
+      "slug": "entergy",
+      "category": "hybrid",
+      "note": "Fortune 500 #235 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Nordstrom",
+      "slug": "nordstrom",
+      "category": "hybrid",
+      "note": "Fortune 500 #236 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Molson Coors Beverage",
+      "slug": "molson-coors-beverage",
+      "category": "unknown",
+      "note": "Fortune 500 #237 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Unum Group",
+      "slug": "unum-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #238 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Kinder Morgan",
+      "slug": "kinder-morgan",
+      "category": "hybrid",
+      "note": "Fortune 500 #239 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Corning",
+      "slug": "corning",
       "category": "product",
-      "note": "Fintech app — confirm official About and careers URLs"
+      "note": "Fortune 500 #240 (2025) — research profile from official sources"
     },
     {
-      "name": "Ola",
-      "slug": "ola",
+      "name": "Pacific Life",
+      "slug": "pacific-life",
       "category": "hybrid",
-      "note": "Mobility + Ola Electric — separate ride-hailing vs EV product lines"
+      "note": "Fortune 500 #241 (2025) — research profile from official sources"
     },
     {
-      "name": "Zerodha",
-      "slug": "zerodha",
+      "name": "Lam Research",
+      "slug": "lam-research",
       "category": "product",
-      "note": "Discount broking platform — bootstrapped fintech, verify headcount"
+      "note": "Fortune 500 #242 (2025) — research profile from official sources"
     },
     {
-      "name": "Groww",
-      "slug": "groww",
-      "category": "product",
-      "note": "Investment platform — verify official sources and work model"
-    },
-    {
-      "name": "Nykaa",
-      "slug": "nykaa",
-      "category": "hybrid",
-      "note": "Beauty e-commerce — classify tech product vs retail operations"
-    },
-    {
-      "name": "Delhivery",
-      "slug": "delhivery",
-      "category": "hybrid",
-      "note": "Logistics & supply chain — verify tech platform vs delivery network"
-    },
-    {
-      "name": "LTIMindtree",
-      "slug": "ltimindtree",
+      "name": "Interpublic Group",
+      "slug": "interpublic-group",
       "category": "service",
-      "note": "Post-merger IT services — use official LTIMindtree site for all fields"
+      "note": "Fortune 500 #243 (2025) — research profile from official sources"
     },
     {
-      "name": "Cognizant",
-      "slug": "cognizant",
+      "name": "Otis Worldwide",
+      "slug": "otis-worldwide",
+      "category": "unknown",
+      "note": "Fortune 500 #244 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Weyerhaeuser",
+      "slug": "weyerhaeuser",
+      "category": "unknown",
+      "note": "Fortune 500 #245 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Constellation Brands",
+      "slug": "constellation-brands",
+      "category": "unknown",
+      "note": "Fortune 500 #246 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Ally Financial",
+      "slug": "ally-financial",
+      "category": "hybrid",
+      "note": "Fortune 500 #247 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Murphy USA",
+      "slug": "murphy-usa",
+      "category": "hybrid",
+      "note": "Fortune 500 #248 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Lear",
+      "slug": "lear",
+      "category": "unknown",
+      "note": "Fortune 500 #249 (2025) — research profile from official sources"
+    },
+    {
+      "name": "BorgWarner",
+      "slug": "borgwarner",
+      "category": "unknown",
+      "note": "Fortune 500 #250 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Ball",
+      "slug": "ball",
+      "category": "unknown",
+      "note": "Fortune 500 #251 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Western Digital",
+      "slug": "western-digital",
+      "category": "product",
+      "note": "Fortune 500 #252 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Tractor Supply",
+      "slug": "tractor-supply",
+      "category": "hybrid",
+      "note": "Fortune 500 #253 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Williams Companies",
+      "slug": "williams-companies",
+      "category": "hybrid",
+      "note": "Fortune 500 #254 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Regeneron Pharmaceuticals",
+      "slug": "regeneron-pharmaceuticals",
+      "category": "unknown",
+      "note": "Fortune 500 #255 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Howmet Aerospace",
+      "slug": "howmet-aerospace",
+      "category": "unknown",
+      "note": "Fortune 500 #256 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Owens & Minor",
+      "slug": "owens-minor",
+      "category": "hybrid",
+      "note": "Fortune 500 #257 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Jacobs Solutions",
+      "slug": "jacobs-solutions",
       "category": "service",
-      "note": "Global IT services with large India delivery — verify Chennai HQ details"
+      "note": "Fortune 500 #258 (2025) — research profile from official sources"
     },
     {
-      "name": "Amazon India",
-      "slug": "amazon-india",
+      "name": "CenterPoint Energy",
+      "slug": "centerpoint-energy",
       "category": "hybrid",
-      "note": "E-commerce + AWS India — clarify India-specific careers and offices"
+      "note": "Fortune 500 #259 (2025) — research profile from official sources"
     },
     {
-      "name": "Google India",
-      "slug": "google-india",
+      "name": "Packaging Corp of America",
+      "slug": "packaging-corp-of-america",
+      "category": "unknown",
+      "note": "Fortune 500 #260 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Hormel Foods",
+      "slug": "hormel-foods",
+      "category": "unknown",
+      "note": "Fortune 500 #261 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Amphenol",
+      "slug": "amphenol",
       "category": "product",
-      "note": "Alphabet India offices — verify Bengaluru/Hyderabad/Mumbai presence"
+      "note": "Fortune 500 #262 (2025) — research profile from official sources"
     },
     {
-      "name": "Microsoft India",
-      "slug": "microsoft-india",
+      "name": "Live Nation Entertainment",
+      "slug": "live-nation-entertainment",
       "category": "hybrid",
-      "note": "Product R&D + services — verify India development center details"
+      "note": "Fortune 500 #263 (2025) — research profile from official sources"
     },
     {
-      "name": "Postman",
-      "slug": "postman",
+      "name": "Fidelity National Information Services",
+      "slug": "fidelity-national-information-services",
       "category": "product",
-      "note": "API platform — India-founded SaaS, verify official leadership page"
+      "note": "Fortune 500 #264 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Discover Financial Services",
+      "slug": "discover-financial-services",
+      "category": "hybrid",
+      "note": "Fortune 500 #265 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Stanley Black & Decker",
+      "slug": "stanley-black-decker",
+      "category": "unknown",
+      "note": "Fortune 500 #266 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Ameren",
+      "slug": "ameren",
+      "category": "hybrid",
+      "note": "Fortune 500 #267 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Cigna Investment Management",
+      "slug": "cigna-investment-management",
+      "category": "hybrid",
+      "note": "Fortune 500 #268 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Paramount Global",
+      "slug": "paramount-global",
+      "category": "hybrid",
+      "note": "Fortune 500 #269 (2025) — research profile from official sources"
+    },
+    {
+      "name": "AES Corporation",
+      "slug": "aes-corporation",
+      "category": "hybrid",
+      "note": "Fortune 500 #270 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Booking Holdings",
+      "slug": "booking-holdings",
+      "category": "product",
+      "note": "Fortune 500 #271 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Visa",
+      "slug": "visa",
+      "category": "hybrid",
+      "note": "Fortune 500 #272 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Mastercard",
+      "slug": "mastercard",
+      "category": "hybrid",
+      "note": "Fortune 500 #273 (2025) — research profile from official sources"
+    },
+    {
+      "name": "WEC Energy Group",
+      "slug": "wec-energy-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #274 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Hershey",
+      "slug": "hershey",
+      "category": "unknown",
+      "note": "Fortune 500 #275 (2025) — research profile from official sources"
+    },
+    {
+      "name": "United States Steel",
+      "slug": "united-states-steel",
+      "category": "unknown",
+      "note": "Fortune 500 #276 (2025) — research profile from official sources"
+    },
+    {
+      "name": "ManpowerGroup",
+      "slug": "manpowergroup",
+      "category": "service",
+      "note": "Fortune 500 #277 (2025) — research profile from official sources"
+    },
+    {
+      "name": "NiSource",
+      "slug": "nisource",
+      "category": "hybrid",
+      "note": "Fortune 500 #278 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Fluor",
+      "slug": "fluor",
+      "category": "service",
+      "note": "Fortune 500 #279 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Universal Health Services",
+      "slug": "universal-health-services",
+      "category": "hybrid",
+      "note": "Fortune 500 #280 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Kenvue",
+      "slug": "kenvue",
+      "category": "unknown",
+      "note": "Fortune 500 #281 (2025) — research profile from official sources"
+    },
+    {
+      "name": "KLA Corporation",
+      "slug": "kla-corporation",
+      "category": "product",
+      "note": "Fortune 500 #282 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Synchrony Financial",
+      "slug": "synchrony-financial",
+      "category": "hybrid",
+      "note": "Fortune 500 #283 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Aon",
+      "slug": "aon",
+      "category": "service",
+      "note": "Fortune 500 #284 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Mohawk Industries",
+      "slug": "mohawk-industries",
+      "category": "unknown",
+      "note": "Fortune 500 #285 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Expeditors International",
+      "slug": "expeditors-international",
+      "category": "unknown",
+      "note": "Fortune 500 #286 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Community Health Systems",
+      "slug": "community-health-systems",
+      "category": "hybrid",
+      "note": "Fortune 500 #287 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Darden Restaurants",
+      "slug": "darden-restaurants",
+      "category": "unknown",
+      "note": "Fortune 500 #288 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Campbell Soup",
+      "slug": "campbell-soup",
+      "category": "unknown",
+      "note": "Fortune 500 #289 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Eversource Energy",
+      "slug": "eversource-energy",
+      "category": "hybrid",
+      "note": "Fortune 500 #290 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Biogen",
+      "slug": "biogen",
+      "category": "unknown",
+      "note": "Fortune 500 #291 (2025) — research profile from official sources"
+    },
+    {
+      "name": "American Financial Group",
+      "slug": "american-financial-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #292 (2025) — research profile from official sources"
+    },
+    {
+      "name": "First American Financial",
+      "slug": "first-american-financial",
+      "category": "hybrid",
+      "note": "Fortune 500 #293 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Motorola Solutions",
+      "slug": "motorola-solutions",
+      "category": "product",
+      "note": "Fortune 500 #294 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Warner Bros. Discovery",
+      "slug": "warner-bros-discovery",
+      "category": "hybrid",
+      "note": "Fortune 500 #295 (2025) — research profile from official sources"
+    },
+    {
+      "name": "McDonalds",
+      "slug": "mcdonalds",
+      "category": "unknown",
+      "note": "Fortune 500 #296 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Altice USA",
+      "slug": "altice-usa",
+      "category": "hybrid",
+      "note": "Fortune 500 #297 (2025) — research profile from official sources"
+    },
+    {
+      "name": "PayPal Holdings",
+      "slug": "paypal-holdings",
+      "category": "product",
+      "note": "Fortune 500 #299 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Encompass Health",
+      "slug": "encompass-health",
+      "category": "hybrid",
+      "note": "Fortune 500 #300 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Hartford Financial Services Group",
+      "slug": "hartford-financial-services-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #301 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Arista Networks",
+      "slug": "arista-networks",
+      "category": "product",
+      "note": "Fortune 500 #302 (2025) — research profile from official sources"
+    },
+    {
+      "name": "DaVita",
+      "slug": "davita",
+      "category": "hybrid",
+      "note": "Fortune 500 #303 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Lumen Technologies",
+      "slug": "lumen-technologies",
+      "category": "hybrid",
+      "note": "Fortune 500 #304 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Jones Lang LaSalle",
+      "slug": "jones-lang-lasalle",
+      "category": "service",
+      "note": "Fortune 500 #305 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Autolivery",
+      "slug": "autolivery",
+      "category": "unknown",
+      "note": "Fortune 500 #306 (2025) — research profile from official sources"
+    },
+    {
+      "name": "DXC Technology",
+      "slug": "dxc-technology",
+      "category": "product",
+      "note": "Fortune 500 #307 (2025) — research profile from official sources"
+    },
+    {
+      "name": "LPL Financial Holdings",
+      "slug": "lpl-financial-holdings",
+      "category": "hybrid",
+      "note": "Fortune 500 #308 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Laboratory Corp of America",
+      "slug": "laboratory-corp-of-america",
+      "category": "hybrid",
+      "note": "Fortune 500 #309 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Quest Diagnostics",
+      "slug": "quest-diagnostics",
+      "category": "hybrid",
+      "note": "Fortune 500 #310 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Dana",
+      "slug": "dana",
+      "category": "unknown",
+      "note": "Fortune 500 #311 (2025) — research profile from official sources"
+    },
+    {
+      "name": "CenturyLink",
+      "slug": "centurylink",
+      "category": "hybrid",
+      "note": "Fortune 500 #312 (2025) — research profile from official sources"
+    },
+    {
+      "name": "RPM International",
+      "slug": "rpm-international",
+      "category": "unknown",
+      "note": "Fortune 500 #313 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Fifth Third Bancorp",
+      "slug": "fifth-third-bancorp",
+      "category": "hybrid",
+      "note": "Fortune 500 #314 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Omnicom Group",
+      "slug": "omnicom-group",
+      "category": "service",
+      "note": "Fortune 500 #315 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Avis Budget Group",
+      "slug": "avis-budget-group",
+      "category": "unknown",
+      "note": "Fortune 500 #316 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Regions Financial",
+      "slug": "regions-financial",
+      "category": "hybrid",
+      "note": "Fortune 500 #317 (2025) — research profile from official sources"
+    },
+    {
+      "name": "AECOM",
+      "slug": "aecom",
+      "category": "service",
+      "note": "Fortune 500 #318 (2025) — research profile from official sources"
+    },
+    {
+      "name": "KeyCorp",
+      "slug": "keycorp",
+      "category": "hybrid",
+      "note": "Fortune 500 #319 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Church & Dwight",
+      "slug": "church-dwight",
+      "category": "unknown",
+      "note": "Fortune 500 #320 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Westinghouse Air Brake Technologies",
+      "slug": "westinghouse-air-brake-technologies",
+      "category": "unknown",
+      "note": "Fortune 500 #321 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Raymond James Financial",
+      "slug": "raymond-james-financial",
+      "category": "hybrid",
+      "note": "Fortune 500 #322 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Williams-Sonoma",
+      "slug": "williams-sonoma",
+      "category": "hybrid",
+      "note": "Fortune 500 #323 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Wynn Resorts",
+      "slug": "wynn-resorts",
+      "category": "unknown",
+      "note": "Fortune 500 #324 (2025) — research profile from official sources"
+    },
+    {
+      "name": "MGM Resorts International",
+      "slug": "mgm-resorts-international",
+      "category": "unknown",
+      "note": "Fortune 500 #325 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Caesars Entertainment",
+      "slug": "caesars-entertainment",
+      "category": "unknown",
+      "note": "Fortune 500 #326 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Huntington Bancshares",
+      "slug": "huntington-bancshares",
+      "category": "hybrid",
+      "note": "Fortune 500 #327 (2025) — research profile from official sources"
+    },
+    {
+      "name": "M&T Bank",
+      "slug": "m-t-bank",
+      "category": "hybrid",
+      "note": "Fortune 500 #328 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Zimmer Biomet Holdings",
+      "slug": "zimmer-biomet-holdings",
+      "category": "hybrid",
+      "note": "Fortune 500 #329 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Intuit",
+      "slug": "intuit",
+      "category": "product",
+      "note": "Fortune 500 #330 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Autodesk",
+      "slug": "autodesk",
+      "category": "product",
+      "note": "Fortune 500 #331 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Fortive",
+      "slug": "fortive",
+      "category": "product",
+      "note": "Fortune 500 #332 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Air Products & Chemicals",
+      "slug": "air-products-chemicals",
+      "category": "unknown",
+      "note": "Fortune 500 #333 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Hilton Worldwide Holdings",
+      "slug": "hilton-worldwide-holdings",
+      "category": "unknown",
+      "note": "Fortune 500 #334 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Marriott International",
+      "slug": "marriott-international",
+      "category": "unknown",
+      "note": "Fortune 500 #335 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Clorox",
+      "slug": "clorox",
+      "category": "unknown",
+      "note": "Fortune 500 #336 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Advance Auto Parts",
+      "slug": "advance-auto-parts",
+      "category": "hybrid",
+      "note": "Fortune 500 #337 (2025) — research profile from official sources"
+    },
+    {
+      "name": "PPL Corporation",
+      "slug": "ppl-corporation",
+      "category": "hybrid",
+      "note": "Fortune 500 #338 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Citizens Financial Group",
+      "slug": "citizens-financial-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #339 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Rockwell Automation",
+      "slug": "rockwell-automation",
+      "category": "product",
+      "note": "Fortune 500 #340 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Aptiv",
+      "slug": "aptiv",
+      "category": "product",
+      "note": "Fortune 500 #341 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Expedia Group",
+      "slug": "expedia-group",
+      "category": "product",
+      "note": "Fortune 500 #342 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Dick's Sporting Goods",
+      "slug": "dick-s-sporting-goods",
+      "category": "hybrid",
+      "note": "Fortune 500 #343 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Olin",
+      "slug": "olin",
+      "category": "unknown",
+      "note": "Fortune 500 #344 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Flowserve",
+      "slug": "flowserve",
+      "category": "unknown",
+      "note": "Fortune 500 #345 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Graphic Packaging Holding",
+      "slug": "graphic-packaging-holding",
+      "category": "unknown",
+      "note": "Fortune 500 #346 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Erie Indemnity",
+      "slug": "erie-indemnity",
+      "category": "hybrid",
+      "note": "Fortune 500 #347 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Fidelity National Financial",
+      "slug": "fidelity-national-financial",
+      "category": "hybrid",
+      "note": "Fortune 500 #348 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Cintas",
+      "slug": "cintas",
+      "category": "service",
+      "note": "Fortune 500 #349 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Old Republic International",
+      "slug": "old-republic-international",
+      "category": "hybrid",
+      "note": "Fortune 500 #350 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Avery Dennison",
+      "slug": "avery-dennison",
+      "category": "unknown",
+      "note": "Fortune 500 #351 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Synopsys",
+      "slug": "synopsys",
+      "category": "product",
+      "note": "Fortune 500 #352 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Fastenal",
+      "slug": "fastenal",
+      "category": "unknown",
+      "note": "Fortune 500 #353 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Teledyne Technologies",
+      "slug": "teledyne-technologies",
+      "category": "unknown",
+      "note": "Fortune 500 #354 (2025) — research profile from official sources"
+    },
+    {
+      "name": "McCormick",
+      "slug": "mccormick",
+      "category": "unknown",
+      "note": "Fortune 500 #355 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Trimble",
+      "slug": "trimble",
+      "category": "product",
+      "note": "Fortune 500 #356 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Crown Holdings",
+      "slug": "crown-holdings",
+      "category": "unknown",
+      "note": "Fortune 500 #357 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Yum! Brands",
+      "slug": "yum-brands",
+      "category": "unknown",
+      "note": "Fortune 500 #358 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Fortinet",
+      "slug": "fortinet",
+      "category": "product",
+      "note": "Fortune 500 #359 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Dover",
+      "slug": "dover",
+      "category": "unknown",
+      "note": "Fortune 500 #360 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Ryder System",
+      "slug": "ryder-system",
+      "category": "unknown",
+      "note": "Fortune 500 #361 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Ovintiv",
+      "slug": "ovintiv",
+      "category": "hybrid",
+      "note": "Fortune 500 #362 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Insight Enterprises",
+      "slug": "insight-enterprises",
+      "category": "product",
+      "note": "Fortune 500 #363 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Tapestry",
+      "slug": "tapestry",
+      "category": "unknown",
+      "note": "Fortune 500 #364 (2025) — research profile from official sources"
+    },
+    {
+      "name": "NetApp",
+      "slug": "netapp",
+      "category": "product",
+      "note": "Fortune 500 #365 (2025) — research profile from official sources"
+    },
+    {
+      "name": "ServiceNow",
+      "slug": "servicenow",
+      "category": "product",
+      "note": "Fortune 500 #366 (2025) — research profile from official sources"
+    },
+    {
+      "name": "TransDigm Group",
+      "slug": "transdigm-group",
+      "category": "unknown",
+      "note": "Fortune 500 #367 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Smith International",
+      "slug": "smith-international",
+      "category": "hybrid",
+      "note": "Fortune 500 #368 (2025) — research profile from official sources"
+    },
+    {
+      "name": "W.W. Grainger",
+      "slug": "w-w-grainger",
+      "category": "unknown",
+      "note": "Fortune 500 #369 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Sonoco Products",
+      "slug": "sonoco-products",
+      "category": "unknown",
+      "note": "Fortune 500 #370 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Polaris",
+      "slug": "polaris",
+      "category": "unknown",
+      "note": "Fortune 500 #371 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Comerica",
+      "slug": "comerica",
+      "category": "hybrid",
+      "note": "Fortune 500 #372 (2025) — research profile from official sources"
+    },
+    {
+      "name": "SBA Communications",
+      "slug": "sba-communications",
+      "category": "unknown",
+      "note": "Fortune 500 #373 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Hubbell",
+      "slug": "hubbell",
+      "category": "unknown",
+      "note": "Fortune 500 #374 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Snap-on",
+      "slug": "snap-on",
+      "category": "unknown",
+      "note": "Fortune 500 #375 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Roper Technologies",
+      "slug": "roper-technologies",
+      "category": "product",
+      "note": "Fortune 500 #376 (2025) — research profile from official sources"
+    },
+    {
+      "name": "IDEX",
+      "slug": "idex",
+      "category": "unknown",
+      "note": "Fortune 500 #377 (2025) — research profile from official sources"
+    },
+    {
+      "name": "J.B. Hunt Transport Services",
+      "slug": "j-b-hunt-transport-services",
+      "category": "unknown",
+      "note": "Fortune 500 #378 (2025) — research profile from official sources"
+    },
+    {
+      "name": "EMCOR Group",
+      "slug": "emcor-group",
+      "category": "service",
+      "note": "Fortune 500 #379 (2025) — research profile from official sources"
+    },
+    {
+      "name": "News Corp",
+      "slug": "news-corp",
+      "category": "hybrid",
+      "note": "Fortune 500 #380 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Fox Corporation",
+      "slug": "fox-corporation",
+      "category": "hybrid",
+      "note": "Fortune 500 #381 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Fair Isaac",
+      "slug": "fair-isaac",
+      "category": "product",
+      "note": "Fortune 500 #382 (2025) — research profile from official sources"
+    },
+    {
+      "name": "CACI International",
+      "slug": "caci-international",
+      "category": "product",
+      "note": "Fortune 500 #383 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Lamb Weston Holdings",
+      "slug": "lamb-weston-holdings",
+      "category": "unknown",
+      "note": "Fortune 500 #384 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Foot Locker",
+      "slug": "foot-locker",
+      "category": "hybrid",
+      "note": "Fortune 500 #385 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Synovus Financial",
+      "slug": "synovus-financial",
+      "category": "hybrid",
+      "note": "Fortune 500 #386 (2025) — research profile from official sources"
+    },
+    {
+      "name": "First Solar",
+      "slug": "first-solar",
+      "category": "product",
+      "note": "Fortune 500 #387 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Builders FirstSource",
+      "slug": "builders-firstsource",
+      "category": "unknown",
+      "note": "Fortune 500 #388 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Booz Allen Hamilton",
+      "slug": "booz-allen-hamilton",
+      "category": "service",
+      "note": "Fortune 500 #389 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Zebra Technologies",
+      "slug": "zebra-technologies",
+      "category": "product",
+      "note": "Fortune 500 #390 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Oshkosh",
+      "slug": "oshkosh",
+      "category": "unknown",
+      "note": "Fortune 500 #391 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Voya Financial",
+      "slug": "voya-financial",
+      "category": "hybrid",
+      "note": "Fortune 500 #392 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Cabot Oil & Gas",
+      "slug": "cabot-oil-gas",
+      "category": "hybrid",
+      "note": "Fortune 500 #393 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Wayfair",
+      "slug": "wayfair",
+      "category": "hybrid",
+      "note": "Fortune 500 #394 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Juniper Networks",
+      "slug": "juniper-networks",
+      "category": "product",
+      "note": "Fortune 500 #395 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Verisign",
+      "slug": "verisign",
+      "category": "product",
+      "note": "Fortune 500 #396 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Teradata",
+      "slug": "teradata",
+      "category": "product",
+      "note": "Fortune 500 #397 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Mattel",
+      "slug": "mattel",
+      "category": "unknown",
+      "note": "Fortune 500 #398 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Hasbro",
+      "slug": "hasbro",
+      "category": "unknown",
+      "note": "Fortune 500 #399 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Zoetis",
+      "slug": "zoetis",
+      "category": "hybrid",
+      "note": "Fortune 500 #400 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Host Hotels & Resorts",
+      "slug": "host-hotels-resorts",
+      "category": "unknown",
+      "note": "Fortune 500 #401 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Xylem",
+      "slug": "xylem",
+      "category": "unknown",
+      "note": "Fortune 500 #402 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Cadence Design Systems",
+      "slug": "cadence-design-systems",
+      "category": "product",
+      "note": "Fortune 500 #403 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Verint Systems",
+      "slug": "verint-systems",
+      "category": "product",
+      "note": "Fortune 500 #404 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Workday",
+      "slug": "workday",
+      "category": "product",
+      "note": "Fortune 500 #405 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Match Group",
+      "slug": "match-group",
+      "category": "product",
+      "note": "Fortune 500 #406 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Realty Income",
+      "slug": "realty-income",
+      "category": "unknown",
+      "note": "Fortune 500 #407 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Akamai Technologies",
+      "slug": "akamai-technologies",
+      "category": "product",
+      "note": "Fortune 500 #408 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Brunswick",
+      "slug": "brunswick",
+      "category": "unknown",
+      "note": "Fortune 500 #409 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Albemarle",
+      "slug": "albemarle",
+      "category": "unknown",
+      "note": "Fortune 500 #410 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Arch Capital Group",
+      "slug": "arch-capital-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #411 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Leggett & Platt",
+      "slug": "leggett-platt",
+      "category": "unknown",
+      "note": "Fortune 500 #412 (2025) — research profile from official sources"
+    },
+    {
+      "name": "XPO",
+      "slug": "xpo",
+      "category": "unknown",
+      "note": "Fortune 500 #413 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Carlisle Companies",
+      "slug": "carlisle-companies",
+      "category": "unknown",
+      "note": "Fortune 500 #414 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Jack Henry & Associates",
+      "slug": "jack-henry-associates",
+      "category": "product",
+      "note": "Fortune 500 #415 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Allegion",
+      "slug": "allegion",
+      "category": "unknown",
+      "note": "Fortune 500 #416 (2025) — research profile from official sources"
+    },
+    {
+      "name": "ON Semiconductor",
+      "slug": "on-semiconductor",
+      "category": "product",
+      "note": "Fortune 500 #417 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Gartner",
+      "slug": "gartner",
+      "category": "product",
+      "note": "Fortune 500 #418 (2025) — research profile from official sources"
+    },
+    {
+      "name": "APA Corporation",
+      "slug": "apa-corporation",
+      "category": "hybrid",
+      "note": "Fortune 500 #419 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Ralph Lauren",
+      "slug": "ralph-lauren",
+      "category": "unknown",
+      "note": "Fortune 500 #420 (2025) — research profile from official sources"
+    },
+    {
+      "name": "American Tower",
+      "slug": "american-tower",
+      "category": "unknown",
+      "note": "Fortune 500 #421 (2025) — research profile from official sources"
+    },
+    {
+      "name": "PVH Corp",
+      "slug": "pvh-corp",
+      "category": "unknown",
+      "note": "Fortune 500 #422 (2025) — research profile from official sources"
+    },
+    {
+      "name": "NVR",
+      "slug": "nvr",
+      "category": "unknown",
+      "note": "Fortune 500 #423 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Taylor Morrison",
+      "slug": "taylor-morrison",
+      "category": "unknown",
+      "note": "Fortune 500 #424 (2025) — research profile from official sources"
+    },
+    {
+      "name": "PulteGroup",
+      "slug": "pultegroup",
+      "category": "unknown",
+      "note": "Fortune 500 #425 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Toll Brothers",
+      "slug": "toll-brothers",
+      "category": "unknown",
+      "note": "Fortune 500 #426 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Smith & Wesson Brands",
+      "slug": "smith-wesson-brands",
+      "category": "unknown",
+      "note": "Fortune 500 #427 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Flowers Foods",
+      "slug": "flowers-foods",
+      "category": "unknown",
+      "note": "Fortune 500 #428 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Watsco",
+      "slug": "watsco",
+      "category": "unknown",
+      "note": "Fortune 500 #429 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Veeva Systems",
+      "slug": "veeva-systems",
+      "category": "product",
+      "note": "Fortune 500 #430 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Masco",
+      "slug": "masco",
+      "category": "unknown",
+      "note": "Fortune 500 #431 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Viasat",
+      "slug": "viasat",
+      "category": "product",
+      "note": "Fortune 500 #432 (2025) — research profile from official sources"
+    },
+    {
+      "name": "MSC Industrial Direct",
+      "slug": "msc-industrial-direct",
+      "category": "unknown",
+      "note": "Fortune 500 #434 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Burlington Stores",
+      "slug": "burlington-stores",
+      "category": "hybrid",
+      "note": "Fortune 500 #435 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Casey's General Stores",
+      "slug": "casey-s-general-stores",
+      "category": "hybrid",
+      "note": "Fortune 500 #436 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Oscar Health",
+      "slug": "oscar-health",
+      "category": "hybrid",
+      "note": "Fortune 500 #437 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Spectrum Brands Holdings",
+      "slug": "spectrum-brands-holdings",
+      "category": "unknown",
+      "note": "Fortune 500 #438 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Sealed Air",
+      "slug": "sealed-air",
+      "category": "unknown",
+      "note": "Fortune 500 #439 (2025) — research profile from official sources"
+    },
+    {
+      "name": "TopBuild",
+      "slug": "topbuild",
+      "category": "unknown",
+      "note": "Fortune 500 #440 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Science Applications International",
+      "slug": "science-applications-international",
+      "category": "product",
+      "note": "Fortune 500 #441 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Commvault Systems",
+      "slug": "commvault-systems",
+      "category": "product",
+      "note": "Fortune 500 #442 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Globe Life",
+      "slug": "globe-life",
+      "category": "hybrid",
+      "note": "Fortune 500 #443 (2025) — research profile from official sources"
+    },
+    {
+      "name": "ChampionX",
+      "slug": "championx",
+      "category": "hybrid",
+      "note": "Fortune 500 #444 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Envision Healthcare",
+      "slug": "envision-healthcare",
+      "category": "hybrid",
+      "note": "Fortune 500 #445 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Smucker",
+      "slug": "smucker",
+      "category": "unknown",
+      "note": "Fortune 500 #446 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Airbnb",
+      "slug": "airbnb",
+      "category": "product",
+      "note": "Fortune 500 #447 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Pool Corporation",
+      "slug": "pool-corporation",
+      "category": "unknown",
+      "note": "Fortune 500 #448 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Generac Holdings",
+      "slug": "generac-holdings",
+      "category": "unknown",
+      "note": "Fortune 500 #449 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Graco",
+      "slug": "graco",
+      "category": "unknown",
+      "note": "Fortune 500 #450 (2025) — research profile from official sources"
+    },
+    {
+      "name": "RPC",
+      "slug": "rpc",
+      "category": "hybrid",
+      "note": "Fortune 500 #451 (2025) — research profile from official sources"
+    },
+    {
+      "name": "C.H. Robinson Worldwide",
+      "slug": "c-h-robinson-worldwide",
+      "category": "unknown",
+      "note": "Fortune 500 #452 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Zions Bancorporation",
+      "slug": "zions-bancorporation",
+      "category": "hybrid",
+      "note": "Fortune 500 #453 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Agilent Technologies",
+      "slug": "agilent-technologies",
+      "category": "unknown",
+      "note": "Fortune 500 #454 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Coterra Energy",
+      "slug": "coterra-energy",
+      "category": "hybrid",
+      "note": "Fortune 500 #455 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Analog Devices",
+      "slug": "analog-devices",
+      "category": "product",
+      "note": "Fortune 500 #456 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Experian",
+      "slug": "experian",
+      "category": "hybrid",
+      "note": "Fortune 500 #457 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Delek US Holdings",
+      "slug": "delek-us-holdings",
+      "category": "hybrid",
+      "note": "Fortune 500 #458 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Selective Insurance Group",
+      "slug": "selective-insurance-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #459 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Steven Madden",
+      "slug": "steven-madden",
+      "category": "unknown",
+      "note": "Fortune 500 #460 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Dolby Laboratories",
+      "slug": "dolby-laboratories",
+      "category": "product",
+      "note": "Fortune 500 #461 (2025) — research profile from official sources"
+    },
+    {
+      "name": "SpartanNash",
+      "slug": "spartannash",
+      "category": "unknown",
+      "note": "Fortune 500 #462 (2025) — research profile from official sources"
+    },
+    {
+      "name": "ChemTreat",
+      "slug": "chemtreat",
+      "category": "unknown",
+      "note": "Fortune 500 #463 (2025) — research profile from official sources"
+    },
+    {
+      "name": "MDU Resources Group",
+      "slug": "mdu-resources-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #464 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Curtiss-Wright",
+      "slug": "curtiss-wright",
+      "category": "unknown",
+      "note": "Fortune 500 #465 (2025) — research profile from official sources"
+    },
+    {
+      "name": "SPX Technologies",
+      "slug": "spx-technologies",
+      "category": "product",
+      "note": "Fortune 500 #466 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Resideo Technologies",
+      "slug": "resideo-technologies",
+      "category": "product",
+      "note": "Fortune 500 #467 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Worthington Enterprises",
+      "slug": "worthington-enterprises",
+      "category": "unknown",
+      "note": "Fortune 500 #468 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Green Dot",
+      "slug": "green-dot",
+      "category": "product",
+      "note": "Fortune 500 #469 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "slug": "palo-alto-networks",
+      "category": "product",
+      "note": "Fortune 500 #470 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Reliance Steel & Aluminum",
+      "slug": "reliance-steel-aluminum",
+      "category": "unknown",
+      "note": "Fortune 500 #471 (2025) — research profile from official sources"
+    },
+    {
+      "name": "WESCO International",
+      "slug": "wesco-international",
+      "category": "unknown",
+      "note": "Fortune 500 #472 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Patterson Companies",
+      "slug": "patterson-companies",
+      "category": "hybrid",
+      "note": "Fortune 500 #473 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Berry Global Group",
+      "slug": "berry-global-group",
+      "category": "unknown",
+      "note": "Fortune 500 #474 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Graybar Electric",
+      "slug": "graybar-electric",
+      "category": "unknown",
+      "note": "Fortune 500 #475 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Envista Holdings",
+      "slug": "envista-holdings",
+      "category": "hybrid",
+      "note": "Fortune 500 #476 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Smith & Nephew",
+      "slug": "smith-nephew",
+      "category": "hybrid",
+      "note": "Fortune 500 #477 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Robert Half",
+      "slug": "robert-half",
+      "category": "service",
+      "note": "Fortune 500 #478 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Lamar Advertising",
+      "slug": "lamar-advertising",
+      "category": "service",
+      "note": "Fortune 500 #479 (2025) — research profile from official sources"
+    },
+    {
+      "name": "A.O. Smith",
+      "slug": "a-o-smith",
+      "category": "unknown",
+      "note": "Fortune 500 #480 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Lincoln Electric Holdings",
+      "slug": "lincoln-electric-holdings",
+      "category": "unknown",
+      "note": "Fortune 500 #481 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Mercury General",
+      "slug": "mercury-general",
+      "category": "hybrid",
+      "note": "Fortune 500 #482 (2025) — research profile from official sources"
+    },
+    {
+      "name": "KBR",
+      "slug": "kbr",
+      "category": "unknown",
+      "note": "Fortune 500 #483 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Murphy Oil",
+      "slug": "murphy-oil",
+      "category": "hybrid",
+      "note": "Fortune 500 #484 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Crane Holdings",
+      "slug": "crane-holdings",
+      "category": "unknown",
+      "note": "Fortune 500 #485 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Kemper",
+      "slug": "kemper",
+      "category": "hybrid",
+      "note": "Fortune 500 #486 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Vail Resorts",
+      "slug": "vail-resorts",
+      "category": "unknown",
+      "note": "Fortune 500 #487 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Axon Enterprise",
+      "slug": "axon-enterprise",
+      "category": "product",
+      "note": "Fortune 500 #488 (2025) — research profile from official sources"
+    },
+    {
+      "name": "GXO Logistics",
+      "slug": "gxo-logistics",
+      "category": "unknown",
+      "note": "Fortune 500 #489 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Sensata Technologies",
+      "slug": "sensata-technologies",
+      "category": "product",
+      "note": "Fortune 500 #490 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Clean Harbors",
+      "slug": "clean-harbors",
+      "category": "unknown",
+      "note": "Fortune 500 #491 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Pentair",
+      "slug": "pentair",
+      "category": "unknown",
+      "note": "Fortune 500 #492 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Bright Horizons Family Solutions",
+      "slug": "bright-horizons-family-solutions",
+      "category": "unknown",
+      "note": "Fortune 500 #493 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Brown & Brown",
+      "slug": "brown-brown",
+      "category": "hybrid",
+      "note": "Fortune 500 #494 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Genworth Financial",
+      "slug": "genworth-financial",
+      "category": "hybrid",
+      "note": "Fortune 500 #495 (2025) — research profile from official sources"
+    },
+    {
+      "name": "W.R. Grace Holdings",
+      "slug": "w-r-grace-holdings",
+      "category": "unknown",
+      "note": "Fortune 500 #496 (2025) — research profile from official sources"
+    },
+    {
+      "name": "NorthWestern Energy Group",
+      "slug": "northwestern-energy-group",
+      "category": "hybrid",
+      "note": "Fortune 500 #497 (2025) — research profile from official sources"
+    },
+    {
+      "name": "Prestige Consumer Healthcare",
+      "slug": "prestige-consumer-healthcare",
+      "category": "unknown",
+      "note": "Fortune 500 #498 (2025) — research profile from official sources"
+    },
+    {
+      "name": "H&R Block",
+      "slug": "h-r-block",
+      "category": "hybrid",
+      "note": "Fortune 500 #499 (2025) — research profile from official sources"
+    },
+    {
+      "name": "TripAdvisor",
+      "slug": "tripadvisor",
+      "category": "product",
+      "note": "Fortune 500 #500 (2025) — research profile from official sources"
     }
   ],
-  "unverified": [
-    {
-      "name": "PolicyBazaar",
-      "slug": "policybazaar",
-      "category": "product",
-      "note": "Insurance aggregator — queued for official source verification"
-    },
-    {
-      "name": "Dream11",
-      "slug": "dream11",
-      "category": "product",
-      "note": "Fantasy sports platform — queued for verification"
-    },
-    {
-      "name": "BigBasket",
-      "slug": "bigbasket",
-      "category": "hybrid",
-      "note": "Online grocery — Tata-owned, verify corporate site"
-    },
-    {
-      "name": "Lenskart",
-      "slug": "lenskart",
-      "category": "hybrid",
-      "note": "Eyewear e-commerce + retail — queued for verification"
-    },
-    {
-      "name": "Unacademy",
-      "slug": "unacademy",
-      "category": "product",
-      "note": "Edtech learning platform — queued for verification"
-    },
-    {
-      "name": "BYJU'S",
-      "slug": "byjus",
-      "category": "product",
-      "note": "Edtech — verify current leadership and official About page"
-    },
-    {
-      "name": "OYO",
-      "slug": "oyo",
-      "category": "hybrid",
-      "note": "Hospitality tech — verify India HQ and careers page"
-    },
-    {
-      "name": "Myntra",
-      "slug": "myntra",
-      "category": "hybrid",
-      "note": "Fashion e-commerce (Flipkart group) — verify official sources"
-    },
-    {
-      "name": "Snapdeal",
-      "slug": "snapdeal",
-      "category": "hybrid",
-      "note": "E-commerce marketplace — queued for verification"
-    },
-    {
-      "name": "Chargebee",
-      "slug": "chargebee",
-      "category": "product",
-      "note": "Subscription billing SaaS — Chennai-founded, verify leadership"
-    },
-    {
-      "name": "BrowserStack",
-      "slug": "browserstack",
-      "category": "product",
-      "note": "Testing infrastructure SaaS — verify official About page"
-    },
-    {
-      "name": "CleverTap",
-      "slug": "clevertap",
-      "category": "product",
-      "note": "Customer engagement SaaS — Mumbai-founded"
-    },
-    {
-      "name": "Hasura",
-      "slug": "hasura",
-      "category": "product",
-      "note": "Data API platform — Bengaluru-founded"
-    },
-    {
-      "name": "MoEngage",
-      "slug": "moengage",
-      "category": "product",
-      "note": "Marketing automation SaaS — Bengaluru-founded"
-    },
-    {
-      "name": "Darwinbox",
-      "slug": "darwinbox",
-      "category": "product",
-      "note": "HR tech SaaS — Hyderabad-founded"
-    },
-    {
-      "name": "Innovaccer",
-      "slug": "innovaccer",
-      "category": "product",
-      "note": "Healthcare data platform — verify official sources"
-    },
-    {
-      "name": "LeadSquared",
-      "slug": "leadsquared",
-      "category": "product",
-      "note": "Sales execution CRM — Bengaluru-founded SaaS"
-    },
-    {
-      "name": "Mphasis",
-      "slug": "mphasis",
-      "category": "service",
-      "note": "IT services — verify investor relations headcount"
-    },
-    {
-      "name": "Persistent Systems",
-      "slug": "persistent-systems",
-      "category": "service",
-      "note": "Software product engineering services — verify official site"
-    },
-    {
-      "name": "Hexaware",
-      "slug": "hexaware",
-      "category": "service",
-      "note": "IT services & consulting — verify careers and locations"
-    },
-    {
-      "name": "Cyient",
-      "slug": "cyient",
-      "category": "service",
-      "note": "Engineering services — verify official leadership page"
-    },
-    {
-      "name": "L&T Technology Services",
-      "slug": "l-t-technology-services",
-      "category": "service",
-      "note": "Engineering R&D services — verify investor relations data"
-    },
-    {
-      "name": "Accenture India",
-      "slug": "accenture-india",
-      "category": "service",
-      "note": "Global consulting with major India delivery centers"
-    },
-    {
-      "name": "IBM India",
-      "slug": "ibm-india",
-      "category": "hybrid",
-      "note": "Consulting + software — verify India office and careers pages"
-    },
-    {
-      "name": "Oracle India",
-      "slug": "oracle-india",
-      "category": "product",
-      "note": "Enterprise software — verify India development center details"
-    },
-    {
-      "name": "SAP Labs India",
-      "slug": "sap-labs-india",
-      "category": "product",
-      "note": "Enterprise software R&D — verify Bengaluru lab details"
-    },
-    {
-      "name": "Adobe India",
-      "slug": "adobe-india",
-      "category": "product",
-      "note": "Creative & marketing software — verify Noida/Bengaluru offices"
-    },
-    {
-      "name": "Salesforce India",
-      "slug": "salesforce-india",
-      "category": "product",
-      "note": "CRM platform — verify Hyderabad/Bengaluru presence"
-    },
-    {
-      "name": "Uber India",
-      "slug": "uber-india",
-      "category": "product",
-      "note": "Ride-hailing tech — verify India engineering and ops split"
-    },
-    {
-      "name": "ShareChat",
-      "slug": "sharechat",
-      "category": "product",
-      "note": "Social media platform — verify official About page"
-    },
-    {
-      "name": "Jupiter",
-      "slug": "jupiter",
-      "category": "product",
-      "note": "Neobank — verify official sources and leadership"
-    },
-    {
-      "name": "Slice",
-      "slug": "slice",
-      "category": "product",
-      "note": "Fintech card & payments — queued for verification"
-    },
-    {
-      "name": "boAt",
-      "slug": "boat",
-      "category": "hybrid",
-      "note": "Consumer electronics brand — verify product vs retail ops"
-    },
-    {
-      "name": "Mamaearth",
-      "slug": "mamaearth",
-      "category": "hybrid",
-      "note": "D2C personal care — Honasa Consumer, verify corporate site"
-    },
-    {
-      "name": "PharmEasy",
-      "slug": "pharmeasy",
-      "category": "hybrid",
-      "note": "Online pharmacy — verify official About and careers"
-    },
-    {
-      "name": "Urban Company",
-      "slug": "urban-company",
-      "category": "hybrid",
-      "note": "Home services marketplace — verify tech vs operations split"
-    },
-    {
-      "name": "Rapido",
-      "slug": "rapido",
-      "category": "product",
-      "note": "Bike taxi platform — Bengaluru-founded"
-    },
-    {
-      "name": "BlackBuck",
-      "slug": "blackbuck",
-      "category": "hybrid",
-      "note": "Logistics platform for trucking — verify official sources"
-    },
-    {
-      "name": "Udaan",
-      "slug": "udaan",
-      "category": "hybrid",
-      "note": "B2B trade platform — verify corporate site"
-    },
-    {
-      "name": "InMobi",
-      "slug": "inmobi",
-      "category": "product",
-      "note": "Mobile advertising platform — Bengaluru-founded"
-    },
-    {
-      "name": "Genpact",
-      "slug": "genpact",
-      "category": "service",
-      "note": "Business process & IT services — large India presence"
-    },
-    {
-      "name": "EXL Service",
-      "slug": "exl-service",
-      "category": "service",
-      "note": "Analytics & operations services — verify official headcount"
-    },
-    {
-      "name": "Coforge",
-      "slug": "coforge",
-      "category": "service",
-      "note": "IT services — verify official leadership and locations"
-    },
-    {
-      "name": "Happiest Minds",
-      "slug": "happiest-minds",
-      "category": "service",
-      "note": "Digital IT services — Ashok Soota-founded"
-    },
-    {
-      "name": "Birlasoft",
-      "slug": "birlasoft",
-      "category": "service",
-      "note": "IT services — verify official About page"
-    },
-    {
-      "name": "Zensar",
-      "slug": "zensar",
-      "category": "service",
-      "note": "Digital IT services — RPG Group, verify careers page"
-    },
-    {
-      "name": "Thoughtworks India",
-      "slug": "thoughtworks-india",
-      "category": "hybrid",
-      "note": "Software consultancy + product delivery — verify India offices"
-    },
-    {
-      "name": "EPAM India",
-      "slug": "epam-india",
-      "category": "service",
-      "note": "Product engineering services — verify India delivery centers"
-    },
-    {
-      "name": "Nagarro",
-      "slug": "nagarro",
-      "category": "service",
-      "note": "Digital product engineering — verify official leadership"
-    },
-    {
-      "name": "Druva",
-      "slug": "druva",
-      "category": "product",
-      "note": "Cloud data protection SaaS — Pune-founded"
-    },
-    {
-      "name": "Icertis",
-      "slug": "icertis",
-      "category": "product",
-      "note": "Contract lifecycle management SaaS — Pune-founded"
-    },
-    {
-      "name": "Practo",
-      "slug": "practo",
-      "category": "product",
-      "note": "Healthcare platform — verify official About page"
-    },
-    {
-      "name": "Info Edge",
-      "slug": "info-edge",
-      "category": "product",
-      "note": "Naukri.com, 99acres, Jeevansathi — verify product portfolio"
-    },
-    {
-      "name": "MakeMyTrip",
-      "slug": "makemytrip",
-      "category": "hybrid",
-      "note": "Online travel — verify official leadership and offices"
-    },
-    {
-      "name": "Zepto",
-      "slug": "zepto",
-      "category": "hybrid",
-      "note": "Quick commerce — verify corporate site and classification"
-    },
-    {
-      "name": "Blinkit",
-      "slug": "blinkit",
-      "category": "hybrid",
-      "note": "Quick commerce (Zomato-owned) — verify official sources"
-    },
-    {
-      "name": "CoinSwitch",
-      "slug": "coinswitch",
-      "category": "product",
-      "note": "Crypto investment platform — verify official About page"
-    },
-    {
-      "name": "CoinDCX",
-      "slug": "coindcx",
-      "category": "product",
-      "note": "Crypto exchange — verify official sources"
-    },
-    {
-      "name": "BharatPe",
-      "slug": "bharatpe",
-      "category": "product",
-      "note": "Merchant payments & lending — verify corporate site"
-    },
-    {
-      "name": "Pine Labs",
-      "slug": "pine-labs",
-      "category": "product",
-      "note": "Merchant commerce platform — verify official leadership"
-    },
-    {
-      "name": "Khatabook",
-      "slug": "khatabook",
-      "category": "product",
-      "note": "SMB bookkeeping app — Bengaluru-founded"
-    },
-    {
-      "name": "Apna",
-      "slug": "apna",
-      "category": "product",
-      "note": "Professional networking for blue/grey collar — verify official site"
-    },
-    {
-      "name": "Ninjacart",
-      "slug": "ninjacart",
-      "category": "hybrid",
-      "note": "Agri supply chain platform — verify official sources"
-    },
-    {
-      "name": "Mu Sigma",
-      "slug": "mu-sigma",
-      "category": "hybrid",
-      "note": "Decision sciences & analytics — verify official About page"
-    },
-    {
-      "name": "Publicis Sapient",
-      "slug": "publicis-sapient",
-      "category": "service",
-      "note": "Digital transformation consulting — verify India offices"
-    },
-    {
-      "name": "Globant India",
-      "slug": "globant-india",
-      "category": "service",
-      "note": "Software engineering services — verify India delivery centers"
-    },
-    {
-      "name": "Ramco Systems",
-      "slug": "ramco-systems",
-      "category": "product",
-      "note": "Enterprise software — aviation, HR, logistics ERP"
-    },
-    {
-      "name": "Sonata Software",
-      "slug": "sonata-software",
-      "category": "hybrid",
-      "note": "IT services + own IP products — verify official site"
-    },
-    {
-      "name": "Mastek",
-      "slug": "mastek",
-      "category": "service",
-      "note": "Digital engineering & cloud services — verify careers page"
-    },
-    {
-      "name": "Firstsource",
-      "slug": "firstsource",
-      "category": "service",
-      "note": "BPO & digital services — verify official headcount"
-    },
-    {
-      "name": "WNS",
-      "slug": "wns",
-      "category": "service",
-      "note": "Business process management — verify India operations"
-    },
-    {
-      "name": "CarDekho",
-      "slug": "cardekho",
-      "category": "hybrid",
-      "note": "Auto portal & services — GirnarSoft, verify corporate site"
-    },
-    {
-      "name": "RedBus",
-      "slug": "redbus",
-      "category": "product",
-      "note": "Bus ticketing platform — verify official About page"
-    },
-    {
-      "name": "Porter",
-      "slug": "porter",
-      "category": "hybrid",
-      "note": "Intra-city logistics — verify tech vs fleet operations"
-    },
-    {
-      "name": "Skyroot Aerospace",
-      "slug": "skyroot-aerospace",
-      "category": "product",
-      "note": "Private space launch — verify official leadership page"
-    },
-    {
-      "name": "Agnikul Cosmos",
-      "slug": "agnikul-cosmos",
-      "category": "product",
-      "note": "Private space tech — verify official About page"
-    }
-  ]
+  "unverified": []
 }
