@@ -2938,10 +2938,6 @@ a.pipeline-stat-link:hover {
   .companies-alpha-section {
     scroll-margin-top: calc(var(--app-nav-height, 4rem) + 0.75rem);
   }
-
-  .companies-alpha-letter {
-    top: calc(var(--app-nav-height, 4rem) + 0.35rem);
-  }
 }
 
 .company-tile-grid {
@@ -3118,9 +3114,6 @@ a.pipeline-stat-link:hover {
 }
 
 .companies-alpha-letter {
-  position: sticky;
-  top: calc(var(--app-nav-height, 4rem) + 6.5rem);
-  z-index: 10;
   margin: 0 0 0.65rem;
   padding: 0.35rem 0.5rem;
   font-family: var(--font-fraunces), Georgia, serif;
