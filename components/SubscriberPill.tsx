@@ -1,22 +1,12 @@
-import Link from "next/link";
 import { getSubscriberDisplay } from "@/lib/site-stats";
 import stats from "@/data/site-stats.json";
 
+/** Shown in nav/footer only when a live subscriber count is enabled. */
 export function SubscriberPill() {
+  if (!(stats.showSubscriberCount && stats.subscriberCount > 0)) return null;
+
   const label = getSubscriberDisplay();
   if (!label) return null;
-
-  if (stats.updatesNotifyComingSoon) {
-    return (
-      <Link
-        href="/coming-soon"
-        className="subscriber-pill subscriber-pill-link"
-        title="Update alerts — learn what's coming"
-      >
-        {label}
-      </Link>
-    );
-  }
 
   return (
     <span className="subscriber-pill" title="Email alerts when new verified companies are added">

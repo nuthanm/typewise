@@ -12,8 +12,7 @@ export default function CompaniesPage() {
       <div className="companies-page-header">
         <h1 className="page-title">Companies</h1>
         <p className="page-lead">
-          Verified profiles only — sorted A–Z with quick letter navigation. Filter by location or type,
-          and switch between list and tile view.
+          Verified profiles only — sorted A–Z. Filter by location or type, and switch list/tile view.
         </p>
       </div>
       <CompanyDirectory />

@@ -86,54 +86,56 @@ export function CompanyDirectory() {
               verification queue.
             </p>
           )}
-          <div className="companies-toolbar-filters">
-            <label className="filter-select-wrap">
-              <span className="filter-select-label">Location</span>
-              <select
-                value={location}
-                onChange={(e) => setLocation(e.target.value)}
-                aria-label="Filter by location"
+          <div className="companies-toolbar-controls">
+            <div className="companies-toolbar-filters">
+              <label className="filter-select-wrap">
+                <span className="filter-select-label">Location</span>
+                <select
+                  value={location}
+                  onChange={(e) => setLocation(e.target.value)}
+                  aria-label="Filter by location"
+                >
+                  <option value="all">All locations</option>
+                  {locations.map((loc) => (
+                    <option key={loc} value={loc.toLowerCase()}>
+                      {loc}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label className="filter-select-wrap">
+                <span className="filter-select-label">Type</span>
+                <select
+                  value={category}
+                  onChange={(e) => setCategory(e.target.value as CompanyCategory | "all")}
+                  aria-label="Filter by company type"
+                >
+                  {CATEGORY_OPTIONS.map((opt) => (
+                    <option key={opt.id} value={opt.id}>
+                      {opt.label}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            </div>
+            <div className="view-toggle" role="group" aria-label="View mode">
+              <button
+                type="button"
+                className={view === "tiles" ? "active" : ""}
+                onClick={() => setView("tiles")}
+                aria-pressed={view === "tiles"}
               >
-                <option value="all">All locations</option>
-                {locations.map((loc) => (
-                  <option key={loc} value={loc.toLowerCase()}>
-                    {loc}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <label className="filter-select-wrap">
-              <span className="filter-select-label">Type</span>
-              <select
-                value={category}
-                onChange={(e) => setCategory(e.target.value as CompanyCategory | "all")}
-                aria-label="Filter by company type"
+                Tiles
+              </button>
+              <button
+                type="button"
+                className={view === "list" ? "active" : ""}
+                onClick={() => setView("list")}
+                aria-pressed={view === "list"}
               >
-                {CATEGORY_OPTIONS.map((opt) => (
-                  <option key={opt.id} value={opt.id}>
-                    {opt.label}
-                  </option>
-                ))}
-              </select>
-            </label>
-          </div>
-          <div className="view-toggle" role="group" aria-label="View mode">
-            <button
-              type="button"
-              className={view === "tiles" ? "active" : ""}
-              onClick={() => setView("tiles")}
-              aria-pressed={view === "tiles"}
-            >
-              Tiles
-            </button>
-            <button
-              type="button"
-              className={view === "list" ? "active" : ""}
-              onClick={() => setView("list")}
-              aria-pressed={view === "list"}
-            >
-              List
-            </button>
+                List
+              </button>
+            </div>
           </div>
         </div>
         <p className="companies-results-bar">

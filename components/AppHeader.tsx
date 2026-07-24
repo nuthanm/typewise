@@ -10,10 +10,11 @@ import {
   IconFeedback,
   IconHome,
   IconMenu,
+  IconQueue,
   IconSubmit,
 } from "@/components/PortalIcons";
 
-type NavKey = "home" | "companies" | "brief" | "submit" | "feedback";
+type NavKey = "home" | "companies" | "queue" | "brief" | "submit" | "feedback";
 
 type AppHeaderProps = {
   active?: NavKey;
@@ -28,6 +29,7 @@ const NAV_ITEMS: Array<{
 }> = [
   { key: "home", href: "/", label: "Home", Icon: IconHome },
   { key: "companies", href: "/companies", label: "Companies", Icon: IconCompanies },
+  { key: "queue", href: "/coming-soon", label: "Review queue", Icon: IconQueue },
   { key: "brief", href: "/brief", label: "The Brief", Icon: IconBrief },
   { key: "submit", href: "/submit", label: "Submit request", Icon: IconSubmit },
   { key: "feedback", href: "/feedback", label: "Feedback", Icon: IconFeedback },

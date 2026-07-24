@@ -43,6 +43,15 @@ export function IconCompanies(props: IconProps) {
   );
 }
 
+export function IconQueue(props: IconProps) {
+  return (
+    <Svg {...props}>
+      <path d="M8 6.5h12M8 12h12M8 17.5h12" />
+      <path d="M4 6.5h.01M4 12h.01M4 17.5h.01" />
+    </Svg>
+  );
+}
+
 export function IconBrief(props: IconProps) {
   return (
     <Svg {...props}>
