@@ -1,6 +1,6 @@
 {
   "dataYear": 2026,
-  "catalogUpdated": "2026-07-23",
+  "catalogUpdated": "2026-07-24",
   "disclaimer": "Profiles reflect publicly available information for the stated year. Company details change — always verify on official sites before applying.",
   "companies": [
     {
@@ -8641,6 +8641,86 @@
       "headcountIndia": "Not separately disclosed",
       "headcountGlobal": "Not separately disclosed",
       "headcountNote": "No official employee headcount on https://agnikul.in/who-we-are/; India-only operations"
+    },
+    {
+      "slug": "jman-group",
+      "name": "JMAN Group",
+      "category": "service",
+      "tagline": "Commercial data partner for private equity funds and portfolio companies",
+      "description": "JMAN Group helps private equity funds and their portfolio companies create value by combining data science, data engineering, and commercial expertise across the investment lifecycle. Founded in 2010, it has offices in New York, London, and Chennai, with a team of more than 600 experts.",
+      "website": "https://jmangroup.com",
+      "founded": "2010",
+      "hq": "London, UK",
+      "officeCities": [
+        "Chennai",
+        "London",
+        "New York"
+      ],
+      "officeCountries": [
+        "United Kingdom",
+        "United States",
+        "India"
+      ],
+      "totalOfficeLocations": "3 offices (New York, London, Chennai)",
+      "locationsUrl": "https://jmangroup.com/contact-us/",
+      "contactUrl": "https://jmangroup.com/contact-us/",
+      "headcountGlobal": "600+",
+      "headcountNote": "More than 600 experts globally per homepage About section; India (Chennai) headcount not separately disclosed",
+      "domains": [
+        "Data & Analytics",
+        "Management Consulting",
+        "Private Equity"
+      ],
+      "tags": [
+        "Global delivery",
+        "PE-focused"
+      ],
+      "services": [
+        "Core Reporting",
+        "Data & AI Advisory",
+        "Value Creation",
+        "Due Diligence",
+        "Prep for Exit"
+      ],
+      "onsitePolicy": "Flexible / work-from-home available during working weeks — verify on careers page",
+      "careersUrl": "https://jmangroup.com/careers/",
+      "linkedin": "https://www.linkedin.com/company/jman-group/",
+      "twitter": "https://x.com/jmangroup",
+      "leadership": [
+        {
+          "name": "Anush Newman",
+          "role": "CEO & Co-founder"
+        },
+        {
+          "name": "Michael Leovalan",
+          "role": "CTO & Co-founder"
+        }
+      ],
+      "vision": "To be the commercial data partner most trusted and respected for its people, expertise and value creation.",
+      "lastVerified": "2026-07-24",
+      "verificationStatus": "verified",
+      "sources": [
+        {
+          "label": "About page",
+          "url": "https://jmangroup.com/about/"
+        },
+        {
+          "label": "Leadership",
+          "url": "https://jmangroup.com/about#jman-leadership"
+        },
+        {
+          "label": "Homepage (headcount & offices)",
+          "url": "https://jmangroup.com/"
+        },
+        {
+          "label": "Contact & locations",
+          "url": "https://jmangroup.com/contact-us/"
+        },
+        {
+          "label": "Careers",
+          "url": "https://jmangroup.com/careers/"
+        }
+      ]
     }
   ]
 }
